@@ -34,11 +34,9 @@
         "-d",
         "${fileDirname}"
       ],
-      "group": {
-        "kind": "build",
-        "isDefault": true
-      },
-      "problemMatcher": []
+      "group": "build",
+      "problemMatcher": [],
+      "dependsOn": ["g++ build active file"]
     }
   ]
 }
