@@ -1,23 +1,92 @@
 #include <bits/stdc++.h>
 using namespace std;
-
-void solve(long long N, long long K, std::vector<long long> A, std::vector<long long> B)
-{
-}
+#define VI vector<int>
+#define VVI vector<VI>
 
 int main()
 {
-    long long N;
-    scanf("%lld", &N);
-    long long K;
-    scanf("%lld", &K);
-    std::vector<long long> A(N - 1);
-    std::vector<long long> B(N - 1);
+  int N, K;
+  cin >> N >> K;
+  int R = K / 2;
+
+  VI U(N - 1), V(N - 1);
+  VVI graph(N + 1, VI(N + 1, 0));
+  for (int i = 0; i < N - 1; i++)
+  {
+    cin >> U[i] >> V[i];
+    graph[U[i]][V[i]] = graph[V[i]][U[i]] = 1;
+  }
+
+  if (K % 2 == 0)
+  {
+    int ret = INT_MAX;
+    for (int i = 1; i <= N; i++)
+    {
+      queue<int> q;
+      q.push(i);
+      unordered_set<int> seen;
+      seen.insert(i);
+      int r = 0, k = 0;
+      while (!q.empty())
+      {
+        int n = q.size();
+        while (n--)
+        {
+          int u = q.front();
+          q.pop();
+          for (int v = 1; v <= N; v++)
+          {
+            if (graph[u][v] && !seen.count(v))
+            {
+              seen.insert(v);
+              q.push(v);
+            }
+          }
+        }
+        if (++r > R)
+          k += q.size();
+      }
+
+      ret = min(ret, k);
+    }
+    cout << ret << endl;
+  }
+  else
+  {
+    int ret = INT_MAX;
     for (int i = 0; i < N - 1; i++)
     {
-        scanf("%lld", &A[i]);
-        scanf("%lld", &B[i]);
+      queue<int> q;
+      q.push(U[i]);
+      q.push(V[i]);
+      unordered_set<int> seen;
+      seen.insert(U[i]);
+      seen.insert(V[i]);
+      int r = 0, k = 0;
+      while (!q.empty())
+      {
+        int n = q.size();
+        while (n--)
+        {
+          int u = q.front();
+          q.pop();
+          for (int v = 1; v <= N; v++)
+          {
+            if (graph[u][v] && !seen.count(v))
+            {
+              // cout << "v:" << v << endl;
+              seen.insert(v);
+              q.push(v);
+            }
+          }
+        }
+        if (++r > R)
+          k += q.size();
+      }
+      ret = min(ret, k);
     }
-    solve(N, K, std::move(A), std::move(B));
-    return 0;
+    cout << ret << endl;
+  }
+
+  return 0;
 }
