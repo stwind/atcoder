@@ -61,3 +61,4 @@ $ atcoder-tools test -d ./agc001/A
 |[D - Knapsack 1](https://atcoder.jp/contests/dp/tasks/dp_d)|[■](dp/D/main.cpp)|
 |[E - Knapsack 2](https://atcoder.jp/contests/dp/tasks/dp_e)|[■](dp/E/main.cpp)|
 |[F - LCS](https://atcoder.jp/contests/dp/tasks/dp_f)|[■](dp/F/main.cpp)|
+|[G - Longest Path](https://atcoder.jp/contests/dp/tasks/dp_g)|[■](dp/G/main.cpp)|
