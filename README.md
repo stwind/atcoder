@@ -59,3 +59,4 @@ $ atcoder-tools test -d ./agc001/A
 |[B - Frog 2](https://atcoder.jp/contests/dp/tasks/dp_b)|[■](dp/B/main.cpp)|
 |[C - Vocation](https://atcoder.jp/contests/dp/tasks/dp_c)|[■](dp/C/main.cpp)|
 |[D - Knapsack 1](https://atcoder.jp/contests/dp/tasks/dp_d)|[■](dp/D/main.cpp)|
+|[E - Knapsack 2](https://atcoder.jp/contests/dp/tasks/dp_e)|[■](dp/E/main.cpp)|
