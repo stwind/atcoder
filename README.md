@@ -10,8 +10,8 @@ Playing [AtCoder](https://atcoder.jp/).
 ## Setup
 
 ```sh
-pipenv install
-pipenv shell
+$ pipenv install
+$ pipenv shell
 ```
 
 ## Usage
