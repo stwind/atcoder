@@ -33,3 +33,28 @@ Test single task
 ```sh
 $ atcoder-tools test -d ./agc001/A
 ```
+
+## Solved Problems
+
+### AGC001
+
+|Task|Solution|
+|---|---|
+|[A - BBQ Easy](https://atcoder.jp/contests/agc001/tasks/agc001_a)|[■](agc001/A/main.cpp)|
+|[B - Mysterious Light](https://atcoder.jp/contests/agc001/tasks/agc001_b)|[■](agc001/B/main.cpp)|
+
+### ABC042
+
+|Task|Solution|
+|---|---|
+|[A - 和風いろはちゃんイージー](https://atcoder.jp/contests/abc042/tasks/abc042_a)|[■](abc042/A/main.cpp)|
+|[B - 文字列大好きいろはちゃんイージー](https://atcoder.jp/contests/abc042/tasks/abc042_b)|[■](abc042/B/main.cpp)|
+|[C - こだわり者いろはちゃん](https://atcoder.jp/contests/abc042/tasks/abc042_c)|[■](abc042/C/main.cpp)|
+
+### DP
+
+|Task|Solution|
+|---|---|
+|[A - Frog 1](https://atcoder.jp/contests/dp/tasks/dp_a)|[■](dp/A/main.cpp)|
+|[B - Frog 2](https://atcoder.jp/contests/dp/tasks/dp_b)|[■](dp/B/main.cpp)|
+|[C - Vocation](https://atcoder.jp/contests/dp/tasks/dp_c)|[■](dp/C/main.cpp)|
