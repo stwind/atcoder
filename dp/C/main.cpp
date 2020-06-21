@@ -2,8 +2,8 @@
 using namespace std;
 
 // clang-format off
-#define forn(i, N) for (int i = 0; i < N; i++)
 #define IOS ios_base::sync_with_stdio(false); cin.tie(0); cout.tie(NULL)
+#define FOR(i, x, y) for(int i = x; i < y; i++)
 // clang-format on
 
 int main()
@@ -12,20 +12,22 @@ int main()
 
   int N;
   cin >> N;
-  vector<int> A(N), B(N), C(N);
-  forn(i, N) cin >> A[i] >> B[i] >> C[i];
+  int a, b, c;
+  cin >> a >> b >> c;
 
-  long long dA = A[0], dB = B[0], dC = C[0];
-
-  for (int i = 1; i < N; i++)
+  int A = a, B = b, C = c;
+  int x, y, z;
+  FOR(i, 1, N)
   {
-    long long a = dA, b = dB, c = dC;
-    dA = A[i] + max(b, c);
-    dB = B[i] + max(a, c);
-    dC = C[i] + max(a, b);
+    cin >> a >> b >> c;
+    x = A, y = B, z = C;
+
+    A = a + max(y, z);
+    B = b + max(x, z);
+    C = c + max(x, y);
   }
 
-  cout << max(dA, max(dB, dC)) << endl;
+  cout << max(A, max(B, C)) << endl;
 
   return 0;
 }
