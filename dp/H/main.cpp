@@ -12,6 +12,13 @@ using VVI = vector<VI>;
 
 const long long MOD = 1000000007;
 
+void add(int &a, int b)
+{
+  a += b;
+  if (a >= MOD)
+    a -= MOD;
+}
+
 int main()
 {
   IOS;
@@ -30,10 +37,9 @@ int main()
       if (line[j] == '#')
         continue;
       if (i > 0)
-        dp[i][j] += dp[i - 1][j];
+        add(dp[i][j], dp[i - 1][j]);
       if (j > 0)
-        dp[i][j] += dp[i][j - 1];
-      dp[i][j] %= MOD;
+        add(dp[i][j], dp[i][j - 1]);
     }
   }
   cout << dp[H - 1][W - 1] << endl;
