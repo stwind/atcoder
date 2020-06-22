@@ -63,3 +63,4 @@ $ atcoder-tools test -d ./agc001/A
 |[F - LCS](https://atcoder.jp/contests/dp/tasks/dp_f)|[■](dp/F/main.cpp)|
 |[G - Longest Path](https://atcoder.jp/contests/dp/tasks/dp_g)|[■](dp/G/main.cpp)|
 |[H - Grid 1](https://atcoder.jp/contests/dp/tasks/dp_h)|[■](dp/H/main.cpp)|
+|[I - Coins](https://atcoder.jp/contests/dp/tasks/dp_i)|[■](dp/I/main.cpp)|
