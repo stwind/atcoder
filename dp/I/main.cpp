@@ -2,9 +2,7 @@
 using namespace std;
 
 // clang-format off
-#define forn(i, x, y) for(int i = x; i < y; i++)
 #define IOS ios_base::sync_with_stdio(false); cin.tie(0); cout.tie(NULL)
-#define printVector(a) for(auto it = a.begin() ; it != a.end(); it++) {cout << *it << endl;}
 // clang-format on
 
 using VD = vector<double>;
