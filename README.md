@@ -68,3 +68,4 @@ $ atcoder-tools test -d ./agc001/A
 |[L - Deque](https://atcoder.jp/contests/dp/tasks/dp_L)|[■](dp/L/main.cpp)|
 |[M - Candies](https://atcoder.jp/contests/dp/tasks/dp_M)|[■](dp/M/main.cpp)|
 |[N - Slimes](https://atcoder.jp/contests/dp/tasks/dp_N)|[■](dp/N/main.cpp)|
+|[O - Matching](https://atcoder.jp/contests/dp/tasks/dp_O)|[■](dp/O/main.cpp)|
