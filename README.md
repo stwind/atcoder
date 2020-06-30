@@ -66,3 +66,5 @@ $ atcoder-tools test -d ./agc001/A
 |[I - Coins](https://atcoder.jp/contests/dp/tasks/dp_i)|[■](dp/I/main.cpp)|
 |[K - Stones](https://atcoder.jp/contests/dp/tasks/dp_k)|[■](dp/K/main.cpp)|
 |[L - Deque](https://atcoder.jp/contests/dp/tasks/dp_L)|[■](dp/L/main.cpp)|
+|[M - Candies](https://atcoder.jp/contests/dp/tasks/dp_M)|[■](dp/M/main.cpp)|
+|[N - Slimes](https://atcoder.jp/contests/dp/tasks/dp_N)|[■](dp/N/main.cpp)|

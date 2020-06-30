@@ -20,12 +20,9 @@ int main()
 
   vector<ll> dp(W + 1, 0);
   for (int i = 0; i < N; i++)
-  {
     for (int j = W; j >= w[i]; j--)
-    {
       chmax(dp[j], dp[j - w[i]] + v[i]);
-    }
-  }
+
   cout << dp[W] << endl;
 
   return 0;
