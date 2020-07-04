@@ -69,3 +69,4 @@ $ atcoder-tools test -d ./agc001/A
 |[M - Candies](https://atcoder.jp/contests/dp/tasks/dp_M)|[■](dp/M/main.cpp)|
 |[N - Slimes](https://atcoder.jp/contests/dp/tasks/dp_N)|[■](dp/N/main.cpp)|
 |[O - Matching](https://atcoder.jp/contests/dp/tasks/dp_O)|[■](dp/O/main.cpp)|
+|[P - Independent Set](https://atcoder.jp/contests/dp/tasks/dp_P)|[■](dp/P/main.cpp)|
