@@ -33,6 +33,8 @@ VVLL matMul(VVLL a, VVLL b)
 
 int main()
 {
+  IOS;
+
   LL N, K;
   cin >> N >> K;
   VVLL G(N, VLL(N));
