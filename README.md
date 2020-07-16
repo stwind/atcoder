@@ -73,3 +73,4 @@ $ atcoder-tools test -d ./agc001/A
 |[Q - Flowers](https://atcoder.jp/contests/dp/tasks/dp_Q)|[■](dp/Q/main.cpp)|
 |[R - Walk](https://atcoder.jp/contests/dp/tasks/dp_R)|[■](dp/R/main.cpp)|
 |[S - Digit Sum](https://atcoder.jp/contests/dp/tasks/dp_S)|[■](dp/S/main.cpp)|
+|[T - Permutation](https://atcoder.jp/contests/dp/tasks/dp_T)|[■](dp/T/main.cpp)|
