@@ -74,3 +74,4 @@ $ atcoder-tools test -d ./agc001/A
 |[R - Walk](https://atcoder.jp/contests/dp/tasks/dp_R)|[■](dp/R/main.cpp)|
 |[S - Digit Sum](https://atcoder.jp/contests/dp/tasks/dp_S)|[■](dp/S/main.cpp)|
 |[T - Permutation](https://atcoder.jp/contests/dp/tasks/dp_T)|[■](dp/T/main.cpp)|
+|[U - Grouping](https://atcoder.jp/contests/dp/tasks/dp_U)|[■](dp/U/main.cpp)|

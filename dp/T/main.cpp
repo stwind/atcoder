@@ -11,7 +11,6 @@ const long long MOD = 1000000007;
 using LL = long long;
 using VLL = vector<LL>;
 using VVLL = vector<VLL>;
-using VVLL = vector<VLL>;
 
 template <typename T>
 void add(T &a, T b)
