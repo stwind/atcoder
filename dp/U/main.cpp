@@ -14,34 +14,34 @@ using VVLL = vector<VLL>;
 
 int main()
 {
-  IOS;
-  int N;
-  cin >> N;
-  VVI A(N, VI(N));
-  forn(i, 0, N) forn(j, 0, N) cin >> A[i][j];
-  int MAX = 1 << N;
+    IOS;
+    int N;
+    cin >> N;
+    VVI A(N, VI(N));
+    forn(i, 0, N) forn(j, 0, N) cin >> A[i][j];
+    int MAX = 1 << N;
 
-  VLL G(MAX);
-  forn(mask, 1, MAX)
-  {
-    forn(i, 0, N) if (mask & (1 << i))
+    VLL G(MAX);
+    forn(mask, 1, MAX)
     {
-      forn(j, i + 1, N) if (mask & (1 << j))
-          G[mask] += A[i][j];
+        forn(i, 0, N) if (mask & (1 << i))
+        {
+            forn(j, i + 1, N) if (mask & (1 << j))
+                G[mask] += A[i][j];
+        }
     }
-  }
 
-  VLL dp(MAX);
-  forn(mask, 1, MAX)
-  {
-    dp[mask] = G[mask];
-    for (int g = mask; g > 0; g = (g - 1) & mask)
+    VLL dp(MAX);
+    forn(mask, 1, MAX)
     {
-      dp[mask] = max(dp[mask], dp[g] + G[g ^ mask]);
+        dp[mask] = G[mask];
+        for (int g = mask; g > 0; g = (g - 1) & mask)
+        {
+            dp[mask] = max(dp[mask], dp[g] + G[g ^ mask]);
+        }
     }
-  }
 
-  cout << dp[MAX - 1] << endl;
+    cout << dp[MAX - 1] << endl;
 
-  return 0;
+    return 0;
 }
