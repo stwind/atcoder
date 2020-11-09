@@ -70,11 +70,11 @@ int main()
     double res = 0.0;
     forn(i, 0, n)
     {
-        edge &e = edges[i];
-        uf(e.u, e.v);
+        auto &[u, v, w] = edges[i];
+        uf(u, v);
         if (uf[100] == uf[101])
         {
-            res = e.w / 2;
+            res = w / 2;
             break;
         }
     }
