@@ -41,24 +41,11 @@ public:
 int N;
 int X[100], Y[100];
 
-bool check(double r)
+struct edge
 {
-    UF<102> uf;
-    forn(i, 0, N)
-    {
-        if (Y[i] - 2 * r < -100)
-            uf(100, i);
-        if (Y[i] + 2 * r > 100)
-            uf(101, i);
-    }
-
-    forn(i, 0, N) forn(j, 0, N)
-    {
-        if (hypot(X[i] - X[j], Y[i] - Y[j]) < 2 * r)
-            uf(i, j);
-    }
-    return uf[100] != uf[101];
-}
+    int u, v;
+    double w;
+};
 
 int main()
 {
@@ -66,16 +53,33 @@ int main()
     cin >> N;
     forn(i, 0, N) cin >> X[i] >> Y[i];
 
-    double l = 0.0, r = 100.0, m;
-    forn(i, 0, 100)
+    vector<edge> edges;
+    forn(i, 0, N)
     {
-        m = (l + r) / 2;
-        if (check(m))
-            l = m;
-        else
-            r = m;
+        edges.push_back({i, 100, 100.0 - Y[i]});
+        edges.push_back({i, 101, Y[i] + 100.0});
+        forn(j, 0, N)
+            edges.push_back({i, j, hypot(X[i] - X[j], Y[i] - Y[j])});
     }
-    cout << fixed << setprecision(10) << l << endl;
+    sort(all(edges), [](edge a, edge b) {
+        return a.w < b.w;
+    });
+
+    UF<102> uf;
+    int n = edges.size();
+    double res = 0.0;
+    forn(i, 0, n)
+    {
+        edge &e = edges[i];
+        uf(e.u, e.v);
+        if (uf[100] == uf[101])
+        {
+            res = e.w / 2;
+            break;
+        }
+    }
+
+    cout << fixed << setprecision(10) << res << endl;
 
     return 0;
 }
