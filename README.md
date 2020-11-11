@@ -155,7 +155,7 @@ $ atcoder-tools test -d ./agc001/A
 
 |Task|Solution|
 |---|:---:|
-|[B - i1Two Anagrams8n](https://atcoder.jp/contests/abc082/tasks/abc082_b)|[■](abc082/B/main.cpp)|
+|[B - Two Anagrams](https://atcoder.jp/contests/abc082/tasks/abc082_b)|[■](abc082/B/main.cpp)|
 
 ### ABC068
 
@@ -168,3 +168,21 @@ $ atcoder-tools test -d ./agc001/A
 |Task|Solution|
 |---|:---:|
 |[B - A to Z String](https://atcoder.jp/contests/abc053/tasks/abc053_b)|[■](abc053/B/main.cpp)|
+
+### ABC072
+
+|Task|Solution|
+|---|:---:|
+|[B - OddString](https://atcoder.jp/contests/abc072/tasks/abc072_b)|[■](abc072/B/main.cpp)|
+
+### ABC113
+
+|Task|Solution|
+|---|:---:|
+|[B - Palace](https://atcoder.jp/contests/abc113/tasks/abc113_b)|[■](abc113/B/main.cpp)|
+
+### ABC102
+
+|Task|Solution|
+|---|:---:|
+|[B - Maximum Difference](https://atcoder.jp/contests/abc102/tasks/abc102_b)|[■](abc102/B/main.cpp)|
