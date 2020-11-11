@@ -216,3 +216,27 @@ $ atcoder-tools test -d ./agc001/A
 |Task|Solution|
 |---|:---:|
 |[B - Making Triangle](https://atcoder.jp/contests/abc175/tasks/abc175_b)|[■](abc175/B/main.cpp)|
+
+### ABC083
+
+|Task|Solution|
+|---|:---:|
+|[B - Some Sums](https://atcoder.jp/contests/abc083/tasks/abc083_b)|[■](abc083/B/main.cpp)|
+
+### ABC090
+
+|Task|Solution|
+|---|:---:|
+|[B - Palindromic Numbers](https://atcoder.jp/contests/abc090/tasks/abc090_b)|[■](abc090/B/main.cpp)|
+
+### AGC025
+
+|Task|Solution|
+|---|:---:|
+|[A - Digits Sum](https://atcoder.jp/contests/agc025/tasks/agc025_a)|[■](agc025/A/main.cpp)|
+
+### ABC156
+
+|Task|Solution|
+|---|:---:|
+|[B - Digits](https://atcoder.jp/contests/abc156/tasks/abc156_b)|[■](abc156/B/main.cpp)|
