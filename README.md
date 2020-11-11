@@ -186,3 +186,21 @@ $ atcoder-tools test -d ./agc001/A
 |Task|Solution|
 |---|:---:|
 |[B - Maximum Difference](https://atcoder.jp/contests/abc102/tasks/abc102_b)|[■](abc102/B/main.cpp)|
+
+### ABC087
+
+|Task|Solution|
+|---|:---:|
+|[B - Coins](https://atcoder.jp/contests/abc087/tasks/abc087_b)|[■](abc087/B/main.cpp)|
+
+### ABC105
+
+|Task|Solution|
+|---|:---:|
+|[B - Cakes and Donuts](https://atcoder.jp/contests/abc105/tasks/abc105_b)|[■](abc105/B/main.cpp)|
+
+### ABC144
+
+|Task|Solution|
+|---|:---:|
+|[B - 81](https://atcoder.jp/contests/abc144/tasks/abc144_b)|[■](abc144/B/main.cpp)|
