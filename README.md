@@ -124,3 +124,27 @@ $ atcoder-tools test -d ./agc001/A
 |Task|Solution|
 |---|:---:|
 |[A - Duplex Printing](https://atcoder.jp/contests/abc157/tasks/abc157_a)|[■](abc157/A/main.cpp)|
+
+### ABC081
+
+|Task|Solution|
+|---|:---:|
+|[A - Placing Marbles](https://atcoder.jp/contests/abc081/tasks/abc081_a)|[■](abc081/A/main.cpp)|
+
+### ABC095
+
+|Task|Solution|
+|---|:---:|
+|[A - Something on It](https://atcoder.jp/contests/abc095/tasks/abc095_a)|[■](abc095/A/main.cpp)|
+
+### ABC085
+
+|Task|Solution|
+|---|:---:|
+|[A - Already 2018](https://atcoder.jp/contests/abc085/tasks/abc085_a)|[■](abc085/A/main.cpp)|
+
+### ABC069
+
+|Task|Solution|
+|---|:---:|
+|[B - i18n](https://atcoder.jp/contests/abc069/tasks/abc069_b)|[■](abc069/B/main.cpp)|
