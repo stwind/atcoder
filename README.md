@@ -112,3 +112,9 @@ $ atcoder-tools test -d ./agc001/A
 |Task|Solution|
 |---|:---:|
 |[A - RGB Cards](https://atcoder.jp/contests/abc064/tasks/abc064_a)|[■](abc064/A/main.cpp)|
+
+### ABC088
+
+|Task|Solution|
+|---|:---:|
+|[A - Infinite Coins](https://atcoder.jp/contests/abc088/tasks/abc088_a)|[■](abc088/A/main.cpp)|
