@@ -118,3 +118,9 @@ $ atcoder-tools test -d ./agc001/A
 |Task|Solution|
 |---|:---:|
 |[A - Infinite Coins](https://atcoder.jp/contests/abc088/tasks/abc088_a)|[■](abc088/A/main.cpp)|
+
+### ABC157
+
+|Task|Solution|
+|---|:---:|
+|[A - Duplex Printing](https://atcoder.jp/contests/abc157/tasks/abc157_a)|[■](abc157/A/main.cpp)|
