@@ -130,12 +130,14 @@ $ atcoder-tools test -d ./agc001/A
 |Task|Solution|
 |---|:---:|
 |[A - Placing Marbles](https://atcoder.jp/contests/abc081/tasks/abc081_a)|[■](abc081/A/main.cpp)|
+|[A - Shift only](https://atcoder.jp/contests/abc081/tasks/abc081_b)|[■](abc081/B/main.cpp)|
 
 ### ABC095
 
 |Task|Solution|
 |---|:---:|
 |[A - Something on It](https://atcoder.jp/contests/abc095/tasks/abc095_a)|[■](abc095/A/main.cpp)|
+|[A - Bitter Alchemy](https://atcoder.jp/contests/abc095/tasks/abc095_b)|[■](abc095/B/main.cpp)|
 
 ### ABC085
 
@@ -148,3 +150,21 @@ $ atcoder-tools test -d ./agc001/A
 |Task|Solution|
 |---|:---:|
 |[B - i18n](https://atcoder.jp/contests/abc069/tasks/abc069_b)|[■](abc069/B/main.cpp)|
+
+### ABC082
+
+|Task|Solution|
+|---|:---:|
+|[B - i1Two Anagrams8n](https://atcoder.jp/contests/abc082/tasks/abc082_b)|[■](abc082/B/main.cpp)|
+
+### ABC068
+
+|Task|Solution|
+|---|:---:|
+|[B - Break Number](https://atcoder.jp/contests/abc068/tasks/abc068_b)|[■](abc068/B/main.cpp)|
+
+### ABC053
+
+|Task|Solution|
+|---|:---:|
+|[B - A to Z String](https://atcoder.jp/contests/abc053/tasks/abc053_b)|[■](abc053/B/main.cpp)|
