@@ -1,0 +1,28 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+// clang-format off
+#define forn(i, x, y) for(int i = x; i < y; i++)
+#define IOS ios_base::sync_with_stdio(false); cin.tie(0); cout.tie(NULL)
+#define all(s) s.begin(), s.end()
+// clang-format on
+
+using LL = long long;
+using VI = vector<int>;
+using VLL = vector<LL>;
+
+int main()
+{
+    int N, K;
+    cin >> N >> K;
+    VI L(N);
+    forn(i, 0, N) cin >> L[i];
+
+    sort(all(L), greater<int>());
+
+    int res = 0;
+    forn(i, 0, K) res += L[i];
+    cout << res << endl;
+
+    return 0;
+}

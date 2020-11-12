@@ -118,6 +118,7 @@ $ atcoder-tools test -d ./agc001/A
 |Task|Solution|
 |---|:---:|
 |[A - Infinite Coins](https://atcoder.jp/contests/abc088/tasks/abc088_a)|[■](abc088/A/main.cpp)|
+|[B - Card Game for Two](https://atcoder.jp/contests/abc088/tasks/abc088_b)|[■](abc088/B/main.cpp)|
 
 ### ABC157
 
@@ -240,3 +241,21 @@ $ atcoder-tools test -d ./agc001/A
 |Task|Solution|
 |---|:---:|
 |[B - Digits](https://atcoder.jp/contests/abc156/tasks/abc156_b)|[■](abc156/B/main.cpp)|
+
+### ABC067
+
+|Task|Solution|
+|---|:---:|
+|[B - Snake Toy](https://atcoder.jp/contests/abc067/tasks/abc067_b)|[■](abc067/B/main.cpp)|
+
+### AGC027
+
+|Task|Solution|
+|---|:---:|
+|[A - Candy Distribution Again](https://atcoder.jp/contests/agc027/tasks/agc027_a)|[■](agc027/A/main.cpp)|
+
+### AGC012
+
+|Task|Solution|
+|---|:---:|
+|[A - AtCoder Group Contest](https://atcoder.jp/contests/agc012/tasks/agc012_a)|[■](agc012/A/main.cpp)|
