@@ -132,6 +132,7 @@ $ atcoder-tools test -d ./agc001/A
 |---|:---:|
 |[A - Placing Marbles](https://atcoder.jp/contests/abc081/tasks/abc081_a)|[■](abc081/A/main.cpp)|
 |[A - Shift only](https://atcoder.jp/contests/abc081/tasks/abc081_b)|[■](abc081/B/main.cpp)|
+|[C - Not so Diverse](https://atcoder.jp/contests/abc081/tasks/abc081_c)|[■](abc081/C/main.cpp)|
 
 ### ABC095
 
@@ -145,6 +146,7 @@ $ atcoder-tools test -d ./agc001/A
 |Task|Solution|
 |---|:---:|
 |[A - Already 2018](https://atcoder.jp/contests/abc085/tasks/abc085_a)|[■](abc085/A/main.cpp)|
+|[B -  Kagami Mochi](https://atcoder.jp/contests/abc085/tasks/abc085_b)|[■](abc085/B/main.cpp)|
 
 ### ABC069
 
@@ -259,3 +261,27 @@ $ atcoder-tools test -d ./agc001/A
 |Task|Solution|
 |---|:---:|
 |[A - AtCoder Group Contest](https://atcoder.jp/contests/agc012/tasks/agc012_a)|[■](agc012/A/main.cpp)|
+
+### ABC071
+
+|Task|Solution|
+|---|:---:|
+|[B - Not Found](https://atcoder.jp/contests/abc072/tasks/abc072_a)|[■](abc072/B/main.cpp)|
+
+### ABC061
+
+|Task|Solution|
+|---|:---:|
+|[B - Counting Roads](https://atcoder.jp/contests/abc061/tasks/abc061_a)|[■](abc061/B/main.cpp)|
+
+### ABC047
+
+|Task|Solution|
+|---|:---:|
+|[B - すぬけ君の塗り絵 2 イージー](https://atcoder.jp/contests/abc047/tasks/abc047_a)|[■](abc047/B/main.cpp)|
+
+### ABC091
+
+|Task|Solution|
+|---|:---:|
+|[B - Two Colors Card Game](https://atcoder.jp/contests/abc091/tasks/abc091_a)|[■](abc091/B/main.cpp)|
