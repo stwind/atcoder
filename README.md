@@ -119,6 +119,7 @@ $ atcoder-tools test -d ./agc001/A
 |---|:---:|
 |[A - Infinite Coins](https://atcoder.jp/contests/abc088/tasks/abc088_a)|[■](abc088/A/main.cpp)|
 |[B - Card Game for Two](https://atcoder.jp/contests/abc088/tasks/abc088_b)|[■](abc088/B/main.cpp)|
+|[	C - Takahashi's Information](https://atcoder.jp/contests/abc088/tasks/abc088_c)|[■](abc088/C/main.cpp)|
 
 ### ABC157
 
@@ -147,6 +148,7 @@ $ atcoder-tools test -d ./agc001/A
 |---|:---:|
 |[A - Already 2018](https://atcoder.jp/contests/abc085/tasks/abc085_a)|[■](abc085/A/main.cpp)|
 |[B -  Kagami Mochi](https://atcoder.jp/contests/abc085/tasks/abc085_b)|[■](abc085/B/main.cpp)|
+|[C - Otoshidama](https://atcoder.jp/contests/abc085/tasks/abc085_c)|[■](abc085/C/main.cpp)|
 
 ### ABC069
 
@@ -285,3 +287,21 @@ $ atcoder-tools test -d ./agc001/A
 |Task|Solution|
 |---|:---:|
 |[B - Two Colors Card Game](https://atcoder.jp/contests/abc091/tasks/abc091_a)|[■](abc091/B/main.cpp)|
+
+### ARC096
+
+|Task|Solution|
+|---|:---:|
+|[C - Half and Half](https://atcoder.jp/contests/arc096/tasks/arc096_a)|[■](arc096/C/main.cpp)|
+
+### ABC057
+
+|Task|Solution|
+|---|:---:|
+|[C - Digits in Multiplication](https://atcoder.jp/contests/abc057/tasks/abc057_c)|[■](abc057/C/main.cpp)|
+
+### ABC112
+
+|Task|Solution|
+|---|:---:|
+|[C - Pyramid](https://atcoder.jp/contests/abc112/tasks/abc112_c)|[■](abc112/C/main.cpp)|
