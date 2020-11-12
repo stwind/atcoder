@@ -179,6 +179,7 @@ $ atcoder-tools test -d ./agc001/A
 |Task|Solution|
 |---|:---:|
 |[B - OddString](https://atcoder.jp/contests/abc072/tasks/abc072_b)|[■](abc072/B/main.cpp)|
+|[C - Together](https://atcoder.jp/contests/abc072/tasks/arc082_a)|[■](abc072/C/main.cpp)|
 
 ### ABC113
 
@@ -305,3 +306,27 @@ $ atcoder-tools test -d ./agc001/A
 |Task|Solution|
 |---|:---:|
 |[C - Pyramid](https://atcoder.jp/contests/abc112/tasks/abc112_c)|[■](abc112/C/main.cpp)|
+
+### ABC049
+
+|Task|Solution|
+|---|:---:|
+|[C - 白昼夢](https://atcoder.jp/contests/abc049/tasks/abc049_c)|[■](abc049/C/main.cpp)|
+
+### AGC013
+
+|Task|Solution|
+|---|:---:|
+|[A - Sorted Arrays](https://atcoder.jp/contests/agc013/tasks/agc013_a)|[■](agc013/A/main.cpp)|
+
+### AGC011
+
+|Task|Solution|
+|---|:---:|
+|[A - Airport Bus](https://atcoder.jp/contests/agc011/tasks/agc011_a)|[■](agc011/A/main.cpp)|
+
+### ABC059
+
+|Task|Solution|
+|---|:---:|
+|[C - Sequence](https://atcoder.jp/contests/abc059/tasks/arc072_a)|[■](abc059/C/main.cpp)|
