@@ -435,3 +435,15 @@ $ atcoder-tools test -d ./agc001/A
 |Task|Solution|
 |---|:---:|
 |[D - 2017-like Number](https://atcoder.jp/contests/abc084/tasks/abc084_d)|[■](abc084/D/main.cpp)|
+
+### ARC061
+
+|Task|Solution|
+|---|:---:|
+|[C - たくさんの数式](https://atcoder.jp/contests/arc061/tasks/arc061_a)|[■](arc061/C/main.cpp)|
+
+### ABC104
+
+|Task|Solution|
+|---|:---:|
+|[C - All Green](https://atcoder.jp/contests/abc104/tasks/abc104_c)|[■](abc104/D/main.cpp)|
