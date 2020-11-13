@@ -355,3 +355,40 @@ $ atcoder-tools test -d ./agc001/A
 |Task|Solution|
 |---|:---:|
 |[C - Write and Erase](https://atcoder.jp/contests/abc073/tasks/abc073_c)|[■](abc073/C/main.cpp)|
+
+### ABC075
+
+|Task|Solution|
+|---|:---:|
+|[B - Minesweeper](https://atcoder.jp/contests/abc075/tasks/abc075_b)|[■](abc075/B/main.cpp)|
+
+### ABC096
+
+|Task|Solution|
+|---|:---:|
+|[C - Grid Repainting 2](https://atcoder.jp/contests/abc096/tasks/abc096_c)|[■](abc096/C/main.cpp)|
+
+
+### ABC070
+
+|Task|Solution|
+|---|:---:|
+|[B - Two Switches](https://atcoder.jp/contests/abc070/tasks/abc070_b)|[■](abc070/B/main.cpp)|
+
+### ABC055
+
+|Task|Solution|
+|---|:---:|
+|[B - Training Camp](https://atcoder.jp/contests/abc055/tasks/abc055_b)|[■](abc055/B/main.cpp)|
+
+### ABC046
+
+|Task|Solution|
+|---|:---:|
+|[B - AtCoDeerくんとボール色塗り](https://atcoder.jp/contests/abc046/tasks/abc046_b)|[■](abc046/B/main.cpp)|
+
+### ABC048
+
+|Task|Solution|
+|---|:---:|
+|[B - Between a and b ...](https://atcoder.jp/contests/abc048/tasks/abc048_b)|[■](abc048/B/main.cpp)|
