@@ -417,3 +417,21 @@ $ atcoder-tools test -d ./agc001/A
 |Task|Solution|
 |---|:---:|
 |[C - Train Ticket](https://atcoder.jp/contests/abc079/tasks/abc079_c)|[■](abc079/C/main.cpp)|
+
+### ABC122
+
+|Task|Solution|
+|---|:---:|
+|[C - GeT AC](https://atcoder.jp/contests/abc122/tasks/abc122_c)|[■](abc122/C/main.cpp)|
+
+### AGC023
+
+|Task|Solution|
+|---|:---:|
+|[A - Zero-Sum Ranges](https://atcoder.jp/contests/agc023/tasks/agc023_a)|[■](agc023/A/main.cpp)|
+
+### ABC084
+
+|Task|Solution|
+|---|:---:|
+|[D - 2017-like Number](https://atcoder.jp/contests/abc084/tasks/abc084_d)|[■](abc084/D/main.cpp)|
