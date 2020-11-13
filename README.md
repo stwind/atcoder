@@ -106,6 +106,7 @@ $ atcoder-tools test -d ./agc001/A
 |Task|Solution|
 |---|:---:|
 |[A - Product](https://atcoder.jp/contests/abc086/tasks/abc086_a)|[■](abc086/A/main.cpp)|
+|[C - Traveling](https://atcoder.jp/contests/abc086/tasks/arc089_a)|[■](abc086/C/main.cpp)|
 
 ### ABC064
 
@@ -330,3 +331,27 @@ $ atcoder-tools test -d ./agc001/A
 |Task|Solution|
 |---|:---:|
 |[C - Sequence](https://atcoder.jp/contests/abc059/tasks/arc072_a)|[■](abc059/C/main.cpp)|
+
+### ABCC093
+
+|Task|Solution|
+|---|:---:|
+|[C - Same Integers](https://atcoder.jp/contests/abc093/tasks/arc094_a)|[■](abc093/C/main.cpp)|
+
+### ACG010
+
+|Task|Solution|
+|---|:---:|
+|[A - Addition](https://atcoder.jp/contests/agc010/tasks/agc010_a)|[■](agc010/A/main.cpp)|
+
+### AGC020
+
+|Task|Solution|
+|---|:---:|
+|[A - Move and Win](https://atcoder.jp/contests/agc020/tasks/agc020_a)|[■](agc020/A/main.cpp)|
+
+### ABC073
+
+|Task|Solution|
+|---|:---:|
+|[C - Write and Erase](https://atcoder.jp/contests/abc073/tasks/abc073_c)|[■](abc073/C/main.cpp)|
