@@ -199,6 +199,7 @@ $ atcoder-tools test -d ./agc001/A
 |Task|Solution|
 |---|:---:|
 |[B - Coins](https://atcoder.jp/contests/abc087/tasks/abc087_b)|[■](abc087/B/main.cpp)|
+|[C - Candies](https://atcoder.jp/contests/abc087/tasks/arc090_a)|[■](abc087/C/main.cpp)|
 
 ### ABC105
 
@@ -392,3 +393,27 @@ $ atcoder-tools test -d ./agc001/A
 |Task|Solution|
 |---|:---:|
 |[B - Between a and b ...](https://atcoder.jp/contests/abc048/tasks/abc048_b)|[■](abc048/B/main.cpp)|
+
+### ABC060
+
+|Task|Solution|
+|---|:---:|
+|[B - Choose Integers](https://atcoder.jp/contests/abc060/tasks/abc060_b)|[■](abc060/B/main.cpp)|
+
+### ABC065
+
+|Task|Solution|
+|---|:---:|
+|[B - Trained?](https://atcoder.jp/contests/abc065/tasks/abc065_b)|[■](abc065/B/main.cpp)|
+
+### ABC098
+
+|Task|Solution|
+|---|:---:|
+|[C - Attention](https://atcoder.jp/contests/abc098/tasks/arc098_a)|[■](abc098/C/main.cpp)|
+
+### ABC079
+
+|Task|Solution|
+|---|:---:|
+|[C - Train Ticket](https://atcoder.jp/contests/abc079/tasks/abc079_c)|[■](abc079/C/main.cpp)|
