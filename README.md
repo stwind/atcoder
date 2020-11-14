@@ -466,3 +466,9 @@ $ atcoder-tools test -d ./agc001/A
 |Task|Solution|
 |---|:---:|
 |[C - One-stroke Path](https://atcoder.jp/contests/abc054/tasks/abc054_c)|[■](abc054/C/main.cpp)|
+
+### keyence2020
+
+|Task|Solution|
+|---|:---:|
+|[B - Robot Arms](https://atcoder.jp/contests/keyence2020/tasks/keyence2020_b)|[■](keyence2020/B/main.cpp)|
