@@ -454,3 +454,15 @@ $ atcoder-tools test -d ./agc001/A
 |Task|Solution|
 |---|:---:|
 |[A - Darker and Darker](https://atcoder.jp/contests/agc033/tasks/agc033_a)|[■](agc033/A/main.cpp)|
+
+### ABC051
+
+|Task|Solution|
+|---|:---:|
+|[B - Sum of Three Integers](https://atcoder.jp/contests/abc051/tasks/abc051_b)|[■](abc051/B/main.cpp)|
+
+### ABC054
+
+|Task|Solution|
+|---|:---:|
+|[C - One-stroke Path](https://atcoder.jp/contests/abc054/tasks/abc054_c)|[■](abc054/C/main.cpp)|
