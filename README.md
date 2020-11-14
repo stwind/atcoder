@@ -448,3 +448,9 @@ $ atcoder-tools test -d ./agc001/A
 |Task|Solution|
 |---|:---:|
 |[C - All Green](https://atcoder.jp/contests/abc104/tasks/abc104_c)|[■](abc104/D/main.cpp)|
+
+### AGC033
+
+|Task|Solution|
+|---|:---:|
+|[A - Darker and Darker](https://atcoder.jp/contests/agc033/tasks/agc033_a)|[■](agc033/A/main.cpp)|
