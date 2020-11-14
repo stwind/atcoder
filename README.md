@@ -120,7 +120,8 @@ $ atcoder-tools test -d ./agc001/A
 |---|:---:|
 |[A - Infinite Coins](https://atcoder.jp/contests/abc088/tasks/abc088_a)|[■](abc088/A/main.cpp)|
 |[B - Card Game for Two](https://atcoder.jp/contests/abc088/tasks/abc088_b)|[■](abc088/B/main.cpp)|
-|[	C - Takahashi's Information](https://atcoder.jp/contests/abc088/tasks/abc088_c)|[■](abc088/C/main.cpp)|
+|[C - Takahashi's Information](https://atcoder.jp/contests/abc088/tasks/abc088_c)|[■](abc088/C/main.cpp)|
+|[D - Grid Repainting](https://atcoder.jp/contests/abc088/tasks/abc088_d)|[■](abc088/D/main.cpp)|
 
 ### ABC157
 
