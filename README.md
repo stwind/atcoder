@@ -472,3 +472,15 @@ $ atcoder-tools test -d ./agc001/A
 |Task|Solution|
 |---|:---:|
 |[B - Robot Arms](https://atcoder.jp/contests/keyence2020/tasks/keyence2020_b)|[■](keyence2020/B/main.cpp)|
+
+### ABC032
+
+|Task|Solution|
+|---|:---:|
+|[C - 列](https://atcoder.jp/contests/abc032/tasks/abc032_c)|[■](abc032/C/main.cpp)|
+
+### ABC038
+
+|Task|Solution|
+|---|:---:|
+|[C - 単調増加](https://atcoder.jp/contests/abc038/tasks/abc038_c)|[■](abc038/C/main.cpp)|
