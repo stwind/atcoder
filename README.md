@@ -484,3 +484,9 @@ $ atcoder-tools test -d ./agc001/A
 |Task|Solution|
 |---|:---:|
 |[C - 単調増加](https://atcoder.jp/contests/abc038/tasks/abc038_c)|[■](abc038/C/main.cpp)|
+
+### ARC022
+
+|Task|Solution|
+|---|:---:|
+|[B - 細長いお菓子](https://atcoder.jp/contests/arc022/tasks/arc022_2)|[■](arc022/B/main.cpp)|
