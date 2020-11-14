@@ -412,6 +412,7 @@ $ atcoder-tools test -d ./agc001/A
 |Task|Solution|
 |---|:---:|
 |[C - Attention](https://atcoder.jp/contests/abc098/tasks/arc098_a)|[■](abc098/C/main.cpp)|
+|[D - Xor Sum 2](https://atcoder.jp/contests/abc098/tasks/arc098_b)|[■](abc098/D/main.cpp)|
 
 ### ABC079
 
