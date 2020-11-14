@@ -411,6 +411,8 @@ $ atcoder-tools test -d ./agc001/A
 
 |Task|Solution|
 |---|:---:|
+|[A - Add Sub Mul](https://atcoder.jp/contests/abc098/tasks/abc098_a)|[■](abc098/A/main.cpp)|
+|[B - Cut and Count](https://atcoder.jp/contests/abc098/tasks/abc098_b)|[■](abc098/B/main.cpp)|
 |[C - Attention](https://atcoder.jp/contests/abc098/tasks/arc098_a)|[■](abc098/C/main.cpp)|
 |[D - Xor Sum 2](https://atcoder.jp/contests/abc098/tasks/arc098_b)|[■](abc098/D/main.cpp)|
 
