@@ -499,3 +499,9 @@ $ atcoder-tools test -d ./agc001/A
 |Task|Solution|
 |---|:---:|
 |[D - サプリメント](https://atcoder.jp/contests/abc017/tasks/abc017_4)|[■](abc017/D/main.cpp)|
+
+### ARC029
+
+|Task|Solution|
+|---|:---:|
+|[A - 高橋君とお肉](https://atcoder.jp/contests/arc029/tasks/arc029_1)|[■](arc029/A/main.cpp)|
