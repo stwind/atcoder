@@ -505,3 +505,9 @@ $ atcoder-tools test -d ./agc001/A
 |Task|Solution|
 |---|:---:|
 |[A - 高橋君とお肉](https://atcoder.jp/contests/arc029/tasks/arc029_1)|[■](arc029/A/main.cpp)|
+
+### ABC002
+
+|Task|Solution|
+|---|:---:|
+|[D - 派閥](https://atcoder.jp/contests/abc002/tasks/abc002_4)|[■](abc002/D/main.cpp)|
