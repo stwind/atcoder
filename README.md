@@ -547,3 +547,4 @@ $ atcoder-tools test -d ./agc001/A
 |Task|Solution|
 |---|:---:|
 |[A - Disjoint Set Union](https://atcoder.jp/contests/practice2/tasks/practice2_a)|[■](practice2/A/main.cpp)|
+|[B - Fenwick Tree](https://atcoder.jp/contests/practice2/tasks/practice2_b)|[■](practice2/B/main.cpp)|
