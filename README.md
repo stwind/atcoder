@@ -541,3 +541,9 @@ $ atcoder-tools test -d ./agc001/A
 |Task|Solution|
 |---|:---:|
 |[A - おつり](https://atcoder.jp/contests/joi2008yo/tasks/joi2008yo_a)|[■](joi2008yo/A/main.cpp)|
+
+### PRATICE2
+
+|Task|Solution|
+|---|:---:|
+|[A - Disjoint Set Union](https://atcoder.jp/contests/practice2/tasks/practice2_a)|[■](practice2/A/main.cpp)|
