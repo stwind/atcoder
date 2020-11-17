@@ -535,3 +535,9 @@ $ atcoder-tools test -d ./agc001/A
 |Task|Solution|
 |---|:---:|
 |[C - 器物損壊！高橋君](https://atcoder.jp/contests/arc005/tasks/arc005_3)|[■](arc005/C/main.cpp)|
+
+### JOI2008yo
+
+|Task|Solution|
+|---|:---:|
+|[A - おつり](https://atcoder.jp/contests/joi2008yo/tasks/joi2008yo_a)|[■](joi2008yo/A/main.cpp)|
