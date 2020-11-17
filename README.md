@@ -511,3 +511,9 @@ $ atcoder-tools test -d ./agc001/A
 |Task|Solution|
 |---|:---:|
 |[D - 派閥](https://atcoder.jp/contests/abc002/tasks/abc002_4)|[■](abc002/D/main.cpp)|
+
+### ARC031
+
+|Task|Solution|
+|---|:---:|
+|[B - 埋め立て](https://atcoder.jp/contests/arc031/tasks/arc031_2)|[■](arc031/B/main.cpp)|
