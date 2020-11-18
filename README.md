@@ -487,6 +487,7 @@ $ atcoder-tools test -d ./agc001/A
 |Task|Solution|
 |---|:---:|
 |[C - 単調増加](https://atcoder.jp/contests/abc038/tasks/abc038_c)|[■](abc038/C/main.cpp)|
+|[D - プレゼント](https://atcoder.jp/contests/abc038/tasks/abc038_d)|[■](abc038/D/main.cpp)|
 
 ### ARC022
 
