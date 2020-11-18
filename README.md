@@ -486,6 +486,8 @@ $ atcoder-tools test -d ./agc001/A
 
 |Task|Solution|
 |---|:---:|
+|[A - お茶](https://atcoder.jp/contests/abc038/tasks/abc038_c)|[■](abc038/A/main.cpp)|
+|[B - ディスプレイ](https://atcoder.jp/contests/abc038/tasks/abc038_c)|[■](abc038/B/main.cpp)|
 |[C - 単調増加](https://atcoder.jp/contests/abc038/tasks/abc038_c)|[■](abc038/C/main.cpp)|
 |[D - プレゼント](https://atcoder.jp/contests/abc038/tasks/abc038_d)|[■](abc038/D/main.cpp)|
 
