@@ -531,6 +531,7 @@ $ atcoder-tools test -d ./agc001/A
 
 |Task|Solution|
 |---|:---:|
+|[B - 辞書式順序](https://atcoder.jp/contests/abc007/tasks/abc007_2)|[■](abc007/B/main.cpp)|
 |[C - 幅優先探索](https://atcoder.jp/contests/abc007/tasks/abc007_3)|[■](abc007/C/main.cpp)|
 
 ### ARC005
@@ -551,6 +552,7 @@ $ atcoder-tools test -d ./agc001/A
 |---|:---:|
 |[A - Disjoint Set Union](https://atcoder.jp/contests/practice2/tasks/practice2_a)|[■](practice2/A/main.cpp)|
 |[B - Fenwick Tree](https://atcoder.jp/contests/practice2/tasks/practice2_b)|[■](practice2/B/main.cpp)|
+|[C - Floor Sum](https://atcoder.jp/contests/practice2/tasks/practice2_c)|[■](practice2/C/main.cpp)|
 
 ### ABC103
 
