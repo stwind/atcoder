@@ -565,3 +565,9 @@ $ atcoder-tools test -d ./agc001/A
 |Task|Solution|
 |---|:---:|
 |[C - Dubious Document 2](https://atcoder.jp/contests/abc076/tasks/abc076_c)|[■](abc103/C/main.cpp)|
+
+### ABC009
+
+|Task|Solution|
+|---|:---:|
+|[C - 辞書式順序ふたたび](https://atcoder.jp/contests/abc009/tasks/abc009_3)|[■](abc009/C/main.cpp)|

@@ -19,10 +19,46 @@ using PLL = pair<LL, LL>;
 int main()
 {
     IOS;
-    string A;
-    cin >> A;
+    int N, K;
+    cin >> N >> K;
+    string S;
+    cin >> S;
 
-    cout << (A == "a" ? "-1" : "a") << endl;
+    map<char, int> cnt;
+    forn(i, 0, N) cnt[S[i]]++;
+
+    string res;
+    int diff = 0;
+    forn(i, 0, N)
+    {
+        for (auto c : cnt)
+        {
+            if (!c.second)
+                continue;
+
+            int tmp = c.first != S[i];
+
+            map<char, int> cnt2(cnt);
+            cnt2[c.first]--;
+            forn(j, i + 1, N)
+            {
+                if (cnt2[S[j]])
+                    cnt2[S[j]]--;
+                else
+                    tmp++;
+            }
+
+            if (diff + tmp <= K)
+            {
+                res += c.first;
+                cnt[c.first]--;
+                if (c.first != S[i])
+                    diff++;
+                break;
+            }
+        }
+    }
+    cout << res << endl;
 
     return 0;
 }
