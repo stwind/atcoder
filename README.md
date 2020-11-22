@@ -231,6 +231,7 @@ $ atcoder-tools test -d ./agc001/A
 |Task|Solution|
 |---|:---:|
 |[B - Some Sums](https://atcoder.jp/contests/abc083/tasks/abc083_b)|[■](abc083/B/main.cpp)|
+|[C - Multiple Gift](https://atcoder.jp/contests/abc083/tasks/arc088_a)|[■](abc083/C/main.cpp)|
 
 ### ABC090
 
@@ -571,3 +572,9 @@ $ atcoder-tools test -d ./agc001/A
 |Task|Solution|
 |---|:---:|
 |[C - 辞書式順序ふたたび](https://atcoder.jp/contests/abc009/tasks/abc009_3)|[■](abc009/C/main.cpp)|
+
+### ARC006
+
+|Task|Solution|
+|---|:---:|
+|[C - 積み重ね](https://atcoder.jp/contests/arc006/tasks/arc006_3)|[■](arc006/C/main.cpp)|
