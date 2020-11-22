@@ -292,6 +292,7 @@ $ atcoder-tools test -d ./agc001/A
 |Task|Solution|
 |---|:---:|
 |[B - Two Colors Card Game](https://atcoder.jp/contests/abc091/tasks/abc091_a)|[■](abc091/B/main.cpp)|
+|[C - 2D Plane 2N Points](https://atcoder.jp/contests/abc091/tasks/arc092_a)|[■](abc091/C/main.cpp)|
 
 ### ARC096
 
@@ -578,3 +579,9 @@ $ atcoder-tools test -d ./agc001/A
 |Task|Solution|
 |---|:---:|
 |[C - 積み重ね](https://atcoder.jp/contests/arc006/tasks/arc006_3)|[■](arc006/C/main.cpp)|
+
+### ABC005
+
+|Task|Solution|
+|---|:---:|
+|[C - おいしいたこ焼きの売り方](https://atcoder.jp/contests/abc005/tasks/abc005_3)|[■](abc005/C/main.cpp)|
