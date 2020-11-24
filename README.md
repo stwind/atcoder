@@ -531,10 +531,12 @@ $ atcoder-tools test -d ./agc001/A
 
 ### ABC007
 
-|Task|Solution|
-|---|:---:|
+|Task|Solution|Memo|
+|---|:---:|---|
+|[A - 植木算](https://atcoder.jp/contests/abc007/tasks/abc007_1)|[■](abc007/A/main.cpp)|
 |[B - 辞書式順序](https://atcoder.jp/contests/abc007/tasks/abc007_2)|[■](abc007/B/main.cpp)|
 |[C - 幅優先探索](https://atcoder.jp/contests/abc007/tasks/abc007_3)|[■](abc007/C/main.cpp)|
+|[D - 禁止された数字](https://atcoder.jp/contests/abc007/tasks/abc007_4)|[■](abc007/D/main.cpp)|桁DP|
 
 ### ARC005
 
