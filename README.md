@@ -587,3 +587,9 @@ $ atcoder-tools test -d ./agc001/A
 |Task|Solution|
 |---|:---:|
 |[C - おいしいたこ焼きの売り方](https://atcoder.jp/contests/abc005/tasks/abc005_3)|[■](abc005/C/main.cpp)|
+
+### ABC117
+
+|Task|Solution|Memo|
+|---|:---:|---|
+|[D - XXOR](https://atcoder.jp/contests/abc117/tasks/abc117_d)|[■](abc117/D/main.cpp)|桁DP|
