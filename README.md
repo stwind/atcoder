@@ -604,4 +604,10 @@ $ atcoder-tools test -d ./agc001/A
 
 |Task|Solution|Memo|
 |---|:---:|---|
-|[D - 1](https://atcoder.jp/contests/abc029/tasks/abc029_d)|[■](abcc029/D/main.cpp)|桁DP|
+|[D - 1](https://atcoder.jp/contests/abc029/tasks/abc029_d)|[■](abc1029/D/main.cpp)|桁DP|
+
+### ABC129
+
+|Task|Solution|Memo|
+|---|:---:|---|
+|[E - Sum Equals Xor](https://atcoder.jp/contests/abc129/tasks/abc129_e)|[■](abc1029/E/main.cpp)|桁DP|
