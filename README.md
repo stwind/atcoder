@@ -599,6 +599,7 @@ $ atcoder-tools test -d ./agc001/A
 |Task|Solution|Memo|
 |---|:---:|---|
 |[A - コンテスト](https://atcoder.jp/contests/tdpc/tasks/tdpc_contest)|[■](tdpc/A/main.cpp)||
+|[D - サイコロ](https://atcoder.jp/contests/tdpc/tasks/tdpc_dice)|[■](tdpc/D/main.cpp)||
 |[E - 数](https://atcoder.jp/contests/tdpc/tasks/tdpc_number)|[■](tdpc/E/main.cpp)|桁DP|
 
 ### ABC029
