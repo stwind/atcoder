@@ -619,3 +619,9 @@ $ atcoder-tools test -d ./agc001/A
 |Task|Solution|Memo|
 |---|:---:|---|
 |[D - 高橋くんの苦悩](https://atcoder.jp/contests/abc015/tasks/abc015_4)|[■](abc015/D/main.cpp)||
+
+### joi2013yo
+
+|Task|Solution|Memo|
+|---|:---:|---|
+|[D - 暑い日々 (Hot days)](https://atcoder.jp/contests/joi2013yo/tasks/joi2013yo_d)|[■](joi2013yo/D/main.cpp)||
