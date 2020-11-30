@@ -625,3 +625,10 @@ $ atcoder-tools test -d ./agc001/A
 |Task|Solution|Memo|
 |---|:---:|---|
 |[D - 暑い日々 (Hot days)](https://atcoder.jp/contests/joi2013yo/tasks/joi2013yo_d)|[■](joi2013yo/D/main.cpp)||
+
+### code-festival-2014-quala
+
+|Task|Solution|Memo|
+|---|:---:|---|
+|[D - 壊れた電卓](https://atcoder.jp/contests/code-festival-2014-quala/tasks/code_festival_qualA_d)|[■](code-festival-2014-quala/D/main.cpp)||
+
