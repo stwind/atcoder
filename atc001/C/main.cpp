@@ -45,8 +45,7 @@ vector<complex<double>> fft(vector<complex<double>> a, bool inverse = false)
             complex<double> w = polar(1.0, (2 * M_PI) / (2 * b) * j * (inverse ? 1 : -1));
             for (int k = 0; k < n; k += b * 2)
             {
-                complex<double> s = a[j + k];
-                complex<double> t = a[j + k + b] * w;
+                complex<double> s = a[j + k], t = a[j + k + b] * w;
                 a[j + k] = s + t;
                 a[j + k + b] = s - t;
             }
