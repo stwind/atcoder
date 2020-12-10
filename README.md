@@ -557,6 +557,7 @@ $ atcoder-tools test -d ./agc001/A
 |[A - Disjoint Set Union](https://atcoder.jp/contests/practice2/tasks/practice2_a)|[■](practice2/A/main.cpp)|
 |[B - Fenwick Tree](https://atcoder.jp/contests/practice2/tasks/practice2_b)|[■](practice2/B/main.cpp)|
 |[C - Floor Sum](https://atcoder.jp/contests/practice2/tasks/practice2_c)|[■](practice2/C/main.cpp)|
+|[D - Maxflow](https://atcoder.jp/contests/practice2/tasks/practice2_d)|[■](practice2/D/main.cpp)|
 
 ### ABC103
 
