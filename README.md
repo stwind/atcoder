@@ -638,3 +638,9 @@ $ atcoder-tools test -d ./agc001/A
 |Task|Solution|Memo|
 |---|:---:|---|
 |[C - 高速フーリエ変換](https://atcoder.jp/contests/atc001/tasks/fft_c)|[■](atc001/C/main.cpp)||
+
+### indeednow-finala-open
+
+|Task|Solution|Memo|
+|---|:---:|---|
+|[C - Optimal Recommendations](https://atcoder.jp/contests/indeednow-finala-open/tasks/indeednow_2015_finala_c)|[■](atc001indeednow-finala-open/C/main.cpp)||
