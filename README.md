@@ -643,4 +643,10 @@ $ atcoder-tools test -d ./agc001/A
 
 |Task|Solution|Memo|
 |---|:---:|---|
-|[C - Optimal Recommendations](https://atcoder.jp/contests/indeednow-finala-open/tasks/indeednow_2015_finala_c)|[■](atc001indeednow-finala-open/C/main.cpp)||
+|[C - Optimal Recommendations](https://atcoder.jp/contests/indeednow-finala-open/tasks/indeednow_2015_finala_c)|[■](indeednow-finala-open/C/main.cpp)||
+
+### ABC099
+
+|Task|Solution|Memo|
+|---|:---:|---|
+|[C - Strange Bank](https://atcoder.jp/contests/abc099/tasks/abc099_c)|[■](abc099/C/main.cpp)||
