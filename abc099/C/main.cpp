@@ -23,7 +23,6 @@ using VVLL = vector<VLL>;
 using PII = pair<int, int>;
 
 int N;
-int C[3] = {1, 6, 9};
 
 int main()
 {
@@ -36,16 +35,10 @@ int main()
 
     forn(i, 0, N + 1)
     {
-        for (auto c : C)
-        {
-            if (c == 1)
-                chmin(dp[i], 1 + dp[i - c]);
-            else
-            {
-                for (int x = c; x <= i; x *= c)
-                    chmin(dp[i], 1 + dp[i - x]);
-            }
-        }
+        for (int x = 1; x <= i; x *= 6)
+            chmin(dp[i], 1 + dp[i - x]);
+        for (int x = 1; x <= i; x *= 9)
+            chmin(dp[i], 1 + dp[i - x]);
     }
     cout << dp[N] << endl;
 
