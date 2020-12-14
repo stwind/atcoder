@@ -656,3 +656,9 @@ $ atcoder-tools test -d ./agc001/A
 |Task|Solution|Memo|
 |---|:---:|---|
 |[E - Crested Ibis vs Monster](https://atcoder.jp/contests/abc153/tasks/abc153_e)|[■](abc153/E/main.cpp)||
+
+### yahoo-procon2017-final-open
+
+|Task|Solution|Memo|
+|---|:---:|---|
+|[A - YahooYahooYahoo](https://atcoder.jp/contests/yahoo-procon2017-final-open/tasks/yahoo_procon2017_final_a)|[■](yahoo-procon2017-final-open/A/main.cpp)||
