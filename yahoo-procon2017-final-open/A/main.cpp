@@ -1,3 +1,5 @@
+// ref: https://betrue12.hateblo.jp/entry/2019/08/24/014746
+
 #include <bits/stdc++.h>
 using namespace std;
 
