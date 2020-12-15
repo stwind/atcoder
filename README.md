@@ -483,6 +483,7 @@ $ atcoder-tools test -d ./agc001/A
 |Task|Solution|
 |---|:---:|
 |[C - 列](https://atcoder.jp/contests/abc032/tasks/abc032_c)|[■](abc032/C/main.cpp)|
+|[D - ナップサック問題](https://atcoder.jp/contests/abc032/tasks/abc032_d)|[■](abc032/D/main.cpp)|
 
 ### ABC038
 
@@ -662,3 +663,4 @@ $ atcoder-tools test -d ./agc001/A
 |Task|Solution|Memo|
 |---|:---:|---|
 |[A - YahooYahooYahoo](https://atcoder.jp/contests/yahoo-procon2017-final-open/tasks/yahoo_procon2017_final_a)|[■](yahoo-procon2017-final-open/A/main.cpp)||
+
