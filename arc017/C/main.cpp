@@ -32,26 +32,24 @@ int main()
 
     int h = N / 2;
 
-    VI A;
+    unordered_map<int, int> cnt;
     forn(bit, 0, 1 << h)
     {
         int w = 0;
         forn(i, 0, h) if (bit & (1 << i)) w += W[i];
         if (w <= X)
-            A.push_back(w);
+            cnt[w]++;
     }
 
-    unordered_map<int, int> cnt;
+    int res = 0;
     forn(bit, 0, 1 << (N - h))
     {
         int w = 0;
         forn(i, 0, N - h) if (bit & (1 << i)) w += W[h + i];
-        cnt[w]++;
+        if (w <= X)
+            res += cnt[X - w];
     }
 
-    int res = 0;
-    for (auto a : A)
-        res += cnt[X - a];
     cout << res << endl;
 
     return 0;
