@@ -481,7 +481,7 @@ $ atcoder-tools test -d ./agc001/A
 ### ABC032
 
 |Task|Solution|Memo|
-|---|:---:||
+|---|:---:|---|
 |[C - 列](https://atcoder.jp/contests/abc032/tasks/abc032_c)|[■](abc032/C/main.cpp)||
 |[D - ナップサック問題](https://atcoder.jp/contests/abc032/tasks/abc032_d)|[■](abc032/D/main.cpp)|半分全列挙|
 
