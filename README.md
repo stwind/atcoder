@@ -664,3 +664,9 @@ $ atcoder-tools test -d ./agc001/A
 |---|:---:|---|
 |[A - YahooYahooYahoo](https://atcoder.jp/contests/yahoo-procon2017-final-open/tasks/yahoo_procon2017_final_a)|[■](yahoo-procon2017-final-open/A/main.cpp)||
 
+### ABC138
+
+|Task|Solution|Memo|
+|---|:---:|---|
+|[E - Strings of Impurity](https://atcoder.jp/contests/abc138/tasks/abc138_e)|[■](abc138/E/main.cpp)||
+
