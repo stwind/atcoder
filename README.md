@@ -670,3 +670,8 @@ $ atcoder-tools test -d ./agc001/A
 |---|:---:|---|
 |[E - Strings of Impurity](https://atcoder.jp/contests/abc138/tasks/abc138_e)|[■](abc138/E/main.cpp)||
 
+### ARC017
+
+|Task|Solution|Memo|
+|---|:---:|---|
+|[C - 無駄なものが嫌いな人](https://atcoder.jp/contests/arc017/tasks/arc017_3)|[■](arc017/C/main.cpp)||
