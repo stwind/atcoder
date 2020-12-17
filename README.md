@@ -675,3 +675,10 @@ $ atcoder-tools test -d ./agc001/A
 |Task|Solution|Memo|
 |---|:---:|---|
 |[C - 無駄なものが嫌いな人](https://atcoder.jp/contests/arc017/tasks/arc017_3)|[■](arc017/C/main.cpp)|半分全列挙|
+
+### AGC026
+
+|Task|Solution|Memo|
+|---|:---:|---|
+|[C - String Coloring](https://atcoder.jp/contests/agc026/tasks/agc026_c)|[■](agc026/C/main.cpp)|半分全列挙|
+
