@@ -468,9 +468,11 @@ $ atcoder-tools test -d ./agc001/A
 
 ### ABC054
 
-|Task|Solution|
-|---|:---:|
-|[C - One-stroke Path](https://atcoder.jp/contests/abc054/tasks/abc054_c)|[■](abc054/C/main.cpp)|
+|Task|Solution||
+|---|:---:|---|
+|[C - One-stroke Path](https://atcoder.jp/contests/abc054/tasks/abc054_c)|[■](abc054/C/main.cpp)||
+|[D - Mixing Experiment](https://atcoder.jp/contests/abc054/tasks/abc054_d)|[■](abc054/D/main.cpp)|半分全列挙|
+
 
 ### keyence2020
 
@@ -681,4 +683,3 @@ $ atcoder-tools test -d ./agc001/A
 |Task|Solution|Memo|
 |---|:---:|---|
 |[C - String Coloring](https://atcoder.jp/contests/agc026/tasks/agc026_c)|[■](agc026/C/main.cpp)|半分全列挙|
-
