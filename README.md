@@ -423,6 +423,7 @@ $ atcoder-tools test -d ./agc001/A
 |Task|Solution|
 |---|:---:|
 |[C - Train Ticket](https://atcoder.jp/contests/abc079/tasks/abc079_c)|[■](abc079/C/main.cpp)|
+|[D - Wall](https://atcoder.jp/contests/abc079/tasks/abc079_d)|[■](abc079/D/main.cpp)|
 
 ### ABC122
 
