@@ -690,3 +690,7 @@ $ atcoder-tools test -d ./agc001/A
 |Task|Solution|Memo|
 |---|:---:|---|
 |[D - バレンタインデー](https://atcoder.jp/contests/abc018/tasks/abc018_4)|[■](abc018/D/main.cpp)|半分全列挙|
+
+### ABC012
+
+|[D - バスと避けられない運命](https://atcoder.jp/contests/abc012/tasks/abc012_4)|[■](abc012/D/main.cpp)|Floyd-Warshall|
