@@ -420,10 +420,10 @@ $ atcoder-tools test -d ./agc001/A
 
 ### ABC079
 
-|Task|Solution|
-|---|:---:|
-|[C - Train Ticket](https://atcoder.jp/contests/abc079/tasks/abc079_c)|[■](abc079/C/main.cpp)|
-|[D - Wall](https://atcoder.jp/contests/abc079/tasks/abc079_d)|[■](abc079/D/main.cpp)|
+|Task|Solution|Memo|
+|---|:---:|---|
+|[C - Train Ticket](https://atcoder.jp/contests/abc079/tasks/abc079_c)|[■](abc079/C/main.cpp)||
+|[D - Wall](https://atcoder.jp/contests/abc079/tasks/abc079_d)|[■](abc079/D/main.cpp)|Floyd-Warshall|
 
 ### ABC122
 
