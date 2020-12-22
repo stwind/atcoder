@@ -696,3 +696,9 @@ $ atcoder-tools test -d ./agc001/A
 |Task|Solution|Memo|
 |---|:---:|---|
 |[D - バスと避けられない運命](https://atcoder.jp/contests/abc012/tasks/abc012_4)|[■](abc012/D/main.cpp)|Floyd-Warshall|
+
+### ABC074
+
+|Task|Solution|Memo|
+|---|:---:|---|
+|[D - Restoring Road Network](https://atcoder.jp/contests/abc074/tasks/arc083_b)|[■](abc074/D/main.cpp)|Floyd-Warshall|
