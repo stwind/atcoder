@@ -430,6 +430,7 @@ $ atcoder-tools test -d ./agc001/A
 |Task|Solution|
 |---|:---:|
 |[C - GeT AC](https://atcoder.jp/contests/abc122/tasks/abc122_c)|[■](abc122/C/main.cpp)|
+|[D - We Like AGC](https://atcoder.jp/contests/abc122/tasks/abc122_d)|[■](abc122/D/main.cpp)|
 
 ### AGC023
 
