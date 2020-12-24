@@ -703,3 +703,9 @@ $ atcoder-tools test -d ./agc001/A
 |Task|Solution|Memo|
 |---|:---:|---|
 |[D - Restoring Road Network](https://atcoder.jp/contests/abc074/tasks/arc083_b)|[■](abc074/D/main.cpp)|Floyd-Warshall|
+
+### exawizards2019
+
+|Task|Solution|Memo|
+|---|:---:|---|
+|[C - Snuke the Wizard](https://atcoder.jp/contests/exawizards2019/tasks/exawizards2019_c)|[■](exawizards2019/C/main.cpp)||
