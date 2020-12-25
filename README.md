@@ -362,10 +362,10 @@ $ atcoder-tools test -d ./agc001/A
 
 ### ABC075
 
-|Task|Solution|
-|---|:---:|
-|[B - Minesweeper](https://atcoder.jp/contests/abc075/tasks/abc075_b)|[■](abc075/B/main.cpp)|
-|[C - Bridge](https://atcoder.jp/contests/abc075/tasks/abc075_c)|[■](abc075/C/main.cpp)|
+|Task|Solution|Memo|
+|---|:---:|---|
+|[B - Minesweeper](https://atcoder.jp/contests/abc075/tasks/abc075_b)|[■](abc075/B/main.cpp)||
+|[C - Bridge](https://atcoder.jp/contests/abc075/tasks/abc075_c)|[■](abc075/C/main.cpp)|Union Find|
 
 ### ABC096
 
