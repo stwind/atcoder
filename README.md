@@ -365,6 +365,7 @@ $ atcoder-tools test -d ./agc001/A
 |Task|Solution|
 |---|:---:|
 |[B - Minesweeper](https://atcoder.jp/contests/abc075/tasks/abc075_b)|[■](abc075/B/main.cpp)|
+|[C - Bridge](https://atcoder.jp/contests/abc075/tasks/abc075_c)|[■](abc075/C/main.cpp)|
 
 ### ABC096
 
