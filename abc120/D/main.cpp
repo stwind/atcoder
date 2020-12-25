@@ -23,13 +23,13 @@ using VVLL = vector<VLL>;
 using PII = pair<int, int>;
 using PLL = pair<LL, LL>;
 
-class UF
+class UnionFind
 {
     int n;
 
 public:
     VI par, rank, cnt;
-    UF(int n) : n(n)
+    UnionFind(int n) : n(n)
     {
         par = rank = VI(n, 0);
         cnt = VI(n, 1);
@@ -57,18 +57,31 @@ int main()
     int N, M;
     cin >> N >> M;
     VI A(M), B(M);
-    forn(i, 0, M) cin >> A[i] >> B[i];
-
-    UF uf(N + 1);
-    int res = 0;
     forn(i, 0, M)
     {
-        uf.reset();
-        forn(j, 0, M) if (i != j) uf.unite(A[j], B[j]);
-        if (uf.count(1) != N)
-            res++;
+        cin >> A[i] >> B[i];
+        A[i]--;
+        B[i]--;
     }
-    cout << res << endl;
+
+    LL c = (LL)N * (N - 1) / 2;
+    UnionFind uf(N);
+    VLL res(M + 1);
+    res[M] = c;
+
+    for (int i = M - 1; i >= 0; i--)
+    {
+        if (!uf.same(A[i], B[i]))
+        {
+            c -= uf.count(A[i]) * uf.count(B[i]);
+        }
+        res[i] = c;
+        uf.unite(A[i], B[i]);
+    }
+    forn(i, 1, M + 1)
+    {
+        cout << res[i] << endl;
+    }
 
     return 0;
 }

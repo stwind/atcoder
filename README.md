@@ -710,3 +710,9 @@ $ atcoder-tools test -d ./agc001/A
 |Task|Solution|Memo|
 |---|:---:|---|
 |[C - Snuke the Wizard](https://atcoder.jp/contests/exawizards2019/tasks/exawizards2019_c)|[■](exawizards2019/C/main.cpp)||
+
+### ABC120
+
+|Task|Solution|Memo|
+|---|:---:|---|
+|[D - Decayed Bridges](https://atcoder.jp/contests/abc120/tasks/abc120_d)|[■](abc120/D/main.cpp)|Union Find|
