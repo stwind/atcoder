@@ -716,3 +716,9 @@ $ atcoder-tools test -d ./agc001/A
 |Task|Solution|Memo|
 |---|:---:|---|
 |[D - Decayed Bridges](https://atcoder.jp/contests/abc120/tasks/abc120_d)|[■](abc120/D/main.cpp)|Union Find|
+
+### joi2016yo
+
+|Task|Solution|Memo|
+|---|:---:|---|
+|[E - ゾンビ島 (Zombie Island)](https://atcoder.jp/contests/joi2016yo/tasks/joi2016yo_e)|[■](joi2016yo/E/main.cpp)|Dijkstra|
