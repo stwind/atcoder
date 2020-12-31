@@ -722,3 +722,9 @@ $ atcoder-tools test -d ./agc001/A
 |Task|Solution|Memo|
 |---|:---:|---|
 |[E - ゾンビ島 (Zombie Island)](https://atcoder.jp/contests/joi2016yo/tasks/joi2016yo_e)|[■](joi2016yo/E/main.cpp)|Dijkstra|
+
+### joi2014yo
+
+|Task|Solution|Memo|
+|---|:---:|---|
+|[E - タクシー (Taxis)](https://atcoder.jp/contests/joi2014yo/tasks/joi2014yo_e)|[■](joi2014yo/E/main.cpp)|Dijkstra|
