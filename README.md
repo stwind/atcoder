@@ -733,4 +733,4 @@ $ atcoder-tools test -d ./agc001/A
 
 |Task|Solution|Memo|
 |---|:---:|---|
-|[D - トランプ挿入ソート](https://atcoder.jp/contests/abc006/tasks/abc006_4)|[■](abcc006/D/main.cpp)|LIS|
+|[D - トランプ挿入ソート](https://atcoder.jp/contests/abc006/tasks/abc006_4)|[■](abc006/D/main.cpp)|LIS|
