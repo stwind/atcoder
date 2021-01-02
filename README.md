@@ -728,3 +728,9 @@ $ atcoder-tools test -d ./agc001/A
 |Task|Solution|Memo|
 |---|:---:|---|
 |[E - タクシー (Taxis)](https://atcoder.jp/contests/joi2014yo/tasks/joi2014yo_e)|[■](joi2014yo/E/main.cpp)|Dijkstra|
+
+### ABC006
+
+|Task|Solution|Memo|
+|---|:---:|---|
+|[D - トランプ挿入ソート](https://atcoder.jp/contests/abc006/tasks/abc006_4)|[■](abcc006/D/main.cpp)|Dijkstra|
