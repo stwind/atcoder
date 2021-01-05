@@ -727,6 +727,7 @@ $ atcoder-tools test -d ./agc001/A
 
 |Task|Solution|Memo|
 |---|:---:|---|
+|[D - 部活のスケジュール表 (Schedule)](https://atcoder.jp/contests/joi2014yo/tasks/joi2014yo_d)|[■](joi2014yo/D/main.cpp)|BIT DP|
 |[E - タクシー (Taxis)](https://atcoder.jp/contests/joi2014yo/tasks/joi2014yo_e)|[■](joi2014yo/E/main.cpp)|Dijkstra|
 
 ### ABC006
