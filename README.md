@@ -740,3 +740,9 @@ $ atcoder-tools test -d ./agc001/A
 |Task|Solution|Memo|
 |---|:---:|---|
 |[E - Sequence Decomposing](https://atcoder.jp/contests/abc134/tasks/abc134_e)|[■](abc134/E/main.cpp)|LIS|
+
+### s8pc-1
+
+|Task|Solution|Memo|
+|---|:---:|---|
+|[G - Revenge of Traveling Salesman Problem](https://atcoder.jp/contests/s8pc-1/tasks/s8pc_1_g)|[■](s8pc-1/G/main.cpp)|BIT DP|
