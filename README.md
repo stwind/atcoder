@@ -93,13 +93,13 @@ $ atcoder-tools test -d ./agc001/A
 
 ### ABC180
 
-|Task|Solution|
-|---|:---:|
-|[A - box](https://atcoder.jp/contests/abc180/tasks/abc180_a)|[■](abc180/A/main.cpp)|
-|[B - Various distances](https://atcoder.jp/contests/abc180/tasks/abc180_b)|[■](abc180/B/main.cpp)|
-|[C - Cream puff](https://atcoder.jp/contests/abc180/tasks/abc180_c)|[■](abc180/C/main.cpp)|
-|[D - Takahashi Unevolved](https://atcoder.jp/contests/abc180/tasks/abc180_d)|[■](abc180/D/main.cpp)|
-|[E - Traveling Salesman among Aerial Cities](https://atcoder.jp/contests/abc180/tasks/abc180_e)|[■](abc180/E/main.cpp)|
+|Task|Solution||
+|---|:---:|---|
+|[A - box](https://atcoder.jp/contests/abc180/tasks/abc180_a)|[■](abc180/A/main.cpp)||
+|[B - Various distances](https://atcoder.jp/contests/abc180/tasks/abc180_b)|[■](abc180/B/main.cpp)||
+|[C - Cream puff](https://atcoder.jp/contests/abc180/tasks/abc180_c)|[■](abc180/C/main.cpp)||
+|[D - Takahashi Unevolved](https://atcoder.jp/contests/abc180/tasks/abc180_d)|[■](abc180/D/main.cpp)||
+|[E - Traveling Salesman among Aerial Cities](https://atcoder.jp/contests/abc180/tasks/abc180_e)|[■](abc180/E/main.cpp)|Bit DP|
 
 ### ABC086
 
@@ -556,7 +556,7 @@ $ atcoder-tools test -d ./agc001/A
 |---|:---:|
 |[A - おつり](https://atcoder.jp/contests/joi2008yo/tasks/joi2008yo_a)|[■](joi2008yo/A/main.cpp)|
 
-### PRATICE2
+### PRACTICE2
 
 |Task|Solution|
 |---|:---:|
@@ -747,3 +747,9 @@ $ atcoder-tools test -d ./agc001/A
 |Task|Solution|Memo|
 |---|:---:|---|
 |[G - Revenge of Traveling Salesman Problem](https://atcoder.jp/contests/s8pc-1/tasks/s8pc_1_g)|[■](s8pc-1/G/main.cpp)|BIT DP|
+
+### njpc2007
+
+|Task|Solution|Memo|
+|---|:---:|---|
+|[E - 限界集落](https://atcoder.jp/contests/njpc2017/tasks/njpc2017_e)|[■](njpc2017/E/main.cpp)|全方位木DP|
