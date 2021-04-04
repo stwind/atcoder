@@ -756,3 +756,9 @@ $ atcoder-tools test -d ./agc001/A
 | Task                                                                       |        Solution        | Memo        |
 | -------------------------------------------------------------------------- | :--------------------: | ----------- |
 | [D - Driving on a Tree](https://atcoder.jp/contests/s8pc-4/tasks/s8pc_4_d) | [■](s8pc-4/D/main.cpp) | 全方位木 DP |
+
+### ABC036
+
+| Task                                                            |        Solution        | Memo  |
+| --------------------------------------------------------------- | :--------------------: | ----- |
+| [D - 塗り絵](https://atcoder.jp/contests/abc036/tasks/abc036_d) | [■](abc036/D/main.cpp) | 木 DP |
