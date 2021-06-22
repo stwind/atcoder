@@ -3,7 +3,7 @@
   "tasks": [{
       "type": "shell",
       "label": "g++ build active file",
-      "command": "/usr/local/bin/gcc-9",
+      "command": "/usr/local/bin/gcc-11",
       "args": [
         "-std=gnu++17",
         "-g",
