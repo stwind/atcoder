@@ -762,3 +762,9 @@ $ atcoder-tools test -d ./agc001/A
 | Task                                                            |        Solution        | Memo  |
 | --------------------------------------------------------------- | :--------------------: | ----- |
 | [D - 塗り絵](https://atcoder.jp/contests/abc036/tasks/abc036_d) | [■](abc036/D/main.cpp) | 木 DP |
+
+### ABC021
+
+| Task                                                            |        Solution        | Memo  |
+| --------------------------------------------------------------- | :--------------------: | ----- |
+| [D - 多重ループ](https://atcoder.jp/contests/abc021/tasks/abc021_d) | [■](abc021/D/main.cpp) | 重複組合せ |
