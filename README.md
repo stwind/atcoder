@@ -768,3 +768,9 @@ $ atcoder-tools test -d ./agc001/A
 | Task                                                            |        Solution        | Memo  |
 | --------------------------------------------------------------- | :--------------------: | ----- |
 | [D - 多重ループ](https://atcoder.jp/contests/abc021/tasks/abc021_d) | [■](abc021/D/main.cpp) | 重複組合せ |
+
+### ABC034
+
+| Task                                                            |        Solution        | Memo  |
+| --------------------------------------------------------------- | :--------------------: | ----- |
+| [C - 経路](https://atcoder.jp/contests/abc034/tasks/abc034_c) | [■](abc034/C/main.cpp) | 重複組合せ |
