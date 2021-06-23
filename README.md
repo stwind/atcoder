@@ -240,9 +240,10 @@ $ atcoder-tools test -d ./agc001/A
 
 ### AGC025
 
-| Task                                                                |        Solution        |
-| ------------------------------------------------------------------- | :--------------------: |
-| [A - Digits Sum](https://atcoder.jp/contests/agc025/tasks/agc025_a) | [■](agc025/A/main.cpp) |
+| Task                                                                |        Solution        | Memo |
+| ------------------------------------------------------------------- | :--------------------: |---|
+| [A - Digits Sum](https://atcoder.jp/contests/agc025/tasks/agc025_a) | [■](agc025/A/main.cpp) ||
+| [B - RGB Coloring](https://atcoder.jp/contests/agc025/tasks/agc025_b) | [■](agc025/B/main.cpp) |二項係数|
 
 ### ABC156
 
