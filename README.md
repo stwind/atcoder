@@ -787,4 +787,4 @@ $ atcoder-tools test -d ./agc001/A
 
 | Task                                                            |        Solution        | Memo  |
 | --------------------------------------------------------------- | :--------------------: | ----- |
-| [D - Factorization](https://atcoder.jp/contests/abc110/tasks/abc110_d) | [■](abc145/D/main.cpp) | 重複組合せ 素因数分解 |
+| [D - Factorization](https://atcoder.jp/contests/abc110/tasks/abc110_d) | [■](abc110/D/main.cpp) | 重複組合せ 素因数分解 |
