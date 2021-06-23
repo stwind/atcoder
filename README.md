@@ -775,3 +775,9 @@ $ atcoder-tools test -d ./agc001/A
 | Task                                                            |        Solution        | Memo  |
 | --------------------------------------------------------------- | :--------------------: | ----- |
 | [C - 経路](https://atcoder.jp/contests/abc034/tasks/abc034_c) | [■](abc034/C/main.cpp) | 重複組合せ |
+
+### ABC034
+
+| Task                                                            |        Solution        | Memo  |
+| --------------------------------------------------------------- | :--------------------: | ----- |
+| [D - Knight](https://atcoder.jp/contests/abc145/tasks/abc145_d) | [■](abc145/D/main.cpp) | 二項係数 |
