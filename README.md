@@ -782,3 +782,9 @@ $ atcoder-tools test -d ./agc001/A
 | Task                                                            |        Solution        | Memo  |
 | --------------------------------------------------------------- | :--------------------: | ----- |
 | [D - Knight](https://atcoder.jp/contests/abc145/tasks/abc145_d) | [■](abc145/D/main.cpp) | 二項係数 |
+
+### ABC110
+
+| Task                                                            |        Solution        | Memo  |
+| --------------------------------------------------------------- | :--------------------: | ----- |
+| [D - Factorization](https://atcoder.jp/contests/abc110/tasks/abc110_d) | [■](abc145/D/main.cpp) | 重複組合せ 素因数分解 |
