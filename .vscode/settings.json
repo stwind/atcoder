@@ -17,6 +17,10 @@
     "regex": "cpp",
     "valarray": "cpp",
     "iomanip": "cpp",
-    "ratio": "cpp"
+    "ratio": "cpp",
+    "iterator": "cpp",
+    "map": "cpp",
+    "set": "cpp",
+    "span": "cpp"
   }
 }

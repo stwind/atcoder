@@ -247,9 +247,10 @@ $ atcoder-tools test -d ./agc001/A
 
 ### ABC156
 
-| Task                                                            |        Solution        |
-| --------------------------------------------------------------- | :--------------------: |
-| [B - Digits](https://atcoder.jp/contests/abc156/tasks/abc156_b) | [■](abc156/B/main.cpp) |
+| Task                                                            |        Solution        ||
+| --------------------------------------------------------------- | :--------------------: |---|
+| [B - Digits](https://atcoder.jp/contests/abc156/tasks/abc156_b) | [■](abc156/B/main.cpp) ||
+| [D - Bouquet](https://atcoder.jp/contests/abc156/tasks/abc156_d) | [■](abc156/D/main.cpp) |繰り返し二乗法 mod割り算|
 
 ### ABC067
 
