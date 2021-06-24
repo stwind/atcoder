@@ -807,3 +807,9 @@ $ atcoder-tools test -d ./agc001/A
 | Task                                                            |        Solution        | Memo  |
 | --------------------------------------------------------------- | :--------------------: | ----- |
 | [C - Product and GCD](https://atcoder.jp/contests/caddi2018/tasks/caddi2018_a) | [■](caddi2018/C/main.cpp) | 素因数分解 繰り返し2乗法 |
+
+### ABC112
+
+| Task                                                            |        Solution        | Memo  |
+| --------------------------------------------------------------- | :--------------------: | ----- |
+| [D - Partition](https://atcoder.jp/contests/abc112/tasks/abc112_d) | [■](abc112/D/main.cpp) | 素因数分解 |
