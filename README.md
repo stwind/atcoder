@@ -801,3 +801,9 @@ $ atcoder-tools test -d ./agc001/A
 | Task                                                            |        Solution        | Memo  |
 | --------------------------------------------------------------- | :--------------------: | ----- |
 | [B - 完全数](https://atcoder.jp/contests/arc026/tasks/arc026_2) | [■](arc026/B/main.cpp) | 素因数分解 |
+
+### CADDI2018
+
+| Task                                                            |        Solution        | Memo  |
+| --------------------------------------------------------------- | :--------------------: | ----- |
+| [C - Product and GCD](https://atcoder.jp/contests/caddi2018/tasks/caddi2018_a) | [■](caddi2018/C/main.cpp) | 素因数分解 繰り返し2乗法 |
