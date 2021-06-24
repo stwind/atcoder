@@ -678,6 +678,7 @@ $ atcoder-tools test -d ./agc001/A
 
 | Task                                                                          |        Solution        | Memo       |
 | ----------------------------------------------------------------------------- | :--------------------: | ---------- |
+| [A - 素数、コンテスト、素数](https://atcoder.jp/contests/arc017/tasks/arc017_1) | [■](arc017/A/main.cpp) | 素数判定 |
 | [C - 無駄なものが嫌いな人](https://atcoder.jp/contests/arc017/tasks/arc017_3) | [■](arc017/C/main.cpp) | 半分全列挙 |
 
 ### AGC026
