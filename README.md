@@ -789,3 +789,9 @@ $ atcoder-tools test -d ./agc001/A
 | Task                                                            |        Solution        | Memo  |
 | --------------------------------------------------------------- | :--------------------: | ----- |
 | [D - Factorization](https://atcoder.jp/contests/abc110/tasks/abc110_d) | [■](abc110/D/main.cpp) | 重複組合せ 素因数分解 |
+
+### ARC067
+
+| Task                                                            |        Solution        | Memo  |
+| --------------------------------------------------------------- | :--------------------: | ----- |
+| [C - Factors of Factorial](https://atcoder.jp/contests/arc067/tasks/arc067_a) | [■](arc067/C/main.cpp) | 素因数分解 |
