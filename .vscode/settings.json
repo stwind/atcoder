@@ -21,6 +21,7 @@
     "iterator": "cpp",
     "map": "cpp",
     "set": "cpp",
-    "span": "cpp"
+    "span": "cpp",
+    "ios": "cpp"
   }
 }

@@ -795,3 +795,9 @@ $ atcoder-tools test -d ./agc001/A
 | Task                                                            |        Solution        | Memo  |
 | --------------------------------------------------------------- | :--------------------: | ----- |
 | [C - Factors of Factorial](https://atcoder.jp/contests/arc067/tasks/arc067_a) | [■](arc067/C/main.cpp) | 素因数分解 |
+
+### ARC026
+
+| Task                                                            |        Solution        | Memo  |
+| --------------------------------------------------------------- | :--------------------: | ----- |
+| [B - 完全数](https://atcoder.jp/contests/arc026/tasks/arc026_2) | [■](arc026/B/main.cpp) | 素因数分解 |
