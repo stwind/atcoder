@@ -814,3 +814,9 @@ $ atcoder-tools test -d ./agc001/A
 | Task                                                            |        Solution        | Memo  |
 | --------------------------------------------------------------- | :--------------------: | ----- |
 | [D - Disjoint Set of Common Divisors](https://atcoder.jp/contests/abc142/tasks/abc142_d) | [■](abc142/D/main.cpp) | 素因数分解 |
+
+### ABC150
+
+| Task                                                            |        Solution        | Memo  |
+| --------------------------------------------------------------- | :--------------------: | ----- |
+| [D - Semi Common Multiple](https://atcoder.jp/contests/abc150/tasks/abc150_d) | [■](abc150/D/main.cpp) | 素因数分解 |
