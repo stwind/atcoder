@@ -22,6 +22,8 @@
     "map": "cpp",
     "set": "cpp",
     "span": "cpp",
-    "ios": "cpp"
+    "ios": "cpp",
+    "algorithm": "cpp",
+    "random": "cpp"
   }
 }
