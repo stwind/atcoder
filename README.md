@@ -820,3 +820,9 @@ $ atcoder-tools test -d ./agc001/A
 | Task                                                            |        Solution        | Memo  |
 | --------------------------------------------------------------- | :--------------------: | ----- |
 | [D - Semi Common Multiple](https://atcoder.jp/contests/abc150/tasks/abc150_d) | [■](abc150/D/main.cpp) | 素因数分解 |
+
+### ABC149
+
+| Task                                                            |        Solution        | Memo  |
+| --------------------------------------------------------------- | :--------------------: | ----- |
+| [C - Next Prime](https://atcoder.jp/contests/abc149/tasks/abc149_c) | [■](abc149/C/main.cpp) | 素因数分解 |
