@@ -831,4 +831,10 @@ $ atcoder-tools test -d ./agc001/A
 
 | Task                                                            |        Solution        | Memo  |
 | --------------------------------------------------------------- | :--------------------: | ----- |
-| [D - 文字列と素数](https://atcoder.jp/contests/ttpc2015/tasks/ttpc2015_d) | [■](ttpc2015/D/main.cpp) | 素因 |
+| [D - 文字列と素数](https://atcoder.jp/contests/ttpc2015/tasks/ttpc2015_d) | [■](ttpc2015/D/main.cpp) | 素数 |
+
+### ABC106
+
+| Task                                                            |        Solution        | Memo  |
+| --------------------------------------------------------------- | :--------------------: | ----- |
+| [B - 105](https://atcoder.jp/contests/abc106/tasks/abc106_b) | [■](abc106/B/main.cpp) | 素因数分解 |
