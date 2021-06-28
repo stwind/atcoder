@@ -844,3 +844,9 @@ $ atcoder-tools test -d ./agc001/A
 | Task                                                            |        Solution        | Memo  |
 | --------------------------------------------------------------- | :--------------------: | ----- |
 | [E - Max GCD](https://atcoder.jp/contests/abc136/tasks/abc136_e) | [■](abc136/E/main.cpp) | 約数列挙 |
+
+### ARC032
+
+| Task                                                            |        Solution        | Memo  |
+| --------------------------------------------------------------- | :--------------------: | ----- |
+| [A - ホリドッグ](https://atcoder.jp/contests/arc032/tasks/arc032_1) | [■](arc032/A/main.cpp) | 素数 |
