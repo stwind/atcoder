@@ -1,3 +1,5 @@
+// ref: https://qiita.com/nomikura/items/fecd8002fd236af9b0e9
+
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -29,11 +31,28 @@ int main()
     IOS;
     int N;
     cin >> N;
+    VI A(N);
+    forn(i, 0, N) cin >> A[i];
 
-    if (N == 2)
-        cout << "WANWAN" << endl;
+    VI C(3);
+    for (auto &a : A)
+    {
+        int k = 0;
+        while (a % 2 == 0)
+        {
+            k++;
+            a /= 2;
+        }
+        C[min(2, k)]++;
+    }
+
+    if (C[1] > 0)
+        C[0]++;
+
+    if (C[0] <= C[2] + 1)
+        cout << "Yes" << endl;
     else
-        cout << "BOWWOW" << endl;
+        cout << "No" << endl;
 
     return 0;
 }

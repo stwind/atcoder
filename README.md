@@ -153,9 +153,10 @@ $ atcoder-tools test -d ./agc001/A
 
 ### ABC069
 
-| Task                                                          |        Solution        |
-| ------------------------------------------------------------- | :--------------------: |
-| [B - i18n](https://atcoder.jp/contests/abc069/tasks/abc069_b) | [■](abc069/B/main.cpp) |
+| Task                                                          |        Solution        |Memo|
+| ------------------------------------------------------------- | :--------------------: |---|
+| [B - i18n](https://atcoder.jp/contests/abc069/tasks/abc069_b) | [■](abc069/B/main.cpp) ||
+| [C - 4-adjacent](https://atcoder.jp/contests/abc069/tasks/arc080_a) | [■](abc069/C/main.cpp) ||
 
 ### ABC082
 
