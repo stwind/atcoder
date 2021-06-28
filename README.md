@@ -851,3 +851,9 @@ $ atcoder-tools test -d ./agc001/A
 | Task                                                            |        Solution        | Memo  |
 | --------------------------------------------------------------- | :--------------------: | ----- |
 | [A - ホリドッグ](https://atcoder.jp/contests/arc032/tasks/arc032_1) | [■](arc032/A/main.cpp) | 素数 |
+
+### ABC169
+
+| Task                                                            |        Solution        | Memo  |
+| --------------------------------------------------------------- | :--------------------: | ----- |
+| [D - Div Game](https://atcoder.jp/contests/abc169/tasks/abc169_d) | [■](abc169/D/main.cpp) | 素数 |
