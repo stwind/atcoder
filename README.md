@@ -874,4 +874,4 @@ $ atcoder-tools test -d ./agc001/A
 
 | Task                                                            |        Solution        | Memo  |
 | --------------------------------------------------------------- | :--------------------: | ----- |
-| [C - 約数かつ倍数(https://atcoder.jp/contests/arc034/tasks/arc034_3) | [■](arc034/C/main.cpp) | 素因数分解 |
+| [C - 約数かつ倍数](https://atcoder.jp/contests/arc034/tasks/arc034_3) | [■](arc034/C/main.cpp) | 素因数分解 |
