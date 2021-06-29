@@ -869,3 +869,9 @@ $ atcoder-tools test -d ./agc001/A
 | Task                                                            |        Solution        | Memo  |
 | --------------------------------------------------------------- | :--------------------: | ----- |
 | [D - 756](https://atcoder.jp/contests/abc114/tasks/abc114_d) | [■](abc114/D/main.cpp) | 素因数分解 |
+
+### ARC034
+
+| Task                                                            |        Solution        | Memo  |
+| --------------------------------------------------------------- | :--------------------: | ----- |
+| [C - 約数かつ倍数(https://atcoder.jp/contests/arc034/tasks/arc034_3) | [■](arc034/C/main.cpp) | 素因数分解 |
