@@ -868,4 +868,4 @@ $ atcoder-tools test -d ./agc001/A
 
 | Task                                                            |        Solution        | Memo  |
 | --------------------------------------------------------------- | :--------------------: | ----- |
-| [D - 756](https://atcoder.jp/contests/abc114/tasks/abc114_d) | [■](ABC114/D/main.cpp) | 素因数分解 |
+| [D - 756](https://atcoder.jp/contests/abc114/tasks/abc114_d) | [■](abc114/D/main.cpp) | 素因数分解 |
