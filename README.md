@@ -875,3 +875,9 @@ $ atcoder-tools test -d ./agc001/A
 | Task                                                            |        Solution        | Memo  |
 | --------------------------------------------------------------- | :--------------------: | ----- |
 | [C - 約数かつ倍数](https://atcoder.jp/contests/arc034/tasks/arc034_3) | [■](arc034/C/main.cpp) | 素因数分解 |
+
+### ABC148
+
+| Task                                                            |        Solution        | Memo  |
+| --------------------------------------------------------------- | :--------------------: | ----- |
+| [E - Double Factorial](https://atcoder.jp/contests/abc148/tasks/abc148_e) | [■](abc148/E/main.cpp) | 素因数分解 |
