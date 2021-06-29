@@ -863,3 +863,9 @@ $ atcoder-tools test -d ./agc001/A
 | Task                                                            |        Solution        | Memo  |
 | --------------------------------------------------------------- | :--------------------: | ----- |
 | [A - 球](https://atcoder.jp/contests/bcu30-2018/tasks/bcu30_2018_a) | [■](bcu30-2018/A/main.cpp) | 素因数分解 |
+
+### ABC114
+
+| Task                                                            |        Solution        | Memo  |
+| --------------------------------------------------------------- | :--------------------: | ----- |
+| [D - 756](https://atcoder.jp/contests/abc114/tasks/abc114_d) | [■](ABC114/D/main.cpp) | 素因数分解 |
