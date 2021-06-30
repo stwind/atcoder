@@ -888,3 +888,9 @@ $ atcoder-tools test -d ./agc001/A
 | Task                                                            |        Solution        | Memo  |
 | --------------------------------------------------------------- | :--------------------: | ----- |
 | [C - Skip](https://atcoder.jp/contests/abc109/tasks/abc109_c) | [■](abc109/C/main.cpp) | 最大公約数 |
+
+### ABC118
+
+| Task                                                            |        Solution        | Memo  |
+| --------------------------------------------------------------- | :--------------------: | ----- |
+| [C - Monsters Battle Royale](https://atcoder.jp/contests/abc118/tasks/abc118_c) | [■](abc118/C/main.cpp) | 最大公約数 |
