@@ -880,6 +880,7 @@ $ atcoder-tools test -d ./agc001/A
 
 | Task                                                            |        Solution        | Memo  |
 | --------------------------------------------------------------- | :--------------------: | ----- |
+| [C - Snack](https://atcoder.jp/contests/abc148/tasks/abc148_c) | [■](abc148/C/main.cpp) | 最小公倍数 |
 | [E - Double Factorial](https://atcoder.jp/contests/abc148/tasks/abc148_e) | [■](abc148/E/main.cpp) | 素因数分解 |
 
 ### ABC109
