@@ -894,3 +894,9 @@ $ atcoder-tools test -d ./agc001/A
 | Task                                                            |        Solution        | Memo  |
 | --------------------------------------------------------------- | :--------------------: | ----- |
 | [C - Monsters Battle Royale](https://atcoder.jp/contests/abc118/tasks/abc118_c) | [■](abc118/C/main.cpp) | 最大公約数 |
+
+### ABC158
+
+| Task                                                            |        Solution        | Memo  |
+| --------------------------------------------------------------- | :--------------------: | ----- |
+| [E - Divisible Substring](https://atcoder.jp/contests/abc158/tasks/abc158_e) | [■](abc158/E/main.cpp) | 合同式の割り算 |
