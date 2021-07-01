@@ -378,9 +378,10 @@ $ atcoder-tools test -d ./agc001/A
 
 ### ABC070
 
-| Task                                                                  |        Solution        |
-| --------------------------------------------------------------------- | :--------------------: |
-| [B - Two Switches](https://atcoder.jp/contests/abc070/tasks/abc070_b) | [■](abc070/B/main.cpp) |
+| Task                                                                  |        Solution        | Memo|
+| --------------------------------------------------------------------- | :--------------------: |---|
+| [B - Two Switches](https://atcoder.jp/contests/abc070/tasks/abc070_b) | [■](abc070/B/main.cpp) ||
+| [C - Multiple Clocks](https://atcoder.jp/contests/abc070/tasks/abc070_c) | [■](abc070/C/main.cpp) | 最小公倍数 |
 
 ### ABC055
 
