@@ -900,3 +900,9 @@ $ atcoder-tools test -d ./agc001/A
 | Task                                                            |        Solution        | Memo  |
 | --------------------------------------------------------------- | :--------------------: | ----- |
 | [E - Divisible Substring](https://atcoder.jp/contests/abc158/tasks/abc158_e) | [■](abc158/E/main.cpp) | 合同式の割り算 |
+
+### ABC158
+
+| Task                                                            |        Solution        | Memo  |
+| --------------------------------------------------------------- | :--------------------: | ----- |
+| [B - GCDロボット](https://atcoder.jp/contests/ddcc2017-final/tasks/ddcc2017_final_b) | [■](ddcc2017-final/B/main.cpp) | 素因数分解 |
