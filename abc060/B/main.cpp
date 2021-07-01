@@ -13,25 +13,14 @@ using LL = long long;
 using VI = vector<int>;
 using VLL = vector<LL>;
 
-int main()
-{
-    int A, B, C;
-    cin >> A >> B >> C;
+int main() {
+  int A, B, C;
+  cin >> A >> B >> C;
 
-    unordered_set<int> seen;
-    int a = 1;
-    while (!seen.count((A * a - C) % B))
-    {
-        int x = (A * a - C) % B;
-        if (x == 0)
-        {
-            cout << "YES" << endl;
-            return 0;
-        }
-        seen.insert(x);
-        a++;
-    }
+  if (C % gcd(A, B) == 0)
+    cout << "YES" << endl;
+  else
     cout << "NO" << endl;
 
-    return 0;
+  return 0;
 }

@@ -402,9 +402,9 @@ $ atcoder-tools test -d ./agc001/A
 
 ### ABC060
 
-| Task                                                                     |        Solution        |
-| ------------------------------------------------------------------------ | :--------------------: |
-| [B - Choose Integers](https://atcoder.jp/contests/abc060/tasks/abc060_b) | [■](abc060/B/main.cpp) |
+| Task                                                                     |        Solution        |Memo|
+| ------------------------------------------------------------------------ | :--------------------: |---|
+| [B - Choose Integers](https://atcoder.jp/contests/abc060/tasks/abc060_b) | [■](abc060/B/main.cpp) | 互いに素 |
 
 ### ABC065
 
