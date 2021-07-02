@@ -913,3 +913,9 @@ $ atcoder-tools test -d ./agc001/A
 | Task                                                            |        Solution        | Memo  |
 | --------------------------------------------------------------- | :--------------------: | ----- |
 | [C - GCD on Blackboard](https://atcoder.jp/contests/abc125/tasks/abc125_c) | [■](abc125/C/main.cpp) | 最大公約数 |
+
+### AGC028
+
+| Task                                                            |        Solution        | Memo  |
+| --------------------------------------------------------------- | :--------------------: | ----- |
+| [A - Two Abbreviations](https://atcoder.jp/contests/agc028/tasks/agc028_a) | [■](agc028/A/main.cpp) | 最大公約数 |
