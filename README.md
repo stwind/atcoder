@@ -919,3 +919,9 @@ $ atcoder-tools test -d ./agc001/A
 | Task                                                            |        Solution        | Memo  |
 | --------------------------------------------------------------- | :--------------------: | ----- |
 | [A - Two Abbreviations](https://atcoder.jp/contests/agc028/tasks/agc028_a) | [■](agc028/A/main.cpp) | 最大公約数 |
+
+### ABC152
+
+| Task                                                            |        Solution        | Memo  |
+| --------------------------------------------------------------- | :--------------------: | ----- |
+| [E - Flatten](https://atcoder.jp/contests/abc152/tasks/abc152_e) | [■](abc152/E/main.cpp) | 素因数分解 MOD逆元 |
