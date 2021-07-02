@@ -907,3 +907,9 @@ $ atcoder-tools test -d ./agc001/A
 | Task                                                            |        Solution        | Memo  |
 | --------------------------------------------------------------- | :--------------------: | ----- |
 | [B - GCDロボット](https://atcoder.jp/contests/ddcc2017-final/tasks/ddcc2017_final_b) | [■](ddcc2017-final/B/main.cpp) | 素因数分解 |
+
+### ABC125
+
+| Task                                                            |        Solution        | Memo  |
+| --------------------------------------------------------------- | :--------------------: | ----- |
+| [C - GCD on Blackboard](https://atcoder.jp/contests/abc125/tasks/abc125_c) | [■](abc125/C/main.cpp) | 最大公約数 |
