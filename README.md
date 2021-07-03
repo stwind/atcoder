@@ -936,4 +936,4 @@ $ atcoder-tools test -d ./agc001/A
 
 | Task                                                            |        Solution        | Memo  |
 | --------------------------------------------------------------- | :--------------------: | ----- |
-| [D - Bus Tour](hhttps://atcoder.jp/contests/code-thanks-festival-2017-open/tasks/code_thanks_festival_2017_d) | [■](code-thanks-festival-2017-open/D/main.cpp) | 最大公約数 |
+| [D - Bus Tour](https://atcoder.jp/contests/code-thanks-festival-2017-open/tasks/code_thanks_festival_2017_d) | [■](code-thanks-festival-2017-open/D/main.cpp) | 最大公約数 |
