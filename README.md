@@ -931,3 +931,9 @@ $ atcoder-tools test -d ./agc001/A
 | Task                                                            |        Solution        | Memo  |
 | --------------------------------------------------------------- | :--------------------: | ----- |
 | [A - Getting Difference](https://atcoder.jp/contests/agc018/tasks/agc018_a) | [■](agc018/A/main.cpp) | Euclidの互除法 |
+
+### code-thanks-festival-2017-open
+
+| Task                                                            |        Solution        | Memo  |
+| --------------------------------------------------------------- | :--------------------: | ----- |
+| [D - Bus Tour](hhttps://atcoder.jp/contests/code-thanks-festival-2017-open/tasks/code_thanks_festival_2017_d) | [■](code-thanks-festival-2017-open/D/main.cpp) | 最大公約数 |
