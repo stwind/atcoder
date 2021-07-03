@@ -925,3 +925,9 @@ $ atcoder-tools test -d ./agc001/A
 | Task                                                            |        Solution        | Memo  |
 | --------------------------------------------------------------- | :--------------------: | ----- |
 | [E - Flatten](https://atcoder.jp/contests/abc152/tasks/abc152_e) | [■](abc152/E/main.cpp) | 素因数分解 MOD逆元 |
+
+### AGC018
+
+| Task                                                            |        Solution        | Memo  |
+| --------------------------------------------------------------- | :--------------------: | ----- |
+| [A - Getting Difference](https://atcoder.jp/contests/agc018/tasks/agc018_a) | [■](agc018/A/main.cpp) | Euclidの互除法 |
