@@ -955,3 +955,9 @@ $ atcoder-tools test -d ./agc001/A
 | Task                                                            |        Solution        | Memo  |
 | --------------------------------------------------------------- | :--------------------: | ----- |
 | [D - Enough Array](https://atcoder.jp/contests/abc130/tasks/abc130_d) | [■](abc130/D/main.cpp) | 尺取り法 |
+
+### dwacon5th-prelims
+
+| Task                                                            |        Solution        | Memo  |
+| --------------------------------------------------------------- | :--------------------: | ----- |
+| [C - k-DMC](https://atcoder.jp/contests/dwacon5th-prelims/tasks/dwacon5th_prelims_c) | [■](dwacon5th-prelims/C/main.cpp) | 尺取り法 |
