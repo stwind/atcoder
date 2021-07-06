@@ -948,4 +948,4 @@ $ atcoder-tools test -d ./agc001/A
 
 | Task                                                            |        Solution        | Memo  |
 | --------------------------------------------------------------- | :--------------------: | ----- |
-| [C - 徒歩圏内](https://atcoder.jp/contests/bitflyer2018-qual/tasks/bitflyer2018_qual_c) | [■](bitflyer2018-qual/A/main.cpp) | 尺取り法 |
+| [C - 徒歩圏内](https://atcoder.jp/contests/bitflyer2018-qual/tasks/bitflyer2018_qual_c) | [■](bitflyer2018-qual/C/main.cpp) | 尺取り法 |
