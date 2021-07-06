@@ -489,7 +489,7 @@ $ atcoder-tools test -d ./agc001/A
 
 | Task                                                                      |        Solution        | Memo       |
 | ------------------------------------------------------------------------- | :--------------------: | ---------- |
-| [C - 列](https://atcoder.jp/contests/abc032/tasks/abc032_c)               | [■](abc032/C/main.cpp) |            |
+| [C - 列](https://atcoder.jp/contests/abc032/tasks/abc032_c)               | [■](abc032/C/main.cpp) | 尺取り法 |
 | [D - ナップサック問題](https://atcoder.jp/contests/abc032/tasks/abc032_d) | [■](abc032/D/main.cpp) | 半分全列挙 |
 
 ### ABC038
@@ -943,3 +943,9 @@ $ atcoder-tools test -d ./agc001/A
 | Task                                                            |        Solution        | Memo  |
 | --------------------------------------------------------------- | :--------------------: | ----- |
 | [A - Uncommon](https://atcoder.jp/contests/yahoo-procon2018-final-open/tasks/yahoo_procon2018_final_a) | [■](yahoo-procon2018-final-open/A/main.cpp) | 包除原理 |
+
+### bitflyer2018-qual
+
+| Task                                                            |        Solution        | Memo  |
+| --------------------------------------------------------------- | :--------------------: | ----- |
+| [C - 徒歩圏内](https://atcoder.jp/contests/bitflyer2018-qual/tasks/bitflyer2018_qual_c) | [■](bitflyer2018-qual/A/main.cpp) | 尺取り法 |
