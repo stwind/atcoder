@@ -954,4 +954,4 @@ $ atcoder-tools test -d ./agc001/A
 
 | Task                                                            |        Solution        | Memo  |
 | --------------------------------------------------------------- | :--------------------: | ----- |
-| [D - Enough Array](https://atcoder.jp/contests/abc130/tasks/abc130_d) | [■](ABC130/D/main.cpp) | 尺取り法 |
+| [D - Enough Array](https://atcoder.jp/contests/abc130/tasks/abc130_d) | [■](abc130/D/main.cpp) | 尺取り法 |
