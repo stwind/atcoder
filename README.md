@@ -937,3 +937,9 @@ $ atcoder-tools test -d ./agc001/A
 | Task                                                            |        Solution        | Memo  |
 | --------------------------------------------------------------- | :--------------------: | ----- |
 | [D - Bus Tour](https://atcoder.jp/contests/code-thanks-festival-2017-open/tasks/code_thanks_festival_2017_d) | [■](code-thanks-festival-2017-open/D/main.cpp) | 最大公約数 |
+
+### code-thanks-festival-2017-open
+
+| Task                                                            |        Solution        | Memo  |
+| --------------------------------------------------------------- | :--------------------: | ----- |
+| [A - Uncommon](https://atcoder.jp/contests/yahoo-procon2018-final-open/tasks/yahoo_procon2018_final_a) | [■](yahoo-procon2018-final-open/A/main.cpp) | 包除原理 |
