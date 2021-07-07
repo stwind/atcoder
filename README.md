@@ -973,3 +973,9 @@ $ atcoder-tools test -d ./agc001/A
 | Task                                                            |        Solution        | Memo  |
 | --------------------------------------------------------------- | :--------------------: | ----- |
 | [C - Make a Team](https://atcoder.jp/contests/cpsco2019-s4/tasks/cpsco2019_s4_c) | [■](cpsco2019-s4/C/main.cpp) | 尺取り法 |
+
+### AGC034
+
+| Task                                                            |        Solution        | Memo  |
+| --------------------------------------------------------------- | :--------------------: | ----- |
+| [B - ABC](https://atcoder.jp/contests/agc034/tasks/agc034_b) | [■](agc034/B/main.cpp) |  |
