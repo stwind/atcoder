@@ -596,6 +596,7 @@ $ atcoder-tools test -d ./agc001/A
 | Task                                                                              |        Solution        |
 | --------------------------------------------------------------------------------- | :--------------------: |
 | [C - おいしいたこ焼きの売り方](https://atcoder.jp/contests/abc005/tasks/abc005_3) | [■](abc005/C/main.cpp) |
+| [D - おいしいたこ焼きの焼き方](https://atcoder.jp/contests/abc005/tasks/abc005_4) | [■](abc005/D/main.cpp) |
 
 ### ABC117
 
