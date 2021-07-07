@@ -961,3 +961,9 @@ $ atcoder-tools test -d ./agc001/A
 | Task                                                            |        Solution        | Memo  |
 | --------------------------------------------------------------- | :--------------------: | ----- |
 | [C - k-DMC](https://atcoder.jp/contests/dwacon5th-prelims/tasks/dwacon5th_prelims_c) | [■](dwacon5th-prelims/C/main.cpp) | 尺取り法 |
+
+### ABC124
+
+| Task                                                            |        Solution        | Memo  |
+| --------------------------------------------------------------- | :--------------------: | ----- |
+| [D - Handstand](https://atcoder.jp/contests/abc124/tasks/abc124_d) | [■](abc124/D/main.cpp) | 尺取り法 |
