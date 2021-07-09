@@ -992,3 +992,9 @@ $ atcoder-tools test -d ./agc001/A
 | Task                                                            |        Solution        | Memo  |
 | --------------------------------------------------------------- | :--------------------: | ----- |
 | [E - 方眼紙と線分](https://atcoder.jp/contests/cf16-relay-open/tasks/relay_e) | [■](cf16-relay-open/E/main.cpp) | 最大公約数 |
+
+### ARC004
+
+| Task                                                            |        Solution        | Memo  |
+| --------------------------------------------------------------- | :--------------------: | ----- |
+| [D - 表現の自由 ( Freedom of expression )](https://atcoder.jp/contests/arc004/tasks/arc004_4) | [■](arc004/D/main.cpp) | 素因数分解 |
