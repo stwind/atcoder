@@ -980,3 +980,9 @@ $ atcoder-tools test -d ./agc001/A
 | Task                                                            |        Solution        | Memo  |
 | --------------------------------------------------------------- | :--------------------: | ----- |
 | [B - ABC](https://atcoder.jp/contests/agc034/tasks/agc034_b) | [■](agc034/B/main.cpp) |  |
+
+### ABC100
+
+| Task                                                            |        Solution        | Memo  |
+| --------------------------------------------------------------- | :--------------------: | ----- |
+| [C - *3 or /2](https://atcoder.jp/contests/abc100/tasks/abc100_c) | [■](abc100/C/main.cpp) |  |
