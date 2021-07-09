@@ -986,3 +986,9 @@ $ atcoder-tools test -d ./agc001/A
 | Task                                                            |        Solution        | Memo  |
 | --------------------------------------------------------------- | :--------------------: | ----- |
 | [C - *3 or /2](https://atcoder.jp/contests/abc100/tasks/abc100_c) | [■](abc100/C/main.cpp) |  |
+
+### cf16-relay-open
+
+| Task                                                            |        Solution        | Memo  |
+| --------------------------------------------------------------- | :--------------------: | ----- |
+| [E - 方眼紙と線分](https://atcoder.jp/contests/cf16-relay-open/tasks/relay_e) | [■](cf16-relay-open/E/main.cpp) |  |
