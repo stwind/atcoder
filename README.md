@@ -998,3 +998,9 @@ $ atcoder-tools test -d ./agc001/A
 | Task                                                            |        Solution        | Memo  |
 | --------------------------------------------------------------- | :--------------------: | ----- |
 | [D - 表現の自由 ( Freedom of expression )](https://atcoder.jp/contests/arc004/tasks/arc004_4) | [■](arc004/D/main.cpp) | 素因数分解 |
+
+### ARC077
+
+| Task                                                            |        Solution        | Memo  |
+| --------------------------------------------------------------- | :--------------------: | ----- |
+| [D - 11](https://atcoder.jp/contests/arc077/tasks/arc077_b) | [■](arc077/D/main.cpp) | 二項係数 |
