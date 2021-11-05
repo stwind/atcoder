@@ -1016,3 +1016,9 @@ $ atcoder-tools test -d ./agc001/A
 | Task                                                            |        Solution        | Memo  |
 | --------------------------------------------------------------- | :--------------------: | ----- |
 | [C - Buy an Integer](https://atcoder.jp/contests/abc146/tasks/abc146_c) | [■](abc146/C/main.cpp) | 二分探索 |
+
+### ABC192
+
+| Task                                                            |        Solution        | Memo  |
+| --------------------------------------------------------------- | :--------------------: | ----- |
+| [D - Base n](https://atcoder.jp/contests/abc192/tasks/abc192_d) | [■](abc192/D/main.cpp) | 二分探索 |
