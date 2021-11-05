@@ -1004,3 +1004,9 @@ $ atcoder-tools test -d ./agc001/A
 | Task                                                            |        Solution        | Memo  |
 | --------------------------------------------------------------- | :--------------------: | ----- |
 | [D - 11](https://atcoder.jp/contests/arc077/tasks/arc077_b) | [■](arc077/D/main.cpp) | 二項係数 |
+
+### zone2021
+
+| Task                                                            |        Solution        | Memo  |
+| --------------------------------------------------------------- | :--------------------: | ----- |
+| [C - MAD TEAM](https://atcoder.jp/contests/zone2021/tasks/zone2021_c) | [■](zone2021/C/main.cpp) | 二分探索 |
