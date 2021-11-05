@@ -1010,3 +1010,9 @@ $ atcoder-tools test -d ./agc001/A
 | Task                                                            |        Solution        | Memo  |
 | --------------------------------------------------------------- | :--------------------: | ----- |
 | [C - MAD TEAM](https://atcoder.jp/contests/zone2021/tasks/zone2021_c) | [■](zone2021/C/main.cpp) | 二分探索 |
+
+### ABC146
+
+| Task                                                            |        Solution        | Memo  |
+| --------------------------------------------------------------- | :--------------------: | ----- |
+| [C - Buy an Integer](https://atcoder.jp/contests/abc146/tasks/abc146_c) | [■](abc146/C/main.cpp) | 二分探索 |
