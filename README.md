@@ -1022,3 +1022,9 @@ $ atcoder-tools test -d ./agc001/A
 | Task                                                            |        Solution        | Memo  |
 | --------------------------------------------------------------- | :--------------------: | ----- |
 | [D - Base n](https://atcoder.jp/contests/abc192/tasks/abc192_d) | [■](abc192/D/main.cpp) | 二分探索 |
+
+### ARC050
+
+| Task                                                            |        Solution        | Memo  |
+| --------------------------------------------------------------- | :--------------------: | ----- |
+| [B - 花束](https://atcoder.jp/contests/arc050/tasks/arc050_b) | [■](arc050/B/main.cpp) | 二分探索 |
