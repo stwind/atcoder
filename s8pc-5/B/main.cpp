@@ -40,18 +40,12 @@ int main() {
   forn(i, 0, N) chmin(res, (double)Rn[i]);
 
   forn(i, 0, M) {
-    double mr = 1e9;
     forn(j, 0, M) {
       if (i == j)
         continue;
-      double d = dist(Xm[i], Ym[i], Xm[j], Ym[j]) / 2;
-      chmin(mr, d);
+      chmin(res, dist(Xm[i], Ym[i], Xm[j], Ym[j]) / 2);
     }
-    forn(j, 0, N) {
-      double d = dist(Xm[i], Ym[i], Xn[j], Yn[j]);
-      chmin(mr, d - Rn[j]);
-    }
-    chmin(res, mr);
+    forn(j, 0, N) { chmin(res, dist(Xm[i], Ym[i], Xn[j], Yn[j]) - Rn[j]); }
   }
   cout << res << endl;
 
