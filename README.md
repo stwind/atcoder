@@ -1035,3 +1035,9 @@ $ atcoder-tools test -d ./agc001/A
 | Task                                                            |        Solution        | Memo  |
 | --------------------------------------------------------------- | :--------------------: | ----- |
 | [D - 射撃王](https://atcoder.jp/contests/abc023/tasks/abc023_d) | [■](abc023/D/main.cpp) | 二分探索 |
+
+### ABC063
+
+| Task                                                            |        Solution        | Memo  |
+| --------------------------------------------------------------- | :--------------------: | ----- |
+| [D - Widespread](https://atcoder.jp/contests/abc063/tasks/arc075_b) | [■](abc063/D/main.cpp) | 二分探索 |
