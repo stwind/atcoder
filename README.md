@@ -1041,3 +1041,9 @@ $ atcoder-tools test -d ./agc001/A
 | Task                                                            |        Solution        | Memo  |
 | --------------------------------------------------------------- | :--------------------: | ----- |
 | [D - Widespread](https://atcoder.jp/contests/abc063/tasks/arc075_b) | [■](abc063/D/main.cpp) | 二分探索 |
+
+### s8pc-5
+
+| Task                                                            |        Solution        | Memo  |
+| --------------------------------------------------------------- | :--------------------: | ----- |
+| [B - Emblem](https://atcoder.jp/contests/s8pc-5/tasks/s8pc_5_b) | [■](s8pc-5/B/main.cpp) | |
