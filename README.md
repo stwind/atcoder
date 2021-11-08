@@ -713,7 +713,7 @@ $ atcoder-tools test -d ./agc001/A
 
 | Task                                                                                      |            Solution            | Memo |
 | ----------------------------------------------------------------------------------------- | :----------------------------: | ---- |
-| [C - Snuke the Wizard](https://atcoder.jp/contests/exawizards2019/tasks/exawizards2019_c) | [■](exawizards2019/C/main.cpp) |      |
+| [C - Snuke the Wizard](https://atcoder.jp/contests/exawizards2019/tasks/exawizards2019_c) | [■](exawizards2019/C/main.cpp) | 二分探索 |
 
 ### ABC120
 
