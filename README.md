@@ -1047,3 +1047,9 @@ $ atcoder-tools test -d ./agc001/A
 | Task                                                            |        Solution        | Memo  |
 | --------------------------------------------------------------- | :--------------------: | ----- |
 | [B - Emblem](https://atcoder.jp/contests/s8pc-5/tasks/s8pc_5_b) | [■](s8pc-5/B/main.cpp) | |
+
+### abc020
+
+| Task                                                            |        Solution        | Memo  |
+| --------------------------------------------------------------- | :--------------------: | ----- |
+| [C - 壁抜け](https://atcoder.jp/contests/abc020/tasks/abc020_c) | [■](abc020/C/main.cpp) | Dijkstra 二分探索 |
