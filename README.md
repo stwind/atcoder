@@ -1059,3 +1059,9 @@ $ atcoder-tools test -d ./agc001/A
 | Task                                                            |        Solution        | Memo  |
 | --------------------------------------------------------------- | :--------------------: | ----- |
 | [F - Fruits in Season](https://atcoder.jp/contests/cpsco2019-s1/tasks/cpsco2019_s1_f) | [■](cpsco2019-s1/F/main.cpp) | Dijkstra 二分探索 |
+
+### ABC155
+
+| Task                                                            |        Solution        | Memo  |
+| --------------------------------------------------------------- | :--------------------: | ----- |
+| [D - Pairs](https://atcoder.jp/contests/abc155/tasks/abc155_d) | [■](abc155/D/main.cpp) | Dijkstra 二分探索 |
