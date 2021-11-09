@@ -1065,3 +1065,9 @@ $ atcoder-tools test -d ./agc001/A
 | Task                                                            |        Solution        | Memo  |
 | --------------------------------------------------------------- | :--------------------: | ----- |
 | [D - Pairs](https://atcoder.jp/contests/abc155/tasks/abc155_d) | [■](abc155/D/main.cpp) | 二分探索 |
+
+### ARC003
+
+| Task                                                            |        Solution        | Memo  |
+| --------------------------------------------------------------- | :--------------------: | ----- |
+| [C - 暗闇帰り道](https://atcoder.jp/contests/arc003/tasks/arc003_3) | [■](arc003/C/main.cpp) | Dijkstra 二分探索 |
