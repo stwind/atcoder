@@ -1,4 +1,5 @@
 // ref: https://drken1215.hatenablog.com/entry/2020/04/23/142200
+// ref: https://betrue12.hateblo.jp/entry/2020/02/17/000208
 
 #include <bits/stdc++.h>
 using namespace std;
