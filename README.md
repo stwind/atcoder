@@ -1064,4 +1064,4 @@ $ atcoder-tools test -d ./agc001/A
 
 | Task                                                            |        Solution        | Memo  |
 | --------------------------------------------------------------- | :--------------------: | ----- |
-| [D - Pairs](https://atcoder.jp/contests/abc155/tasks/abc155_d) | [■](abc155/D/main.cpp) | Dijkstra 二分探索 |
+| [D - Pairs](https://atcoder.jp/contests/abc155/tasks/abc155_d) | [■](abc155/D/main.cpp) | 二分探索 |
