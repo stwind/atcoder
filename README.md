@@ -1083,3 +1083,9 @@ $ atcoder-tools test -d ./agc001/A
 | Task                                                            |        Solution        | Memo  |
 | --------------------------------------------------------------- | :--------------------: | ----- |
 | [C - Snuke Festival](https://atcoder.jp/contests/abc077/tasks/arc084_a) | [■](abc077/C/main.cpp) | 二分探索 |
+
+### ABC119
+
+| Task                                                            |        Solution        | Memo  |
+| --------------------------------------------------------------- | :--------------------: | ----- |
+| [D - Lazy Faith](https://atcoder.jp/contests/abc119/tasks/abc119_d) | [■](abc119/D/main.cpp) | 二分探索 |
