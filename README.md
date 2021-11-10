@@ -1071,3 +1071,9 @@ $ atcoder-tools test -d ./agc001/A
 | Task                                                            |        Solution        | Memo  |
 | --------------------------------------------------------------- | :--------------------: | ----- |
 | [C - 暗闇帰り道](https://atcoder.jp/contests/arc003/tasks/arc003_3) | [■](arc003/C/main.cpp) | Dijkstra 二分探索 |
+
+### ABC030
+
+| Task                                                            |        Solution        | Memo  |
+| --------------------------------------------------------------- | :--------------------: | ----- |
+| [C - 飛行機乗り](https://atcoder.jp/contests/abc030/tasks/abc030_c) | [■](abc030/C/main.cpp) | 二分探索 |
