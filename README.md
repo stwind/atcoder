@@ -1089,3 +1089,9 @@ $ atcoder-tools test -d ./agc001/A
 | Task                                                            |        Solution        | Memo  |
 | --------------------------------------------------------------- | :--------------------: | ----- |
 | [D - Lazy Faith](https://atcoder.jp/contests/abc119/tasks/abc119_d) | [■](abc119/D/main.cpp) | 二分探索 |
+
+### AGC041
+
+| Task                                                            |        Solution        | Memo  |
+| --------------------------------------------------------------- | :--------------------: | ----- |
+| [B - Voting Judges](https://atcoder.jp/contests/agc041/tasks/agc041_b) | [■](agc041/B/main.cpp) | 二分探索 |
