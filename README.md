@@ -530,7 +530,7 @@ $ atcoder-tools test -d ./agc001/A
 | Task                                                                    |        Solution        | Memo  |
 | ----------------------------------------------------------------------- | :--------------------: | ----- |
 | [B - 埋め立て](https://atcoder.jp/contests/arc031/tasks/arc031_2) | [■](arc031/B/main.cpp) ||
-| [C - 積み木](https://atcoder.jp/contests/arc031/tasks/arc031_3) | [■](agc031/C/main.cpp) | Binary Index Tree |
+| [C - 積み木](https://atcoder.jp/contests/arc031/tasks/arc031_3) | [■](arc031/C/main.cpp) | Binary Index Tree |
 
 ### ARC037
 
