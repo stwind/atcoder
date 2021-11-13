@@ -494,12 +494,12 @@ $ atcoder-tools test -d ./agc001/A
 
 ### ABC038
 
-| Task                                                                  |        Solution        |
-| --------------------------------------------------------------------- | :--------------------: |
-| [A - お茶](https://atcoder.jp/contests/abc038/tasks/abc038_c)         | [■](abc038/A/main.cpp) |
-| [B - ディスプレイ](https://atcoder.jp/contests/abc038/tasks/abc038_c) | [■](abc038/B/main.cpp) |
-| [C - 単調増加](https://atcoder.jp/contests/abc038/tasks/abc038_c)     | [■](abc038/C/main.cpp) |
-| [D - プレゼント](https://atcoder.jp/contests/abc038/tasks/abc038_d)   | [■](abc038/D/main.cpp) |
+| Task                                                                      |        Solution        | Memo       |
+| ------------------------------------------------------------------------- | :--------------------: | ---------- |
+| [A - お茶](https://atcoder.jp/contests/abc038/tasks/abc038_c)         | [■](abc038/A/main.cpp) ||
+| [B - ディスプレイ](https://atcoder.jp/contests/abc038/tasks/abc038_c) | [■](abc038/B/main.cpp) ||
+| [C - 単調増加](https://atcoder.jp/contests/abc038/tasks/abc038_c)     | [■](abc038/C/main.cpp) ||
+| [D - プレゼント](https://atcoder.jp/contests/abc038/tasks/abc038_d)   | [■](abc038/D/main.cpp) |二分探索 Binary Indexed Tree|
 
 ### ARC022
 
