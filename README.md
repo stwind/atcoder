@@ -1102,3 +1102,9 @@ $ atcoder-tools test -d ./agc001/A
 | Task                                                            |        Solution        | Memo  |
 | --------------------------------------------------------------- | :--------------------: | ----- |
 | [C - データ構造](https://atcoder.jp/contests/arc033/tasks/arc033_3) | [■](arc033/C/main.cpp) | 二分探索 Binary Indexed Tree |
+
+### chokudai_S001
+
+| Task                                                            |        Solution        | Memo  |
+| --------------------------------------------------------------- | :--------------------: | ----- |
+| [J - 転倒数](https://atcoder.jp/contests/chokudai_S001/tasks/chokudai_S001_j) | [■](chokudai_S001/J/main.cpp) | Binary Indexed Tree |
