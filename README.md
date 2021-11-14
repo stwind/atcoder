@@ -1132,3 +1132,9 @@ $ atcoder-tools test -d ./agc001/A
 | Task                                                            |        Solution        | Memo  |
 | --------------------------------------------------------------- | :--------------------: | ----- |
 | [C - Prison](https://atcoder.jp/contests/abc127/tasks/abc127_c) | [■](abc127/C/main.cpp) | いもす法 |
+
+### ABC080
+
+| Task                                                            |        Solution        | Memo  |
+| --------------------------------------------------------------- | :--------------------: | ----- |
+| [D - Recording](https://atcoder.jp/contests/abc080/tasks/abc080_d) | [■](abc080/D/main.cpp) | いもす法 |
