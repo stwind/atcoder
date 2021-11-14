@@ -178,10 +178,10 @@ $ atcoder-tools test -d ./agc001/A
 
 ### ABC072
 
-| Task                                                               |        Solution        |
-| ------------------------------------------------------------------ | :--------------------: |
-| [B - OddString](https://atcoder.jp/contests/abc072/tasks/abc072_b) | [■](abc072/B/main.cpp) |
-| [C - Together](https://atcoder.jp/contests/abc072/tasks/arc082_a)  | [■](abc072/C/main.cpp) |
+| Task                                                          |        Solution        |Memo|
+| ------------------------------------------------------------- | :--------------------: |---|
+| [B - OddString](https://atcoder.jp/contests/abc072/tasks/abc072_b) | [■](abc072/B/main.cpp) ||
+| [C - Together](https://atcoder.jp/contests/abc072/tasks/arc082_a)  | [■](abc072/C/main.cpp) ||
 
 ### ABC113
 
