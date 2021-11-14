@@ -1114,3 +1114,9 @@ $ atcoder-tools test -d ./agc001/A
 | Task                                                            |        Solution        | Memo  |
 | --------------------------------------------------------------- | :--------------------: | ----- |
 | [C - 菱型カウント](https://atcoder.jp/contests/abc018/tasks/abc018_3) | [■](abc018/C/main.cpp) | いもす法 |
+
+### ABC035
+
+| Task                                                            |        Solution        | Memo  |
+| --------------------------------------------------------------- | :--------------------: | ----- |
+| [C - オセロ](https://atcoder.jp/contests/abc035/tasks/abc035_c) | [■](abc035/C/main.cpp) | いもす法 |
