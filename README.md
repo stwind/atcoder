@@ -1113,4 +1113,4 @@ $ atcoder-tools test -d ./agc001/A
 
 | Task                                                            |        Solution        | Memo  |
 | --------------------------------------------------------------- | :--------------------: | ----- |
-| [C - 菱型カウント](https://atcoder.jp/contests/abc018/tasks/abc018_3) | [■](ABC018/C/main.cpp) | いもす法 |
+| [C - 菱型カウント](https://atcoder.jp/contests/abc018/tasks/abc018_3) | [■](abc018/C/main.cpp) | いもす法 |
