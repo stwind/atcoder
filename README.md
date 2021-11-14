@@ -1144,3 +1144,9 @@ $ atcoder-tools test -d ./agc001/A
 | Task                                                            |        Solution        | Memo  |
 | --------------------------------------------------------------- | :--------------------: | ----- |
 | [C - ハイスコア](https://atcoder.jp/contests/abc017/tasks/abc017_3) | [■](abc017/C/main.cpp) | いもす法 |
+
+### ABC014
+
+| Task                                                            |        Solution        | Memo  |
+| --------------------------------------------------------------- | :--------------------: | ----- |
+| [C - AtColor](https://atcoder.jp/contests/abc014/tasks/abc014_3) | [■](abc014/C/main.cpp) | いもす法 |
