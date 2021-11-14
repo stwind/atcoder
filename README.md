@@ -1108,3 +1108,9 @@ $ atcoder-tools test -d ./agc001/A
 | Task                                                            |        Solution        | Memo  |
 | --------------------------------------------------------------- | :--------------------: | ----- |
 | [J - 転倒数](https://atcoder.jp/contests/chokudai_S001/tasks/chokudai_S001_j) | [■](chokudai_S001/J/main.cpp) | Binary Indexed Tree |
+
+### ABC018
+
+| Task                                                            |        Solution        | Memo  |
+| --------------------------------------------------------------- | :--------------------: | ----- |
+| [C - 菱型カウント](https://atcoder.jp/contests/abc018/tasks/abc018_3) | [■](ABC018/C/main.cpp) | いもす法 |
