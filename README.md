@@ -1155,4 +1155,4 @@ $ atcoder-tools test -d ./agc001/A
 
 | Task                                                            |        Solution        | Memo  |
 | --------------------------------------------------------------- | :--------------------: | ----- |
-| [E - Who Says a Pun?](https://atcoder.jp/contests/abc141/tasks/abc141_e) | [■](abc141/E/main.cpp) | 文字列 dp z-algorithm |
+| [E - Who Says a Pun?](https://atcoder.jp/contests/abc141/tasks/abc141_e) | [■](abc141/E/main.cpp) | 文字列 dp z-algorithm rolling-hash |
