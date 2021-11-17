@@ -1156,3 +1156,9 @@ $ atcoder-tools test -d ./agc001/A
 | Task                                                            |        Solution        | Memo  |
 | --------------------------------------------------------------- | :--------------------: | ----- |
 | [E - Who Says a Pun?](https://atcoder.jp/contests/abc141/tasks/abc141_e) | [■](abc141/E/main.cpp) | 文字列 dp z-algorithm rolling-hash |
+
+### ABC041
+
+| Task                                                            |        Solution        | Memo  |
+| --------------------------------------------------------------- | :--------------------: | ----- |
+| [D - 徒競走](https://atcoder.jp/contests/abc041/tasks/abc041_d) | [■](abc041/D/main.cpp) | bitDP topological sort |
