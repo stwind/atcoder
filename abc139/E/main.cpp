@@ -26,9 +26,10 @@ using VVLL = vector<VLL>;
 using PII = pair<int, int>;
 using PLL = pair<LL, LL>;
 
-string make_node(int a, int b) {
-  string s = to_string(a), t = to_string(b);
-  return a < b ? s + ":" + t : t + ":" + s;
+int make_node(int a, int b) {
+  if (a > b)
+    swap(a, b);
+  return a * 1000 + b;
 }
 
 int main() {
@@ -36,10 +37,10 @@ int main() {
   cin >> N;
 
   int a;
-  unordered_map<string, vector<string>> G;
-  unordered_map<string, int> D;
+  unordered_map<int, VI> G;
+  unordered_map<int, int> D;
   forn(i, 0, N) {
-    string prev, cur;
+    int prev, cur;
     forn(j, 0, N - 1) {
       cin >> a;
       cur = make_node(i + 1, a);
@@ -53,7 +54,7 @@ int main() {
     }
   }
 
-  queue<string> q;
+  queue<int> q;
   for (auto &x : D) {
     if (x.second == 0)
       q.push(x.first);
@@ -64,7 +65,7 @@ int main() {
     d++;
     int n = q.size();
     for (int i = 0; i < n; i++) {
-      string u = q.front();
+      int u = q.front();
       q.pop();
       for (auto v : G[u]) {
         D[v]--;

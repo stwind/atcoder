@@ -1179,4 +1179,4 @@ $ atcoder-tools test -d ./agc001/A
 
 | Task                                                            |        Solution        | Memo  |
 | --------------------------------------------------------------- | :--------------------: | ----- |
-| [E - League](https://atcoder.jp/contests/abc139/tasks/abc139_e) | [■](abc139/D/main.cpp) | topological sort |
+| [E - League](https://atcoder.jp/contests/abc139/tasks/abc139_e) | [■](abc139/E/main.cpp) | topological sort |
