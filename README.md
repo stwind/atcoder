@@ -1174,3 +1174,9 @@ $ atcoder-tools test -d ./agc001/A
 | Task                                                            |        Solution        | Memo  |
 | --------------------------------------------------------------- | :--------------------: | ----- |
 | [D - Restricted Permutation](https://atcoder.jp/contests/abc223/tasks/abc223_d) | [■](abc223/D/main.cpp) | topological sort |
+
+### ABC139
+
+| Task                                                            |        Solution        | Memo  |
+| --------------------------------------------------------------- | :--------------------: | ----- |
+| [E - League](https://atcoder.jp/contests/abc139/tasks/abc139_e) | [■](abc139/D/main.cpp) | topological sort |
