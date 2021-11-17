@@ -1168,3 +1168,9 @@ $ atcoder-tools test -d ./agc001/A
 | Task                                                            |        Solution        | Memo  |
 | --------------------------------------------------------------- | :--------------------: | ----- |
 | [D - Restore the Tree](https://atcoder.jp/contests/nikkei2019-qual/tasks/nikkei2019_qual_d) | [■](nikkei2019-qual/D/main.cpp) | topological sort |
+
+### ABC223
+
+| Task                                                            |        Solution        | Memo  |
+| --------------------------------------------------------------- | :--------------------: | ----- |
+| [D - Restricted Permutation](https://atcoder.jp/contests/abc223/tasks/abc223_d) | [■](abc223/D/main.cpp) | topological sort |
