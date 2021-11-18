@@ -1180,3 +1180,9 @@ $ atcoder-tools test -d ./agc001/A
 | Task                                                            |        Solution        | Memo  |
 | --------------------------------------------------------------- | :--------------------: | ----- |
 | [E - League](https://atcoder.jp/contests/abc139/tasks/abc139_e) | [■](abc139/E/main.cpp) | topological sort |
+
+### tenka1-2016-quala
+
+| Task                                                            |        Solution        | Memo  |
+| --------------------------------------------------------------- | :--------------------: | ----- |
+| [C - 山田山本問題](https://atcoder.jp/contests/tenka1-2016-quala/tasks/tenka1_2016_qualA_c) | [■](tenka1-2016-quala/C/main.cpp) | topological sort |
