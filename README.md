@@ -1186,3 +1186,9 @@ $ atcoder-tools test -d ./agc001/A
 | Task                                                            |        Solution        | Memo  |
 | --------------------------------------------------------------- | :--------------------: | ----- |
 | [C - 山田山本問題](https://atcoder.jp/contests/tenka1-2016-quala/tasks/tenka1_2016_qualA_c) | [■](tenka1-2016-quala/C/main.cpp) | topological sort |
+
+### ARC101
+
+| Task                                                            |        Solution        | Memo  |
+| --------------------------------------------------------------- | :--------------------: | ----- |
+| [D - Median of Medians](https://atcoder.jp/contests/arc101/tasks/arc101_b) | [■](arc101/B/main.cpp) | 二分探索　Binary Indexed Tree |
