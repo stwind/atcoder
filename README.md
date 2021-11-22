@@ -1198,3 +1198,9 @@ $ atcoder-tools test -d ./agc001/A
 | Task                                                            |        Solution        | Memo  |
 | --------------------------------------------------------------- | :--------------------: | ----- |
 | [F - Strings of Eternity](https://atcoder.jp/contests/abc135/tasks/abc135_f) | [■](abc135/F/main.cpp) | rolling hash |
+
+### ABC092
+
+| Task                                                            |        Solution        | Memo  |
+| --------------------------------------------------------------- | :--------------------: | ----- |
+| [C - Traveling Plan](https://atcoder.jp/contests/abc092/tasks/arc093_a) | [■](abc092/C/main.cpp) | 累積和 |
