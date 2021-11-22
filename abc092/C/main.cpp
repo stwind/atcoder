@@ -1,5 +1,3 @@
-// https://ikatakos.com/pot/programming_algorithm/contest_history/atcoder/2019/0727_abc135#f_-_strings_of_eternity
-
 #include <bits/stdc++.h>
 using namespace std;
 
