@@ -438,9 +438,9 @@ $ atcoder-tools test -d ./agc001/A
 
 ### AGC023
 
-| Task                                                                     |        Solution        |
-| ------------------------------------------------------------------------ | :--------------------: |
-| [A - Zero-Sum Ranges](https://atcoder.jp/contests/agc023/tasks/agc023_a) | [■](agc023/A/main.cpp) |
+| Task                                                                     |        Solution        | Memo |
+| ------------------------------------------------------------------------ | :--------------------: |---|
+| [A - Zero-Sum Ranges](https://atcoder.jp/contests/agc023/tasks/agc023_a) | [■](agc023/A/main.cpp) | 累積和 |
 
 ### ABC084
 
