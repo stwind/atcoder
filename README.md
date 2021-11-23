@@ -1217,3 +1217,9 @@ $ atcoder-tools test -d ./agc001/A
 | Task                                                            |        Solution        | Memo  |
 | --------------------------------------------------------------- | :--------------------: | ----- |
 | [D - Multiple of 2019](https://atcoder.jp/contests/abc164/tasks/abc164_d) | [■](abc164/D/main.cpp) | 累積和 |
+
+### ABC105
+
+| Task                                                            |        Solution        | Memo  |
+| --------------------------------------------------------------- | :--------------------: | ----- |
+| [D - Candy Distribution](https://atcoder.jp/contests/abc105/tasks/abc105_d) | [■](abc105/D/main.cpp) | 累積和 |
