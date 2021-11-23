@@ -1018,6 +1018,7 @@ $ atcoder-tools test -d ./agc001/A
 | Task                                                            |        Solution        | Memo  |
 | --------------------------------------------------------------- | :--------------------: | ----- |
 | [C - Buy an Integer](https://atcoder.jp/contests/abc146/tasks/abc146_c) | [■](abc146/C/main.cpp) | 二分探索 |
+| [E - Rem of Sum is Num](https://atcoder.jp/contests/abc146/tasks/abc146_e) | [■](abc146/E/main.cpp) | 累積和 |
 
 ### ABC192
 
