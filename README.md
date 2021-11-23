@@ -1210,3 +1210,4 @@ $ atcoder-tools test -d ./agc001/A
 | Task                                                            |        Solution        | Memo  |
 | --------------------------------------------------------------- | :--------------------: | ----- |
 | [C - 入れ替え](https://atcoder.jp/contests/abc004/tasks/abc004_3) | [■](abc004/C/main.cpp) |  |
+| [D - マーブル](https://atcoder.jp/contests/abc004/tasks/abc004_4) | [■](abc004/D/main.cpp) | dp |
