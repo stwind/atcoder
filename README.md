@@ -191,9 +191,10 @@ $ atcoder-tools test -d ./agc001/A
 
 ### ABC102
 
-| Task                                                                        |        Solution        |
-| --------------------------------------------------------------------------- | :--------------------: |
+| Task                                                                        |        Solution        | Memo |
+| --------------------------------------------------------------------------- | :--------------------: | --- |
 | [B - Maximum Difference](https://atcoder.jp/contests/abc102/tasks/abc102_b) | [■](abc102/B/main.cpp) |
+| [D - Equal Cut](https://atcoder.jp/contests/abc102/tasks/arc100_b) | [■](abc102/D/main.cpp) | 累積和 |
 
 ### ABC087
 
