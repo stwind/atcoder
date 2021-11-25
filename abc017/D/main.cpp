@@ -38,14 +38,11 @@ int main() {
   dp[0] = S[1] = 1;
 
   unordered_map<int, int> C;
-  int m = 0;
   for (int i = 0, j = 0; i < N; i++) {
-    m = max(m, ++C[F[i]]);
-    while (m > 1) {
-      if (C[F[j]] == m)
-        m--;
+    C[F[i]]++;
+    while (C[F[i]] > 1)
       C[F[j++]]--;
-    }
+
     dp[i + 1] = sub(S[i + 1], S[j]);
     S[i + 2] = add(S[i + 1], dp[i + 1]);
   }
