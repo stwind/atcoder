@@ -511,9 +511,10 @@ $ atcoder-tools test -d ./agc001/A
 
 ### ABC017
 
-| Task                                                                  |        Solution        |
-| --------------------------------------------------------------------- | :--------------------: |
-| [D - サプリメント](https://atcoder.jp/contests/abc017/tasks/abc017_4) | [■](abc017/D/main.cpp) |
+| Task                                                                  |        Solution        | Memo |
+| --------------------------------------------------------------------- | :--------------------: | --- |
+| [C - ハイスコア](https://atcoder.jp/contests/abc017/tasks/abc017_3) | [■](abc017/C/main.cpp) | いもす法 |
+| [D - サプリメント](https://atcoder.jp/contests/abc017/tasks/abc017_4) | [■](abc017/D/main.cpp) | 累積和 dp |
 
 ### ARC029
 
@@ -1141,12 +1142,6 @@ $ atcoder-tools test -d ./agc001/A
 | Task                                                            |        Solution        | Memo  |
 | --------------------------------------------------------------- | :--------------------: | ----- |
 | [D - Recording](https://atcoder.jp/contests/abc080/tasks/abc080_d) | [■](abc080/D/main.cpp) | いもす法 |
-
-### ABC017
-
-| Task                                                            |        Solution        | Memo  |
-| --------------------------------------------------------------- | :--------------------: | ----- |
-| [C - ハイスコア](https://atcoder.jp/contests/abc017/tasks/abc017_3) | [■](abc017/C/main.cpp) | いもす法 |
 
 ### ABC014
 
