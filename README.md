@@ -772,6 +772,7 @@ $ atcoder-tools test -d ./agc001/A
 
 | Task                                                            |        Solution        | Memo  |
 | --------------------------------------------------------------- | :--------------------: | ----- |
+| [C - 座圧](https://atcoder.jp/contests/abc036/tasks/abc036_c) | [■](abc036/C/main.cpp) | 座標圧縮 |
 | [D - 塗り絵](https://atcoder.jp/contests/abc036/tasks/abc036_d) | [■](abc036/D/main.cpp) | 木 DP |
 
 ### ABC021
