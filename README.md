@@ -1223,3 +1223,9 @@ $ atcoder-tools test -d ./agc001/A
 | Task                                                            |        Solution        | Memo  |
 | --------------------------------------------------------------- | :--------------------: | ----- |
 | [C - Reorder Cards](https://atcoder.jp/contests/abc213/tasks/abc213_c) | [■](abc213/C/main.cpp) | 座標圧縮 |
+
+### typical90
+
+| Task                                                            |        Solution        | Memo  |
+| --------------------------------------------------------------- | :--------------------: | ----- |
+| [001 - Yokan Party（★4）](https://atcoder.jp/contests/typical90/tasks/typical90_a) | [■](typical90/001/main.cpp) | 二分探索 |
