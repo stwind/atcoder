@@ -1230,3 +1230,9 @@ $ atcoder-tools test -d ./agc001/A
 | --------------------------------------------------------------- | :--------------------: | ----- |
 | [001 - Yokan Party（★4）](https://atcoder.jp/contests/typical90/tasks/typical90_a) | [■](typical90/001/main.cpp) | 二分探索 |
 | [002 - Encyclopedia of Parentheses（★3）](https://atcoder.jp/contests/typical90/tasks/typical90_b) | [■](typical90/002/main.cpp) |  |
+
+### ABC190
+
+| Task                                                            |        Solution        | Memo  |
+| --------------------------------------------------------------- | :--------------------: | ----- |
+| [C - Bowls and Dishes](https://atcoder.jp/contests/abc190/tasks/abc190_c) | [■](abc190/C/main.cpp) | BIT全探索 |
