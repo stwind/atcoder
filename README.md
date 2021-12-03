@@ -1229,3 +1229,4 @@ $ atcoder-tools test -d ./agc001/A
 | Task                                                            |        Solution        | Memo  |
 | --------------------------------------------------------------- | :--------------------: | ----- |
 | [001 - Yokan Party（★4）](https://atcoder.jp/contests/typical90/tasks/typical90_a) | [■](typical90/001/main.cpp) | 二分探索 |
+| [002 - Encyclopedia of Parentheses（★3）](https://atcoder.jp/contests/typical90/tasks/typical90_b) | [■](typical90/002/main.cpp) |  |
