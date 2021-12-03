@@ -34,19 +34,32 @@ int main() {
   if (N % 2 == 1)
     return 0;
 
-  function<void(string, int, int)> dfs = [&](string s, int l, int r) {
-    if ((int)s.length() == N) {
-      if (l == r)
-        cout << s << endl;
-      return;
-    }
-    if (l > N / 2 || r > l)
-      return;
+  auto check = [](string s) -> bool {
+    int c = 0;
+    for (auto x : s) {
+      if (x == '(')
+        c++;
+      else
+        c--;
 
-    dfs(s + '(', l + 1, r);
-    dfs(s + ')', l, r + 1);
+      if (c < 0)
+        return false;
+    }
+    return c == 0;
   };
-  dfs("", 0, 0);
+
+  for (int bit = 0; bit < (1 << N); bit++) {
+    string s = "";
+    REPR(i, N - 1, 0) {
+      if ((bit & (1 << i)) == 0)
+        s += '(';
+      else
+        s += ')';
+    }
+
+    if (check(s))
+      cout << s << endl;
+  }
 
   return 0;
 }
