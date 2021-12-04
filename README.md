@@ -1244,3 +1244,9 @@ $ atcoder-tools test -d ./agc001/A
 | Task                                                            |        Solution        | Memo  |
 | --------------------------------------------------------------- | :--------------------: | ----- |
 | [C - ORXOR](https://atcoder.jp/contests/abc197/tasks/abc197_c) | [■](abc197/C/main.cpp) | BIT全探索 |
+
+### AGC005
+
+| Task                                                            |        Solution        | Memo  |
+| --------------------------------------------------------------- | :--------------------: | ----- |
+| [A - STring](https://atcoder.jp/contests/agc005/tasks/agc005_a) | [■](agc005/A/main.cpp) | |
