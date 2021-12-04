@@ -109,9 +109,11 @@ $ atcoder-tools test -d ./agc001/A
 
 ### ABC064
 
-| Task                                                               |        Solution        |
-| ------------------------------------------------------------------ | :--------------------: |
-| [A - RGB Cards](https://atcoder.jp/contests/abc064/tasks/abc064_a) | [■](abc064/A/main.cpp) |
+| Task                                                               |        Solution        | Memo|
+| ------------------------------------------------------------------ | :--------------------: |---|
+| [A - RGB Cards](https://atcoder.jp/contests/abc064/tasks/abc064_a) | [■](abc064/A/main.cpp) ||
+| [C - Colorful Leaderboard](https://atcoder.jp/contests/abc064/tasks/abc064_c) | [■](abc064/D/main.cpp) | |
+| [D - Insertion](https://atcoder.jp/contests/abc064/tasks/abc064_d) | [■](abc064/D/main.cpp) | |
 
 ### ABC088
 
@@ -1242,9 +1244,3 @@ $ atcoder-tools test -d ./agc001/A
 | Task                                                            |        Solution        | Memo  |
 | --------------------------------------------------------------- | :--------------------: | ----- |
 | [C - ORXOR](https://atcoder.jp/contests/abc197/tasks/abc197_c) | [■](abc197/C/main.cpp) | BIT全探索 |
-
-### ABC064
-
-| Task                                                            |        Solution        | Memo  |
-| --------------------------------------------------------------- | :--------------------: | ----- |
-| [D - Insertion](https://atcoder.jp/contests/abc064/tasks/abc064_d) | [■](abc064/D/main.cpp) | |
