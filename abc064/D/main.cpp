@@ -39,27 +39,15 @@ int main() {
   for (auto c : S) {
     if (c == '(')
       l++;
-    else
-      l--;
-
-    if (l < 0) {
-      s += '(';
-      l = 0;
+    else {
+      if (l == 0)
+        s += '(';
+      else
+        l--;
     }
   }
   s += S;
-  int r = 0;
-  REPR(i, N - 1, 0) {
-    if (S[i] == ')')
-      r++;
-    else
-      r--;
-
-    if (r < 0) {
-      s += ')';
-      r = 0;
-    }
-  }
+  REP(i, 0, l) s += ')';
 
   cout << s << endl;
 
