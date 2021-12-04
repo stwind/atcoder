@@ -112,7 +112,7 @@ $ atcoder-tools test -d ./agc001/A
 | Task                                                               |        Solution        | Memo|
 | ------------------------------------------------------------------ | :--------------------: |---|
 | [A - RGB Cards](https://atcoder.jp/contests/abc064/tasks/abc064_a) | [■](abc064/A/main.cpp) ||
-| [C - Colorful Leaderboard](https://atcoder.jp/contests/abc064/tasks/abc064_c) | [■](abc064/D/main.cpp) | |
+| [C - Colorful Leaderboard](https://atcoder.jp/contests/abc064/tasks/abc064_c) | [■](abc064/C/main.cpp) | |
 | [D - Insertion](https://atcoder.jp/contests/abc064/tasks/abc064_d) | [■](abc064/D/main.cpp) | |
 
 ### ABC088
