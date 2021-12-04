@@ -1250,3 +1250,9 @@ $ atcoder-tools test -d ./agc001/A
 | Task                                                            |        Solution        | Memo  |
 | --------------------------------------------------------------- | :--------------------: | ----- |
 | [A - STring](https://atcoder.jp/contests/agc005/tasks/agc005_a) | [■](agc005/A/main.cpp) | |
+
+### AGC005
+
+| Task                                                            |        Solution        | Memo  |
+| --------------------------------------------------------------- | :--------------------: | ----- |
+| [B - 2525文字列分解](https://atcoder.jp/contests/dwacon2018-prelims/tasks/dwacon2018_prelims_b) | [■](dwacon2018-prelims/B/main.cpp) | |
