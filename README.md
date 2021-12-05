@@ -1232,6 +1232,7 @@ $ atcoder-tools test -d ./agc001/A
 | --------------------------------------------------------------- | :--------------------: | ----- |
 | [001 - Yokan Party（★4）](https://atcoder.jp/contests/typical90/tasks/typical90_a) | [■](typical90/001/main.cpp) | 二分探索 |
 | [002 - Encyclopedia of Parentheses（★3）](https://atcoder.jp/contests/typical90/tasks/typical90_b) | [■](typical90/002/main.cpp) | BIT全探索 |
+| [003 - Longest Circular Road（★4）](https://atcoder.jp/contests/typical90/tasks/typical90_c) | [■](typical90/003/main.cpp) | 木 |
 
 ### ABC190
 
