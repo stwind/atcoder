@@ -1152,6 +1152,7 @@ $ atcoder-tools test -d ./agc001/A
 | Task                                                            |        Solution        | Memo  |
 | --------------------------------------------------------------- | :--------------------: | ----- |
 | [C - AtColor](https://atcoder.jp/contests/abc014/tasks/abc014_3) | [■](abc014/C/main.cpp) | いもす法 |
+| [D - 閉路](https://atcoder.jp/contests/abc014/tasks/abc014_4) | [■](abc014/D/main.cpp) | doubling |
 
 ### ABC141
 
