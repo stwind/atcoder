@@ -629,6 +629,7 @@ $ atcoder-tools test -d ./agc001/A
 
 | Task                                                                    |        Solution        | Memo  |
 | ----------------------------------------------------------------------- | :--------------------: | ----- |
+| [D - Lamp](https://atcoder.jp/contests/abc129/tasks/abc129_d) | [■](abc129/D/main.cpp) | 二分探索 |
 | [E - Sum Equals Xor](https://atcoder.jp/contests/abc129/tasks/abc129_e) | [■](abc129/E/main.cpp) | 桁 DP |
 
 ### ABC015
