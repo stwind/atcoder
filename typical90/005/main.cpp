@@ -49,12 +49,12 @@ int main() {
     return res;
   };
 
-  VLL ten(LOG, 10);
+  VLL ten(LOG);
+  ten[0] = 10;
   REP(i, 1, LOG) ten[i] = (ten[i - 1] * ten[i - 1]) % B;
 
   VVLL D(LOG, VLL(B));
   REP(k, 0, K) D[0][C[k] % B]++;
-
   REP(i, 1, LOG) D[i] = mul(D[i - 1], D[i - 1], ten[i - 1]);
 
   VLL res(B);
