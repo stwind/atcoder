@@ -1267,3 +1267,9 @@ $ atcoder-tools test -d ./agc001/A
 | Task                                                            |        Solution        | Memo  |
 | --------------------------------------------------------------- | :--------------------: | ----- |
 | [D - Teleporter](https://atcoder.jp/contests/abc167/tasks/abc167_d) | [■](abc167/D/main.cpp) | doubling |
+
+### ABC95
+
+| Task                                                            |        Solution        | Memo  |
+| --------------------------------------------------------------- | :--------------------: | ----- |
+| [E - Lucky 7 Battle](https://atcoder.jp/contests/abc195/tasks/abc195_e) | [■](abc195/E/main.cpp) | dp |
