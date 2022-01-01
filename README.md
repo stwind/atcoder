@@ -109,11 +109,11 @@ $ atcoder-tools test -d ./agc001/A
 
 ### ABC064
 
-| Task                                                               |        Solution        | Memo|
-| ------------------------------------------------------------------ | :--------------------: |---|
-| [A - RGB Cards](https://atcoder.jp/contests/abc064/tasks/abc064_a) | [■](abc064/A/main.cpp) ||
-| [C - Colorful Leaderboard](https://atcoder.jp/contests/abc064/tasks/abc064_c) | [■](abc064/C/main.cpp) | |
-| [D - Insertion](https://atcoder.jp/contests/abc064/tasks/abc064_d) | [■](abc064/D/main.cpp) | |
+| Task                                                                          |        Solution        | Memo |
+| ----------------------------------------------------------------------------- | :--------------------: | ---- |
+| [A - RGB Cards](https://atcoder.jp/contests/abc064/tasks/abc064_a)            | [■](abc064/A/main.cpp) |      |
+| [C - Colorful Leaderboard](https://atcoder.jp/contests/abc064/tasks/abc064_c) | [■](abc064/C/main.cpp) |      |
+| [D - Insertion](https://atcoder.jp/contests/abc064/tasks/abc064_d)            | [■](abc064/D/main.cpp) |      |
 
 ### ABC088
 
@@ -155,10 +155,10 @@ $ atcoder-tools test -d ./agc001/A
 
 ### ABC069
 
-| Task                                                          |        Solution        |Memo|
-| ------------------------------------------------------------- | :--------------------: |---|
-| [B - i18n](https://atcoder.jp/contests/abc069/tasks/abc069_b) | [■](abc069/B/main.cpp) ||
-| [C - 4-adjacent](https://atcoder.jp/contests/abc069/tasks/arc080_a) | [■](abc069/C/main.cpp) ||
+| Task                                                                |        Solution        | Memo |
+| ------------------------------------------------------------------- | :--------------------: | ---- |
+| [B - i18n](https://atcoder.jp/contests/abc069/tasks/abc069_b)       | [■](abc069/B/main.cpp) |      |
+| [C - 4-adjacent](https://atcoder.jp/contests/abc069/tasks/arc080_a) | [■](abc069/C/main.cpp) |      |
 
 ### ABC082
 
@@ -180,24 +180,24 @@ $ atcoder-tools test -d ./agc001/A
 
 ### ABC072
 
-| Task                                                          |        Solution        |Memo|
-| ------------------------------------------------------------- | :--------------------: |---|
-| [B - OddString](https://atcoder.jp/contests/abc072/tasks/abc072_b) | [■](abc072/B/main.cpp) ||
-| [C - Together](https://atcoder.jp/contests/abc072/tasks/arc082_a)  | [■](abc072/C/main.cpp) ||
+| Task                                                               |        Solution        | Memo |
+| ------------------------------------------------------------------ | :--------------------: | ---- |
+| [B - OddString](https://atcoder.jp/contests/abc072/tasks/abc072_b) | [■](abc072/B/main.cpp) |      |
+| [C - Together](https://atcoder.jp/contests/abc072/tasks/arc082_a)  | [■](abc072/C/main.cpp) |      |
 
 ### ABC113
 
-| Task                                                            |        Solution        | Memo|
-| --------------------------------------------------------------- | :--------------------: |---|
+| Task                                                            |        Solution        | Memo     |
+| --------------------------------------------------------------- | :--------------------: | -------- |
 | [B - Palace](https://atcoder.jp/contests/abc113/tasks/abc113_b) | [■](abc113/B/main.cpp) |
-| [C - ID](https://atcoder.jp/contests/abc113/tasks/abc113_c) | [■](abc113/C/main.cpp) | 座標圧縮 |
+| [C - ID](https://atcoder.jp/contests/abc113/tasks/abc113_c)     | [■](abc113/C/main.cpp) | 座標圧縮 |
 
 ### ABC102
 
-| Task                                                                        |        Solution        | Memo |
-| --------------------------------------------------------------------------- | :--------------------: | --- |
+| Task                                                                        |        Solution        | Memo   |
+| --------------------------------------------------------------------------- | :--------------------: | ------ |
 | [B - Maximum Difference](https://atcoder.jp/contests/abc102/tasks/abc102_b) | [■](abc102/B/main.cpp) |
-| [D - Equal Cut](https://atcoder.jp/contests/abc102/tasks/arc100_b) | [■](abc102/D/main.cpp) | 累積和 |
+| [D - Equal Cut](https://atcoder.jp/contests/abc102/tasks/arc100_b)          | [■](abc102/D/main.cpp) | 累積和 |
 
 ### ABC087
 
@@ -208,9 +208,9 @@ $ atcoder-tools test -d ./agc001/A
 
 ### ABC105
 
-| Task                                                                      |        Solution        | Memo |
-| ------------------------------------------------------------------------- | :--------------------: |---|
-| [B - Cakes and Donuts](https://atcoder.jp/contests/abc105/tasks/abc105_b) | [■](abc105/B/main.cpp) ||
+| Task                                                                        |        Solution        | Memo   |
+| --------------------------------------------------------------------------- | :--------------------: | ------ |
+| [B - Cakes and Donuts](https://atcoder.jp/contests/abc105/tasks/abc105_b)   | [■](abc105/B/main.cpp) |        |
 | [D - Candy Distribution](https://atcoder.jp/contests/abc105/tasks/abc105_d) | [■](abc105/D/main.cpp) | 累積和 |
 
 ### ABC144
@@ -246,17 +246,17 @@ $ atcoder-tools test -d ./agc001/A
 
 ### AGC025
 
-| Task                                                                |        Solution        | Memo |
-| ------------------------------------------------------------------- | :--------------------: |---|
-| [A - Digits Sum](https://atcoder.jp/contests/agc025/tasks/agc025_a) | [■](agc025/A/main.cpp) ||
-| [B - RGB Coloring](https://atcoder.jp/contests/agc025/tasks/agc025_b) | [■](agc025/B/main.cpp) |二項係数|
+| Task                                                                  |        Solution        | Memo     |
+| --------------------------------------------------------------------- | :--------------------: | -------- |
+| [A - Digits Sum](https://atcoder.jp/contests/agc025/tasks/agc025_a)   | [■](agc025/A/main.cpp) |          |
+| [B - RGB Coloring](https://atcoder.jp/contests/agc025/tasks/agc025_b) | [■](agc025/B/main.cpp) | 二項係数 |
 
 ### ABC156
 
-| Task                                                            |        Solution        ||
-| --------------------------------------------------------------- | :--------------------: |---|
-| [B - Digits](https://atcoder.jp/contests/abc156/tasks/abc156_b) | [■](abc156/B/main.cpp) ||
-| [D - Bouquet](https://atcoder.jp/contests/abc156/tasks/abc156_d) | [■](abc156/D/main.cpp) |繰り返し二乗法 mod割り算|
+| Task                                                             |        Solution        |                           |
+| ---------------------------------------------------------------- | :--------------------: | ------------------------- |
+| [B - Digits](https://atcoder.jp/contests/abc156/tasks/abc156_b)  | [■](abc156/B/main.cpp) |                           |
+| [D - Bouquet](https://atcoder.jp/contests/abc156/tasks/abc156_d) | [■](abc156/D/main.cpp) | 繰り返し二乗法 mod 割り算 |
 
 ### ABC067
 
@@ -315,9 +315,9 @@ $ atcoder-tools test -d ./agc001/A
 
 ### ABC112
 
-| Task                                                             |        Solution        ||
-| ---------------------------------------------------------------- | :--------------------: |---|
-| [C - Pyramid](https://atcoder.jp/contests/abc112/tasks/abc112_c) | [■](abc112/C/main.cpp) |
+| Task                                                               |        Solution        |            |
+| ------------------------------------------------------------------ | :--------------------: | ---------- |
+| [C - Pyramid](https://atcoder.jp/contests/abc112/tasks/abc112_c)   | [■](abc112/C/main.cpp) |
 | [D - Partition](https://atcoder.jp/contests/abc112/tasks/abc112_d) | [■](abc112/D/main.cpp) | 素因数分解 |
 
 ### ABC049
@@ -383,9 +383,9 @@ $ atcoder-tools test -d ./agc001/A
 
 ### ABC070
 
-| Task                                                                  |        Solution        | Memo|
-| --------------------------------------------------------------------- | :--------------------: |---|
-| [B - Two Switches](https://atcoder.jp/contests/abc070/tasks/abc070_b) | [■](abc070/B/main.cpp) ||
+| Task                                                                     |        Solution        | Memo       |
+| ------------------------------------------------------------------------ | :--------------------: | ---------- |
+| [B - Two Switches](https://atcoder.jp/contests/abc070/tasks/abc070_b)    | [■](abc070/B/main.cpp) |            |
 | [C - Multiple Clocks](https://atcoder.jp/contests/abc070/tasks/abc070_c) | [■](abc070/C/main.cpp) | 最小公倍数 |
 
 ### ABC055
@@ -408,8 +408,8 @@ $ atcoder-tools test -d ./agc001/A
 
 ### ABC060
 
-| Task                                                                     |        Solution        |Memo|
-| ------------------------------------------------------------------------ | :--------------------: |---|
+| Task                                                                     |        Solution        | Memo     |
+| ------------------------------------------------------------------------ | :--------------------: | -------- |
 | [B - Choose Integers](https://atcoder.jp/contests/abc060/tasks/abc060_b) | [■](abc060/B/main.cpp) | 互いに素 |
 
 ### ABC065
@@ -443,8 +443,8 @@ $ atcoder-tools test -d ./agc001/A
 
 ### AGC023
 
-| Task                                                                     |        Solution        | Memo |
-| ------------------------------------------------------------------------ | :--------------------: |---|
+| Task                                                                     |        Solution        | Memo   |
+| ------------------------------------------------------------------------ | :--------------------: | ------ |
 | [A - Zero-Sum Ranges](https://atcoder.jp/contests/agc023/tasks/agc023_a) | [■](agc023/A/main.cpp) | 累積和 |
 
 ### ABC084
@@ -494,17 +494,17 @@ $ atcoder-tools test -d ./agc001/A
 
 | Task                                                                      |        Solution        | Memo       |
 | ------------------------------------------------------------------------- | :--------------------: | ---------- |
-| [C - 列](https://atcoder.jp/contests/abc032/tasks/abc032_c)               | [■](abc032/C/main.cpp) | 尺取り法 |
+| [C - 列](https://atcoder.jp/contests/abc032/tasks/abc032_c)               | [■](abc032/C/main.cpp) | 尺取り法   |
 | [D - ナップサック問題](https://atcoder.jp/contests/abc032/tasks/abc032_d) | [■](abc032/D/main.cpp) | 半分全列挙 |
 
 ### ABC038
 
-| Task                                                                      |        Solution        | Memo       |
-| ------------------------------------------------------------------------- | :--------------------: | ---------- |
-| [A - お茶](https://atcoder.jp/contests/abc038/tasks/abc038_c)         | [■](abc038/A/main.cpp) ||
-| [B - ディスプレイ](https://atcoder.jp/contests/abc038/tasks/abc038_c) | [■](abc038/B/main.cpp) ||
-| [C - 単調増加](https://atcoder.jp/contests/abc038/tasks/abc038_c)     | [■](abc038/C/main.cpp) ||
-| [D - プレゼント](https://atcoder.jp/contests/abc038/tasks/abc038_d)   | [■](abc038/D/main.cpp) |二分探索 Binary Indexed Tree|
+| Task                                                                  |        Solution        | Memo                         |
+| --------------------------------------------------------------------- | :--------------------: | ---------------------------- |
+| [A - お茶](https://atcoder.jp/contests/abc038/tasks/abc038_c)         | [■](abc038/A/main.cpp) |                              |
+| [B - ディスプレイ](https://atcoder.jp/contests/abc038/tasks/abc038_c) | [■](abc038/B/main.cpp) |                              |
+| [C - 単調増加](https://atcoder.jp/contests/abc038/tasks/abc038_c)     | [■](abc038/C/main.cpp) |                              |
+| [D - プレゼント](https://atcoder.jp/contests/abc038/tasks/abc038_d)   | [■](abc038/D/main.cpp) | 二分探索 Binary Indexed Tree |
 
 ### ARC022
 
@@ -514,9 +514,9 @@ $ atcoder-tools test -d ./agc001/A
 
 ### ABC017
 
-| Task                                                                  |        Solution        | Memo |
-| --------------------------------------------------------------------- | :--------------------: | --- |
-| [C - ハイスコア](https://atcoder.jp/contests/abc017/tasks/abc017_3) | [■](abc017/C/main.cpp) | いもす法 |
+| Task                                                                  |        Solution        | Memo      |
+| --------------------------------------------------------------------- | :--------------------: | --------- |
+| [C - ハイスコア](https://atcoder.jp/contests/abc017/tasks/abc017_3)   | [■](abc017/C/main.cpp) | いもす法  |
 | [D - サプリメント](https://atcoder.jp/contests/abc017/tasks/abc017_4) | [■](abc017/D/main.cpp) | 累積和 dp |
 
 ### ARC029
@@ -533,10 +533,10 @@ $ atcoder-tools test -d ./agc001/A
 
 ### ARC031
 
-| Task                                                                    |        Solution        | Memo  |
-| ----------------------------------------------------------------------- | :--------------------: | ----- |
-| [B - 埋め立て](https://atcoder.jp/contests/arc031/tasks/arc031_2) | [■](arc031/B/main.cpp) ||
-| [C - 積み木](https://atcoder.jp/contests/arc031/tasks/arc031_3) | [■](arc031/C/main.cpp) | Binary Indexed Tree |
+| Task                                                              |        Solution        | Memo                |
+| ----------------------------------------------------------------- | :--------------------: | ------------------- |
+| [B - 埋め立て](https://atcoder.jp/contests/arc031/tasks/arc031_2) | [■](arc031/B/main.cpp) |                     |
+| [C - 積み木](https://atcoder.jp/contests/arc031/tasks/arc031_3)   | [■](arc031/C/main.cpp) | Binary Indexed Tree |
 
 ### ARC037
 
@@ -627,10 +627,10 @@ $ atcoder-tools test -d ./agc001/A
 
 ### ABC129
 
-| Task                                                                    |        Solution        | Memo  |
-| ----------------------------------------------------------------------- | :--------------------: | ----- |
-| [D - Lamp](https://atcoder.jp/contests/abc129/tasks/abc129_d) | [■](abc129/D/main.cpp) | 二分探索 |
-| [E - Sum Equals Xor](https://atcoder.jp/contests/abc129/tasks/abc129_e) | [■](abc129/E/main.cpp) | 桁 DP |
+| Task                                                                    |        Solution        | Memo     |
+| ----------------------------------------------------------------------- | :--------------------: | -------- |
+| [D - Lamp](https://atcoder.jp/contests/abc129/tasks/abc129_d)           | [■](abc129/D/main.cpp) | 二分探索 |
+| [E - Sum Equals Xor](https://atcoder.jp/contests/abc129/tasks/abc129_e) | [■](abc129/E/main.cpp) | 桁 DP    |
 
 ### ABC015
 
@@ -688,10 +688,10 @@ $ atcoder-tools test -d ./agc001/A
 
 ### ARC017
 
-| Task                                                                          |        Solution        | Memo       |
-| ----------------------------------------------------------------------------- | :--------------------: | ---------- |
-| [A - 素数、コンテスト、素数](https://atcoder.jp/contests/arc017/tasks/arc017_1) | [■](arc017/A/main.cpp) | 素数判定 |
-| [C - 無駄なものが嫌いな人](https://atcoder.jp/contests/arc017/tasks/arc017_3) | [■](arc017/C/main.cpp) | 半分全列挙 |
+| Task                                                                            |        Solution        | Memo       |
+| ------------------------------------------------------------------------------- | :--------------------: | ---------- |
+| [A - 素数、コンテスト、素数](https://atcoder.jp/contests/arc017/tasks/arc017_1) | [■](arc017/A/main.cpp) | 素数判定   |
+| [C - 無駄なものが嫌いな人](https://atcoder.jp/contests/arc017/tasks/arc017_3)   | [■](arc017/C/main.cpp) | 半分全列挙 |
 
 ### AGC026
 
@@ -719,8 +719,8 @@ $ atcoder-tools test -d ./agc001/A
 
 ### exawizards2019
 
-| Task                                                                                      |            Solution            | Memo |
-| ----------------------------------------------------------------------------------------- | :----------------------------: | ---- |
+| Task                                                                                      |            Solution            | Memo     |
+| ----------------------------------------------------------------------------------------- | :----------------------------: | -------- |
 | [C - Snuke the Wizard](https://atcoder.jp/contests/exawizards2019/tasks/exawizards2019_c) | [■](exawizards2019/C/main.cpp) | 二分探索 |
 
 ### ABC120
@@ -774,502 +774,508 @@ $ atcoder-tools test -d ./agc001/A
 
 ### ABC036
 
-| Task                                                            |        Solution        | Memo  |
-| --------------------------------------------------------------- | :--------------------: | ----- |
-| [C - 座圧](https://atcoder.jp/contests/abc036/tasks/abc036_c) | [■](abc036/C/main.cpp) | 座標圧縮 |
-| [D - 塗り絵](https://atcoder.jp/contests/abc036/tasks/abc036_d) | [■](abc036/D/main.cpp) | 木 DP |
+| Task                                                            |        Solution        | Memo     |
+| --------------------------------------------------------------- | :--------------------: | -------- |
+| [C - 座圧](https://atcoder.jp/contests/abc036/tasks/abc036_c)   | [■](abc036/C/main.cpp) | 座標圧縮 |
+| [D - 塗り絵](https://atcoder.jp/contests/abc036/tasks/abc036_d) | [■](abc036/D/main.cpp) | 木 DP    |
 
 ### ABC021
 
-| Task                                                            |        Solution        | Memo  |
-| --------------------------------------------------------------- | :--------------------: | ----- |
+| Task                                                                |        Solution        | Memo       |
+| ------------------------------------------------------------------- | :--------------------: | ---------- |
 | [D - 多重ループ](https://atcoder.jp/contests/abc021/tasks/abc021_d) | [■](abc021/D/main.cpp) | 重複組合せ |
 
 ### ABC034
 
-| Task                                                            |        Solution        | Memo  |
-| --------------------------------------------------------------- | :--------------------: | ----- |
+| Task                                                          |        Solution        | Memo       |
+| ------------------------------------------------------------- | :--------------------: | ---------- |
 | [C - 経路](https://atcoder.jp/contests/abc034/tasks/abc034_c) | [■](abc034/C/main.cpp) | 重複組合せ |
 
 ### ABC034
 
-| Task                                                            |        Solution        | Memo  |
-| --------------------------------------------------------------- | :--------------------: | ----- |
+| Task                                                            |        Solution        | Memo     |
+| --------------------------------------------------------------- | :--------------------: | -------- |
 | [D - Knight](https://atcoder.jp/contests/abc145/tasks/abc145_d) | [■](abc145/D/main.cpp) | 二項係数 |
 
 ### ABC110
 
-| Task                                                            |        Solution        | Memo  |
-| --------------------------------------------------------------- | :--------------------: | ----- |
+| Task                                                                   |        Solution        | Memo                  |
+| ---------------------------------------------------------------------- | :--------------------: | --------------------- |
 | [D - Factorization](https://atcoder.jp/contests/abc110/tasks/abc110_d) | [■](abc110/D/main.cpp) | 重複組合せ 素因数分解 |
 
 ### ARC067
 
-| Task                                                            |        Solution        | Memo  |
-| --------------------------------------------------------------- | :--------------------: | ----- |
+| Task                                                                          |        Solution        | Memo       |
+| ----------------------------------------------------------------------------- | :--------------------: | ---------- |
 | [C - Factors of Factorial](https://atcoder.jp/contests/arc067/tasks/arc067_a) | [■](arc067/C/main.cpp) | 素因数分解 |
 
 ### ARC026
 
-| Task                                                            |        Solution        | Memo  |
-| --------------------------------------------------------------- | :--------------------: | ----- |
+| Task                                                            |        Solution        | Memo       |
+| --------------------------------------------------------------- | :--------------------: | ---------- |
 | [B - 完全数](https://atcoder.jp/contests/arc026/tasks/arc026_2) | [■](arc026/B/main.cpp) | 素因数分解 |
 
 ### CADDI2018
 
-| Task                                                            |        Solution        | Memo  |
-| --------------------------------------------------------------- | :--------------------: | ----- |
-| [C - Product and GCD](https://atcoder.jp/contests/caddi2018/tasks/caddi2018_a) | [■](caddi2018/C/main.cpp) | 素因数分解 繰り返し2乗法 |
+| Task                                                                           |         Solution          | Memo                       |
+| ------------------------------------------------------------------------------ | :-----------------------: | -------------------------- |
+| [C - Product and GCD](https://atcoder.jp/contests/caddi2018/tasks/caddi2018_a) | [■](caddi2018/C/main.cpp) | 素因数分解 繰り返し 2 乗法 |
 
 ### ABC142
 
-| Task                                                            |        Solution        | Memo  |
-| --------------------------------------------------------------- | :--------------------: | ----- |
+| Task                                                                                     |        Solution        | Memo       |
+| ---------------------------------------------------------------------------------------- | :--------------------: | ---------- |
 | [D - Disjoint Set of Common Divisors](https://atcoder.jp/contests/abc142/tasks/abc142_d) | [■](abc142/D/main.cpp) | 素因数分解 |
 
 ### ABC150
 
-| Task                                                            |        Solution        | Memo  |
-| --------------------------------------------------------------- | :--------------------: | ----- |
+| Task                                                                          |        Solution        | Memo       |
+| ----------------------------------------------------------------------------- | :--------------------: | ---------- |
 | [D - Semi Common Multiple](https://atcoder.jp/contests/abc150/tasks/abc150_d) | [■](abc150/D/main.cpp) | 素因数分解 |
 
 ### ABC149
 
-| Task                                                            |        Solution        | Memo  |
-| --------------------------------------------------------------- | :--------------------: | ----- |
+| Task                                                                |        Solution        | Memo       |
+| ------------------------------------------------------------------- | :--------------------: | ---------- |
 | [C - Next Prime](https://atcoder.jp/contests/abc149/tasks/abc149_c) | [■](abc149/C/main.cpp) | 素因数分解 |
 
 ### TTPC2015
 
-| Task                                                            |        Solution        | Memo  |
-| --------------------------------------------------------------- | :--------------------: | ----- |
+| Task                                                                      |         Solution         | Memo |
+| ------------------------------------------------------------------------- | :----------------------: | ---- |
 | [D - 文字列と素数](https://atcoder.jp/contests/ttpc2015/tasks/ttpc2015_d) | [■](ttpc2015/D/main.cpp) | 素数 |
 
 ### ABC106
 
-| Task                                                            |        Solution        | Memo  |
-| --------------------------------------------------------------- | :--------------------: | ----- |
+| Task                                                         |        Solution        | Memo       |
+| ------------------------------------------------------------ | :--------------------: | ---------- |
 | [B - 105](https://atcoder.jp/contests/abc106/tasks/abc106_b) | [■](abc106/B/main.cpp) | 素因数分解 |
 
 ### ABC136
 
-| Task                                                            |        Solution        | Memo  |
-| --------------------------------------------------------------- | :--------------------: | ----- |
+| Task                                                             |        Solution        | Memo     |
+| ---------------------------------------------------------------- | :--------------------: | -------- |
 | [E - Max GCD](https://atcoder.jp/contests/abc136/tasks/abc136_e) | [■](abc136/E/main.cpp) | 約数列挙 |
 
 ### ARC032
 
-| Task                                                            |        Solution        | Memo  |
-| --------------------------------------------------------------- | :--------------------: | ----- |
+| Task                                                                |        Solution        | Memo |
+| ------------------------------------------------------------------- | :--------------------: | ---- |
 | [A - ホリドッグ](https://atcoder.jp/contests/arc032/tasks/arc032_1) | [■](arc032/A/main.cpp) | 素数 |
 
 ### ABC169
 
-| Task                                                            |        Solution        | Memo  |
-| --------------------------------------------------------------- | :--------------------: | ----- |
+| Task                                                              |        Solution        | Memo |
+| ----------------------------------------------------------------- | :--------------------: | ---- |
 | [D - Div Game](https://atcoder.jp/contests/abc169/tasks/abc169_d) | [■](abc169/D/main.cpp) | 素数 |
 
 ### BCU30-2018
 
-| Task                                                            |        Solution        | Memo  |
-| --------------------------------------------------------------- | :--------------------: | ----- |
+| Task                                                                |          Solution          | Memo       |
+| ------------------------------------------------------------------- | :------------------------: | ---------- |
 | [A - 球](https://atcoder.jp/contests/bcu30-2018/tasks/bcu30_2018_a) | [■](bcu30-2018/A/main.cpp) | 素因数分解 |
 
 ### ABC114
 
-| Task                                                            |        Solution        | Memo  |
-| --------------------------------------------------------------- | :--------------------: | ----- |
+| Task                                                         |        Solution        | Memo       |
+| ------------------------------------------------------------ | :--------------------: | ---------- |
 | [D - 756](https://atcoder.jp/contests/abc114/tasks/abc114_d) | [■](abc114/D/main.cpp) | 素因数分解 |
 
 ### ARC034
 
-| Task                                                            |        Solution        | Memo  |
-| --------------------------------------------------------------- | :--------------------: | ----- |
+| Task                                                                  |        Solution        | Memo       |
+| --------------------------------------------------------------------- | :--------------------: | ---------- |
 | [C - 約数かつ倍数](https://atcoder.jp/contests/arc034/tasks/arc034_3) | [■](arc034/C/main.cpp) | 素因数分解 |
 
 ### ABC148
 
-| Task                                                            |        Solution        | Memo  |
-| --------------------------------------------------------------- | :--------------------: | ----- |
-| [C - Snack](https://atcoder.jp/contests/abc148/tasks/abc148_c) | [■](abc148/C/main.cpp) | 最小公倍数 |
+| Task                                                                      |        Solution        | Memo       |
+| ------------------------------------------------------------------------- | :--------------------: | ---------- |
+| [C - Snack](https://atcoder.jp/contests/abc148/tasks/abc148_c)            | [■](abc148/C/main.cpp) | 最小公倍数 |
 | [E - Double Factorial](https://atcoder.jp/contests/abc148/tasks/abc148_e) | [■](abc148/E/main.cpp) | 素因数分解 |
 
 ### ABC109
 
-| Task                                                            |        Solution        | Memo  |
-| --------------------------------------------------------------- | :--------------------: | ----- |
+| Task                                                          |        Solution        | Memo       |
+| ------------------------------------------------------------- | :--------------------: | ---------- |
 | [C - Skip](https://atcoder.jp/contests/abc109/tasks/abc109_c) | [■](abc109/C/main.cpp) | 最大公約数 |
 
 ### ABC118
 
-| Task                                                            |        Solution        | Memo  |
-| --------------------------------------------------------------- | :--------------------: | ----- |
+| Task                                                                            |        Solution        | Memo       |
+| ------------------------------------------------------------------------------- | :--------------------: | ---------- |
 | [C - Monsters Battle Royale](https://atcoder.jp/contests/abc118/tasks/abc118_c) | [■](abc118/C/main.cpp) | 最大公約数 |
 
 ### ABC158
 
-| Task                                                            |        Solution        | Memo  |
-| --------------------------------------------------------------- | :--------------------: | ----- |
+| Task                                                                         |        Solution        | Memo           |
+| ---------------------------------------------------------------------------- | :--------------------: | -------------- |
 | [E - Divisible Substring](https://atcoder.jp/contests/abc158/tasks/abc158_e) | [■](abc158/E/main.cpp) | 合同式の割り算 |
 
 ### ABC158
 
-| Task                                                            |        Solution        | Memo  |
-| --------------------------------------------------------------- | :--------------------: | ----- |
-| [B - GCDロボット](https://atcoder.jp/contests/ddcc2017-final/tasks/ddcc2017_final_b) | [■](ddcc2017-final/B/main.cpp) | 素因数分解 |
+| Task                                                                                  |            Solution            | Memo       |
+| ------------------------------------------------------------------------------------- | :----------------------------: | ---------- |
+| [B - GCD ロボット](https://atcoder.jp/contests/ddcc2017-final/tasks/ddcc2017_final_b) | [■](ddcc2017-final/B/main.cpp) | 素因数分解 |
 
 ### ABC125
 
-| Task                                                            |        Solution        | Memo  |
-| --------------------------------------------------------------- | :--------------------: | ----- |
+| Task                                                                       |        Solution        | Memo       |
+| -------------------------------------------------------------------------- | :--------------------: | ---------- |
 | [C - GCD on Blackboard](https://atcoder.jp/contests/abc125/tasks/abc125_c) | [■](abc125/C/main.cpp) | 最大公約数 |
 
 ### AGC028
 
-| Task                                                            |        Solution        | Memo  |
-| --------------------------------------------------------------- | :--------------------: | ----- |
+| Task                                                                       |        Solution        | Memo       |
+| -------------------------------------------------------------------------- | :--------------------: | ---------- |
 | [A - Two Abbreviations](https://atcoder.jp/contests/agc028/tasks/agc028_a) | [■](agc028/A/main.cpp) | 最大公約数 |
 
 ### ABC152
 
-| Task                                                            |        Solution        | Memo  |
-| --------------------------------------------------------------- | :--------------------: | ----- |
-| [E - Flatten](https://atcoder.jp/contests/abc152/tasks/abc152_e) | [■](abc152/E/main.cpp) | 素因数分解 MOD逆元 |
+| Task                                                             |        Solution        | Memo                |
+| ---------------------------------------------------------------- | :--------------------: | ------------------- |
+| [E - Flatten](https://atcoder.jp/contests/abc152/tasks/abc152_e) | [■](abc152/E/main.cpp) | 素因数分解 MOD 逆元 |
 
 ### AGC018
 
-| Task                                                            |        Solution        | Memo  |
-| --------------------------------------------------------------- | :--------------------: | ----- |
-| [A - Getting Difference](https://atcoder.jp/contests/agc018/tasks/agc018_a) | [■](agc018/A/main.cpp) | Euclidの互除法 |
+| Task                                                                        |        Solution        | Memo            |
+| --------------------------------------------------------------------------- | :--------------------: | --------------- |
+| [A - Getting Difference](https://atcoder.jp/contests/agc018/tasks/agc018_a) | [■](agc018/A/main.cpp) | Euclid の互除法 |
 
 ### code-thanks-festival-2017-open
 
-| Task                                                            |        Solution        | Memo  |
-| --------------------------------------------------------------- | :--------------------: | ----- |
+| Task                                                                                                         |                    Solution                    | Memo       |
+| ------------------------------------------------------------------------------------------------------------ | :--------------------------------------------: | ---------- |
 | [D - Bus Tour](https://atcoder.jp/contests/code-thanks-festival-2017-open/tasks/code_thanks_festival_2017_d) | [■](code-thanks-festival-2017-open/D/main.cpp) | 最大公約数 |
 
 ### code-thanks-festival-2017-open
 
-| Task                                                            |        Solution        | Memo  |
-| --------------------------------------------------------------- | :--------------------: | ----- |
+| Task                                                                                                   |                  Solution                   | Memo     |
+| ------------------------------------------------------------------------------------------------------ | :-----------------------------------------: | -------- |
 | [A - Uncommon](https://atcoder.jp/contests/yahoo-procon2018-final-open/tasks/yahoo_procon2018_final_a) | [■](yahoo-procon2018-final-open/A/main.cpp) | 包除原理 |
 
 ### bitflyer2018-qual
 
-| Task                                                            |        Solution        | Memo  |
-| --------------------------------------------------------------- | :--------------------: | ----- |
+| Task                                                                                    |             Solution              | Memo     |
+| --------------------------------------------------------------------------------------- | :-------------------------------: | -------- |
 | [C - 徒歩圏内](https://atcoder.jp/contests/bitflyer2018-qual/tasks/bitflyer2018_qual_c) | [■](bitflyer2018-qual/C/main.cpp) | 尺取り法 |
 
 ### ABC130
 
-| Task                                                            |        Solution        | Memo  |
-| --------------------------------------------------------------- | :--------------------: | ----- |
+| Task                                                                  |        Solution        | Memo     |
+| --------------------------------------------------------------------- | :--------------------: | -------- |
 | [D - Enough Array](https://atcoder.jp/contests/abc130/tasks/abc130_d) | [■](abc130/D/main.cpp) | 尺取り法 |
 
 ### dwacon5th-prelims
 
-| Task                                                            |        Solution        | Memo  |
-| --------------------------------------------------------------- | :--------------------: | ----- |
+| Task                                                                                 |             Solution              | Memo     |
+| ------------------------------------------------------------------------------------ | :-------------------------------: | -------- |
 | [C - k-DMC](https://atcoder.jp/contests/dwacon5th-prelims/tasks/dwacon5th_prelims_c) | [■](dwacon5th-prelims/C/main.cpp) | 尺取り法 |
 
 ### ABC124
 
-| Task                                                            |        Solution        | Memo  |
-| --------------------------------------------------------------- | :--------------------: | ----- |
+| Task                                                               |        Solution        | Memo     |
+| ------------------------------------------------------------------ | :--------------------: | -------- |
 | [D - Handstand](https://atcoder.jp/contests/abc124/tasks/abc124_d) | [■](abc124/D/main.cpp) | 尺取り法 |
 
 ### cpsco2019-s4
 
-| Task                                                            |        Solution        | Memo  |
-| --------------------------------------------------------------- | :--------------------: | ----- |
-| [C - Make a Team](https://atcoder.jp/contests/cpsco2019-s4/tasks/cpsco2019_s4_c) | [■](cpsco2019-s4/C/main.cpp) | 尺取り法 |
+| Task                                                                                 |           Solution           | Memo     |
+| ------------------------------------------------------------------------------------ | :--------------------------: | -------- |
+| [C - Make a Team](https://atcoder.jp/contests/cpsco2019-s4/tasks/cpsco2019_s4_c)     | [■](cpsco2019-s4/C/main.cpp) | 尺取り法 |
 | [D - Boring Sequence](https://atcoder.jp/contests/cpsco2019-s4/tasks/cpsco2019_s4_d) | [■](cpsco2019-s4/D/main.cpp) | 二分探索 |
 
 ### AGC034
 
-| Task                                                            |        Solution        | Memo  |
-| --------------------------------------------------------------- | :--------------------: | ----- |
-| [B - ABC](https://atcoder.jp/contests/agc034/tasks/agc034_b) | [■](agc034/B/main.cpp) |  |
+| Task                                                         |        Solution        | Memo |
+| ------------------------------------------------------------ | :--------------------: | ---- |
+| [B - ABC](https://atcoder.jp/contests/agc034/tasks/agc034_b) | [■](agc034/B/main.cpp) |      |
 
 ### ABC100
 
-| Task                                                            |        Solution        | Memo  |
-| --------------------------------------------------------------- | :--------------------: | ----- |
-| [C - *3 or /2](https://atcoder.jp/contests/abc100/tasks/abc100_c) | [■](abc100/C/main.cpp) |  |
+| Task                                                               |        Solution        | Memo |
+| ------------------------------------------------------------------ | :--------------------: | ---- |
+| [C - \*3 or /2](https://atcoder.jp/contests/abc100/tasks/abc100_c) | [■](abc100/C/main.cpp) |      |
 
 ### cf16-relay-open
 
-| Task                                                            |        Solution        | Memo  |
-| --------------------------------------------------------------- | :--------------------: | ----- |
+| Task                                                                          |            Solution             | Memo       |
+| ----------------------------------------------------------------------------- | :-----------------------------: | ---------- |
 | [E - 方眼紙と線分](https://atcoder.jp/contests/cf16-relay-open/tasks/relay_e) | [■](cf16-relay-open/E/main.cpp) | 最大公約数 |
 
 ### ARC004
 
-| Task                                                            |        Solution        | Memo  |
-| --------------------------------------------------------------- | :--------------------: | ----- |
+| Task                                                                                          |        Solution        | Memo       |
+| --------------------------------------------------------------------------------------------- | :--------------------: | ---------- |
 | [D - 表現の自由 ( Freedom of expression )](https://atcoder.jp/contests/arc004/tasks/arc004_4) | [■](arc004/D/main.cpp) | 素因数分解 |
 
 ### ARC077
 
-| Task                                                            |        Solution        | Memo  |
-| --------------------------------------------------------------- | :--------------------: | ----- |
+| Task                                                        |        Solution        | Memo     |
+| ----------------------------------------------------------- | :--------------------: | -------- |
 | [D - 11](https://atcoder.jp/contests/arc077/tasks/arc077_b) | [■](arc077/D/main.cpp) | 二項係数 |
 
 ### zone2021
 
-| Task                                                            |        Solution        | Memo  |
-| --------------------------------------------------------------- | :--------------------: | ----- |
+| Task                                                                  |         Solution         | Memo     |
+| --------------------------------------------------------------------- | :----------------------: | -------- |
 | [C - MAD TEAM](https://atcoder.jp/contests/zone2021/tasks/zone2021_c) | [■](zone2021/C/main.cpp) | 二分探索 |
 
 ### ABC146
 
-| Task                                                            |        Solution        | Memo  |
-| --------------------------------------------------------------- | :--------------------: | ----- |
-| [C - Buy an Integer](https://atcoder.jp/contests/abc146/tasks/abc146_c) | [■](abc146/C/main.cpp) | 二分探索 |
-| [E - Rem of Sum is Num](https://atcoder.jp/contests/abc146/tasks/abc146_e) | [■](abc146/E/main.cpp) | 累積和 |
+| Task                                                                       |        Solution        | Memo     |
+| -------------------------------------------------------------------------- | :--------------------: | -------- |
+| [C - Buy an Integer](https://atcoder.jp/contests/abc146/tasks/abc146_c)    | [■](abc146/C/main.cpp) | 二分探索 |
+| [E - Rem of Sum is Num](https://atcoder.jp/contests/abc146/tasks/abc146_e) | [■](abc146/E/main.cpp) | 累積和   |
 
 ### ABC192
 
-| Task                                                            |        Solution        | Memo  |
-| --------------------------------------------------------------- | :--------------------: | ----- |
+| Task                                                            |        Solution        | Memo     |
+| --------------------------------------------------------------- | :--------------------: | -------- |
 | [D - Base n](https://atcoder.jp/contests/abc192/tasks/abc192_d) | [■](abc192/D/main.cpp) | 二分探索 |
 
 ### ARC050
 
-| Task                                                            |        Solution        | Memo  |
-| --------------------------------------------------------------- | :--------------------: | ----- |
+| Task                                                          |        Solution        | Memo     |
+| ------------------------------------------------------------- | :--------------------: | -------- |
 | [B - 花束](https://atcoder.jp/contests/arc050/tasks/arc050_b) | [■](arc050/B/main.cpp) | 二分探索 |
 
 ### ABC023
 
-| Task                                                            |        Solution        | Memo  |
-| --------------------------------------------------------------- | :--------------------: | ----- |
+| Task                                                            |        Solution        | Memo     |
+| --------------------------------------------------------------- | :--------------------: | -------- |
 | [D - 射撃王](https://atcoder.jp/contests/abc023/tasks/abc023_d) | [■](abc023/D/main.cpp) | 二分探索 |
 
 ### ABC063
 
-| Task                                                            |        Solution        | Memo  |
-| --------------------------------------------------------------- | :--------------------: | ----- |
+| Task                                                                |        Solution        | Memo     |
+| ------------------------------------------------------------------- | :--------------------: | -------- |
 | [D - Widespread](https://atcoder.jp/contests/abc063/tasks/arc075_b) | [■](abc063/D/main.cpp) | 二分探索 |
 
 ### s8pc-5
 
-| Task                                                            |        Solution        | Memo  |
-| --------------------------------------------------------------- | :--------------------: | ----- |
-| [B - Emblem](https://atcoder.jp/contests/s8pc-5/tasks/s8pc_5_b) | [■](s8pc-5/B/main.cpp) | |
+| Task                                                            |        Solution        | Memo |
+| --------------------------------------------------------------- | :--------------------: | ---- |
+| [B - Emblem](https://atcoder.jp/contests/s8pc-5/tasks/s8pc_5_b) | [■](s8pc-5/B/main.cpp) |      |
 
 ### abc020
 
-| Task                                                            |        Solution        | Memo  |
-| --------------------------------------------------------------- | :--------------------: | ----- |
+| Task                                                            |        Solution        | Memo              |
+| --------------------------------------------------------------- | :--------------------: | ----------------- |
 | [C - 壁抜け](https://atcoder.jp/contests/abc020/tasks/abc020_c) | [■](abc020/C/main.cpp) | Dijkstra 二分探索 |
 
 ### cpsco2019-s1
 
-| Task                                                            |        Solution        | Memo  |
-| --------------------------------------------------------------- | :--------------------: | ----- |
+| Task                                                                                  |           Solution           | Memo              |
+| ------------------------------------------------------------------------------------- | :--------------------------: | ----------------- |
 | [F - Fruits in Season](https://atcoder.jp/contests/cpsco2019-s1/tasks/cpsco2019_s1_f) | [■](cpsco2019-s1/F/main.cpp) | Dijkstra 二分探索 |
 
 ### ABC155
 
-| Task                                                            |        Solution        | Memo  |
-| --------------------------------------------------------------- | :--------------------: | ----- |
+| Task                                                           |        Solution        | Memo     |
+| -------------------------------------------------------------- | :--------------------: | -------- |
 | [D - Pairs](https://atcoder.jp/contests/abc155/tasks/abc155_d) | [■](abc155/D/main.cpp) | 二分探索 |
 
 ### ARC003
 
-| Task                                                            |        Solution        | Memo  |
-| --------------------------------------------------------------- | :--------------------: | ----- |
+| Task                                                                |        Solution        | Memo              |
+| ------------------------------------------------------------------- | :--------------------: | ----------------- |
 | [C - 暗闇帰り道](https://atcoder.jp/contests/arc003/tasks/arc003_3) | [■](arc003/C/main.cpp) | Dijkstra 二分探索 |
 
 ### ABC030
 
-| Task                                                            |        Solution        | Memo  |
-| --------------------------------------------------------------- | :--------------------: | ----- |
+| Task                                                                |        Solution        | Memo     |
+| ------------------------------------------------------------------- | :--------------------: | -------- |
 | [C - 飛行機乗り](https://atcoder.jp/contests/abc030/tasks/abc030_c) | [■](abc030/C/main.cpp) | 二分探索 |
 
 ### ABC077
 
-| Task                                                            |        Solution        | Memo  |
-| --------------------------------------------------------------- | :--------------------: | ----- |
+| Task                                                                    |        Solution        | Memo     |
+| ----------------------------------------------------------------------- | :--------------------: | -------- |
 | [C - Snuke Festival](https://atcoder.jp/contests/abc077/tasks/arc084_a) | [■](abc077/C/main.cpp) | 二分探索 |
 
 ### ABC119
 
-| Task                                                            |        Solution        | Memo  |
-| --------------------------------------------------------------- | :--------------------: | ----- |
+| Task                                                                |        Solution        | Memo     |
+| ------------------------------------------------------------------- | :--------------------: | -------- |
 | [D - Lazy Faith](https://atcoder.jp/contests/abc119/tasks/abc119_d) | [■](abc119/D/main.cpp) | 二分探索 |
 
 ### AGC041
 
-| Task                                                            |        Solution        | Memo  |
-| --------------------------------------------------------------- | :--------------------: | ----- |
+| Task                                                                   |        Solution        | Memo     |
+| ---------------------------------------------------------------------- | :--------------------: | -------- |
 | [B - Voting Judges](https://atcoder.jp/contests/agc041/tasks/agc041_b) | [■](agc041/B/main.cpp) | 二分探索 |
 
 ### ARC033
 
-| Task                                                            |        Solution        | Memo  |
-| --------------------------------------------------------------- | :--------------------: | ----- |
+| Task                                                                  |        Solution        | Memo                         |
+| --------------------------------------------------------------------- | :--------------------: | ---------------------------- |
 | [C - データ構造](https://atcoder.jp/contests/arc033/tasks/arc033_3) | [■](arc033/C/main.cpp) | 二分探索 Binary Indexed Tree |
 
 ### chokudai_S001
 
-| Task                                                            |        Solution        | Memo  |
-| --------------------------------------------------------------- | :--------------------: | ----- |
+| Task                                                                          |           Solution            | Memo                |
+| ----------------------------------------------------------------------------- | :---------------------------: | ------------------- |
 | [J - 転倒数](https://atcoder.jp/contests/chokudai_S001/tasks/chokudai_S001_j) | [■](chokudai_S001/J/main.cpp) | Binary Indexed Tree |
 
 ### ABC018
 
-| Task                                                            |        Solution        | Memo  |
-| --------------------------------------------------------------- | :--------------------: | ----- |
+| Task                                                                  |        Solution        | Memo     |
+| --------------------------------------------------------------------- | :--------------------: | -------- |
 | [C - 菱型カウント](https://atcoder.jp/contests/abc018/tasks/abc018_3) | [■](abc018/C/main.cpp) | いもす法 |
 
 ### ABC035
 
-| Task                                                            |        Solution        | Memo  |
-| --------------------------------------------------------------- | :--------------------: | ----- |
+| Task                                                            |        Solution        | Memo     |
+| --------------------------------------------------------------- | :--------------------: | -------- |
 | [C - オセロ](https://atcoder.jp/contests/abc035/tasks/abc035_c) | [■](abc035/C/main.cpp) | いもす法 |
 
 ### ABC138
 
-| Task                                                            |        Solution        | Memo  |
-| --------------------------------------------------------------- | :--------------------: | ----- |
+| Task                                                        |        Solution        | Memo     |
+| ----------------------------------------------------------- | :--------------------: | -------- |
 | [D - Ki](https://atcoder.jp/contests/abc138/tasks/abc138_d) | [■](abc138/D/main.cpp) | いもす法 |
 
 ### ABC127
 
-| Task                                                            |        Solution        | Memo  |
-| --------------------------------------------------------------- | :--------------------: | ----- |
+| Task                                                            |        Solution        | Memo     |
+| --------------------------------------------------------------- | :--------------------: | -------- |
 | [C - Prison](https://atcoder.jp/contests/abc127/tasks/abc127_c) | [■](abc127/C/main.cpp) | いもす法 |
 
 ### ABC080
 
-| Task                                                            |        Solution        | Memo  |
-| --------------------------------------------------------------- | :--------------------: | ----- |
+| Task                                                               |        Solution        | Memo     |
+| ------------------------------------------------------------------ | :--------------------: | -------- |
 | [D - Recording](https://atcoder.jp/contests/abc080/tasks/abc080_d) | [■](abc080/D/main.cpp) | いもす法 |
 
 ### ABC014
 
-| Task                                                            |        Solution        | Memo  |
-| --------------------------------------------------------------- | :--------------------: | ----- |
+| Task                                                             |        Solution        | Memo     |
+| ---------------------------------------------------------------- | :--------------------: | -------- |
 | [C - AtColor](https://atcoder.jp/contests/abc014/tasks/abc014_3) | [■](abc014/C/main.cpp) | いもす法 |
-| [D - 閉路](https://atcoder.jp/contests/abc014/tasks/abc014_4) | [■](abc014/D/main.cpp) | doubling |
+| [D - 閉路](https://atcoder.jp/contests/abc014/tasks/abc014_4)    | [■](abc014/D/main.cpp) | doubling |
 
 ### ABC141
 
-| Task                                                            |        Solution        | Memo  |
-| --------------------------------------------------------------- | :--------------------: | ----- |
+| Task                                                                     |        Solution        | Memo                               |
+| ------------------------------------------------------------------------ | :--------------------: | ---------------------------------- |
 | [E - Who Says a Pun?](https://atcoder.jp/contests/abc141/tasks/abc141_e) | [■](abc141/E/main.cpp) | 文字列 dp z-algorithm rolling-hash |
 
 ### ABC041
 
-| Task                                                            |        Solution        | Memo  |
-| --------------------------------------------------------------- | :--------------------: | ----- |
+| Task                                                            |        Solution        | Memo                   |
+| --------------------------------------------------------------- | :--------------------: | ---------------------- |
 | [D - 徒競走](https://atcoder.jp/contests/abc041/tasks/abc041_d) | [■](abc041/D/main.cpp) | bitDP topological sort |
 
 ### nikkei2019-qual
 
-| Task                                                            |        Solution        | Memo  |
-| --------------------------------------------------------------- | :--------------------: | ----- |
+| Task                                                                                        |            Solution             | Memo             |
+| ------------------------------------------------------------------------------------------- | :-----------------------------: | ---------------- |
 | [D - Restore the Tree](https://atcoder.jp/contests/nikkei2019-qual/tasks/nikkei2019_qual_d) | [■](nikkei2019-qual/D/main.cpp) | topological sort |
 
 ### ABC223
 
-| Task                                                            |        Solution        | Memo  |
-| --------------------------------------------------------------- | :--------------------: | ----- |
+| Task                                                                            |        Solution        | Memo             |
+| ------------------------------------------------------------------------------- | :--------------------: | ---------------- |
 | [D - Restricted Permutation](https://atcoder.jp/contests/abc223/tasks/abc223_d) | [■](abc223/D/main.cpp) | topological sort |
 
 ### ABC139
 
-| Task                                                            |        Solution        | Memo  |
-| --------------------------------------------------------------- | :--------------------: | ----- |
+| Task                                                            |        Solution        | Memo             |
+| --------------------------------------------------------------- | :--------------------: | ---------------- |
 | [E - League](https://atcoder.jp/contests/abc139/tasks/abc139_e) | [■](abc139/E/main.cpp) | topological sort |
 
 ### tenka1-2016-quala
 
-| Task                                                            |        Solution        | Memo  |
-| --------------------------------------------------------------- | :--------------------: | ----- |
+| Task                                                                                        |             Solution              | Memo             |
+| ------------------------------------------------------------------------------------------- | :-------------------------------: | ---------------- |
 | [C - 山田山本問題](https://atcoder.jp/contests/tenka1-2016-quala/tasks/tenka1_2016_qualA_c) | [■](tenka1-2016-quala/C/main.cpp) | topological sort |
 
 ### AGC101
 
-| Task                                                            |        Solution        | Memo  |
-| --------------------------------------------------------------- | :--------------------: | ----- |
-| [D - Median of Medians](https://atcoder.jp/contests/arc101/tasks/arc101_b) | [■](agc101/D/main.cpp) | 二分探索　Binary Indexed Tree |
+| Task                                                                       |        Solution        | Memo                           |
+| -------------------------------------------------------------------------- | :--------------------: | ------------------------------ |
+| [D - Median of Medians](https://atcoder.jp/contests/arc101/tasks/arc101_b) | [■](agc101/D/main.cpp) | 二分探索　 Binary Indexed Tree |
 
 ### ABC135
 
-| Task                                                            |        Solution        | Memo  |
-| --------------------------------------------------------------- | :--------------------: | ----- |
+| Task                                                                         |        Solution        | Memo         |
+| ---------------------------------------------------------------------------- | :--------------------: | ------------ |
 | [F - Strings of Eternity](https://atcoder.jp/contests/abc135/tasks/abc135_f) | [■](abc135/F/main.cpp) | rolling hash |
 
 ### ABC092
 
-| Task                                                            |        Solution        | Memo  |
-| --------------------------------------------------------------- | :--------------------: | ----- |
+| Task                                                                    |        Solution        | Memo   |
+| ----------------------------------------------------------------------- | :--------------------: | ------ |
 | [C - Traveling Plan](https://atcoder.jp/contests/abc092/tasks/arc093_a) | [■](abc092/C/main.cpp) | 累積和 |
 
 ### ABC004
 
-| Task                                                            |        Solution        | Memo  |
-| --------------------------------------------------------------- | :--------------------: | ----- |
-| [C - 入れ替え](https://atcoder.jp/contests/abc004/tasks/abc004_3) | [■](abc004/C/main.cpp) |  |
-| [D - マーブル](https://atcoder.jp/contests/abc004/tasks/abc004_4) | [■](abc004/D/main.cpp) | dp |
+| Task                                                                |        Solution        | Memo |
+| ------------------------------------------------------------------- | :--------------------: | ---- |
+| [C - 入れ替え](https://atcoder.jp/contests/abc004/tasks/abc004_3)   | [■](abc004/C/main.cpp) |      |
+| [D - マーブル](https://atcoder.jp/contests/abc004/tasks/abc004_4) | [■](abc004/D/main.cpp) | dp   |
 
 ### ABC164
 
-| Task                                                            |        Solution        | Memo  |
-| --------------------------------------------------------------- | :--------------------: | ----- |
+| Task                                                                      |        Solution        | Memo   |
+| ------------------------------------------------------------------------- | :--------------------: | ------ |
 | [D - Multiple of 2019](https://atcoder.jp/contests/abc164/tasks/abc164_d) | [■](abc164/D/main.cpp) | 累積和 |
 
 ### ABC213
 
-| Task                                                            |        Solution        | Memo  |
-| --------------------------------------------------------------- | :--------------------: | ----- |
+| Task                                                                   |        Solution        | Memo     |
+| ---------------------------------------------------------------------- | :--------------------: | -------- |
 | [C - Reorder Cards](https://atcoder.jp/contests/abc213/tasks/abc213_c) | [■](abc213/C/main.cpp) | 座標圧縮 |
 
 ### typical90
 
-| Task                                                            |        Solution        | Memo  |
-| --------------------------------------------------------------- | :--------------------: | ----- |
-| [001 - Yokan Party（★4）](https://atcoder.jp/contests/typical90/tasks/typical90_a) | [■](typical90/001/main.cpp) | 二分探索 |
-| [002 - Encyclopedia of Parentheses（★3）](https://atcoder.jp/contests/typical90/tasks/typical90_b) | [■](typical90/002/main.cpp) | BIT全探索 |
-| [003 - Longest Circular Road（★4）](https://atcoder.jp/contests/typical90/tasks/typical90_c) | [■](typical90/003/main.cpp) | 木 |
-| [004 - Cross Sum（★2）](https://atcoder.jp/contests/typical90/tasks/typical90_d) | [■](typical90/004/main.cpp) | |
-| [005 - Restricted Digits（★7）](https://atcoder.jp/contests/typical90/tasks/typical90_e) | [■](typical90/005/main.cpp) | doubling 桁dp |
+| Task                                                                                               |          Solution           | Memo           |
+| -------------------------------------------------------------------------------------------------- | :-------------------------: | -------------- |
+| [001 - Yokan Party（★4）](https://atcoder.jp/contests/typical90/tasks/typical90_a)                 | [■](typical90/001/main.cpp) | 二分探索       |
+| [002 - Encyclopedia of Parentheses（★3）](https://atcoder.jp/contests/typical90/tasks/typical90_b) | [■](typical90/002/main.cpp) | BIT 全探索     |
+| [003 - Longest Circular Road（★4）](https://atcoder.jp/contests/typical90/tasks/typical90_c)       | [■](typical90/003/main.cpp) | 木             |
+| [004 - Cross Sum（★2）](https://atcoder.jp/contests/typical90/tasks/typical90_d)                   | [■](typical90/004/main.cpp) |                |
+| [005 - Restricted Digits（★7）](https://atcoder.jp/contests/typical90/tasks/typical90_e)           | [■](typical90/005/main.cpp) | doubling 桁 dp |
 
 ### ABC190
 
-| Task                                                            |        Solution        | Memo  |
-| --------------------------------------------------------------- | :--------------------: | ----- |
-| [C - Bowls and Dishes](https://atcoder.jp/contests/abc190/tasks/abc190_c) | [■](abc190/C/main.cpp) | BIT全探索 |
+| Task                                                                      |        Solution        | Memo       |
+| ------------------------------------------------------------------------- | :--------------------: | ---------- |
+| [C - Bowls and Dishes](https://atcoder.jp/contests/abc190/tasks/abc190_c) | [■](abc190/C/main.cpp) | BIT 全探索 |
 
 ### ABC197
 
-| Task                                                            |        Solution        | Memo  |
-| --------------------------------------------------------------- | :--------------------: | ----- |
-| [C - ORXOR](https://atcoder.jp/contests/abc197/tasks/abc197_c) | [■](abc197/C/main.cpp) | BIT全探索 |
+| Task                                                           |        Solution        | Memo       |
+| -------------------------------------------------------------- | :--------------------: | ---------- |
+| [C - ORXOR](https://atcoder.jp/contests/abc197/tasks/abc197_c) | [■](abc197/C/main.cpp) | BIT 全探索 |
 
 ### AGC005
 
-| Task                                                            |        Solution        | Memo  |
-| --------------------------------------------------------------- | :--------------------: | ----- |
-| [A - STring](https://atcoder.jp/contests/agc005/tasks/agc005_a) | [■](agc005/A/main.cpp) | |
+| Task                                                            |        Solution        | Memo |
+| --------------------------------------------------------------- | :--------------------: | ---- |
+| [A - STring](https://atcoder.jp/contests/agc005/tasks/agc005_a) | [■](agc005/A/main.cpp) |      |
 
 ### dwacon2018-prelims
 
-| Task                                                            |        Solution        | Memo  |
-| --------------------------------------------------------------- | :--------------------: | ----- |
-| [B - 2525文字列分解](https://atcoder.jp/contests/dwacon2018-prelims/tasks/dwacon2018_prelims_b) | [■](dwacon2018-prelims/B/main.cpp) | |
+| Task                                                                                             |              Solution              | Memo |
+| ------------------------------------------------------------------------------------------------ | :--------------------------------: | ---- |
+| [B - 2525 文字列分解](https://atcoder.jp/contests/dwacon2018-prelims/tasks/dwacon2018_prelims_b) | [■](dwacon2018-prelims/B/main.cpp) |      |
 
 ### ABC167
 
-| Task                                                            |        Solution        | Memo  |
-| --------------------------------------------------------------- | :--------------------: | ----- |
+| Task                                                                |        Solution        | Memo     |
+| ------------------------------------------------------------------- | :--------------------: | -------- |
 | [D - Teleporter](https://atcoder.jp/contests/abc167/tasks/abc167_d) | [■](abc167/D/main.cpp) | doubling |
 
 ### ABC95
 
-| Task                                                            |        Solution        | Memo  |
-| --------------------------------------------------------------- | :--------------------: | ----- |
-| [E - Lucky 7 Battle](https://atcoder.jp/contests/abc195/tasks/abc195_e) | [■](abc195/E/main.cpp) | dp |
+| Task                                                                    |        Solution        | Memo |
+| ----------------------------------------------------------------------- | :--------------------: | ---- |
+| [E - Lucky 7 Battle](https://atcoder.jp/contests/abc195/tasks/abc195_e) | [■](abc195/E/main.cpp) | dp   |
+
+### joi2020yo2
+
+| Task                                                                                |          Solution          | Memo |
+| ----------------------------------------------------------------------------------- | :------------------------: | ---- |
+| [D - テンキー (Tenkey)](https://atcoder.jp/contests/joi2020yo2/tasks/joi2020_yo2_d) | [■](joi2020yo2/D/main.cpp) |      |
