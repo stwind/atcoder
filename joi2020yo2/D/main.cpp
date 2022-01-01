@@ -34,11 +34,11 @@ int main() {
 
   int keys[4][3] = {{7, 8, 9}, {4, 5, 6}, {1, 2, 3}, {0, -1, -1}};
   int dx[4] = {0, 1, 0, -1}, dy[4] = {-1, 0, 1, 0};
-  int dist[4][3][100010];
+  int dist[4][3][100001];
   REP(i, 0, 4) REP(j, 0, 3) REP(m, 0, M) dist[i][j][m] = INF;
   dist[3][0][0] = 0;
 
-  bool vis[4][3][100010];
+  bool vis[4][3][100001];
 
   queue<tuple<int, int, int>> q;
   q.push({3, 0, 0});
