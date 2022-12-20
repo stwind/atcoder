@@ -13,8 +13,8 @@ using namespace std;
 #define CEIL(a, b) (a + b - 1) / b
 template<class T> inline bool chmax(T& a, T b) { if (a < b) { a = b; return 1; } return 0; }
 template<class T> inline bool chmin(T& a, T b) { if (a > b) { a = b; return 1; } return 0; }
-template<typename T> void add(T &a, T b) { a += b; if (a >= MOD) a -= MOD; }
-template<typename T> void sub(T &a, T b) { a -= b; if (a < 0) a += MOD; }
+template<typename T> void add(T& a, T b) { a += b; if (a >= MOD) a -= MOD; }
+template<typename T> void sub(T& a, T b) { a -= b; if (a < 0) a += MOD; }
 // clang-format on
 
 using LL = long long;

@@ -31,34 +31,26 @@ int main() {
   IOS;
   int N;
   cin >> N;
-  if (N % 2 == 1)
-    return 0;
 
-  auto check = [](string s) -> bool {
-    int c = 0;
-    for (auto x : s) {
-      if (x == '(')
-        c++;
-      else
-        c--;
-
-      if (c < 0)
+  auto check = [&](int x) -> bool {
+    int v = 0;
+    REPR(i, N - 1, 0) {
+      if (((x >> i) & 1) == 0) v++;
+      else v--;
+      if (v < 0)
         return false;
     }
-    return c == 0;
+    return v == 0;
   };
 
-  for (int bit = 0; bit < (1 << N); bit++) {
-    string s = "";
-    REPR(i, N - 1, 0) {
-      if ((bit & (1 << i)) == 0)
-        s += '(';
-      else
-        s += ')';
+  for (int x = 0; x < (1 << N);x++) {
+    if (check(x)) {
+      REPR(i, N - 1, 0) {
+        if (((x >> i) & 1) == 0) cout << "(";
+        else cout << ")";
+      }
+      cout << endl;
     }
-
-    if (check(s))
-      cout << s << endl;
   }
 
   return 0;

@@ -45,14 +45,13 @@ int main() {
     return k == K && L - prev >= m;
   };
 
-  int lo = 1, hi = L, mid;
+  int lo = 0, hi = L, m;
   while (hi - lo > 1) {
-    mid = (lo + hi) / 2;
-    if (check(mid))
-      lo = mid;
-    else
-      hi = mid;
+    m = (lo + hi) / 2;
+    if (check(m)) lo = m;
+    else hi = m;
   }
+
   cout << lo << endl;
 
   return 0;
