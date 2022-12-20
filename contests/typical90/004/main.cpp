@@ -32,23 +32,23 @@ int main() {
   int H, W;
   cin >> H >> W;
 
-  VVI A(H, VI(W));
-  REP(i, 0, H) REP(j, 0, W) cin >> A[i][j];
-
+  VVI B(H, VI(W));
   VI R(H), C(W);
-  REP(i, 0, H) R[i] = accumulate(all(A[i]), 0);
-  REP(j, 0, W) REP(i, 0, H) C[j] += A[i][j];
-
   REP(i, 0, H) {
-    if (i)
-      cout << endl;
     REP(j, 0, W) {
-      if (j)
-        cout << " ";
-      cout << R[i] + C[j] - A[i][j];
+      cin >> B[i][j];
+      R[i] += B[i][j];
+      C[j] += B[i][j];
     }
   }
-  cout << endl;
+
+  REP(i, 0, H) {
+    REP(j, 0, W) {
+      cout << R[i] + C[j] - B[i][j];
+      if (j < W - 1) cout << " ";
+    }
+    cout << endl;
+  }
 
   return 0;
 }
