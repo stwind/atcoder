@@ -32,32 +32,30 @@ int main() {
   int N;
   cin >> N;
 
-  int a, b;
   VVI G(N);
+  int u, v;
   REP(i, 0, N - 1) {
-    cin >> a >> b;
-    a--, b--;
-    G[a].push_back(b);
-    G[b].push_back(a);
+    cin >> u >> v;
+    G[--u].push_back(--v);
+    G[v].push_back(u);
   }
 
   queue<PII> q;
-  q.push({0, 0});
-  unordered_set<int> seen = {0};
+  q.push({ 0,0 });
+  unordered_set<int> seen = { 0 };
 
-  int longest = 0, x = 0;
+  int dist = 0, x = 0;
   while (!q.empty()) {
-    auto &[d, u] = q.front();
+    auto& [d, u] = q.front();
     q.pop();
-    if (d > longest) {
-      longest = d;
+    if (d > dist) {
+      dist = d;
       x = u;
     }
-    for (auto v : G[u]) {
-      if (seen.count(v))
-        continue;
 
-      q.push({d + 1, v});
+    for (auto v : G[u]) {
+      if (seen.count(v)) continue;
+      q.push({ d + 1, v });
       seen.insert(v);
     }
   }
@@ -65,12 +63,12 @@ int main() {
   function<int(int, int)> dfs = [&](int u, int p) {
     int res = 0;
     for (auto v : G[u]) {
-      if (v == p)
-        continue;
+      if (v == p) continue;
       chmax(res, dfs(v, u) + 1);
     }
     return res;
   };
+
   cout << dfs(x, -1) + 1 << endl;
 
   return 0;
