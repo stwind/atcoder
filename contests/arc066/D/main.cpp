@@ -28,7 +28,6 @@ using PII = pair<int, int>;
 
 int main() {
   IOS;
-  LL N;
 
   return 0;
 }
