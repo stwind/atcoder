@@ -29,25 +29,27 @@ using PLL = pair<LL, LL>;
 
 int main() {
   IOS;
-  LL N, K;
-  cin >> N >> K;
-  VI A(N);
+  int N;
+  cin >> N;
+  LL K;
+  cin >> K;
+
+  int k = 0;
+  while ((1LL << k) <= K) k++;
+
+  VVI dp(k, VI(N));
   REP(i, 0, N) {
-    cin >> A[i];
-    A[i]--;
+    cin >> dp[0][i];
+    dp[0][i]--;
   }
+  REP(j, 1, k) REP(i, 0, N) dp[j][i] = dp[j - 1][dp[j - 1][i]];
 
-  int n = log2(K) + 1;
-  VVI D(N, VI(n));
-  REP(i, 0, N) D[i][0] = A[i];
-  REP(k, 1, n) REP(i, 0, N) D[i][k] = D[D[i][k - 1]][k - 1];
-
-  int u = 0;
-  REP(k, 0, n) {
-    if (K & (1LL << k))
-      u = D[u][k];
+  int x = 0;
+  REP(j, 0, k) {
+    if (K >> j & 1)
+      x = dp[j][x];
   }
-  cout << u + 1 << endl;
+  cout << x + 1 << endl;
 
   return 0;
 }
