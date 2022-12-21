@@ -32,33 +32,30 @@ int main() {
 
   int N;
   cin >> N;
-  VI X(N), Y(N);
-  REP(i, 0, N)cin >> X[i] >> Y[i];
-
-  auto calc = [](double x) -> double {
-    return min(abs(x), M_PI * 2 - abs(x)) * 180 / M_PI;
-  };
-
-  double res = 0;
+  VI A(N + 1), B(N + 1);
+  int c, p;
   REP(i, 0, N) {
-    vector<double> angles;
-
-    REP(j, 0, N) {
-      if (i == j) continue;
-      double x = X[j] - X[i], y = Y[j] - Y[i];
-      angles.push_back(atan2(y, x));
+    cin >> c >> p;
+    if (c == 1) {
+      A[i + 1] = A[i] + p;
+      B[i + 1] = B[i];
     }
-    sort(all(angles));
-
-    REP(j, 0, N - 1) {
-      double a = angles[j];
-      auto lower = lower_bound(all(angles), a + M_PI);
-      if (lower != angles.end())
-        chmax(res, calc(a - *lower));
-      chmax(res, calc(a - *(lower - 1)));
+    else {
+      A[i + 1] = A[i];
+      B[i + 1] = B[i] + p;
     }
   }
-  cout << fixed << setprecision(15) << res << endl;
+
+  int Q;
+  cin >> Q;
+  VI L(Q), R(Q);
+  REP(i, 0, Q) {
+    cin >> L[i] >> R[i];
+    L[i]--;
+  }
+  REP(i, 0, Q) {
+    cout << A[R[i]] - A[L[i]] << " " << B[R[i]] - B[L[i]] << endl;
+  }
 
   return 0;
 }
