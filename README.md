@@ -17,4 +17,5 @@ Playing [AtCoder](https://atcoder.jp/).
 | arc032    | [B - 道路工事](https://atcoder.jp/contests/arc032/tasks/arc032_2)                   | Union Find  |
 | abc049    | [D - 連結](https://atcoder.jp/contests/abc049/tasks/arc065_b)                       | Union Find  |
 | abc120    | [D - Decayed Bridges](https://atcoder.jp/contests/abc120/tasks/abc120_d)            | Union Find  |
+| abc157    | [D - Friend Suggestions](https://atcoder.jp/contests/abc157/tasks/abc157_d)         | Union Find  |
 | typical90 | [013 - Passing（★5）](https://atcoder.jp/contests/typical90/tasks/typical90_m)      | Dijkstra    |
