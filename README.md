@@ -15,4 +15,5 @@ Playing [AtCoder](https://atcoder.jp/).
 | atc001    | [B - Union Find](https://atcoder.jp/contests/atc001/tasks/unionfind_a)              | Union Find  |
 | abc097    | [D - Equals](https://atcoder.jp/contests/abc097/tasks/arc097_b)                     | Union Find  |
 | arc032    | [B - 道路工事](https://atcoder.jp/contests/arc032/tasks/arc032_2)                   | Union Find  |
+| abc049    | [D - 連結](https://atcoder.jp/contests/abc049/tasks/arc065_b)                       | Union Find  |
 | typical90 | [013 - Passing（★5）](https://atcoder.jp/contests/typical90/tasks/typical90_m)      | Dijkstra    |
