@@ -2,17 +2,21 @@
 using namespace std;
 
 // clang-format off
-#define forn(i, x, y) for(int i = x; i < y; i++)
-#define IOS ios_base::sync_with_stdio(false); cin.tie(0); cout.tie(NULL)
+#define REP(i, x, y) for(int i = x; i < y; i++)
+#define REPR(i, x, y) for(int i = x;  i >= y; i--)
+#define IOS ios_base::sync_with_stdio(false); cin.tie(0);
 #define all(s) s.begin(), s.end()
+#define rall(s) s.rbegin(), s.rend()
 #define MOD 1000000007
+#define INF (1 << 30)
 #define DEBUG(x) cout << #x << ": " << x << endl;
-#define DEBUGV(a) for(auto it = a.begin() ; it != a.end(); it++) { cout << *it << " "; } cout << endl;
-#define CEIL(a, b) (a + b - 1) / b
+#define DEBUGV(a) cout << #a << ": "; for(auto it = a.begin() ; it != a.end(); it++) { cout << *it << " "; } cout << endl;
+#define CEIL(a, b) ((a) + (b) - 1) / (b)
+#define IN(x, a, b) (a <= x && x < b)
 template<class T> inline bool chmax(T& a, T b) { if (a < b) { a = b; return 1; } return 0; }
 template<class T> inline bool chmin(T& a, T b) { if (a > b) { a = b; return 1; } return 0; }
-template<typename T> void add(T &a, T b) { a += b; if (a >= MOD) a -= MOD; }
-template<typename T> void sub(T &a, T b) { a -= b; if (a < 0) a += MOD; }
+template <typename T> T sub(T a, T b) { return (a + MOD - b) % MOD; }
+template <typename T> T add(T a, T b) { return (a + b) % MOD; }
 // clang-format on
 
 using LL = long long;
@@ -23,65 +27,60 @@ using VVLL = vector<VLL>;
 using PII = pair<int, int>;
 using PLL = pair<LL, LL>;
 
-class UnionFind
-{
-    int n;
-
+class UnionFind {
+  int n;
 public:
-    VI par, rank, cnt;
-    UnionFind(int n) : n(n)
-    {
-        par = rank = VI(n, 0);
-        cnt = VI(n, 1);
-        forn(i, 0, n) par[i] = i;
-    }
-    void reset() { forn(i, 0, n) rank[i] = 0, cnt[i] = 1, par[i] = i; }
-    int find(int x) { return (par[x] == x) ? (x) : (par[x] = find(par[x])); }
-    int unite(int x, int y)
-    {
-        if ((x = find(x)) == (y = find(y)))
-            return x;
-        cnt[y] = cnt[x] = cnt[x] + cnt[y];
-        if (rank[x] > rank[y])
-            return par[x] = y;
-        rank[x] += rank[x] == rank[y];
-        return par[y] = x;
-    }
-    int count(int x) { return cnt[find(x)]; }
-    bool same(int x, int y) { return find(x) == find(y); }
+  VI root, rank, cnt;
+  UnionFind(int n): n(n) {
+    root = rank = VI(n, 0);
+    cnt = VI(n, 1);
+    REP(i, 0, n) root[i] = i;
+  }
+  int find(int x) {
+    return root[x] == x ? x : root[x] = find(root[x]);
+  }
+  int link(int x, int y) {
+    if ((x = find(x)) == (y = find(y))) return x;
+
+    cnt[y] = cnt[x] = cnt[x] + cnt[y];
+
+    if (rank[x] > rank[y]) return root[y] = x;
+    else if (rank[x] < rank[y]) return root[x] = y;
+
+    rank[x] += rank[x] == rank[y];
+    return root[y] = x;
+  }
+  int count(int x) {
+    return cnt[find(x)];
+  }
+  bool query(int x, int y) {
+    return find(x) == find(y);
+  }
 };
 
-int main()
-{
-    IOS;
-    int N, M;
-    cin >> N >> M;
-    VI A(M), B(M);
-    forn(i, 0, M)
-    {
-        cin >> A[i] >> B[i];
-        A[i]--;
-        B[i]--;
-    }
+int main() {
+  IOS;
 
-    LL c = (LL)N * (N - 1) / 2;
-    UnionFind uf(N);
-    VLL res(M + 1);
-    res[M] = c;
+  int N, M;
+  cin >> N >> M;
+  VI A(M), B(M);
+  REP(i, 0, M) cin >> A[i] >> B[i], A[i]--, B[i]--;
 
-    for (int i = M - 1; i >= 0; i--)
-    {
-        if (!uf.same(A[i], B[i]))
-        {
-            c -= uf.count(A[i]) * uf.count(B[i]);
-        }
-        res[i] = c;
-        uf.unite(A[i], B[i]);
-    }
-    forn(i, 1, M + 1)
-    {
-        cout << res[i] << endl;
-    }
+  UnionFind uf = UnionFind(N);
 
-    return 0;
+  LL h = (LL)N * (N - 1) / 2;
+  VLL R(M + 1);
+  R[M] = h;
+  REPR(i, M - 1, 0) {
+    if (!uf.query(A[i], B[i])) {
+      LL a = uf.count(A[i]);
+      LL b = uf.count(B[i]);
+      h -= a * b;
+    }
+    R[i] = h;
+    uf.link(A[i], B[i]);
+  }
+  REP(i, 1, M + 1) cout << R[i] << endl;
+
+  return 0;
 }
