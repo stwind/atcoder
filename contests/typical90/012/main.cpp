@@ -60,15 +60,36 @@ public:
 
 int main() {
   IOS;
-  int N, Q;
-  cin >> N >> Q;
+  int H, W, Q;
+  cin >> H >> W >> Q;
 
-  UnionFind uf = UnionFind(N);
-  int p, a, b;
+  int M[H][W];
+  REP(i, 0, H) REP(j, 0, W) M[i][j] = 0;
+  UnionFind uf = UnionFind(H * W);
+  auto id = [&](int x, int y) -> int {
+    return x * W + y;
+  };
+
+  int t;
   REP(i, 0, Q) {
-    cin >> p >> a >> b;
-    if (p == 0) uf.link(a, b);
-    else cout << (uf.query(a, b) ? "Yes" : "No") << endl;;
+    cin >> t;
+    if (t == 1) {
+      int r, c;
+      cin >> r >> c;
+      r--, c--;
+      M[r][c] = 1;
+
+      if (r > 0 && M[r - 1][c]) uf.link(id(r - 1, c), id(r, c));
+      if (c > 0 && M[r][c - 1]) uf.link(id(r, c - 1), id(r, c));
+      if (r < H - 1 && M[r + 1][c]) uf.link(id(r + 1, c), id(r, c));
+      if (c < W - 1 && M[r][c + 1]) uf.link(id(r, c + 1), id(r, c));
+    }
+    else {
+      int ra, ca, rb, cb;
+      cin >> ra >> ca >> rb >> cb;
+      ra--, ca--, rb--, cb--;
+      cout << (M[ra][ca] && M[rb][cb] && uf.query(id(ra, ca), id(rb, cb)) ? "Yes" : "No") << endl;
+    }
   }
 
   return 0;
