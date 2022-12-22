@@ -8,6 +8,8 @@ Playing [AtCoder](https://atcoder.jp/).
 
 ## Problems
 
-| Contest | Problem                                                             | Memo        |
-| ------- | ------------------------------------------------------------------- | ----------- |
-| ABC167  | [D - Teleporter](https://atcoder.jp/contests/abc167/tasks/abc167_d) | DP Doubling |
+| Contest   | Problem                                                                             | Memo        |
+| --------- | ----------------------------------------------------------------------------------- | ----------- |
+| ABC167    | [D - Teleporter](https://atcoder.jp/contests/abc167/tasks/abc167_d)                 | DP Doubling |
+| typical90 | [012 - Red Painting（★4）](https://atcoder.jp/contests/typical90/tasks/typical90_l) | Union Find  |
+| atc001    | [B - Union Find](https://atcoder.jp/contests/atc001/tasks/unionfind_a)              | Union Find  |
