@@ -20,5 +20,6 @@ Playing [AtCoder](https://atcoder.jp/).
 | abc157    | [D - Friend Suggestions](https://atcoder.jp/contests/abc157/tasks/abc157_d)               | Union Find   |
 | typical90 | [013 - Passing（★5）](https://atcoder.jp/contests/typical90/tasks/typical90_m)            | Dijkstra     |
 | abc034    | [C - 経路](https://atcoder.jp/contests/abc034/tasks/abc034_c)                             | 二項係数     |
+| abc185    | [C - Duodecim Ferra](https://atcoder.jp/contests/abc185/tasks/abc185_c)                   | 二項係数     |
 | typical90 | [015 - Don't be too close（★6）](https://atcoder.jp/contests/typical90/tasks/typical90_o) | 二項係数     |
 | atc002    | [B - n^p mod m](https://atcoder.jp/contests/atc002/tasks/atc002_b)                        | 繰返し二乗法 |
