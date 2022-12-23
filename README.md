@@ -19,3 +19,4 @@ Playing [AtCoder](https://atcoder.jp/).
 | abc120    | [D - Decayed Bridges](https://atcoder.jp/contests/abc120/tasks/abc120_d)            | Union Find  |
 | abc157    | [D - Friend Suggestions](https://atcoder.jp/contests/abc157/tasks/abc157_d)         | Union Find  |
 | typical90 | [013 - Passing（★5）](https://atcoder.jp/contests/typical90/tasks/typical90_m)      | Dijkstra    |
+| abc034    | [C - 経路](https://atcoder.jp/contests/abc034/tasks/abc034_c)                       | 二項係数    |
