@@ -23,3 +23,4 @@ Playing [AtCoder](https://atcoder.jp/).
 | abc185    | [C - Duodecim Ferra](https://atcoder.jp/contests/abc185/tasks/abc185_c)                   | 二項係数     |
 | typical90 | [015 - Don't be too close（★6）](https://atcoder.jp/contests/typical90/tasks/typical90_o) | 二項係数     |
 | atc002    | [B - n^p mod m](https://atcoder.jp/contests/atc002/tasks/atc002_b)                        | 繰返し二乗法 |
+| abc167    | [E - Colorful Blocks](https://atcoder.jp/contests/abc167/tasks/abc167_e)                  | 二項係数     |
