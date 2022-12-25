@@ -1,5 +1,3 @@
-// https://kmjp.hatenablog.jp/entry/2020/05/10/0900
-
 #include <bits/stdc++.h>
 using namespace std;
 
