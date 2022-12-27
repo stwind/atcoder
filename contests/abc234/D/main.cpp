@@ -51,8 +51,7 @@ public:
     for (int i = log2(_n); i >= 0; i--) {
       int b = 1 << i;
       if (p + b < _n && s + data[p + b] < x) {
-        p += b;
-        s += data[p];
+        s += data[p += b];
       }
     }
     return p;
