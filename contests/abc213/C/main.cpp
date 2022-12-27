@@ -27,24 +27,32 @@ using VVLL = vector<VLL>;
 using PII = pair<int, int>;
 using PLL = pair<LL, LL>;
 
+template <typename T>
+vector<T> compress(vector<T>& X) {
+  vector<T> vals = X;
+  sort(all(vals));
+
+  vals.erase(unique(all(vals)), vals.end());
+
+  int n = X.size();
+  VI I(n);
+  REP(i, 0, n)
+    I[i] = lower_bound(all(vals), X[i]) - vals.begin();
+
+  return I;
+}
+
 int main() {
   IOS;
+
   int H, W, N;
   cin >> H >> W >> N;
   VI A(N), B(N);
   REP(i, 0, N) cin >> A[i] >> B[i];
 
-  VI C(A), R(B);
-  sort(all(C));
-  C.erase(unique(all(C)), C.end());
-  sort(all(R));
-  R.erase(unique(all(R)), R.end());
+  VI AX = compress(A), BX = compress(B);
 
-  REP(i, 0, N) {
-    int c = lower_bound(all(C), A[i]) - C.begin() + 1;
-    int r = lower_bound(all(R), B[i]) - R.begin() + 1;
-    cout << c << " " << r << endl;
-  }
+  REP(i, 0, N) cout << AX[i] + 1 << " " << BX[i] + 1 << endl;
 
   return 0;
 }
