@@ -29,3 +29,4 @@ Playing [AtCoder](https://atcoder.jp/).
 | arc077    | [D - 11](https://atcoder.jp/contests/arc077/tasks/arc077_b)                               | 二項係数            |
 | arc116    | [C - Multiple Sequences](https://atcoder.jp/contests/arc116/tasks/arc116_c)               | 二項係数 素因数分解 |
 | practice2 | [B - Fenwick Tree](https://atcoder.jp/contests/practice2/tasks/practice2_b)               | Binary Indexed Tree |
+| abc038    | [D - プレゼント](https://atcoder.jp/contests/abc038/tasks/abc038_d)                   | Binary Indexed Tree |
