@@ -3,7 +3,7 @@ using namespace std;
 
 // clang-format off
 #define REP(i, x, y) for(int i = x; i < y; i++)
-#define REPR(i, x, y) for(int i = x; i >= y; i--)
+#define REPR(i, x, y) for(int i = x;  i >= y; i--)
 #define IOS ios_base::sync_with_stdio(false); cin.tie(0);
 #define all(s) s.begin(), s.end()
 #define rall(s) s.rbegin(), s.rend()
@@ -27,18 +27,31 @@ using VVLL = vector<VLL>;
 using PII = pair<int, int>;
 using PLL = pair<LL, LL>;
 
+template <typename T>
+vector<T> compress(vector<T>& X) {
+  vector<T> vals = X;
+  sort(all(vals));
+
+  vals.erase(unique(all(vals)), vals.end());
+
+  int n = X.size();
+  VI I(n);
+  REP(i, 0, n)
+    I[i] = lower_bound(all(vals), X[i]) - vals.begin();
+
+  return I;
+}
+
 int main() {
   IOS;
+
   int N;
   cin >> N;
   VI A(N);
   REP(i, 0, N) cin >> A[i];
 
-  VI B(A);
-  sort(all(B));
-  B.erase(unique(all(B)), B.end());
-
-  REP(i, 0, N) cout << lower_bound(all(B), A[i]) - B.begin() << endl;
+  VI C = compress(A);
+  REP(i, 0, N) cout << C[i] << endl;
 
   return 0;
 }
