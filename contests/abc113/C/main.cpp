@@ -27,24 +27,37 @@ using VVLL = vector<VLL>;
 using PII = pair<int, int>;
 using PLL = pair<LL, LL>;
 
+template <typename T>
+vector<T> compress(vector<T>& X) {
+  vector<T> vals = X;
+  sort(all(vals));
+
+  vals.erase(unique(all(vals)), vals.end());
+
+  REP(i, 0, (int)X.size())
+    X[i] = lower_bound(all(vals), X[i]) - vals.begin();
+
+  return vals;
+}
+
 int main() {
   IOS;
+
   int N, M;
   cin >> N >> M;
   VI P(M), Y(M);
   REP(i, 0, M) cin >> P[i] >> Y[i];
 
-  VVI years(N + 1);
-  REP(i, 0, M) years[P[i]].push_back(Y[i]);
+  VVI PX(N);
+  REP(i, 0, M) PX[P[i] - 1].push_back(Y[i]);
 
-  for (auto &y : years)
-    sort(all(y));
+  REP(i, 0, N) compress(PX[i]);
 
+  VI C(N);
   REP(i, 0, M) {
-    int p = P[i];
-    int x = lower_bound(all(years[p]), Y[i]) - years[p].begin() + 1;
-    cout << setfill('0') << setw(6) << p;
-    cout << setfill('0') << setw(6) << x << endl;
+    cout << setfill('0') << setw(6) << P[i];
+    cout << setfill('0') << setw(6) << PX[P[i] - 1][C[P[i] - 1]++] + 1;
+    cout << endl;
   }
 
   return 0;

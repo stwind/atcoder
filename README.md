@@ -31,4 +31,5 @@ Playing [AtCoder](https://atcoder.jp/).
 | practice2 | [B - Fenwick Tree](https://atcoder.jp/contests/practice2/tasks/practice2_b)               | Binary Indexed Tree           |
 | abc038    | [D - プレゼント](https://atcoder.jp/contests/abc038/tasks/abc038_d)                   | Binary Indexed Tree           |
 | abc036    | [C - 座圧](https://atcoder.jp/contests/abc036/tasks/abc036_c)                             | 座標圧縮                      |
+| abc113    | [C - ID](https://atcoder.jp/contests/abc113/tasks/abc113_c)                               | 座標圧縮                      |
 | abc231    | [F - Jealous Two](https://atcoder.jp/contests/abc231/tasks/abc231_f)                      | 座標圧縮, Binary Indexed Tree |
