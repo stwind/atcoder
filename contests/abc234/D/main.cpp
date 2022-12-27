@@ -1,3 +1,5 @@
+// https://kyo-pro.hatenablog.com/entry/ABC234D
+
 #include <bits/stdc++.h>
 using namespace std;
 
