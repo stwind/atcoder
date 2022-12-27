@@ -35,4 +35,4 @@ Playing [AtCoder](https://atcoder.jp/).
 | abc107    | [B - Grid Compression](https://atcoder.jp/contests/abc107/tasks/abc107_b)                 | 座標圧縮                      |
 | abc213    | [C - Reorder Cards](https://atcoder.jp/contests/abc213/tasks/abc213_c)                    | 座標圧縮                      |
 | abc231    | [F - Jealous Two](https://atcoder.jp/contests/abc231/tasks/abc231_f)                      | 座標圧縮, Binary Indexed Tree |
-| abc234    | [D - Prefix K-th Max](https://atcoder.jp/contests/abc234/tasks/abc234_d)                  | Heap                          |
+| abc234    | [D - Prefix K-th Max](https://atcoder.jp/contests/abc234/tasks/abc234_d)                  | Heap, Binary Indexed Tree     |

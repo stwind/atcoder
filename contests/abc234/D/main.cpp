@@ -27,6 +27,36 @@ using VVLL = vector<VLL>;
 using PII = pair<int, int>;
 using PLL = pair<LL, LL>;
 
+template <class T>
+struct BinaryIndexTree {
+  int _n;
+  vector<T> data;
+
+public:
+  BinaryIndexTree(int n): _n(n), data(n, 0) {}
+  void update(int p, T x) {
+    for (; p < _n; p += p & -p)
+      data[p] += x;
+  }
+  T query(int r) {
+    T s = 0;
+    for (; r > 0; r -= r & -r)
+      s += data[r];
+    return s;
+  }
+  int lower_bound(int x) {
+    int s = 0, p = 0;
+    for (int i = log2(_n); i >= 0; i--) {
+      int b = 1 << i;
+      if (p + b < _n && s + data[p + b] < x) {
+        p += b;
+        s += data[p];
+      }
+    }
+    return p;
+  }
+};
+
 int main() {
   IOS;
 
@@ -35,17 +65,13 @@ int main() {
   VI P(N);
   REP(i, 0, N) cin >> P[i];
 
-  priority_queue<int, VI, greater<int>> pq;
-  REP(i, 0, K) pq.push(P[i]);
+  BinaryIndexTree<LL> bit(N + 1);
+  REP(i, 0, K - 1) bit.update(P[i], 1);
 
-  REP(i, K, N) {
-    int x = pq.top();
-    cout << x << endl;
-    pq.push(P[i]);
-    pq.pop();
+  REP(i, K - 1, N) {
+    bit.update(P[i], 1);
+    cout << bit.lower_bound(i + 1 - K + 1) + 1 << endl;
   }
-  int x = pq.top();
-  cout << x << endl;
 
   return 0;
 }
