@@ -39,3 +39,4 @@ Playing [AtCoder](https://atcoder.jp/).
 | chokudai_S001 | [J - 転倒数](https://atcoder.jp/contests/chokudai_S001/tasks/chokudai_S001_j)             | Binary Indexed Tree           |
 | arc033        | [C - データ構造](https://atcoder.jp/contests/arc033/tasks/arc033_3)                     | Binary Indexed Tree           |
 | abc035        | [C - オセロ](https://atcoder.jp/contests/abc035/tasks/abc035_c)                           | 累積和, いもす法              |
+| abc014        | [C - AtColor](https://atcoder.jp/contests/abc014/tasks/abc014_3)                          | 累積和, いもす法              |
