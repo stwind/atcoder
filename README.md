@@ -41,3 +41,4 @@ Playing [AtCoder](https://atcoder.jp/).
 | abc035        | [C - オセロ](https://atcoder.jp/contests/abc035/tasks/abc035_c)                           | 累積和, いもす法              |
 | abc014        | [C - AtColor](https://atcoder.jp/contests/abc014/tasks/abc014_3)                          | 累積和, いもす法              |
 | abc138        | [D - Ki](https://atcoder.jp/contests/abc138/tasks/abc138_d)                               | 累積和                        |
+| abc018        | [C - 菱型カウント](https://atcoder.jp/contests/abc018/tasks/abc018_3)                     | 累積和, いもす法              |
