@@ -40,3 +40,4 @@ Playing [AtCoder](https://atcoder.jp/).
 | arc033        | [C - データ構造](https://atcoder.jp/contests/arc033/tasks/arc033_3)                     | Binary Indexed Tree           |
 | abc035        | [C - オセロ](https://atcoder.jp/contests/abc035/tasks/abc035_c)                           | 累積和, いもす法              |
 | abc014        | [C - AtColor](https://atcoder.jp/contests/abc014/tasks/abc014_3)                          | 累積和, いもす法              |
+| abc138        | [D - Ki](https://atcoder.jp/contests/abc138/tasks/abc138_d)                               | 累積和                        |
