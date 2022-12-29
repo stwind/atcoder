@@ -53,6 +53,7 @@
     "tuple": "cpp",
     "type_traits": "cpp",
     "typeindex": "cpp",
-    "utility": "cpp"
+    "utility": "cpp",
+    "stacktrace": "cpp"
   }
 }
