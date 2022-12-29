@@ -45,3 +45,4 @@ Playing [AtCoder](https://atcoder.jp/).
 | typical90        | [028 - Cluttered Paper（★4）](https://atcoder.jp/contests/typical90/tasks/typical90_ab)         | 累積和, いもす法              |
 | nikkei2019-final | [A - Abundant Resources](https://atcoder.jp/contests/nikkei2019-final/tasks/nikkei2019_final_a) | 累積和                        |
 | abc084           | [D - 2017-like Number](https://atcoder.jp/contests/abc084/tasks/abc084_d)                       | 累積和, 素数                  |
+| agc023           | [A - Zero-Sum Ranges](https://atcoder.jp/contests/agc023/tasks/agc023_a)                        | 累積和                        |
