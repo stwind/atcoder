@@ -2,43 +2,46 @@
 using namespace std;
 
 // clang-format off
-#define forn(i, x, y) for(int i = x; i < y; i++)
-#define IOS ios_base::sync_with_stdio(false); cin.tie(0); cout.tie(NULL)
+#define REP(i, x, y) for(int i = x; i < y; i++)
+#define REPR(i, x, y) for(int i = x; i >= y; i--)
+#define IOS ios_base::sync_with_stdio(false); cin.tie(0);
 #define all(s) s.begin(), s.end()
+#define rall(s) s.rbegin(), s.rend()
 #define MOD 1000000007
+#define INF (1 << 30)
 #define DEBUG(x) cout << #x << ": " << x << endl;
-#define DEBUGV(a) for(auto it = a.begin() ; it != a.end(); it++) { cout << *it << " "; } cout << endl;
+#define DEBUGV(a) cout << #a << ": "; for(auto it = a.begin() ; it != a.end(); it++) { cout << *it << " "; } cout << endl;
+#define CEIL(a, b) ((a) + (b) - 1) / (b)
+#define IN(x, a, b) (a <= x && x < b)
+template<class T> inline bool chmax(T& a, T b) { if (a < b) { a = b; return 1; } return 0; }
+template<class T> inline bool chmin(T& a, T b) { if (a > b) { a = b; return 1; } return 0; }
+template <typename T> T sub(T a, T b) { return (a + MOD - b) % MOD; }
+template <typename T> T add(T a, T b) { return (a + b) % MOD; }
 // clang-format on
 
 using LL = long long;
 using VI = vector<int>;
 using VVI = vector<VI>;
 using VLL = vector<LL>;
+using VVLL = vector<VLL>;
+using PII = pair<int, int>;
 using PLL = pair<LL, LL>;
 
-int main()
-{
-    IOS;
-    int N;
-    cin >> N;
-    VI A(N);
-    forn(i, 0, N) cin >> A[i];
+int main() {
+  IOS;
 
-    int j = 0;
-    LL res = 0;
-    for (int i = 1; i < N; i++)
-    {
-        if (A[i] <= A[i - 1])
-        {
-            LL d = i - j;
-            res += d * (d + 1) / 2;
-            j = i;
-        }
-    }
-    LL d = N - j;
-    res += d * (d + 1) / 2;
+  int N;
+  cin >> N;
+  VI A(N);
+  REP(i, 0, N) cin >> A[i];
 
-    cout << res << endl;
+  LL res = 0;
+  for (int i = 0, j = 1; i < N;i++) {
+    while (j < N && (j <= i || A[j - 1] < A[j])) j++;
+    res += j - i;
+    if (i == j) j++;
+  }
+  cout << res << endl;
 
-    return 0;
+  return 0;
 }
