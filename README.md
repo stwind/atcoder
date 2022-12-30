@@ -51,3 +51,4 @@ Playing [AtCoder](https://atcoder.jp/).
 | abc086           | [D - Checker](https://atcoder.jp/contests/abc086/tasks/arc089_b)                                | 累積和                        |
 | abc032           | [C - 列](https://atcoder.jp/contests/abc032/tasks/abc032_c)                                     | しゃくとり法                  |
 | abc038           | [C - 単調増加](https://atcoder.jp/contests/abc038/tasks/abc038_c)                               | しゃくとり法                  |
+| abc153           | [F - Silver Fox vs Monster](https://atcoder.jp/contests/abc153/tasks/abc153_f)                  | いもす法                      |
