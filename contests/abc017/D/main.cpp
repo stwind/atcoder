@@ -29,24 +29,22 @@ using PLL = pair<LL, LL>;
 
 int main() {
   IOS;
+
   int N, M;
   cin >> N >> M;
   VI F(N);
   REP(i, 0, N) cin >> F[i];
 
-  VLL dp(N + 1, 0), S(N + 2, 0);
-  dp[0] = S[1] = 1;
-
-  unordered_map<int, int> C;
-  for (int i = 0, j = 0; i < N; i++) {
-    C[F[i]]++;
-    while (C[F[i]] > 1)
-      C[F[j++]]--;
-
-    dp[i + 1] = sub(S[i + 1], S[j]);
-    S[i + 2] = add(S[i + 1], dp[i + 1]);
+  VLL dp(N + 1);
+  dp[0] = 1;
+  VLL sum(N + 1);
+  unordered_set<int> S;
+  for (int i = 1, j = 0;i <= N;i++) {
+    sum[i] = add(sum[i - 1], dp[i - 1]);
+    while (S.count(F[i - 1])) S.erase(F[j++]);
+    S.insert(F[i - 1]);
+    dp[i] = sub(sum[i], sum[j]);
   }
-
   cout << dp[N] << endl;
 
   return 0;

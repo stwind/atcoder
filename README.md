@@ -54,3 +54,4 @@ Playing [AtCoder](https://atcoder.jp/).
 | abc153           | [F - Silver Fox vs Monster](https://atcoder.jp/contests/abc153/tasks/abc153_f)                  | いもす法                      |
 | arc022           | [B - 細長いお菓子](https://atcoder.jp/contests/arc022/tasks/arc022_2)                           | しゃくとり法                  |
 | abc098           | [D - Xor Sum 2](https://atcoder.jp/contests/abc098/tasks/arc098_b)                              | しゃくとり法                  |
+| abc017           | [D - サプリメント](https://atcoder.jp/contests/abc017/tasks/abc017_4)                         | 累積和, しゃくとり法          |
