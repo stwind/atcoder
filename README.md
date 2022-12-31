@@ -58,3 +58,4 @@ Playing [AtCoder](https://atcoder.jp/).
 | abc134           | [C - Exception Handling](https://atcoder.jp/contests/abc134/tasks/abc134_c)                     | 累積和                        |
 | tkppc3           | [D - 巨大チェスボード](https://atcoder.jp/contests/tkppc3/tasks/tkppc3_d)                   | 累積和                        |
 | abc122           | [C - GeT AC](https://atcoder.jp/contests/abc122/tasks/abc122_c)                                 | 累積和                        |
+| abc125           | [C - GCD on Blackboard](https://atcoder.jp/contests/abc125/tasks/abc125_c)                      | 累積和                        |
