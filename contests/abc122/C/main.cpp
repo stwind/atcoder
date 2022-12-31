@@ -44,8 +44,7 @@ int main() {
   }
 
   REP(i, 0, Q) {
-    int l = L[i], r = R[i];
-    cout << C[r] - C[l - 1] - (C[l] - C[l - 1]) << endl;
+    cout << C[R[i]] - C[L[i]] << endl;
   }
 
   return 0;
