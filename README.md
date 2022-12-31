@@ -56,3 +56,4 @@ Playing [AtCoder](https://atcoder.jp/).
 | abc098           | [D - Xor Sum 2](https://atcoder.jp/contests/abc098/tasks/arc098_b)                              | しゃくとり法                  |
 | abc017           | [D - サプリメント](https://atcoder.jp/contests/abc017/tasks/abc017_4)                         | 累積和, しゃくとり法          |
 | abc134           | [C - Exception Handling](https://atcoder.jp/contests/abc134/tasks/abc134_c)                     | 累積和                        |
+| tkppc3           | [D - 巨大チェスボード](https://atcoder.jp/contests/tkppc3/tasks/tkppc3_d)                   | 累積和                        |
