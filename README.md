@@ -60,3 +60,4 @@ Playing [AtCoder](https://atcoder.jp/).
 | abc122           | [C - GeT AC](https://atcoder.jp/contests/abc122/tasks/abc122_c)                                  | 累積和                        |
 | abc125           | [C - GCD on Blackboard](https://atcoder.jp/contests/abc125/tasks/abc125_c)                       | 累積和                        |
 | abjoi2017yoc125  | [C - 休憩スペース (Refreshment Area)](https://atcoder.jp/contests/joi2017yo/tasks/joi2017yo_c) | 累積和                        |
+| abc080           | [D - Recording](https://atcoder.jp/contests/abc080/tasks/abc080_d)                               | 累積和                        |
