@@ -43,8 +43,10 @@ int main() {
     H[c][t]--;
   }
 
-  REP(c, 0, C) REP(i, 0, n) H[c][i + 1] += H[c][i];
-  REP(c, 0, C) REP(i, 0, n + 1) chmin(H[c][i], 1);
+  REP(c, 0, C) {
+    REP(i, 0, n) H[c][i + 1] += H[c][i];
+    REP(i, 0, n + 1) chmin(H[c][i], 1);
+  }
 
   int res = 0;
   REP(i, 0, n + 1) {
