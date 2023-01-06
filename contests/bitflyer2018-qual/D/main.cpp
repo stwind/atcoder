@@ -1,5 +1,6 @@
 // https://emtubasa.hateblo.jp/entry/2018/11/09/103321
 // https://sen-comp.hatenablog.com/entry/2019/11/29/163258
+// https://blog.hamayanhamayan.com/entry/2018/06/02/235536
 
 #include <bits/stdc++.h>
 using namespace std;
@@ -36,6 +37,51 @@ int main() {
   cin >> H >> W >> N >> M;
   vector<string> A(N);
   REP(i, 0, N) cin >> A[i];
+
+  VI xd, yd;
+  REP(i, 0, N) REP(j, 0, M) {
+    if (A[i][j] == '#') {
+      yd.push_back(i);
+      yd.push_back(H - N + i + 1);
+      xd.push_back(j);
+      xd.push_back(W - M + j + 1);
+    }
+  }
+
+  sort(all(xd));
+  sort(all(yd));
+  xd.erase(unique(all(xd)), xd.end());
+  yd.erase(unique(all(yd)), yd.end());
+
+  int h = yd.size(), w = xd.size();
+  VVI B(h, VI(w));
+  REP(i, 0, N) REP(j, 0, M) if (A[i][j] == '#') {
+    int x1 = lower_bound(all(xd), j) - xd.begin();
+    int y1 = lower_bound(all(yd), i) - yd.begin();
+    int x2 = lower_bound(all(xd), W - M + j + 1) - xd.begin();
+    int y2 = lower_bound(all(yd), H - N + i + 1) - yd.begin();
+
+    B[y1][x1]++;
+    B[y1][x2]--;
+    B[y2][x1]--;
+    B[y2][x2]++;
+  }
+
+  REP(i, 0, h) REP(j, 1, w) B[i][j] += B[i][j - 1];
+  REP(i, 1, h) REP(j, 0, w) B[i][j] += B[i - 1][j];
+
+  LL res = 0;
+  REP(i, 0, h - 1) REP(j, 0, w - 1) {
+    if (B[i][j]) {
+      int x1 = xd[j];
+      int y1 = yd[i];
+      int x2 = xd[j + 1];
+      int y2 = yd[i + 1];
+
+      res += (LL)(x2 - x1) * (LL)(y2 - y1);
+    }
+  }
+  cout << res << endl;
 
   return 0;
 }
