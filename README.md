@@ -62,3 +62,4 @@ Playing [AtCoder](https://atcoder.jp/).
 | abjoi2017yoc125   | [C - 休憩スペース (Refreshment Area)](https://atcoder.jp/contests/joi2017yo/tasks/joi2017yo_c) | 累積和                        |
 | abc080            | [D - Recording](https://atcoder.jp/contests/abc080/tasks/abc080_d)                               | 累積和                        |
 | bitflyer2018-qual | [D - ハンコ](https://atcoder.jp/contests/bitflyer2018-qual/tasks/bitflyer2018_qual_d)            | 累積和, いもす法, 座標圧縮    |
+| arc077            | [E - guruguru](https://atcoder.jp/contests/arc077/tasks/arc077_c)                                | 累積和, いもす法              |
