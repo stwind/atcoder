@@ -66,3 +66,4 @@ Playing [AtCoder](https://atcoder.jp/).
 | abc197            | [C - ORXOR](https://atcoder.jp/contests/abc197/tasks/abc197_c)                                   | bit                           |
 | abc147            | [D - Xor Sum 4](https://atcoder.jp/contests/abc147/tasks/abc147_d)                               | bit                           |
 | arc114            | [A - Not coprime](https://atcoder.jp/contests/arc114/tasks/arc114_a)                             | bit, 素数                     |
+| abc194            | [C - Squared Error](https://atcoder.jp/contests/abc194/tasks/abc194_c)                           | 主客転倒                      |
