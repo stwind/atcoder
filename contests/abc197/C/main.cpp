@@ -29,28 +29,29 @@ using PLL = pair<LL, LL>;
 
 int main() {
   IOS;
+
   int N;
   cin >> N;
   VI A(N);
   REP(i, 0, N) cin >> A[i];
 
-  int res = 1 << 30;
-  for (int bit = 0; bit < (1 << (N - 1)); bit++) {
-    int cur = 0;
-    int v = 0;
+  int ans = INF;
+  for (int h = 0, n = 2 << (N - 1); h < n;h++) {
+    int res = 0, cur = 0;
     REP(i, 0, N - 1) {
-      v |= A[i];
-
-      if (bit & (1 << i)) {
-        cur ^= v;
-        v = 0;
+      if ((h >> i) & 1) {
+        res ^= cur | A[i];
+        cur = 0;
+      }
+      else {
+        cur |= A[i];
       }
     }
-    v |= A[N - 1];
-    cur ^= v;
-    chmin(res, cur);
+    res ^= cur | A[N - 1];
+
+    chmin(ans, res);
   }
-  cout << res << endl;
+  cout << ans << endl;
 
   return 0;
 }
