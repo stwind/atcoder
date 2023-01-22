@@ -65,3 +65,4 @@ Playing [AtCoder](https://atcoder.jp/).
 | arc077            | [E - guruguru](https://atcoder.jp/contests/arc077/tasks/arc077_c)                                | 累積和, いもす法              |
 | abc197            | [C - ORXOR](https://atcoder.jp/contests/abc197/tasks/abc197_c)                                   | bit                           |
 | abc147            | [D - Xor Sum 4](https://atcoder.jp/contests/abc147/tasks/abc147_d)                               | bit                           |
+| arc114            | [A - Not coprime](https://atcoder.jp/contests/arc114/tasks/arc114_a)                             | bit, 素数                     |
