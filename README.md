@@ -72,3 +72,4 @@ Playing [AtCoder](https://atcoder.jp/).
 | abc110            | [D - Factorization](https://atcoder.jp/contests/abc110/tasks/abc110_d)                           | 二項係数, 素因数分解          |
 | arc004            | [D - 表現の自由 ( Freedom of expression )](https://atcoder.jp/contests/arc004/tasks/arc004_4)    | 二項係数, 素因数分解          |
 | caddi2018         | [C - Product and GCD](https://atcoder.jp/contests/caddi2018/tasks/caddi2018_a)                   | 素因数分解                    |
+| arc110            | [D - Binomial Coefficient is Fun](https://atcoder.jp/contests/arc110/tasks/arc110_d)             | 二項係数                      |
