@@ -68,3 +68,4 @@ Playing [AtCoder](https://atcoder.jp/).
 | arc114            | [A - Not coprime](https://atcoder.jp/contests/arc114/tasks/arc114_a)                             | bit, 素数                     |
 | abc194            | [C - Squared Error](https://atcoder.jp/contests/abc194/tasks/abc194_c)                           | 主客転倒                      |
 | arc107            | [A - Simple Math](https://atcoder.jp/contests/arc107/tasks/arc107_a)                             | 割り算                        |
+| arc111            | [A - Simple Math 2](https://atcoder.jp/contests/arc111/tasks/arc111_a)                           | 割り算                        |
