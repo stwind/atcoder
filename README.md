@@ -70,3 +70,4 @@ Playing [AtCoder](https://atcoder.jp/).
 | arc107            | [A - Simple Math](https://atcoder.jp/contests/arc107/tasks/arc107_a)                             | 割り算                        |
 | arc111            | [A - Simple Math 2](https://atcoder.jp/contests/arc111/tasks/arc111_a)                           | 割り算                        |
 | abc110            | [D - Factorization](https://atcoder.jp/contests/abc110/tasks/abc110_d)                           | 二項係数, 素因数分解          |
+| arc004            | [D - 表現の自由 ( Freedom of expression )](https://atcoder.jp/contests/arc004/tasks/arc004_4)    | 二項係数, 素因数分解          |
