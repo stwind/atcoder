@@ -25,9 +25,9 @@ Playing [AtCoder](https://atcoder.jp/).
 | atc002            | [B - n^p mod m](https://atcoder.jp/contests/atc002/tasks/atc002_b)                               | 繰返し二乗法                  |
 | abc167            | [E - Colorful Blocks](https://atcoder.jp/contests/abc167/tasks/abc167_e)                         | 二項係数                      |
 | abc021            | [D - 多重ループ](https://atcoder.jp/contests/abc021/tasks/abc021_d)                            | 二項係数                      |
-| agc025            | [B - RGB Coloring](https://atcoder.jp/contests/agc025/tasks/agc025_b)                            | 二項係数                      |
+| agc025            | [B - RGB Coloring](https://atcoder.jp/contests/agc025/tasks/agc025_b)                            | 二項係数, 素因数分解          |
 | arc077            | [D - 11](https://atcoder.jp/contests/arc077/tasks/arc077_b)                                      | 二項係数                      |
-| arc116            | [C - Multiple Sequences](https://atcoder.jp/contests/arc116/tasks/arc116_c)                      | 二項係数 素因数分解           |
+| arc116            | [C - Multiple Sequences](https://atcoder.jp/contests/arc116/tasks/arc116_c)                      | 二項係数, 素因数分解          |
 | practice2         | [B - Fenwick Tree](https://atcoder.jp/contests/practice2/tasks/practice2_b)                      | Binary Indexed Tree           |
 | abc038            | [D - プレゼント](https://atcoder.jp/contests/abc038/tasks/abc038_d)                          | Binary Indexed Tree           |
 | abc036            | [C - 座圧](https://atcoder.jp/contests/abc036/tasks/abc036_c)                                    | 座標圧縮                      |
@@ -69,3 +69,4 @@ Playing [AtCoder](https://atcoder.jp/).
 | abc194            | [C - Squared Error](https://atcoder.jp/contests/abc194/tasks/abc194_c)                           | 主客転倒                      |
 | arc107            | [A - Simple Math](https://atcoder.jp/contests/arc107/tasks/arc107_a)                             | 割り算                        |
 | arc111            | [A - Simple Math 2](https://atcoder.jp/contests/arc111/tasks/arc111_a)                           | 割り算                        |
+| abc110            | [D - Factorization](https://atcoder.jp/contests/abc110/tasks/abc110_d)                           | 二項係数, 素因数分解          |
