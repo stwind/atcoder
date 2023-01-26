@@ -78,3 +78,4 @@ Playing [AtCoder](https://atcoder.jp/).
 | abc168            | [C - : (Colon)](https://atcoder.jp/contests/abc168/tasks/abc168_c)                                   | 三角関数                      |
 | abc197            | [D - Opposite](https://atcoder.jp/contests/abc197/tasks/abc197_d)                                    | 三角関数                      |
 | abc144            | [D - Water Bottle](https://atcoder.jp/contests/abc144/tasks/abc144_d)                                | 三角関数                      |
+| abc033            | [D - 三角形の分類](https://atcoder.jp/contests/abc033/tasks/abc033_d)                                | しゃくとり法                  |
