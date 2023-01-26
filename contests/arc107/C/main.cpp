@@ -81,7 +81,6 @@ int main() {
     }
     if (good) uf1.link(x, y);
   }
-
   unordered_map<int, LL> C1;
   REP(i, 0, N) C1[uf1.find(i)] = uf1.count(i);
 
