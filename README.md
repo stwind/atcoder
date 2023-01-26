@@ -75,3 +75,4 @@ Playing [AtCoder](https://atcoder.jp/).
 | arc110            | [D - Binomial Coefficient is Fun](https://atcoder.jp/contests/arc110/tasks/arc110_d)                 | 二項係数                      |
 | arc107            | [C - Shuffle Permutation](https://atcoder.jp/contests/arc107/tasks/arc107_c)                         | Union Find                    |
 | arc004            | [A - 2 点間距離の最大値 ( The longest distance )](https://atcoder.jp/contests/arc004/tasks/arc004_1) | 数学                          |
+| abc168            | [C - : (Colon)](https://atcoder.jp/contests/abc168/tasks/abc168_c)                                   | 三角関数                      |
