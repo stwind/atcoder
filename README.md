@@ -80,3 +80,4 @@ Playing [AtCoder](https://atcoder.jp/).
 | abc144            | [D - Water Bottle](https://atcoder.jp/contests/abc144/tasks/abc144_d)                                | 三角関数                      |
 | abc033            | [D - 三角形の分類](https://atcoder.jp/contests/abc033/tasks/abc033_d)                                | しゃくとり法                  |
 | abc273            | [D - LRUD Instructions](https://atcoder.jp/contests/abc273/tasks/abc273_d)                           | 二分探索                      |
+| abc269            | [E - Last Rook](https://atcoder.jp/contests/abc269/tasks/abc269_e)                                   | 二分探索                      |
