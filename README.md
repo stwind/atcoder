@@ -81,3 +81,4 @@ Playing [AtCoder](https://atcoder.jp/).
 | abc033            | [D - 三角形の分類](https://atcoder.jp/contests/abc033/tasks/abc033_d)                                | しゃくとり法                  |
 | abc273            | [D - LRUD Instructions](https://atcoder.jp/contests/abc273/tasks/abc273_d)                           | 二分探索                      |
 | abc269            | [E - Last Rook](https://atcoder.jp/contests/abc269/tasks/abc269_e)                                   | 二分探索                      |
+| abc260            | [D - Draw Your Cards](https://atcoder.jp/contests/abc260/tasks/abc260_d)                             | 二分探索                      |
