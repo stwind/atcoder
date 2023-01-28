@@ -84,3 +84,4 @@ Playing [AtCoder](https://atcoder.jp/).
 | abc260            | [D - Draw Your Cards](https://atcoder.jp/contests/abc260/tasks/abc260_d)                             | 二分探索                      |
 | abc255            | [D - ±1 Operation 2](https://atcoder.jp/contests/abc255/tasks/abc255_d)                              | 二分探索                      |
 | abc255            | [C - ±1 Operation 1](https://atcoder.jp/contests/abc255/tasks/abc255_c)                              | 二分探索                      |
+| abc254            | [D - Together Square](https://atcoder.jp/contests/abc254/tasks/abc254_d)                             | 数学                          |
