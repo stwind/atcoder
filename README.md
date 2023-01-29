@@ -85,3 +85,4 @@ Playing [AtCoder](https://atcoder.jp/).
 | abc255            | [D - ±1 Operation 2](https://atcoder.jp/contests/abc255/tasks/abc255_d)                              | 二分探索                      |
 | abc255            | [C - ±1 Operation 1](https://atcoder.jp/contests/abc255/tasks/abc255_c)                              | 二分探索                      |
 | abc254            | [D - Together Square](https://atcoder.jp/contests/abc254/tasks/abc254_d)                             | 数学                          |
+| abc248            | [D - Range Count Query](https://atcoder.jp/contests/abc248/tasks/abc248_d)                           | 二分探索                      |
