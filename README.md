@@ -89,3 +89,4 @@ Playing [AtCoder](https://atcoder.jp/).
 | abc246            | [D - 2-variable Function](https://atcoder.jp/contests/abc246/tasks/abc246_d)                         | 二分探索                      |
 | abc246            | [D - 2-variable Function](https://atcoder.jp/contests/abc246/tasks/abc246_d)                         | 二分探索                      |
 | practice2         | [J - Segment Tree](https://atcoder.jp/contests/practice2/tasks/practice2_j)                          | Segment Tree                  |
+| agc005            | [B - Minimum Sum](https://atcoder.jp/contests/agc005/tasks/agc005_b)                                 | monotonic stack               |
