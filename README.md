@@ -92,3 +92,4 @@ Playing [AtCoder](https://atcoder.jp/).
 | agc005            | [B - Minimum Sum](https://atcoder.jp/contests/agc005/tasks/agc005_b)                                 | 主客転倒, monotonic stack, Segment Tree |
 | abc157            | [E - Simple String Queries](https://atcoder.jp/contests/abc157/tasks/abc157_e)                       | Segment Tree                            |
 | abc217            | [D - Cutting Woods](https://atcoder.jp/contests/abc217/tasks/abc217_d)                               | Segment Tree, 座標圧縮                  |
+| arc008            | [D - タコヤキオイシクナール](https://atcoder.jp/contests/arc008/tasks/arc008_4)                      | Segment Tree, 座標圧縮                  |
