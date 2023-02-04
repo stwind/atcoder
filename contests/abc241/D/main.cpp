@@ -132,10 +132,7 @@ int main() {
   VI I(Q);
   VLL V = coord_compress(X, I);
 
-  auto f = [](int a, int b) { return a + b;};
-  auto e = []() { return 0; };
-  int n = V.size();
-  SegmentTree<int> seg(n, f, e);
+  SegmentTree<int> seg(V.size(), [](int a, int b) { return a + b;}, []() { return 0; });
 
   REP(i, 0, Q) {
     if (C[i] == 1) {
@@ -147,7 +144,7 @@ int main() {
     }
     if (C[i] == 3) {
       int j = seg.max_right(I[i], [&](int x) { return x < K[i]; });
-      cout << (j < n ? V[j] : -1) << endl;
+      cout << (j < seg.n ? V[j] : -1) << endl;
     }
   }
 
