@@ -95,3 +95,4 @@ Playing [AtCoder](https://atcoder.jp/).
 | arc008            | [D - タコヤキオイシクナール](https://atcoder.jp/contests/arc008/tasks/arc008_4)                      | Segment Tree, 座標圧縮                  |
 | abc241            | [D - Sequence Query](https://atcoder.jp/contests/abc241/tasks/abc241_d)                              | Segment Tree, 座標圧縮                  |
 | abc231            | [C - Counting 2](https://atcoder.jp/contests/abc231/tasks/abc231_c)                                  | 二分探索                                |
+| abc228            | [D - Linear Probing](https://atcoder.jp/contests/abc228/tasks/abc228_d)                              | 二分探索                                |
