@@ -97,3 +97,4 @@ Playing [AtCoder](https://atcoder.jp/).
 | abc231            | [C - Counting 2](https://atcoder.jp/contests/abc231/tasks/abc231_c)                                  | 二分探索                                |
 | abc228            | [D - Linear Probing](https://atcoder.jp/contests/abc228/tasks/abc228_d)                              | 二分探索                                |
 | abc216            | [E - Amusement Park](https://atcoder.jp/contests/abc216/tasks/abc216_e)                              | 二分探索                                |
+| abc208            | [C - Fair Candy Distribution](https://atcoder.jp/contests/abc208/tasks/abc208_c)                     | 座標圧縮                                |
