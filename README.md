@@ -101,3 +101,4 @@ Playing [AtCoder](https://atcoder.jp/).
 | abc263            | [C - Monotonically Increasing](https://atcoder.jp/contests/abc263/tasks/abc263_c)                    | itertools                               |
 | abc232            | [C - Graph Isomorphism](https://atcoder.jp/contests/abc232/tasks/abc232_c)                           | itertools                               |
 | abc215            | [C - One More aab aba baa](https://atcoder.jp/contests/abc215/tasks/abc215_c)                        | itertools                               |
+| abc250            | [D - 250-like Number](https://atcoder.jp/contests/abc250/tasks/abc250_d)                             | 素数                                    |
