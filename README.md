@@ -99,3 +99,4 @@ Playing [AtCoder](https://atcoder.jp/).
 | abc216            | [E - Amusement Park](https://atcoder.jp/contests/abc216/tasks/abc216_e)                              | 二分探索                                |
 | abc208            | [C - Fair Candy Distribution](https://atcoder.jp/contests/abc208/tasks/abc208_c)                     | 座標圧縮                                |
 | abc263            | [C - Monotonically Increasing](https://atcoder.jp/contests/abc263/tasks/abc263_c)                    | itertools                               |
+| abc232            | [C - Graph Isomorphism](https://atcoder.jp/contests/abc232/tasks/abc232_c)                           | itertools                               |
