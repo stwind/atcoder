@@ -103,3 +103,4 @@ Playing [AtCoder](https://atcoder.jp/).
 | abc215            | [C - One More aab aba baa](https://atcoder.jp/contests/abc215/tasks/abc215_c)                        | itertools                               |
 | abc250            | [D - 250-like Number](https://atcoder.jp/contests/abc250/tasks/abc250_d)                             | 素数                                    |
 | abc215            | [D - Coprime 2](https://atcoder.jp/contests/abc215/tasks/abc215_d)                                   | 素因数分解                              |
+| abc233            | [C - Product](https://atcoder.jp/contests/abc233/tasks/abc233_c)                                     | DFS                                     |
