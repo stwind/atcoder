@@ -106,3 +106,4 @@ Playing [AtCoder](https://atcoder.jp/).
 | abc233            | [C - Product](https://atcoder.jp/contests/abc233/tasks/abc233_c)                                     | DFS                                     |
 | abc236            | [D - Dance](https://atcoder.jp/contests/abc236/tasks/abc236_d)                                       | DFS                                     |
 | abc213            | [D - Takahashi Tour](https://atcoder.jp/contests/abc213/tasks/abc213_d)                              | DFS                                     |
+| abc284            | [E - Count Simple Paths](https://atcoder.jp/contests/abc284/tasks/abc284_e)                          | DFS                                     |
