@@ -110,3 +110,4 @@ Playing [AtCoder](https://atcoder.jp/).
 | abc240            | [E - Ranges on Tree](https://atcoder.jp/contests/abc240/tasks/abc240_e)                              | DFS                                     |
 | abc239            | [E - Subtree K-th Max](https://atcoder.jp/contests/abc239/tasks/abc239_e)                            | DFS                                     |
 | abc014            | [D - 閉路](https://atcoder.jp/contests/abc014/tasks/abc014_4)                                        | DFS, Segment Tree, LCA                  |
+| abc284            | [C - Count Connected Components](https://atcoder.jp/contests/abc284/tasks/abc284_c)                  | BFS                                     |
