@@ -115,3 +115,4 @@ Playing [AtCoder](https://atcoder.jp/).
 | abc270            | [C - Simple path](https://atcoder.jp/contests/abc270/tasks/abc270_c)                                 | BFS                                     |
 | abc204            | [C - Tour](https://atcoder.jp/contests/abc204/tasks/abc204_c)                                        | BFS                                     |
 | abc276            | [E - Round Trip](https://atcoder.jp/contests/abc276/tasks/abc276_e)                                  | BFS                                     |
+| abc272            | [D - Root M Leaper](https://atcoder.jp/contests/abc272/tasks/abc272_d)                               | BFS                                     |
