@@ -111,3 +111,4 @@ Playing [AtCoder](https://atcoder.jp/).
 | abc239            | [E - Subtree K-th Max](https://atcoder.jp/contests/abc239/tasks/abc239_e)                            | DFS                                     |
 | abc014            | [D - 閉路](https://atcoder.jp/contests/abc014/tasks/abc014_4)                                        | DFS, Segment Tree, LCA                  |
 | abc284            | [C - Count Connected Components](https://atcoder.jp/contests/abc284/tasks/abc284_c)                  | BFS                                     |
+| abc282            | [D - Make Bipartite 2](https://atcoder.jp/contests/abc282/tasks/abc282_d)                            | BFS                                     |
