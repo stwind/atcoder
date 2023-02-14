@@ -116,3 +116,4 @@ Playing [AtCoder](https://atcoder.jp/).
 | abc204            | [C - Tour](https://atcoder.jp/contests/abc204/tasks/abc204_c)                                        | BFS                                     |
 | abc276            | [E - Round Trip](https://atcoder.jp/contests/abc276/tasks/abc276_e)                                  | BFS                                     |
 | abc272            | [D - Root M Leaper](https://atcoder.jp/contests/abc272/tasks/abc272_d)                               | BFS                                     |
+| abc269            | [D - Do use hexagon grid](https://atcoder.jp/contests/abc269/tasks/abc269_d)                         | BFS                                     |
