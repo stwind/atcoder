@@ -118,3 +118,4 @@ Playing [AtCoder](https://atcoder.jp/).
 | abc272            | [D - Root M Leaper](https://atcoder.jp/contests/abc272/tasks/abc272_d)                               | BFS                                     |
 | abc269            | [D - Do use hexagon grid](https://atcoder.jp/contests/abc269/tasks/abc269_d)                         | BFS                                     |
 | abc235            | [D - Multiply and Rotate](https://atcoder.jp/contests/abc235/tasks/abc235_d)                         | BFS                                     |
+| abc232            | [D - Weak Takahashi](https://atcoder.jp/contests/abc232/tasks/abc232_d)                              | BFS                                     |
