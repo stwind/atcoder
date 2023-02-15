@@ -122,3 +122,4 @@ Playing [AtCoder](https://atcoder.jp/).
 | abc211            | [D - Number of Shortest paths](https://atcoder.jp/contests/abc211/tasks/abc211_d)                    | BFS                                     |
 | abc209            | [D - Collision](https://atcoder.jp/contests/abc209/tasks/abc209_d)                                   | BFS                                     |
 | abc253            | [C - Max - Min Query](https://atcoder.jp/contests/abc253/tasks/abc253_c)                             | heap                                    |
+| abc223            | [D - Restricted Permutation](https://atcoder.jp/contests/abc223/tasks/abc223_d)                      | heap                                    |

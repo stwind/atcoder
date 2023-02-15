@@ -2,20 +2,22 @@
 using namespace std;
 
 // clang-format off
-#define forn(i, x, y) for(int i = x; i < y; i++)
-#define IOS ios_base::sync_with_stdio(false); cin.tie(0); cout.tie(NULL)
+#define REP(i, x, y) for(int i = x; i < y; i++)
+#define REPR(i, x, y) for(int i = x; i >= y; i--)
+#define IOS ios_base::sync_with_stdio(false); cin.tie(0);
 #define all(s) s.begin(), s.end()
 #define rall(s) s.rbegin(), s.rend()
 #define MOD 1000000007
-#define INF (1 << 61)
+#define INF (1 << 30)
 #define DEBUG(x) cout << #x << ": " << x << endl;
-#define DEBUGV(a) for(auto it = a.begin() ; it != a.end(); it++) { cout << *it << " "; } cout << endl;
+#define DEBUGV(a) cout << #a << ": "; for(auto it = a.begin() ; it != a.end(); it++) { cout << *it << " "; } cout << endl;
 #define CEIL(a, b) ((a) + (b) - 1) / (b)
 #define IN(x, a, b) (a <= x && x < b)
 template<class T> inline bool chmax(T& a, T b) { if (a < b) { a = b; return 1; } return 0; }
 template<class T> inline bool chmin(T& a, T b) { if (a > b) { a = b; return 1; } return 0; }
-template<typename T> void add(T &a, T b) { a += b; if (a >= MOD) a -= MOD; }
-template<typename T> void sub(T &a, T b) { a -= b; if (a < 0) a += MOD; }
+template <typename T> T sub(T a, T b) { return (a + MOD - b) % MOD; }
+template <typename T> T add(T a, T b) { return (a + b) % MOD; }
+template <typename T> T mul(T a, T b) { return (a * b) % MOD; }
 // clang-format on
 
 using LL = long long;
@@ -27,46 +29,34 @@ using PII = pair<int, int>;
 using PLL = pair<LL, LL>;
 
 int main() {
-  int N, M;
-  cin >> N >> M;
-  int a, b;
-  VI D(N);
+  IOS;
+
+  int N, M; cin >> N >> M;
   VVI G(N);
-  forn(i, 0, M) {
-    cin >> a >> b;
-    a--, b--;
-    D[b]++;
+  VI D(N, 0);
+
+  REP(i, 0, M) {
+    int a, b; cin >> a >> b; a--, b--;
     G[a].push_back(b);
+    D[b]++;
   }
 
-  priority_queue<int, VI, greater<int>> q;
-  forn(i, 0, N) {
-    if (D[i] == 0)
-      q.push(i);
-  }
+  priority_queue<int, VI, greater<int>> pq;
+  REP(i, 0, N) if (D[i] == 0) pq.push(i);
 
   VI res;
-  while (!q.empty()) {
-    int u = q.top();
-    q.pop();
+  while (!pq.empty()) {
+    int u = pq.top(); pq.pop();
     res.push_back(u);
-    for (auto &v : G[u]) {
-      D[v]--;
-      if (D[v] == 0)
-        q.push(v);
+    for (auto v : G[u]) {
+      if (--D[v] == 0) pq.push(v);
     }
   }
-
   if ((int)res.size() != N) {
     cout << -1 << endl;
     return 0;
   }
-
-  forn(i, 0, N) {
-    if (i)
-      cout << " ";
-    cout << res[i] + 1;
-  }
+  REP(i, 0, N) cout << res[i] + 1 << " ";
   cout << endl;
 
   return 0;
