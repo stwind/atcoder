@@ -126,3 +126,4 @@ Playing [AtCoder](https://atcoder.jp/).
 | abc212            | [D - Querying Multiset](https://atcoder.jp/contests/abc212/tasks/abc212_d)                           | heap                                    |
 | abc007            | [C - 幅優先探索](https://atcoder.jp/contests/abc007/tasks/abc007_3)                                  | BFS                                     |
 | abc088            | [D - Grid Repainting](https://atcoder.jp/contests/abc088/tasks/abc088_d)                             | BFS                                     |
+| abc077            | [C - Snuke Festival](https://atcoder.jp/contests/abc077/tasks/arc084_a)                              | 二分探索                                |
