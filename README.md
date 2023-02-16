@@ -132,3 +132,4 @@ Playing [AtCoder](https://atcoder.jp/).
 | arc061            | [C - たくさんの数式](https://atcoder.jp/contests/arc061/tasks/arc061_a)                              | bit                                     |
 | arc061            | [E - すぬけ君の地下鉄旅行](https://atcoder.jp/contests/arc061/tasks/arc061_c)                        | BFS, Dijkstra                           |
 | abc277            | [E - Crystal Switches](https://atcoder.jp/contests/abc277/tasks/abc277_e)                            | BFS, Dijkstra                           |
+| abc217            | [E - Sorting Queries](https://atcoder.jp/contests/abc217/tasks/abc217_e)                             | heap                                    |
