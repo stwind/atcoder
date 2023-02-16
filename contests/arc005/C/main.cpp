@@ -42,10 +42,10 @@ int main() {
 
   set<tuple<int, int, int>> seen;
   seen.insert({ sx,sy,2 });
-  queue<tuple<int, int, int>> q({ {sx,sy,2} });
+  deque<tuple<int, int, int>> q({ {sx,sy,2} });
 
   while (!q.empty()) {
-    auto [x, y, d] = q.front(); q.pop();
+    auto [x, y, d] = q.front(); q.pop_front();
 
     REP(i, 0, 4) {
       int xx = x + dx[i], yy = y + dy[i];
@@ -57,11 +57,11 @@ int main() {
 
         if (C[yy][xx] == '#' && d > 0 && seen.count({ xx,yy,d - 1 }) == 0) {
           seen.insert({ xx,yy,d - 1 });
-          q.push({ xx,yy,d - 1 });
+          q.push_back({ xx,yy,d - 1 });
         }
         if (C[yy][xx] == '.' && seen.count({ xx,yy,d }) == 0) {
           seen.insert({ xx,yy,d });
-          q.push({ xx,yy,d });
+          q.push_front({ xx,yy,d });
         }
       }
     }
