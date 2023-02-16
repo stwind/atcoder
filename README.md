@@ -130,3 +130,4 @@ Playing [AtCoder](https://atcoder.jp/).
 | arc005            | [C - 器物損壊！高橋君](https://atcoder.jp/contests/arc005/tasks/arc005_3)                            | BFS                                     |
 | abc176            | [D - Wizard in Maze](https://atcoder.jp/contests/abc176/tasks/abc176_d)                              | BFS                                     |
 | arc061            | [C - たくさんの数式](https://atcoder.jp/contests/arc061/tasks/arc061_a)                              | bit                                     |
+| arc061            | [E - すぬけ君の地下鉄旅行](https://atcoder.jp/contests/arc061/tasks/arc061_c)                        | BFS, Dijkstra                           |
