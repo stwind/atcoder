@@ -128,3 +128,4 @@ Playing [AtCoder](https://atcoder.jp/).
 | abc088            | [D - Grid Repainting](https://atcoder.jp/contests/abc088/tasks/abc088_d)                             | BFS                                     |
 | abc077            | [C - Snuke Festival](https://atcoder.jp/contests/abc077/tasks/arc084_a)                              | 二分探索                                |
 | arc005            | [C - 器物損壊！高橋君](https://atcoder.jp/contests/arc005/tasks/arc005_3)                            | BFS                                     |
+| abc176            | [D - Wizard in Maze](https://atcoder.jp/contests/abc176/tasks/abc176_d)                              | BFS                                     |
