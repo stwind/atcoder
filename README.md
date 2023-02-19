@@ -138,3 +138,4 @@ Playing [AtCoder](https://atcoder.jp/).
 | abc170            | [F - Pond Skater](https://atcoder.jp/contests/abc170/tasks/abc170_f)                                 | BFS                                     |
 | abc254            | [E - Small d and k](https://atcoder.jp/contests/abc254/tasks/abc254_e)                               | BFS                                     |
 | abc257            | [D - Jumping Takahashi 2](https://atcoder.jp/contests/abc257/tasks/abc257_d)                         | BFS, 二分探索                           |
+| abc188            | [E - Peddler](https://atcoder.jp/contests/abc188/tasks/abc188_e)                                     | DP                                      |
