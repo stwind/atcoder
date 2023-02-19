@@ -37,15 +37,14 @@ int main() {
   VVI G(N);
   REP(i, 0, M) {
     int x, y;cin >> x >> y;x--, y--;
-    G[y].push_back(x);
+    G[x].push_back(y);
   }
 
-  VI dp(N, -INF);
-  REPR(u, N - 1, 0)
-    for (auto v : G[u]) chmax(dp[v], max(dp[u], A[u]));
+  VI dp(N, INF);
+  REP(u, 0, N) for (auto v : G[u]) chmin(dp[v], min(dp[u], A[u]));
 
   int res = numeric_limits<int>::min();
-  REP(i, 0, N) chmax(res, dp[i] - A[i]);
+  REP(i, 0, N) if (dp[i] < INF) chmax(res, A[i] - dp[i]);
   cout << res << endl;
 
   return 0;
