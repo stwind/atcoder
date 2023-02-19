@@ -137,3 +137,4 @@ Playing [AtCoder](https://atcoder.jp/).
 | abc246            | [E - Bishop 2](https://atcoder.jp/contests/abc246/tasks/abc246_e)                                    | BFS                                     |
 | abc170            | [F - Pond Skater](https://atcoder.jp/contests/abc170/tasks/abc170_f)                                 | BFS                                     |
 | abc254            | [E - Small d and k](https://atcoder.jp/contests/abc254/tasks/abc254_e)                               | BFS                                     |
+| abc257            | [D - Jumping Takahashi 2](https://atcoder.jp/contests/abc257/tasks/abc257_d)                         | BFS, 二分探索                           |
