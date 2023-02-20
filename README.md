@@ -140,3 +140,4 @@ Playing [AtCoder](https://atcoder.jp/).
 | abc257            | [D - Jumping Takahashi 2](https://atcoder.jp/contests/abc257/tasks/abc257_d)                         | BFS, 二分探索                           |
 | abc188            | [E - Peddler](https://atcoder.jp/contests/abc188/tasks/abc188_e)                                     | DP                                      |
 | abc244            | [F - Shortest Good Path](https://atcoder.jp/contests/abc244/tasks/abc244_f)                          | DP, BFS                                 |
+| abc251            | [F - Two Spanning Trees](https://atcoder.jp/contests/abc251/tasks/abc251_f)                          | DFS, BFS                                |
