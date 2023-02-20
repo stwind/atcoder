@@ -142,3 +142,4 @@ Playing [AtCoder](https://atcoder.jp/).
 | abc244            | [F - Shortest Good Path](https://atcoder.jp/contests/abc244/tasks/abc244_f)                          | DP, BFS                                 |
 | abc251            | [F - Two Spanning Trees](https://atcoder.jp/contests/abc251/tasks/abc251_f)                          | DFS, BFS                                |
 | abc248            | [C - Dice Sum](https://atcoder.jp/contests/abc248/tasks/abc248_c)                                    | DP, 包除原理                            |
+| abc245            | [C - Choose Elements](https://atcoder.jp/contests/abc245/tasks/abc245_c)                             | DP                                      |
