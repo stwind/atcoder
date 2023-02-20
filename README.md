@@ -139,3 +139,4 @@ Playing [AtCoder](https://atcoder.jp/).
 | abc254            | [E - Small d and k](https://atcoder.jp/contests/abc254/tasks/abc254_e)                               | BFS                                     |
 | abc257            | [D - Jumping Takahashi 2](https://atcoder.jp/contests/abc257/tasks/abc257_d)                         | BFS, 二分探索                           |
 | abc188            | [E - Peddler](https://atcoder.jp/contests/abc188/tasks/abc188_e)                                     | DP                                      |
+| abc244            | [F - Shortest Good Path](https://atcoder.jp/contests/abc244/tasks/abc244_f)                          | DP, BFS                                 |
