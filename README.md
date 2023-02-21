@@ -145,3 +145,4 @@ Playing [AtCoder](https://atcoder.jp/).
 | abc245            | [C - Choose Elements](https://atcoder.jp/contests/abc245/tasks/abc245_c)                             | DP                                      |
 | abc242            | [C - 1111gal password](https://atcoder.jp/contests/abc242/tasks/abc242_c)                            | DP                                      |
 | abc211            | [C - chokudai](https://atcoder.jp/contests/abc211/tasks/abc211_c)                                    | DP                                      |
+| abc267            | [D - Index × A(Not Continuous ver.)](https://atcoder.jp/contests/abc267/tasks/abc267_d)              | DP                                      |
