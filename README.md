@@ -147,3 +147,4 @@ Playing [AtCoder](https://atcoder.jp/).
 | abc211            | [C - chokudai](https://atcoder.jp/contests/abc211/tasks/abc211_c)                                    | DP                                      |
 | abc267            | [D - Index × A(Not Continuous ver.)](https://atcoder.jp/contests/abc267/tasks/abc267_d)              | DP                                      |
 | abc266            | [D - Snuke Panic (1D)](https://atcoder.jp/contests/abc266/tasks/abc266_d)                            | DP                                      |
+| abc261            | [D - Flipping and Bonus](https://atcoder.jp/contests/abc261/tasks/abc261_d)                          | DP                                      |
