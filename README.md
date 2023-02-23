@@ -150,3 +150,4 @@ Playing [AtCoder](https://atcoder.jp/).
 | abc261            | [D - Flipping and Bonus](https://atcoder.jp/contests/abc261/tasks/abc261_d)                          | DP                                      |
 | abc222            | [D - Between Two Arrays](https://atcoder.jp/contests/abc222/tasks/abc222_d)                          | DP                                      |
 | abc219            | [D - Strange Lunchbox](https://atcoder.jp/contests/abc219/tasks/abc219_d)                            | DP                                      |
+| abc204            | [D - Cooking](https://atcoder.jp/contests/abc204/tasks/abc204_d)                                     | DP                                      |
