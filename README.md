@@ -154,3 +154,4 @@ Playing [AtCoder](https://atcoder.jp/).
 | abc253            | [E - Distance Sequence](https://atcoder.jp/contests/abc253/tasks/abc253_e)                           | DP, いもす法                            |
 | abc244            | [E - King Bombee](https://atcoder.jp/contests/abc244/tasks/abc244_e)                                 | DP                                      |
 | abc233            | [D - Count Interval](https://atcoder.jp/contests/abc233/tasks/abc233_d)                              | 累積和                                  |
+| abc229            | [D - Longest X](https://atcoder.jp/contests/abc229/tasks/abc229_d)                                   | 累積和, しゃくとり法                    |
