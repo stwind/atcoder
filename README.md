@@ -153,3 +153,4 @@ Playing [AtCoder](https://atcoder.jp/).
 | abc204            | [D - Cooking](https://atcoder.jp/contests/abc204/tasks/abc204_d)                                     | DP                                      |
 | abc253            | [E - Distance Sequence](https://atcoder.jp/contests/abc253/tasks/abc253_e)                           | DP, いもす法                            |
 | abc244            | [E - King Bombee](https://atcoder.jp/contests/abc244/tasks/abc244_e)                                 | DP                                      |
+| abc233            | [D - Count Interval](https://atcoder.jp/contests/abc233/tasks/abc233_d)                              | 累積和                                  |
