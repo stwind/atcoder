@@ -155,3 +155,4 @@ Playing [AtCoder](https://atcoder.jp/).
 | abc244            | [E - King Bombee](https://atcoder.jp/contests/abc244/tasks/abc244_e)                                 | DP                                      |
 | abc233            | [D - Count Interval](https://atcoder.jp/contests/abc233/tasks/abc233_d)                              | 累積和                                  |
 | abc229            | [D - Longest X](https://atcoder.jp/contests/abc229/tasks/abc229_d)                                   | 累積和, しゃくとり法                    |
+| abc265            | [D - Iroha and Haiku (New ABC Edition)](https://atcoder.jp/contests/abc265/tasks/abc265_d)           | 累積和, しゃくとり法                    |
