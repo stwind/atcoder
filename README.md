@@ -158,3 +158,4 @@ Playing [AtCoder](https://atcoder.jp/).
 | abc265            | [D - Iroha and Haiku (New ABC Edition)](https://atcoder.jp/contests/abc265/tasks/abc265_d)           | 累積和, しゃくとり法                    |
 | abc285            | [D - Change Usernames](https://atcoder.jp/contests/abc285/tasks/abc285_d)                            | Union Find                              |
 | abc231            | [D - Neighbors](https://atcoder.jp/contests/abc231/tasks/abc231_d)                                   | Union Find                              |
+| arc037            | [B - バウムテスト](https://atcoder.jp/contests/arc037/tasks/arc037_b)                              | Union Find                              |
