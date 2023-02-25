@@ -163,3 +163,4 @@ Playing [AtCoder](https://atcoder.jp/).
 | arc106            | [B - Values](https://atcoder.jp/contests/arc106/tasks/arc106_b)                                      | Union Find                              |
 | abc177            | [D - Friends](https://atcoder.jp/contests/abc177/tasks/abc177_d)                                     | Union Find                              |
 | abc206            | [D - KAIBUNsyo](https://atcoder.jp/contests/abc206/tasks/abc206_d)                                   | Union Find                              |
+| aising2019        | [C - Alternating Path](https://atcoder.jp/contests/aising2019/tasks/aising2019_c)                    | Union Find                              |
