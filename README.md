@@ -160,3 +160,4 @@ Playing [AtCoder](https://atcoder.jp/).
 | abc231            | [D - Neighbors](https://atcoder.jp/contests/abc231/tasks/abc231_d)                                   | Union Find                              |
 | arc037            | [B - バウムテスト](https://atcoder.jp/contests/arc037/tasks/arc037_b)                              | Union Find                              |
 | abc226            | [E - Just one](https://atcoder.jp/contests/abc226/tasks/abc226_e)                                    | Union Find                              |
+| arc106            | [B - Values](https://atcoder.jp/contests/arc106/tasks/arc106_b)                                      | Union Find                              |
