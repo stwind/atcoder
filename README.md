@@ -159,8 +159,9 @@ Playing [AtCoder](https://atcoder.jp/).
 | abc285            | [D - Change Usernames](https://atcoder.jp/contests/abc285/tasks/abc285_d)                            | Union Find                              |
 | abc231            | [D - Neighbors](https://atcoder.jp/contests/abc231/tasks/abc231_d)                                   | Union Find                              |
 | arc037            | [B - バウムテスト](https://atcoder.jp/contests/arc037/tasks/arc037_b)                              | Union Find                              |
-| abc226            | [E - Just one](https://atcoder.jp/contests/abc226/tasks/abc226_e)                                    | Union Find                              |
+| abc226            | [E - Just one](https://atcoder.jp/contests/abc226/tasks/abc226_e)                                    | Union Find, Graph                       |
 | arc106            | [B - Values](https://atcoder.jp/contests/arc106/tasks/arc106_b)                                      | Union Find                              |
 | abc177            | [D - Friends](https://atcoder.jp/contests/abc177/tasks/abc177_d)                                     | Union Find                              |
 | abc206            | [D - KAIBUNsyo](https://atcoder.jp/contests/abc206/tasks/abc206_d)                                   | Union Find                              |
 | aising2019        | [C - Alternating Path](https://atcoder.jp/contests/aising2019/tasks/aising2019_c)                    | Union Find                              |
+| abc256            | [E - Takahashi's Anguish](https://atcoder.jp/contests/abc256/tasks/abc256_e)                         | Union Find, Graph                       |
