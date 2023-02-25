@@ -157,3 +157,4 @@ Playing [AtCoder](https://atcoder.jp/).
 | abc229            | [D - Longest X](https://atcoder.jp/contests/abc229/tasks/abc229_d)                                   | 累積和, しゃくとり法                    |
 | abc265            | [D - Iroha and Haiku (New ABC Edition)](https://atcoder.jp/contests/abc265/tasks/abc265_d)           | 累積和, しゃくとり法                    |
 | abc285            | [D - Change Usernames](https://atcoder.jp/contests/abc285/tasks/abc285_d)                            | Union Find                              |
+| abc231            | [D - Neighbors](https://atcoder.jp/contests/abc231/tasks/abc231_d)                                   | Union Find                              |
