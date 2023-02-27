@@ -170,3 +170,4 @@ Playing [AtCoder](https://atcoder.jp/).
 | abc229            | [E - Graph Destruction](https://atcoder.jp/contests/abc229/tasks/abc229_e)                           | Union Find                              |
 | abc218            | [E - Destruction](https://atcoder.jp/contests/abc218/tasks/abc218_e)                                 | Union Find                              |
 | abc221            | [C - Select Mul](https://atcoder.jp/contests/abc221/tasks/abc221_c)                                  | bit                                     |
+| abc249            | [C - Just K](https://atcoder.jp/contests/abc249/tasks/abc249_c)                                      | bit                                     |
