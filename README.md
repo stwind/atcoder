@@ -175,3 +175,4 @@ Playing [AtCoder](https://atcoder.jp/).
 | abc229            | [C - Cheese](https://atcoder.jp/contests/abc229/tasks/abc229_c)                                      | greedy                                  |
 | abc012            | [D - バスと避けられない運命](https://atcoder.jp/contests/abc012/tasks/abc012_4)                    | Floyd-Warshall                          |
 | abc079            | [D - Wall](https://atcoder.jp/contests/abc079/tasks/abc079_d)                                        | Floyd-Warshall                          |
+| abc074            | [D - Restoring Road Network](https://atcoder.jp/contests/abc074/tasks/arc083_b)                      | Floyd-Warshall                          |
