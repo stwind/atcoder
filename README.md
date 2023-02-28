@@ -173,3 +173,4 @@ Playing [AtCoder](https://atcoder.jp/).
 | abc249            | [C - Just K](https://atcoder.jp/contests/abc249/tasks/abc249_c)                                      | bit                                     |
 | abc264            | [C - Matrix Reducing](https://atcoder.jp/contests/abc264/tasks/abc264_c)                             | bit                                     |
 | abc229            | [C - Cheese](https://atcoder.jp/contests/abc229/tasks/abc229_c)                                      | greedy                                  |
+| abc012            | [D - バスと避けられない運命](https://atcoder.jp/contests/abc012/tasks/abc012_4)                    | Floyd-Warshall                          |
