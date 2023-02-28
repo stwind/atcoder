@@ -177,3 +177,4 @@ Playing [AtCoder](https://atcoder.jp/).
 | abc079            | [D - Wall](https://atcoder.jp/contests/abc079/tasks/abc079_d)                                        | Floyd-Warshall                          |
 | abc074            | [D - Restoring Road Network](https://atcoder.jp/contests/abc074/tasks/arc083_b)                      | Floyd-Warshall                          |
 | abc022            | [C - Blue Bird](https://atcoder.jp/contests/abc022/tasks/abc022_c)                                   | Floyd-Warshall                          |
+| abc073            | [D - joisino's travel](https://atcoder.jp/contests/abc073/tasks/abc073_d)                            | Floyd-Warshall                          |
