@@ -184,3 +184,4 @@ Playing [AtCoder](https://atcoder.jp/).
 | typical-algorithm | [B - 区間スケジューリング問題](https://atcoder.jp/contests/typical-algorithm/tasks/typical_algorithm_b) | 区間スケジューリング                |
 | abc103            | [D - Islands War](https://atcoder.jp/contests/abc103/tasks/abc103_d)                                        | 区間スケジューリング                |
 | keyence2020       | [B - Robot Arms](https://atcoder.jp/contests/keyence2020/tasks/keyence2020_b)                               | 区間スケジューリング                |
+| abc230            | [D - Destroyer Takahashi](https://atcoder.jp/contests/abc230/tasks/abc230_d)                                | 区間スケジューリング                |
