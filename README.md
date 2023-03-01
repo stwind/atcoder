@@ -183,3 +183,4 @@ Playing [AtCoder](https://atcoder.jp/).
 | abc286            | [E - Souvenir](https://atcoder.jp/contests/abc286/tasks/abc286_e)                                           | Floyd-Warshall                          |
 | typical-algorithm | [B - 区間スケジューリング問題](https://atcoder.jp/contests/typical-algorithm/tasks/typical_algorithm_b) | 区間スケジューリング                |
 | abc103            | [D - Islands War](https://atcoder.jp/contests/abc103/tasks/abc103_d)                                        | 区間スケジューリング                |
+| keyence2020       | [B - Robot Arms](https://atcoder.jp/contests/keyence2020/tasks/keyence2020_b)                               | 区間スケジューリング                |
