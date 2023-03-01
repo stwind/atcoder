@@ -180,3 +180,4 @@ Playing [AtCoder](https://atcoder.jp/).
 | abc073            | [D - joisino's travel](https://atcoder.jp/contests/abc073/tasks/abc073_d)                            | Floyd-Warshall                          |
 | arc035            | [C - アットコーダー王国の交通事情](https://atcoder.jp/contests/arc035/tasks/arc035_c)              | Floyd-Warshall                          |
 | abc208            | [D - Shortest Path Queries 2](https://atcoder.jp/contests/abc208/tasks/abc208_d)                     | Floyd-Warshall                          |
+| abc286            | [E - Souvenir](https://atcoder.jp/contests/abc286/tasks/abc286_e)                                    | Floyd-Warshall                          |
