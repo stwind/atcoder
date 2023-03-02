@@ -186,3 +186,4 @@ Playing [AtCoder](https://atcoder.jp/).
 | keyence2020       | [B - Robot Arms](https://atcoder.jp/contests/keyence2020/tasks/keyence2020_b)                               | 区間スケジューリング                |
 | abc230            | [D - Destroyer Takahashi](https://atcoder.jp/contests/abc230/tasks/abc230_d)                                | 区間スケジューリング                |
 | abc131            | [D - Megalomania](https://atcoder.jp/contests/abc131/tasks/abc131_d)                                        | 区間スケジューリング                |
+| arc106            | [C - Solutions](https://atcoder.jp/contests/arc106/tasks/arc106_c)                                          | 区間スケジューリング                |
