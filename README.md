@@ -188,3 +188,4 @@ Playing [AtCoder](https://atcoder.jp/).
 | abc131            | [D - Megalomania](https://atcoder.jp/contests/abc131/tasks/abc131_d)                                        | 区間スケジューリング                |
 | arc106            | [C - Solutions](https://atcoder.jp/contests/arc106/tasks/arc106_c)                                          | 区間スケジューリング                |
 | abc003            | [D - AtCoder 社の冬](https://atcoder.jp/contests/abc003/tasks/abc003_4)                                     | 包除原理                                |
+| abc253            | [D - FizzBuzz Sum Hard](https://atcoder.jp/contests/abc253/tasks/abc253_d)                                  | 包除原理                                |
