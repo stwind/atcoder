@@ -189,3 +189,4 @@ Playing [AtCoder](https://atcoder.jp/).
 | arc106            | [C - Solutions](https://atcoder.jp/contests/arc106/tasks/arc106_c)                                          | 区間スケジューリング                |
 | abc003            | [D - AtCoder 社の冬](https://atcoder.jp/contests/abc003/tasks/abc003_4)                                     | 包除原理                                |
 | abc253            | [D - FizzBuzz Sum Hard](https://atcoder.jp/contests/abc253/tasks/abc253_d)                                  | 包除原理                                |
+| arc054            | [B - ムーアの法則](https://atcoder.jp/contests/arc054/tasks/arc054_b)                                       | 三分探索                                |
