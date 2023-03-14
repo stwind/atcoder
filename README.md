@@ -191,3 +191,4 @@ Playing [AtCoder](https://atcoder.jp/).
 | abc253            | [D - FizzBuzz Sum Hard](https://atcoder.jp/contests/abc253/tasks/abc253_d)                                  | 包除原理                                |
 | arc054            | [B - ムーアの法則](https://atcoder.jp/contests/arc054/tasks/arc054_b)                                       | 三分探索                                |
 | abc063            | [D - Widespread](https://atcoder.jp/contests/abc063/tasks/arc075_b)                                         | 二分探索                                |
+| abc279            | [D - Freefall](https://atcoder.jp/contests/abc279/tasks/abc279_d)                                           | 三分探索                                |
