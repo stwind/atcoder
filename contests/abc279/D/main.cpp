@@ -35,7 +35,6 @@ int main() {
 
   auto f = [&](LL x) -> double { return B * x + A / sqrt(1 + x); };
 
-
   LL l = 0, r = A;
   while (l + 2 < r) {
     LL t1 = (2 * l + r) / 3, t2 = (l + 2 * r) / 3;
