@@ -193,3 +193,4 @@ Playing [AtCoder](https://atcoder.jp/).
 | abc063            | [D - Widespread](https://atcoder.jp/contests/abc063/tasks/arc075_b)                                         | 二分探索                                |
 | abc279            | [D - Freefall](https://atcoder.jp/contests/abc279/tasks/abc279_d)                                           | 三分探索                                |
 | abc109            | [C - Skip](https://atcoder.jp/contests/abc109/tasks/abc109_c)                                               | 最大公約数                              |
+| abc148            | [C - Snack](https://atcoder.jp/contests/abc148/tasks/abc148_c)                                              | 最小公倍数                              |
