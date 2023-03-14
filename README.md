@@ -196,3 +196,4 @@ Playing [AtCoder](https://atcoder.jp/).
 | abc148            | [C - Snack](https://atcoder.jp/contests/abc148/tasks/abc148_c)                                              | 最小公倍数                              |
 | abc070            | [C - Multiple Clocks](https://atcoder.jp/contests/abc070/tasks/abc070_c)                                    | 最小公倍数                              |
 | abc149            | [C - Next Prime](https://atcoder.jp/contests/abc149/tasks/abc149_c)                                         | 素数                                    |
+| arc044            | [A - 素数判定](https://atcoder.jp/contests/arc044/tasks/arc044_a)                                           | 素数                                    |
