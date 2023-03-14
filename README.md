@@ -192,3 +192,4 @@ Playing [AtCoder](https://atcoder.jp/).
 | arc054            | [B - ムーアの法則](https://atcoder.jp/contests/arc054/tasks/arc054_b)                                       | 三分探索                                |
 | abc063            | [D - Widespread](https://atcoder.jp/contests/abc063/tasks/arc075_b)                                         | 二分探索                                |
 | abc279            | [D - Freefall](https://atcoder.jp/contests/abc279/tasks/abc279_d)                                           | 三分探索                                |
+| abc109            | [C - Skip](https://atcoder.jp/contests/abc109/tasks/abc109_c)                                               | 最大公約数                              |
