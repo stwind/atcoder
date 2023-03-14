@@ -20,15 +20,6 @@
         "kind": "build",
         "isDefault": true
       }
-    },
-    {
-      "type": "shell",
-      "label": "atcoder test active file",
-      "command": "pipenv",
-      "args": ["run", "atcoder-tools", "test", "-d", "${fileDirname}"],
-      "group": "build",
-      "problemMatcher": [],
-      "dependsOn": ["g++ build active file"]
     }
   ]
 }
