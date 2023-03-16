@@ -202,3 +202,4 @@ Playing [AtCoder](https://atcoder.jp/).
 | abc118            | [C - Monsters Battle Royale](https://atcoder.jp/contests/abc118/tasks/abc118_c)                             | 最大公約数                              |
 | abc186            | [E - Throne](https://atcoder.jp/contests/abc186/tasks/abc186_e)                                             | 割り算                                  |
 | abc154            | [D - Dice in Line](https://atcoder.jp/contests/abc154/tasks/abc154_d)                                       | 累積和                                  |
+| agc028            | [A - Two Abbreviations](https://atcoder.jp/contests/agc028/tasks/agc028_a)                                  | 最大公約数                              |
