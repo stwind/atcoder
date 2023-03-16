@@ -199,3 +199,4 @@ Playing [AtCoder](https://atcoder.jp/).
 | arc044            | [A - 素数判定](https://atcoder.jp/contests/arc044/tasks/arc044_a)                                           | 素数                                    |
 | abc112            | [D - Partition](https://atcoder.jp/contests/abc112/tasks/abc112_d)                                          | 約数全列挙                              |
 | abc156            | [D - Bouquet](https://atcoder.jp/contests/abc156/tasks/abc156_d)                                            | 割り算                                  |
+| abc118            | [C - Monsters Battle Royale](https://atcoder.jp/contests/abc118/tasks/abc118_c)                             | 最大公約数編                            |
