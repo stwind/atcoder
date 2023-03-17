@@ -204,3 +204,4 @@ Playing [AtCoder](https://atcoder.jp/).
 | abc154            | [D - Dice in Line](https://atcoder.jp/contests/abc154/tasks/abc154_d)                                       | 累積和                                  |
 | agc028            | [A - Two Abbreviations](https://atcoder.jp/contests/agc028/tasks/agc028_a)                                  | 最大公約数                              |
 | abc075            | [C - Bridge](https://atcoder.jp/contests/abc075/tasks/abc075_c)                                             | Union Find                              |
+| abc172            | [E - NEQ](https://atcoder.jp/contests/abc172/tasks/abc172_e)                                                | 二項係数, 包除原理                      |
