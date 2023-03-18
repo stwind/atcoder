@@ -10,13 +10,14 @@ using namespace std;
 #define MOD 1000000007
 #define INF (1 << 30)
 #define DEBUG(x) cout << #x << ": " << x << endl;
-#define DEBUGV(a) for(auto it = a.begin() ; it != a.end(); it++) { cout << *it << " "; } cout << endl;
+#define DEBUGV(a) cout << #a << ": "; for(auto it = a.begin() ; it != a.end(); it++) { cout << *it << " "; } cout << endl;
 #define CEIL(a, b) ((a) + (b) - 1) / (b)
 #define IN(x, a, b) (a <= x && x < b)
 template<class T> inline bool chmax(T& a, T b) { if (a < b) { a = b; return 1; } return 0; }
 template<class T> inline bool chmin(T& a, T b) { if (a > b) { a = b; return 1; } return 0; }
-template<typename T> void add(T &a, T b) { a += b; if (a >= MOD) a -= MOD; }
-template<typename T> void sub(T &a, T b) { a -= b; if (a < 0) a += MOD; }
+template <typename T> T sub(T a, T b) { return (a + MOD - b) % MOD; }
+template <typename T> T add(T a, T b) { return (a + b) % MOD; }
+template <typename T> T mul(T a, T b) { return ((a) * (b)) % MOD; }
 // clang-format on
 
 using LL = long long;
@@ -29,38 +30,17 @@ using PLL = pair<LL, LL>;
 
 int main() {
   IOS;
-  int N;
-  cin >> N;
-  int a;
-  VLL S(N + 1);
 
-  REP(i, 0, N) {
-    cin >> a;
-    S[i + 1] = S[i] + a;
-  }
+  int N; cin >> N;
+  VLL A(N), C(N + 1);
+  REP(i, 0, N) cin >> A[i], C[i + 1] = C[i] + A[i];
 
-  auto calc = [&](int l, int r) -> PLL {
-    int lo = l + 1, hi = r - 1;
-    while (hi - lo > 1) {
-      int mid = (lo + hi) / 2;
-      if (S[mid] - S[l] < S[r] - S[mid])
-        lo = mid;
-      else
-        hi = mid;
-    }
-    LL p0 = S[hi] - S[l], q0 = S[r] - S[hi];
-    LL p1 = S[lo] - S[l], q1 = S[r] - S[lo];
-    if (abs(p0 - q0) > abs(p1 - q1))
-      return {p1, q1};
-
-    return {p0, q0};
-  };
-
-  LL res = 1e18;
-  REP(i, 2, N - 1) {
-    PLL pq = calc(0, i), rs = calc(i, N);
-    auto v = {pq.first, pq.second, rs.first, rs.second};
-    res = min(res, max(v) - min(v));
+  LL res = numeric_limits<LL>::max();
+  for (int i = 1, j = 2, k = 3; j < N - 1; j++) {
+    while (i + 1 < j && abs(C[j] - C[i] * 2) > abs(C[j] - C[i + 1] * 2)) i++;
+    while (k <= j || (k < N && abs(C[N] - C[k] * 2 + C[j]) > abs(C[N] - C[k + 1] * 2 + C[j]))) k++;
+    LL P = C[i], Q = C[j] - C[i], R = C[k] - C[j], S = C[N] - C[k];
+    chmin(res, max(P, max(Q, max(R, S))) - min(P, min(Q, min(R, S))));
   }
   cout << res << endl;
 
