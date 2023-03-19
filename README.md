@@ -209,3 +209,4 @@ Playing [AtCoder](https://atcoder.jp/).
 | abc102            | [D - Equal Cut](https://atcoder.jp/contests/abc102/tasks/arc100_b)                                          | 累積和, しゃくとり法                    |
 | abc152            | [F - Tree and Constraints](https://atcoder.jp/contests/abc152/tasks/abc152_f)                               | 包除原理, LCA                           |
 | abc290            | [D - Marking](https://atcoder.jp/contests/abc290/tasks/abc290_d)                                            | 最大公約数                              |
+| practice2         | [K - Range Affine Range Sum](https://atcoder.jp/contests/practice2/tasks/practice2_k)                       | Lazy Segment Tree                       |
