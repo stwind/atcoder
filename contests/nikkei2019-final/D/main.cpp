@@ -63,16 +63,14 @@ struct LST {
 
   void set(int p, S x) {
     assert(0 <= p && p < n);
-    p += size;
-    push(p);
+    push(p += size);
     d[p] = x;
-    REP(i, 1, h + 1) build(p >> i);
+    build(p);
   }
 
   S get(int p) {
     assert(0 <= p && p < n);
-    p += size;
-    push(p);
+    push(p += size);
     return d[p];
   }
 
@@ -88,10 +86,7 @@ struct LST {
       if (rr & 1) apply(--rr, f);
     }
 
-    REP(i, 1, h + 1) {
-      if (((l >> i) << i) != l) build(l >> i);
-      if (((r >> i) << i) != r) build((r - 1) >> i);
-    }
+    build(l), build(r - 1);
   }
 
   S prod(int l, int r) {
@@ -111,7 +106,12 @@ struct LST {
   }
 
 private:
-  void build(int k) { d[k] = op(d[2 * k], d[2 * k + 1]); }
+  void build(int p) {
+    REP(i, 1, h + 1) {
+      int k = p >> i;
+      d[k] = op(d[2 * k], d[2 * k + 1]);
+    }
+  }
   void apply(int k, F f) {
     d[k] = mapping(f, d[k]);
     if (k < size) lz[k] = comp(f, lz[k]);
