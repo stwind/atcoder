@@ -64,7 +64,7 @@ struct LST {
   void set(int p, S x) {
     assert(0 <= p && p < n);
     p += size;
-    REPR(i, h, 1) push(p >> i);
+    push(p);
     d[p] = x;
     REP(i, 1, h + 1) build(p >> i);
   }
@@ -72,7 +72,7 @@ struct LST {
   S get(int p) {
     assert(0 <= p && p < n);
     p += size;
-    REPR(i, h, 1) push(p >> i);
+    push(p);
     return d[p];
   }
 
@@ -81,10 +81,7 @@ struct LST {
     if (l == r) return;
 
     l += size, r += size;
-    REPR(i, h, 1) {
-      if (((l >> i) << i) != l) push(l >> i);
-      if (((r >> i) << i) != r) push((r - 1) >> i);
-    }
+    push(l), push(r - 1);
 
     for (int ll = l, rr = r;ll < rr;ll >>= 1, rr >>= 1) {
       if (ll & 1) apply(ll++, f);
@@ -102,10 +99,7 @@ struct LST {
     if (l == r) return e();
 
     l += size, r += size;
-    REPR(i, h, 1) {
-      if (((l >> i) << i) != l) push(l >> i);
-      if (((r >> i) << i) != r) push((r - 1) >> i);
-    }
+    push(l), push(r - 1);
 
     S sml = e(), smr = e();
     for (;l < r;l >>= 1, r >>= 1) {
@@ -122,14 +116,15 @@ private:
     d[k] = mapping(f, d[k]);
     if (k < size) lz[k] = comp(f, lz[k]);
   }
-  void push(int k) {
-    apply(2 * k, lz[k]);
-    apply(2 * k + 1, lz[k]);
-    lz[k] = id();
+  void push(int p) {
+    REPR(i, h, 1) {
+      int k = p >> i;
+      apply(2 * k, lz[k]);
+      apply(2 * k + 1, lz[k]);
+      lz[k] = id();
+    }
   }
 };
-
-using F = bool;
 
 int main() {
   IOS;
