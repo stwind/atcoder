@@ -132,24 +132,25 @@ int main() {
   IOS;
 
   int N, Q; cin >> N >> Q;
-  VI A(N);
-  REP(i, 0, N) cin >> A[i];
-  VI T(Q), L(Q), R(Q);
-  REP(i, 0, Q) cin >> T[i] >> L[i] >> R[i], L[i]--;
 
   LST<S, F> lst(N,
     [](S l, S r) { return S{ l.zero + r.zero, l.one + r.one, l.inv + r.inv + l.one * r.zero }; },
     []() { return S{ 0, 0, 0 }; },
     [](F l, S r) { return l ? S{ r.one, r.zero, r.one* r.zero - r.inv } : r; },
-    [](F l, F r) { return (l && !r) || (!l && r); },
+    [](F l, F r) { return l != r; },
     []() { return false; });
-  REP(i, 0, N) lst.set(i, A[i] ? S{ 0, 1, 0 } : S{ 1, 0, 0 });
+  REP(i, 0, N) {
+    int a; cin >> a;
+    lst.set(i, a ? S{ 0, 1, 0 } : S{ 1, 0, 0 });
+  }
 
+  int t, l, r;
   REP(i, 0, Q) {
-    if (T[i] == 1)
-      lst.set(L[i], R[i], true);
+    cin >> t >> l >> r; l--;
+    if (t == 1)
+      lst.set(l, r, true);
     else
-      cout << lst.prod(L[i], R[i]).inv << endl;
+      cout << lst.prod(l, r).inv << endl;
   }
 
   return 0;
