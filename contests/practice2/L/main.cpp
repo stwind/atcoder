@@ -7,7 +7,7 @@ using namespace std;
 #define IOS ios_base::sync_with_stdio(false); cin.tie(0);
 #define all(s) s.begin(), s.end()
 #define rall(s) s.rbegin(), s.rend()
-#define MOD 998244353
+#define MOD 1000000007
 #define INF (1 << 30)
 #define DEBUG(x) cout << #x << ": " << x << endl;
 #define DEBUGV(a) cout << #a << ": "; for(auto it = a.begin() ; it != a.end(); it++) { cout << *it << " "; } cout << endl;
@@ -123,13 +123,10 @@ private:
 };
 
 struct S {
-  LL a;
-  LL size;
+  LL zero, one, inv;
 };
 
-struct F {
-  LL a, b;
-};
+using F = bool;
 
 int main() {
   IOS;
@@ -137,25 +134,22 @@ int main() {
   int N, Q; cin >> N >> Q;
   VI A(N);
   REP(i, 0, N) cin >> A[i];
+  VI T(Q), L(Q), R(Q);
+  REP(i, 0, Q) cin >> T[i] >> L[i] >> R[i], L[i]--;
 
   LST<S, F> lst(N,
-    [](S l, S r) { return S{ add(l.a, r.a), l.size + r.size }; },
-    []() { return S{ 0, 0 }; },
-    [](F l, S r) { return S{ add(mul(r.a, l.a), mul(r.size,l.b)), r.size }; },
-    [](F l, F r) { return F{ mul(r.a, l.a), add(mul(r.b,l.a),l.b) }; },
-    []() { return F{ 1, 0 };});
-  REP(i, 0, N) lst.set(i, S{ A[i], 1 });
+    [](S l, S r) { return S{ l.zero + r.zero, l.one + r.one, l.inv + r.inv + l.one * r.zero }; },
+    []() { return S{ 0, 0, 0 }; },
+    [](F l, S r) { return l ? S{ r.one, r.zero, r.one* r.zero - r.inv } : r; },
+    [](F l, F r) { return (l && !r) || (!l && r); },
+    []() { return false; });
+  REP(i, 0, N) lst.set(i, A[i] ? S{ 0, 1, 0 } : S{ 1, 0, 0 });
 
-  int t, l, r, b, c;
   REP(i, 0, Q) {
-    cin >> t >> l >> r;
-    if (t == 0) {
-      cin >> b >> c;
-      lst.set(l, r, F{ b, c });
-    }
-    else {
-      cout << lst.prod(l, r).a << endl;
-    }
+    if (T[i] == 1)
+      lst.set(L[i], R[i], true);
+    else
+      cout << lst.prod(L[i], R[i]).inv << endl;
   }
 
   return 0;
