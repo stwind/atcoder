@@ -212,3 +212,4 @@ Playing [AtCoder](https://atcoder.jp/).
 | practice2         | [K - Range Affine Range Sum](https://atcoder.jp/contests/practice2/tasks/practice2_k)                       | Lazy Segment Tree                       |
 | practice2         | [L - Lazy Segment Tree](https://atcoder.jp/contests/practice2/tasks/practice2_l)                            | Lazy Segment Tree                       |
 | nikkei2019-final  | [D - Deforestation](https://atcoder.jp/contests/nikkei2019-final/tasks/nikkei2019_final_d)                  | Lazy Segment Tree                       |
+| abc130            | [D - Enough Array](https://atcoder.jp/contests/abc130/tasks/abc130_d)                                       | 累積和, しゃくとり法                    |
