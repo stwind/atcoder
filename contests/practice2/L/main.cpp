@@ -69,6 +69,13 @@ struct LST {
     REP(i, 1, h + 1) build(p >> i);
   }
 
+  S get(int p) {
+    assert(0 <= p && p < n);
+    p += size;
+    REPR(i, h, 1) push(p >> i);
+    return d[p];
+  }
+
   void set(int l, int r, F f) {
     assert(0 <= l && l <= r && r <= n);
     if (l == r) return;
