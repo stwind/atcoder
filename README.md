@@ -211,3 +211,4 @@ Playing [AtCoder](https://atcoder.jp/).
 | abc290            | [D - Marking](https://atcoder.jp/contests/abc290/tasks/abc290_d)                                            | 最大公約数                              |
 | practice2         | [K - Range Affine Range Sum](https://atcoder.jp/contests/practice2/tasks/practice2_k)                       | Lazy Segment Tree                       |
 | practice2         | [L - Lazy Segment Tree](https://atcoder.jp/contests/practice2/tasks/practice2_l)                            | Lazy Segment Tree                       |
+| nikkei2019-final  | [D - Deforestation](https://atcoder.jp/contests/nikkei2019-final/tasks/nikkei2019_final_d)                  | Lazy Segment Tree                       |
