@@ -214,3 +214,4 @@ Playing [AtCoder](https://atcoder.jp/).
 | nikkei2019-final  | [D - Deforestation](https://atcoder.jp/contests/nikkei2019-final/tasks/nikkei2019_final_d)                  | Lazy Segment Tree                       |
 | abc130            | [D - Enough Array](https://atcoder.jp/contests/abc130/tasks/abc130_d)                                       | 累積和, しゃくとり法                    |
 | arc009            | [C - 高橋君、24 歳](https://atcoder.jp/contests/arc009/tasks/arc009_3)                                      | 包除原理, 割り算                        |
+| tenka1-2019       | [D - Three Colors](https://atcoder.jp/contests/tenka1-2019/tasks/tenka1_2019_d)                             | 包除原理, DP                            |
