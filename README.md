@@ -213,3 +213,4 @@ Playing [AtCoder](https://atcoder.jp/).
 | practice2         | [L - Lazy Segment Tree](https://atcoder.jp/contests/practice2/tasks/practice2_l)                            | Lazy Segment Tree                       |
 | nikkei2019-final  | [D - Deforestation](https://atcoder.jp/contests/nikkei2019-final/tasks/nikkei2019_final_d)                  | Lazy Segment Tree                       |
 | abc130            | [D - Enough Array](https://atcoder.jp/contests/abc130/tasks/abc130_d)                                       | 累積和, しゃくとり法                    |
+| arc009            | [C - 高橋君、24 歳](https://atcoder.jp/contests/arc009/tasks/arc009_3)                                      | 包除原理, 割り算                        |
