@@ -219,3 +219,4 @@ Playing [AtCoder](https://atcoder.jp/).
 | abc264            | [E - Blackout 2](https://atcoder.jp/contests/abc264/tasks/abc264_e)                                         | Union Find                              |
 | abc183            | [F - Confluence](https://atcoder.jp/contests/abc183/tasks/abc183_f)                                         | Union Find                              |
 | abc087            | [D - People on a Line](https://atcoder.jp/contests/abc087/tasks/arc090_b)                                   | 重み付き Union-Find                     |
+| abc280            | [F - Pay or Receive](https://atcoder.jp/contests/abc280/tasks/abc280_f)                                     | 重み付き Union-Find                     |
