@@ -221,4 +221,4 @@ Playing [AtCoder](https://atcoder.jp/).
 | abc087            | [D - People on a Line](https://atcoder.jp/contests/abc087/tasks/arc090_b)                                   | 重み付き Union-Find                     |
 | abc280            | [F - Pay or Receive](https://atcoder.jp/contests/abc280/tasks/abc280_f)                                     | 重み付き Union-Find                     |
 | abc190            | [F - Shift and Inversions](https://atcoder.jp/contests/abc190/tasks/abc190_f)                               | Binary Indexed Tree                     |
-| abc190            | [A67 - MST (Minimum Spanning Tree)](https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_bo)         | Minimum Spanning Tree                   |
+| tessoku-book      | [A67 - MST (Minimum Spanning Tree)](https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_bo)         | Minimum Spanning Tree                   |
