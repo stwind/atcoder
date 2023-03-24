@@ -222,4 +222,5 @@ Playing [AtCoder](https://atcoder.jp/).
 | abc280            | [F - Pay or Receive](https://atcoder.jp/contests/abc280/tasks/abc280_f)                                     | 重み付き Union-Find                     |
 | abc190            | [F - Shift and Inversions](https://atcoder.jp/contests/abc190/tasks/abc190_f)                               | Binary Indexed Tree                     |
 | tessoku-book      | [A67 - MST (Minimum Spanning Tree)](https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_bo)         | Minimum Spanning Tree, Union-Find       |
+| tessoku-book      | [B67 - Max MST](https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_en)                             | Minimum Spanning Tree, Union-Find       |
 | abc065            | [D - Built?](https://atcoder.jp/contests/abc065/tasks/arc076_b)                                             | Minimum Spanning Tree, Union-Find       |
