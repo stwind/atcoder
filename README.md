@@ -220,3 +220,4 @@ Playing [AtCoder](https://atcoder.jp/).
 | abc183            | [F - Confluence](https://atcoder.jp/contests/abc183/tasks/abc183_f)                                         | Union Find                              |
 | abc087            | [D - People on a Line](https://atcoder.jp/contests/abc087/tasks/arc090_b)                                   | 重み付き Union-Find                     |
 | abc280            | [F - Pay or Receive](https://atcoder.jp/contests/abc280/tasks/abc280_f)                                     | 重み付き Union-Find                     |
+| abc190            | [F - Shift and Inversions](https://atcoder.jp/contests/abc190/tasks/abc190_f)                               | Binary Indexed Tree                     |
