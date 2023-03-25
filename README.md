@@ -227,3 +227,4 @@ Playing [AtCoder](https://atcoder.jp/).
 | iroha2019-day2    | [D - 楽しすぎる家庭菜園](https://atcoder.jp/contests/iroha2019-day2/tasks/iroha2019_day2_d)               | Minimum Spanning Tree, Union-Find       |
 | typical90         | [060 - Chimera（★5）](https://atcoder.jp/contests/typical90/tasks/typical90_bh)                             | LIS                                     |
 | chokudai_S001     | [H - LIS](https://atcoder.jp/contests/chokudai_S001/tasks/chokudai_S001_h)                                  | LIS                                     |
+| abc134            | [E - Sequence Decomposing](https://atcoder.jp/contests/abc134/tasks/abc134_e)                               | LIS                                     |
