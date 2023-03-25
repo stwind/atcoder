@@ -225,3 +225,4 @@ Playing [AtCoder](https://atcoder.jp/).
 | tessoku-book      | [B67 - Max MST](https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_en)                             | Minimum Spanning Tree, Union-Find       |
 | abc065            | [D - Built?](https://atcoder.jp/contests/abc065/tasks/arc076_b)                                             | Minimum Spanning Tree, Union-Find       |
 | iroha2019-day2    | [D - 楽しすぎる家庭菜園](https://atcoder.jp/contests/iroha2019-day2/tasks/iroha2019_day2_d)               | Minimum Spanning Tree, Union-Find       |
+| typical90         | [060 - Chimera（★5）](https://atcoder.jp/contests/typical90/tasks/typical90_bh)                             | LIS                                     |
