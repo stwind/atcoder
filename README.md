@@ -229,3 +229,4 @@ Playing [AtCoder](https://atcoder.jp/).
 | chokudai_S001     | [H - LIS](https://atcoder.jp/contests/chokudai_S001/tasks/chokudai_S001_h)                                  | LIS                                     |
 | abc134            | [E - Sequence Decomposing](https://atcoder.jp/contests/abc134/tasks/abc134_e)                               | LIS                                     |
 | chokudai_S002     | [L - 長方形 β](https://atcoder.jp/contests/chokudai_S002/tasks/chokudai_S002_l)                             | LIS                                     |
+| abc061            | [D - Score Attack](https://atcoder.jp/contests/abc061/tasks/abc061_d)                                       | Bellman-Ford                            |
