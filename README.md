@@ -228,3 +228,4 @@ Playing [AtCoder](https://atcoder.jp/).
 | typical90         | [060 - Chimera（★5）](https://atcoder.jp/contests/typical90/tasks/typical90_bh)                             | LIS                                     |
 | chokudai_S001     | [H - LIS](https://atcoder.jp/contests/chokudai_S001/tasks/chokudai_S001_h)                                  | LIS                                     |
 | abc134            | [E - Sequence Decomposing](https://atcoder.jp/contests/abc134/tasks/abc134_e)                               | LIS                                     |
+| chokudai_S002     | [L - 長方形 β](https://atcoder.jp/contests/chokudai_S002/tasks/chokudai_S002_l)                             | LIS                                     |
