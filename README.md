@@ -233,3 +233,4 @@ Playing [AtCoder](https://atcoder.jp/).
 | ttpc2015          | [N - 何かグラフの問題](https://atcoder.jp/contests/ttpc2015/tasks/ttpc2015_n)                             | Bellman-Ford                            |
 | abc137            | [E - Coins Respawn](https://atcoder.jp/contests/abc137/tasks/abc137_e)                                      | Bellman-Ford                            |
 | abc051            | [D - Candidates of No Shortest Paths](https://atcoder.jp/contests/abc051/tasks/abc051_d)                    | Floyd-Warshall                          |
+| joi2008yo         | [F - 船旅](https://atcoder.jp/contests/joi2008yo/tasks/joi2008yo_f)                                         | Dijkstra                                |
