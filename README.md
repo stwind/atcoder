@@ -234,3 +234,4 @@ Playing [AtCoder](https://atcoder.jp/).
 | abc137            | [E - Coins Respawn](https://atcoder.jp/contests/abc137/tasks/abc137_e)                                      | Bellman-Ford                            |
 | abc051            | [D - Candidates of No Shortest Paths](https://atcoder.jp/contests/abc051/tasks/abc051_d)                    | Floyd-Warshall                          |
 | joi2008yo         | [F - 船旅](https://atcoder.jp/contests/joi2008yo/tasks/joi2008yo_f)                                         | Dijkstra                                |
+| abc035            | [D - トレジャーハント](https://atcoder.jp/contests/abc035/tasks/abc035_d)                                 | Dijkstra                                |
