@@ -239,3 +239,4 @@ Playing [AtCoder](https://atcoder.jp/).
 | abc122              | [B - ATCoder](https://atcoder.jp/contests/abc122/tasks/abc122_b)                                            | 全探索                                  |
 | pakencamp-2019-day3 | [C - カラオケ](https://atcoder.jp/contests/pakencamp-2019-day3/tasks/pakencamp_2019_day3_c)                 | 全探索                                  |
 | sumitrust2019       | [D - Lucky PIN](https://atcoder.jp/contests/sumitrust2019/tasks/sumitb2019_d)                               | 全探索                                  |
+| s8pc-6              | [B - AtCoder Market](https://atcoder.jp/contests/s8pc-6/tasks/s8pc_6_b)                                     | 全探索                                  |
