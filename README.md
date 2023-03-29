@@ -236,3 +236,4 @@ Playing [AtCoder](https://atcoder.jp/).
 | joi2008yo         | [F - 船旅](https://atcoder.jp/contests/joi2008yo/tasks/joi2008yo_f)                                         | Dijkstra                                |
 | abc035            | [D - トレジャーハント](https://atcoder.jp/contests/abc035/tasks/abc035_d)                                 | Dijkstra                                |
 | abc095            | [C - Half and Half](https://atcoder.jp/contests/abc095/tasks/arc096_a)                                      | 全探索                                  |
+| abc122            | [B - ATCoder](https://atcoder.jp/contests/abc122/tasks/abc122_b)                                            | 全探索                                  |
