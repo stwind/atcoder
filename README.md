@@ -243,3 +243,4 @@ Playing [AtCoder](https://atcoder.jp/).
 | joi2008yo           | [D - 星座探し](https://atcoder.jp/contests/joi2008yo/tasks/joi2008yo_d)                                     | 全探索                                  |
 | abc128              | [C - Switches](https://atcoder.jp/contests/abc128/tasks/abc128_c)                                           | bit 全探索                              |
 | abc002              | [D - 派閥](https://atcoder.jp/contests/abc002/tasks/abc002_4)                                               | bit 全探索                              |
+| joi2008yo           | [E - おせんべい](https://atcoder.jp/contests/joi2008yo/tasks/joi2008yo_e)                                 | bit 全探索                              |
