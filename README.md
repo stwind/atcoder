@@ -241,3 +241,4 @@ Playing [AtCoder](https://atcoder.jp/).
 | sumitrust2019       | [D - Lucky PIN](https://atcoder.jp/contests/sumitrust2019/tasks/sumitb2019_d)                               | 全探索                                  |
 | s8pc-6              | [B - AtCoder Market](https://atcoder.jp/contests/s8pc-6/tasks/s8pc_6_b)                                     | 全探索                                  |
 | joi2008yo           | [D - 星座探し](https://atcoder.jp/contests/joi2008yo/tasks/joi2008yo_d)                                     | 全探索                                  |
+| abc128              | [C - Switches](https://atcoder.jp/contests/abc128/tasks/abc128_c)                                           | bit 全探索                              |
