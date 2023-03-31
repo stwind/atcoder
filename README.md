@@ -249,3 +249,4 @@ Playing [AtCoder](https://atcoder.jp/).
 | abc150              | [C - Count Order](https://atcoder.jp/contests/abc150/tasks/abc150_c)                                        | 順列全探索                              |
 | joi2009ho           | [B - ピザ](https://atcoder.jp/contests/joi2009ho/tasks/joi2009ho_b)                                     | 二分探索                                |
 | abc023              | [D - 射撃王](https://atcoder.jp/contests/abc023/tasks/abc023_d)                                             | 二分探索                                |
+| joi2009yo           | [D - 薄氷渡り](https://atcoder.jp/contests/joi2009yo/tasks/joi2009yo_d)                                     | DFS                                     |
