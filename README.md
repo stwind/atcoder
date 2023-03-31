@@ -248,3 +248,4 @@ Playing [AtCoder](https://atcoder.jp/).
 | abc145              | [C - Average Length](https://atcoder.jp/contests/abc145/tasks/abc145_c)                                     | 順列全探索                              |
 | abc150              | [C - Count Order](https://atcoder.jp/contests/abc150/tasks/abc150_c)                                        | 順列全探索                              |
 | joi2009ho           | [B - ピザ](https://atcoder.jp/contests/joi2009ho/tasks/joi2009ho_b)                                     | 二分探索                                |
+| abc023              | [D - 射撃王](https://atcoder.jp/contests/abc023/tasks/abc023_d)                                             | 二分探索                                |
