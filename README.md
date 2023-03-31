@@ -246,3 +246,4 @@ Playing [AtCoder](https://atcoder.jp/).
 | joi2008yo           | [E - おせんべい](https://atcoder.jp/contests/joi2008yo/tasks/joi2008yo_e)                                 | bit 全探索                              |
 | s8pc-4              | [B - Buildings are Colorful!](https://atcoder.jp/contests/s8pc-4/tasks/s8pc_4_b)                            | bit 全探索                              |
 | abc145              | [C - Average Length](https://atcoder.jp/contests/abc145/tasks/abc145_c)                                     | 順列全探索                              |
+| abc150              | [C - Count Order](https://atcoder.jp/contests/abc150/tasks/abc150_c)                                        | 順列全探索                              |
