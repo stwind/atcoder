@@ -250,3 +250,4 @@ Playing [AtCoder](https://atcoder.jp/).
 | joi2009ho           | [B - ピザ](https://atcoder.jp/contests/joi2009ho/tasks/joi2009ho_b)                                     | 二分探索                                |
 | abc023              | [D - 射撃王](https://atcoder.jp/contests/abc023/tasks/abc023_d)                                             | 二分探索                                |
 | joi2009yo           | [D - 薄氷渡り](https://atcoder.jp/contests/joi2009yo/tasks/joi2009yo_d)                                     | DFS                                     |
+| joi2011yo           | [E - チーズ (Cheese)](https://atcoder.jp/contests/joi2011yo/tasks/joi2011yo_e)                            | BFS                                     |
