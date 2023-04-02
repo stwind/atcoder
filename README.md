@@ -252,3 +252,4 @@ Playing [AtCoder](https://atcoder.jp/).
 | joi2009yo           | [D - 薄氷渡り](https://atcoder.jp/contests/joi2009yo/tasks/joi2009yo_d)                                     | DFS                                     |
 | joi2011yo           | [E - チーズ (Cheese)](https://atcoder.jp/contests/joi2011yo/tasks/joi2011yo_e)                            | BFS                                     |
 | joi2012yo           | [E - イルミネーション (Illumination)](https://atcoder.jp/contests/joi2012yo/tasks/joi2012yo_e)              | BFS                                     |
+| joi2011yo           | [D - 1 年生 (A First Grader)](https://atcoder.jp/contests/joi2011yo/tasks/joi2011yo_d)                      | DP                                      |
