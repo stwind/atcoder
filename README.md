@@ -254,3 +254,4 @@ Playing [AtCoder](https://atcoder.jp/).
 | joi2012yo           | [E - イルミネーション (Illumination)](https://atcoder.jp/contests/joi2012yo/tasks/joi2012yo_e)              | BFS                                     |
 | joi2011yo           | [D - 1 年生 (A First Grader)](https://atcoder.jp/contests/joi2011yo/tasks/joi2011yo_d)                      | DP                                      |
 | joi2012yo           | [D - パスタ (Pasta)](https://atcoder.jp/contests/joi2012yo/tasks/joi2012yo_d)                             | DP                                      |
+| joi2013yo           | [D - 暑い日々 (Hot days)](https://atcoder.jp/contests/joi2013yo/tasks/joi2013yo_d)                          | DP                                      |

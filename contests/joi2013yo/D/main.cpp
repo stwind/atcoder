@@ -2,16 +2,31 @@
 using namespace std;
 
 // clang-format off
-#define forn(i, x, y) for(int i = x; i < y; i++)
-#define IOS ios_base::sync_with_stdio(false); cin.tie(0); cout.tie(NULL)
+#define PARENS ()
+#define EXPAND(...) EXPAND4(EXPAND4(EXPAND4(EXPAND4(__VA_ARGS__))))
+#define EXPAND4(...) EXPAND3(EXPAND3(EXPAND3(EXPAND3(__VA_ARGS__))))
+#define EXPAND3(...) EXPAND2(EXPAND2(EXPAND2(EXPAND2(__VA_ARGS__))))
+#define EXPAND2(...) EXPAND1(EXPAND1(EXPAND1(EXPAND1(__VA_ARGS__))))
+#define EXPAND1(...) __VA_ARGS__
+#define FOR_EACH(macro, ...) __VA_OPT__(EXPAND(FOR_EACH_HELPER(macro, __VA_ARGS__)))
+#define FOR_EACH_HELPER(macro, a1, ...) macro(a1) __VA_OPT__(FOR_EACH_AGAIN PARENS (macro, __VA_ARGS__))
+#define FOR_EACH_AGAIN() FOR_EACH_HELPER
+#define REP(i, x, y) for(int i = x; i < y; i++)
+#define REPR(i, x, y) for(int i = x; i >= y; i--)
+#define IOS ios_base::sync_with_stdio(false); cin.tie(0);
 #define all(s) s.begin(), s.end()
-#define MOD 1000000007
-#define DEBUG(x) cout << #x << ": " << x << endl;
-#define DEBUGV(a) for(auto it = a.begin() ; it != a.end(); it++) { cout << *it << " "; } cout << endl;
+#define rall(s) s.rbegin(), s.rend()
+#define MOD 10000
+#define DBG(x) cout << #x << ": " << x << " ";
+#define DEBUG(...) FOR_EACH(DBG, __VA_ARGS__) cout << endl;
+#define DEBUGV(a) cout << #a << ": "; for(auto it = a.begin() ; it != a.end(); it++) { cout << *it << " "; } cout << endl;
+#define CEIL(a, b) ((a) + (b) - 1) / (b)
+#define IN(x, a, b) (a <= x && x < b)
 template<class T> inline bool chmax(T& a, T b) { if (a < b) { a = b; return 1; } return 0; }
 template<class T> inline bool chmin(T& a, T b) { if (a > b) { a = b; return 1; } return 0; }
-template<typename T> void add(T &a, T b) { a += b; if (a >= MOD) a -= MOD; }
-template<typename T> void sub(T &a, T b) { a -= b; if (a < 0) a -= MOD; }
+template <typename T> T sub(T a, T b) { return (a + MOD - b) % MOD; }
+template <typename T> T add(T a, T b) { return (a + b) % MOD; }
+template <typename T> T mul(T a, T b) { return 1ULL * a * b % MOD; }
 // clang-format on
 
 using LL = long long;
@@ -19,42 +34,27 @@ using VI = vector<int>;
 using VVI = vector<VI>;
 using VLL = vector<LL>;
 using VVLL = vector<VLL>;
+using PII = pair<int, int>;
 using PLL = pair<LL, LL>;
 
-int main()
-{
-    IOS;
-    int D, N;
-    cin >> D >> N;
-    VI T(D), A(N), B(N), C(N);
-    forn(i, 0, D) cin >> T[i];
-    forn(i, 0, N) cin >> A[i] >> B[i] >> C[i];
+int main() {
+  IOS;
 
-    VVI dp(D, VI(N, -1));
-    forn(j, 0, N)
-    {
-        if (A[j] <= T[0] && T[0] <= B[j])
-            dp[0][j] = 0;
-    }
+  int D, N; cin >> D >> N;
+  VI T(D);
+  REP(i, 0, D) cin >> T[i];
+  VI A(N), B(N), C(N);
+  REP(i, 0, N) cin >> A[i] >> B[i] >> C[i];
 
-    forn(i, 1, D)
-    {
-        forn(j, 0, N)
-        {
-            if (A[j] <= T[i] && T[i] <= B[j])
-            {
-                forn(k, 0, N)
-                {
-                    if (dp[i - 1][k] == -1)
-                        continue;
-                    dp[i][j] = max(dp[i][j], dp[i - 1][k] + abs(C[j] - C[k]));
-                }
-            }
-        }
-    }
-    int res = 0;
-    forn(j, 0, N) res = max(res, dp[D - 1][j]);
-    cout << res << endl;
+  VVI dp(D, VI(N, -1));
+  REP(i, 0, N) if (A[i] <= T[0] && T[0] <= B[i]) dp[0][i] = 0;
 
-    return 0;
+  REP(i, 1, D) REP(j, 0, N) REP(k, 0, N) {
+    if (dp[i - 1][k] >= 0 && A[j] <= T[i] && T[i] <= B[j])
+      chmax(dp[i][j], abs(C[j] - C[k]) + dp[i - 1][k]);
+  }
+
+  cout << *max_element(all(dp[D - 1])) << endl;
+
+  return 0;
 }
