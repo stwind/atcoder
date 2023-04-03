@@ -258,3 +258,4 @@ Playing [AtCoder](https://atcoder.jp/).
 | joi2015yo           | [D - シルクロード (Silk Road)](https://atcoder.jp/contests/joi2015yo/tasks/joi2015yo_d)                   | DP                                      |
 | pakencamp-2019-day3 | [D - パ研軍旗](https://atcoder.jp/contests/pakencamp-2019-day3/tasks/pakencamp_2019_day3_d)               | DP                                      |
 | dp                  | [L - Deque](https://atcoder.jp/contests/dp/tasks/dp_l)                                                      | DP                                      |
+| dp                  | [N - Slimes](https://atcoder.jp/contests/dp/tasks/dp_n)                                                     | DP                                      |
