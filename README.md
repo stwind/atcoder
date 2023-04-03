@@ -259,3 +259,4 @@ Playing [AtCoder](https://atcoder.jp/).
 | pakencamp-2019-day3 | [D - パ研軍旗](https://atcoder.jp/contests/pakencamp-2019-day3/tasks/pakencamp_2019_day3_d)               | DP                                      |
 | dp                  | [L - Deque](https://atcoder.jp/contests/dp/tasks/dp_l)                                                      | DP                                      |
 | dp                  | [N - Slimes](https://atcoder.jp/contests/dp/tasks/dp_n)                                                     | DP                                      |
+| joi2015ho           | [B - ケーキの切り分け２ (Cake 2)](https://atcoder.jp/contests/joi2015ho/tasks/joi2015ho_b)                  | DP                                      |
