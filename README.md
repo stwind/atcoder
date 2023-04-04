@@ -264,3 +264,4 @@ Playing [AtCoder](https://atcoder.jp/).
 | typical-algorithm   | [A - 二分探索の練習問題](https://atcoder.jp/contests/typical-algorithm/tasks/typical_algorithm_a)           | 二分探索                                |
 | typical-algorithm   | [D - 単一始点最短経路問題](https://atcoder.jp/contests/typical-algorithm/tasks/typical_algorithm_d)         | Dijkstra                                |
 | typical-algorithm   | [E - 全点対最短経路問題](https://atcoder.jp/contests/typical-algorithm/tasks/typical_algorithm_e)           | Floyd-Warshall                          |
+| typical-algorithm   | [F - 最小全域木問題](https://atcoder.jp/contests/typical-algorithm/tasks/typical_algorithm_f)               | Minimum Spanning Tree, Union-Find       |
