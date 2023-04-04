@@ -2,15 +2,31 @@
 using namespace std;
 
 // clang-format off
-#define forn(i, x, y) for(int i = x; i < y; i++)
-#define IOS ios_base::sync_with_stdio(false); cin.tie(0); cout.tie(NULL)
+#define PARENS ()
+#define EXPAND(...) EXPAND4(EXPAND4(EXPAND4(EXPAND4(__VA_ARGS__))))
+#define EXPAND4(...) EXPAND3(EXPAND3(EXPAND3(EXPAND3(__VA_ARGS__))))
+#define EXPAND3(...) EXPAND2(EXPAND2(EXPAND2(EXPAND2(__VA_ARGS__))))
+#define EXPAND2(...) EXPAND1(EXPAND1(EXPAND1(EXPAND1(__VA_ARGS__))))
+#define EXPAND1(...) __VA_ARGS__
+#define FOR_EACH(macro, ...) __VA_OPT__(EXPAND(FOR_EACH_HELPER(macro, __VA_ARGS__)))
+#define FOR_EACH_HELPER(macro, a1, ...) macro(a1) __VA_OPT__(FOR_EACH_AGAIN PARENS (macro, __VA_ARGS__))
+#define FOR_EACH_AGAIN() FOR_EACH_HELPER
+#define REP(i, x, y) for(int i = x; i < y; i++)
+#define REPR(i, x, y) for(int i = x; i >= y; i--)
+#define IOS ios_base::sync_with_stdio(false); cin.tie(0);
+#define all(s) s.begin(), s.end()
+#define rall(s) s.rbegin(), s.rend()
+#define MOD 10000
+#define DBG(x) cout << #x << ": " << x << " ";
+#define DEBUG(...) FOR_EACH(DBG, __VA_ARGS__) cout << endl;
+#define DEBUGV(a) cout << #a << ": "; for(auto it = a.begin() ; it != a.end(); it++) { cout << *it << " "; } cout << endl;
+#define CEIL(a, b) ((a) + (b) - 1) / (b)
+#define IN(x, a, b) (a <= x && x < b)
+template<class T> inline bool chmax(T& a, T b) { if (a < b) { a = b; return 1; } return 0; }
 template<class T> inline bool chmin(T& a, T b) { if (a > b) { a = b; return 1; } return 0; }
-#define BYTE_TO_BINARY_PATTERN "%c%c%c%c"
-#define BYTE_TO_BINARY(byte) \
-  (byte & 0x008 ? '1' : '0'), \
-  (byte & 0x004 ? '1' : '0'), \
-  (byte & 0x002 ? '1' : '0'), \
-  (byte & 0x001 ? '1' : '0')
+template <typename T> T sub(T a, T b) { return (a + MOD - b) % MOD; }
+template <typename T> T add(T a, T b) { return (a + b) % MOD; }
+template <typename T> T mul(T a, T b) { return 1ULL * a * b % MOD; }
 // clang-format on
 
 using LL = long long;
@@ -18,46 +34,32 @@ using VI = vector<int>;
 using VVI = vector<VI>;
 using VLL = vector<LL>;
 using VVLL = vector<VLL>;
-const int INF = 1e9 + 10;
+using PII = pair<int, int>;
+using PLL = pair<LL, LL>;
 
-int main()
-{
-    IOS;
+int main() {
+  IOS;
 
-    int N;
-    cin >> N;
-    VI X(N), Y(N), Z(N);
-    forn(i, 0, N) cin >> X[i] >> Y[i] >> Z[i];
+  int N; cin >> N;
+  VI X(N), Y(N), Z(N);
+  REP(i, 0, N) cin >> X[i] >> Y[i] >> Z[i];
 
-    VVI dist(N, VI(N, 0));
-    forn(i, 0, N) forn(j, 0, N)
-        dist[i][j] = abs(X[j] - X[i]) + abs(Y[j] - Y[i]) + max(0, Z[j] - Z[i]);
+  auto dist = [&](int a, int b) -> int {
+    return abs(X[a] - X[b]) + abs(Y[a] - Y[b]) + max(0, Z[b] - Z[a]);
+  };
 
-    VVI dp(1 << N, VI(N, INF));
-    dp[1][0] = 0;
+  int n = 1 << N;
+  VVI dp(n, VI(N, 1 << 30));
+  dp[0][0] = 0;
 
-    forn(S, 0, 1 << N)
-    {
-        // printf("S " BYTE_TO_BINARY_PATTERN "\n", BYTE_TO_BINARY(S));
-        forn(u, 0, N)
-        {
-            // printf(" u %d\n", u);
-            if (!(S & (1 << u)))
-                continue;
-            forn(v, 0, N)
-            {
-                // printf(" v %d\n", v);
-                if (S & (1 << v))
-                    continue;
-                // printf("   min(%d + %d, %d)\n", dp[S][u], dist[u][v], dp[S | (1 << v)][v]);
-                chmin(dp[S | (1 << v)][v], dp[S][u] + dist[u][v]);
-            }
-        }
+  for (int s = 0; s < n; s++) {
+    REP(u, 0, N) if ((s == 0 && u == 0) || s >> u & 1) {
+      REP(v, 0, N) if (v != u)
+        chmin(dp[s | (1 << v)][v], dp[s][u] + dist(u, v));
     }
+  }
 
-    int res = INF;
-    forn(u, 1, N) chmin(res, dp[(1 << N) - 1][u] + dist[u][0]);
-    cout << res << endl;
+  cout << dp[n - 1][0] << endl;
 
-    return 0;
+  return 0;
 }
