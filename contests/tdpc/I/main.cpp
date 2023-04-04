@@ -48,10 +48,10 @@ int main() {
   vector<vector<bool>> C(N, vector<bool>(N, true));
   REPR(i, N - 2, 0) REP(j, i, N) {
     C[i][j] = false;
-    if ((j - i + 1) % 3 == 0) {
-      REP(k, i, j) if (S[i] == 'i' && S[k] == 'i' && S[j] == 'i')
+    if ((j - i + 1) % 3 == 0 && (S[i] == 'i' && S[j] == 'i')) {
+      REP(k, i, j) if (S[k] == 'i')
         C[i][j] = C[i][j] || (C[i][k] && C[k + 1][j]);
-      REP(k, i + 1, j) if (S[i] == 'i' && S[k] == 'w' && S[j] == 'i')
+      REP(k, i + 1, j) if (S[k] == 'w')
         C[i][j] = C[i][j] || (C[i + 1][k - 1] && C[k + 1][j - 1]);
     }
   }
