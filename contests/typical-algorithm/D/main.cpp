@@ -40,12 +40,27 @@ using PLL = pair<LL, LL>;
 int main() {
   IOS;
 
-  int N, K; cin >> N >> K;
-  VI A(N); REP(i, 0, N) cin >> A[i];
+  int N, M; cin >> N >> M;
+  vector<vector<pair<int, LL>>> G(N);
+  REP(i, 0, M) {
+    int u, v; LL c; cin >> u >> v >> c;
+    G[u].push_back({ v,c });
+  }
 
-  int i = lower_bound(all(A), K) - A.begin();
-  if (i == N) cout << -1 << endl;
-  else cout << i << endl;
+  VLL D(N, LONG_MAX); D[0] = 0;
+  priority_queue<PLL, vector<PLL>, greater<PLL>> q;
+  q.push({ 0, 0 });
+
+  while (!q.empty()) {
+    auto [d, u] = q.top(); q.pop();
+    for (auto [v, c] : G[u]) {
+      if (D[v] > d + c) {
+        D[v] = d + c;
+        q.push({ D[v], v });
+      }
+    }
+  }
+  cout << D[N - 1] << endl;
 
   return 0;
 }
