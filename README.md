@@ -262,4 +262,4 @@ Playing [AtCoder](https://atcoder.jp/).
 | joi2015ho           | [B - ケーキの切り分け２ (Cake 2)](https://atcoder.jp/contests/joi2015ho/tasks/joi2015ho_b)                  | DP                                      |
 | tdpc                | [I - イウィ](https://atcoder.jp/contests/tdpc/tasks/tdpc_iwi)                                               | DP                                      |
 | typical-algorithm   | [A - 二分探索の練習問題](https://atcoder.jp/contests/typical-algorithm/tasks/typical_algorithm_a)           | 二分探索                                |
-| typical-algorithm   | [D - 単一始点最短経路問題](https://atcoder.jp/contests/typical-algorithm/tasks/typical_algorithm_d)         | Dijkstra                                |
+| typical-algorithm   | [E - 全点対最短経路問題](https://atcoder.jp/contests/typical-algorithm/tasks/typical_algorithm_e)           | Floyd-Warshall                          |
