@@ -46,8 +46,7 @@ int main() {
   int N = S.size();
 
   vector<vector<bool>> C(N, vector<bool>(N, true));
-  REP(i, 0, N) C[i][i] = false;
-  REPR(i, N - 2, 0) REP(j, i + 1, N) {
+  REPR(i, N - 2, 0) REP(j, i, N) {
     C[i][j] = false;
     if ((j - i + 1) % 3 == 0) {
       REP(k, i, j) if (S[i] == 'i' && S[k] == 'i' && S[j] == 'i')
