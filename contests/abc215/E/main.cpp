@@ -48,13 +48,15 @@ int main() {
   REP(i, 0, N) {
     int x = S[i] - 'A';
 
-    REP(s, 0, 1024) REP(j, 0, 10) {
+    REP(s, 0, 1024) REP(j, 0, 10) if (s >> j & 1) {
       dp[i + 1][s][j] = dp[i][s][j];
       if (x == j) dp[i + 1][s][j] = add(dp[i + 1][s][j], dp[i][s][j]);
     }
 
-    REP(s, 0, 1024)  if ((s >> x & 1) == 0) REP(j, 0, 10)
-      dp[i + 1][s | (1 << x)][x] = add(dp[i + 1][s | (1 << x)][x], dp[i][s][j]);
+    REP(s, 0, 1024)  if ((s >> x & 1) == 0) REP(j, 0, 10) {
+      int s1 = s | (1 << x);
+      dp[i + 1][s1][x] = add(dp[i + 1][s1][x], dp[i][s][j]);
+    }
 
     dp[i + 1][1 << x][x] = add(dp[i + 1][1 << x][x], 1LL);
   }
