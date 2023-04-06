@@ -271,3 +271,4 @@ Playing [AtCoder](https://atcoder.jp/).
 | joi2014yo           | [D - 部活のスケジュール表 (Schedule)](https://atcoder.jp/contests/joi2014yo/tasks/joi2014yo_d)            | DP                                      |
 | dp                  | [O - Matching](https://atcoder.jp/contests/dp/tasks/dp_o)                                                   | DP                                      |
 | abc215              | [E - Chain Contestant](https://atcoder.jp/contests/abc215/tasks/abc215_e)                                   | DP                                      |
+| abc018              | [D - バレンタインデー](https://atcoder.jp/contests/abc018/tasks/abc018_4)                               | 半分全列挙                              |

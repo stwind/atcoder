@@ -14,18 +14,18 @@ LL X, Y, A, B;
 
 int main()
 {
-    IOS;
+  IOS;
 
-    cin >> X >> Y >> A >> B;
+  cin >> X >> Y >> A >> B;
 
-    LL res = 0;
-    while (X <= (X + B) / A && X < Y / A)
-    {
-        X *= A;
-        res++;
-    }
+  LL res = 0;
+  while (X <= (X + B) / A && X < Y / A)
+  {
+    X *= A;
+    res++;
+  }
 
-    cout << res + (Y - 1 - X) / B << endl;
+  cout << res + (Y - 1 - X) / B << endl;
 
-    return 0;
+  return 0;
 }
