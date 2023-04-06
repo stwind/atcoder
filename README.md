@@ -272,3 +272,4 @@ Playing [AtCoder](https://atcoder.jp/).
 | dp                  | [O - Matching](https://atcoder.jp/contests/dp/tasks/dp_o)                                                   | DP                                      |
 | abc215              | [E - Chain Contestant](https://atcoder.jp/contests/abc215/tasks/abc215_e)                                   | DP                                      |
 | abc018              | [D - バレンタインデー](https://atcoder.jp/contests/abc018/tasks/abc018_4)                               | 半分全列挙                              |
+| abc147              | [C - HonestOrUnkind2](https://atcoder.jp/contests/abc147/tasks/abc147_c)                                    | bit 全探索                              |
