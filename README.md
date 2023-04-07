@@ -274,4 +274,4 @@ Playing [AtCoder](https://atcoder.jp/).
 | abc018              | [D - バレンタインデー](https://atcoder.jp/contests/abc018/tasks/abc018_4)                               | 半分全列挙                              |
 | abc147              | [C - HonestOrUnkind2](https://atcoder.jp/contests/abc147/tasks/abc147_c)                                    | bit 全探索                              |
 | dp                  | [U - Grouping](https://atcoder.jp/contests/dp/tasks/dp_u)                                                   | DP, bit 全探索                          |
-| abc180              | [C - Cream puff](https://atcoder.jp/contests/abc180/tasks/abc180_c)                                         | 約数全列挙                              |
+| arc016              | [C - ソーシャルゲーム](https://atcoder.jp/contests/arc016/tasks/arc016_3)                                 | DP                                      |
