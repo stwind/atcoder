@@ -47,13 +47,13 @@ int main() {
 
   int N, M; cin >> N >> M;
   vector<double> C(M);
-  VVI P(M, VI(N));
+  vector<vector<double>> P(M, vector<double>(N));
   REP(i, 0, M) {
-    int c, k, p;
+    int c, k; double p;
     cin >> c >> C[i];
     REP(j, 0, c) {
       cin >> k >> p;
-      P[i][--k] = p;
+      P[i][--k] = p / 100.;
     }
   }
 
@@ -63,13 +63,14 @@ int main() {
 
   REPR(s, n - 1, 0) {
     REP(i, 0, M) {
-      int p = 0;
-      REP(j, 0, N) if (P[i][j] && s >> j & 1) p += P[i][j];
-      if (p == 100.) continue;
-
-      double t = C[i] * 100. / (100. - p);
+      double p = 0;
       REP(j, 0, N) if (P[i][j] && (s >> j & 1) == 0)
-        t += P[i][j] / (100. - p) * dp[s | (1 << j)];
+        p += P[i][j];
+      if (p == 0.) continue;
+
+      double t = C[i] / p;
+      REP(j, 0, N) if (P[i][j] && (s >> j & 1) == 0)
+        t += P[i][j] / p * dp[s | (1 << j)];
 
       chmin(dp[s], t);
     }
