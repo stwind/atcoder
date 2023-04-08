@@ -1,8 +1,3 @@
-// https://www.creativ.xyz/arc016c-605/
-// https://kmjp.hatenablog.jp/entry/2013/11/05/0930
-// https://noy72.com/articles/2017-10-27-arc-016-c/
-// https://kyopro.hateblo.jp/entry/2019/07/15/013501
-
 #include <bits/stdc++.h>
 using namespace std;
 
