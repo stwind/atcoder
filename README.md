@@ -276,3 +276,4 @@ Playing [AtCoder](https://atcoder.jp/).
 | dp                  | [U - Grouping](https://atcoder.jp/contests/dp/tasks/dp_u)                                                   | DP, bit 全探索                          |
 | arc016              | [C - ソーシャルゲーム](https://atcoder.jp/contests/arc016/tasks/arc016_3)                                 | DP                                      |
 | abc062              | [C - Chocolate Bar](https://atcoder.jp/contests/abc062/tasks/arc074_a)                                      | 全探索                                  |
+| abc032              | [D - ナップサック問題](https://atcoder.jp/contests/abc032/tasks/abc032_d)                                 | DP, bit 全探索, 半分全列挙              |
