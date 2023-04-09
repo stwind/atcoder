@@ -279,3 +279,4 @@ Playing [AtCoder](https://atcoder.jp/).
 | abc032              | [D - ナップサック問題](https://atcoder.jp/contests/abc032/tasks/abc032_d)                                 | DP, bit 全探索, 半分全列挙              |
 | arc017              | [C - 無駄なものが嫌いな人](https://atcoder.jp/contests/arc017/tasks/arc017_3)                             | bit 全探索, 半分全列挙                  |
 | agc026              | [C - String Coloring](https://atcoder.jp/contests/agc026/tasks/agc026_c)                                    | bit 全探索, 半分全列挙                  |
+| abc054              | [D - Mixing Experiment](https://atcoder.jp/contests/abc054/tasks/abc054_d)                                  | bit 全探索, 半分全列挙                  |
