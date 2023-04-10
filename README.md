@@ -282,3 +282,4 @@ Playing [AtCoder](https://atcoder.jp/).
 | abc054              | [D - Mixing Experiment](https://atcoder.jp/contests/abc054/tasks/abc054_d)                                  | bit 全探索, 半分全列挙                  |
 | abc184              | [F - Programming Contest](https://atcoder.jp/contests/abc184/tasks/abc184_f)                                | bit 全探索, 半分全列挙                  |
 | joi2017yo           | [D - ぬいぐるみの整理 (Plush Toys)](https://atcoder.jp/contests/joi2017yo/tasks/joi2017yo_d)              | DP                                      |
+| abc006              | [D - トランプ挿入ソート](https://atcoder.jp/contests/abc006/tasks/abc006_4)                               | LIS                                     |
