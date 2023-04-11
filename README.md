@@ -289,3 +289,4 @@ Playing [AtCoder](https://atcoder.jp/).
 | abc145              | [D - Knight](https://atcoder.jp/contests/abc145/tasks/abc145_d)                                             | 割り算                                  |
 | joi2011ho           | [A - 惑星探査 (Planetary Exploration)](https://atcoder.jp/contests/joi2011ho/tasks/joi2011ho1)              | 累積和                                  |
 | abc106              | [D - AtCoder Express 2](https://atcoder.jp/contests/abc106/tasks/abc106_d)                                  | 累積和                                  |
+| gigacode-2019       | [D - 家の建設](https://atcoder.jp/contests/gigacode-2019/tasks/gigacode_2019_d)                             | 累積和                                  |
