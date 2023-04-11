@@ -287,3 +287,4 @@ Playing [AtCoder](https://atcoder.jp/).
 | joi2014yo           | [E - タクシー (Taxis)](https://atcoder.jp/contests/joi2014yo/tasks/joi2014yo_e)                             | Dijkstra, BFS                           |
 | s8pc-1              | [E - 散歩 (E869120 and Path Length)](https://atcoder.jp/contests/s8pc-1/tasks/s8pc_1_e)                     | べき乗                                  |
 | abc145              | [D - Knight](https://atcoder.jp/contests/abc145/tasks/abc145_d)                                             | 割り算                                  |
+| joi2011ho           | [A - 惑星探査 (Planetary Exploration)](https://atcoder.jp/contests/joi2011ho/tasks/joi2011ho1)              | 累積和                                  |
