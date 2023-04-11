@@ -285,3 +285,4 @@ Playing [AtCoder](https://atcoder.jp/).
 | abc006              | [D - トランプ挿入ソート](https://atcoder.jp/contests/abc006/tasks/abc006_4)                               | LIS                                     |
 | joi2016yo           | [E - ゾンビ島 (Zombie Island)](https://atcoder.jp/contests/joi2016yo/tasks/joi2016yo_e)                 | Dijkstra, BFS                           |
 | joi2014yo           | [E - タクシー (Taxis)](https://atcoder.jp/contests/joi2014yo/tasks/joi2014yo_e)                             | Dijkstra, BFS                           |
+| s8pc-1              | [E - 散歩 (E869120 and Path Length)](https://atcoder.jp/contests/s8pc-1/tasks/s8pc_1_e)                     | べき乗                                  |
