@@ -292,3 +292,4 @@ Playing [AtCoder](https://atcoder.jp/).
 | gigacode-2019       | [D - 家の建設](https://atcoder.jp/contests/gigacode-2019/tasks/gigacode_2019_d)                             | 累積和                                  |
 | joi2015ho           | [A - 鉄道旅行 (Railroad Trip)](https://atcoder.jp/contests/joi2015ho/tasks/joi2015ho_a)                     | 累積和, いもす法                        |
 | joi2013ho           | [1 - 電飾 (Illumination)](https://atcoder.jp/contests/joi2013ho/tasks/joi2013ho1)                           | Misc                                    |
+| s8pc-5              | [B - Emblem](https://atcoder.jp/contests/s8pc-5/tasks/s8pc_5_b)                                             | Misc                                    |
