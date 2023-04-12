@@ -295,3 +295,4 @@ Playing [AtCoder](https://atcoder.jp/).
 | s8pc-5              | [B - Emblem](https://atcoder.jp/contests/s8pc-5/tasks/s8pc_5_b)                                             | Misc                                    |
 | s8pc-3              | [B - 石落としゲーム](https://atcoder.jp/contests/s8pc-3/tasks/s8pc_3_b)                                   | Misc                                    |
 | abc149              | [B - Greedy Takahashi](https://atcoder.jp/contests/abc149/tasks/abc149_b)                                   | Greedy                                  |
+| abc139              | [D - ModSum](https://atcoder.jp/contests/abc139/tasks/abc139_d)                                             | Misc                                    |
