@@ -1,3 +1,4 @@
+// https://drken1215.hatenablog.com/entry/2020/01/12/135000
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -62,7 +63,7 @@ int main() {
   LL x = 1;
   for (auto& a : A) x = lcm(x, a);
 
-  cout << (M / x + 1) / 2 << endl;
+  cout << CEIL(M / x, 2) << endl;
 
   return 0;
 }
