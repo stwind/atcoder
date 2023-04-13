@@ -296,3 +296,4 @@ Playing [AtCoder](https://atcoder.jp/).
 | s8pc-3              | [B - 石落としゲーム](https://atcoder.jp/contests/s8pc-3/tasks/s8pc_3_b)                                   | Misc                                    |
 | abc149              | [B - Greedy Takahashi](https://atcoder.jp/contests/abc149/tasks/abc149_b)                                   | Greedy                                  |
 | abc139              | [D - ModSum](https://atcoder.jp/contests/abc139/tasks/abc139_d)                                             | Misc                                    |
+| abc150              | [D - Semi Common Multiple](https://atcoder.jp/contests/abc150/tasks/abc150_d)                               | 最小公倍数                              |
