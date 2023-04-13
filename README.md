@@ -298,3 +298,4 @@ Playing [AtCoder](https://atcoder.jp/).
 | abc139              | [D - ModSum](https://atcoder.jp/contests/abc139/tasks/abc139_d)                                             | Misc                                    |
 | abc150              | [D - Semi Common Multiple](https://atcoder.jp/contests/abc150/tasks/abc150_d)                               | 最小公倍数                              |
 | sumitrust2019       | [E - Colorful Hats 2](https://atcoder.jp/contests/sumitrust2019/tasks/sumitb2019_e)                         | Misc                                    |
+| ddcc2020-qual       | [D - Digit Sum Replace](https://atcoder.jp/contests/ddcc2020-qual/tasks/ddcc2020_qual_d)                    | Misc                                    |
