@@ -300,3 +300,4 @@ Playing [AtCoder](https://atcoder.jp/).
 | sumitrust2019        | [E - Colorful Hats 2](https://atcoder.jp/contests/sumitrust2019/tasks/sumitb2019_e)                         | Misc                                    |
 | ddcc2020-qual        | [D - Digit Sum Replace](https://atcoder.jp/contests/ddcc2020-qual/tasks/ddcc2020_qual_d)                    | Misc                                    |
 | tenka1-2018-beginner | [D - Crossing](https://atcoder.jp/contests/tenka1-2018-beginner/tasks/tenka1_2018_d)                        | Misc                                    |
+| abc139               | [E - League](https://atcoder.jp/contests/abc139/tasks/abc139_e)                                             | Topological Sort                        |
