@@ -301,3 +301,4 @@ Playing [AtCoder](https://atcoder.jp/).
 | ddcc2020-qual        | [D - Digit Sum Replace](https://atcoder.jp/contests/ddcc2020-qual/tasks/ddcc2020_qual_d)                    | Misc                                    |
 | tenka1-2018-beginner | [D - Crossing](https://atcoder.jp/contests/tenka1-2018-beginner/tasks/tenka1_2018_d)                        | Misc                                    |
 | abc139               | [E - League](https://atcoder.jp/contests/abc139/tasks/abc139_e)                                             | Topological Sort                        |
+| abc031               | [D - 語呂合わせ](https://atcoder.jp/contests/abc031/tasks/abc031_d)                                         | 全探索                                  |
