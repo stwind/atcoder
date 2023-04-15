@@ -302,3 +302,4 @@ Playing [AtCoder](https://atcoder.jp/).
 | tenka1-2018-beginner | [D - Crossing](https://atcoder.jp/contests/tenka1-2018-beginner/tasks/tenka1_2018_d)                        | Misc                                    |
 | abc139               | [E - League](https://atcoder.jp/contests/abc139/tasks/abc139_e)                                             | Topological Sort                        |
 | abc031               | [D - 語呂合わせ](https://atcoder.jp/contests/abc031/tasks/abc031_d)                                         | 全探索                                  |
+| abc039               | [D - 画像処理高橋君](https://atcoder.jp/contests/abc039/tasks/abc039_d)                                     | 全探索                                  |
