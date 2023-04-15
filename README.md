@@ -304,3 +304,9 @@ Playing [AtCoder](https://atcoder.jp/).
 | abc031               | [D - 語呂合わせ](https://atcoder.jp/contests/abc031/tasks/abc031_d)                                         | 全探索                                  |
 | abc039               | [D - 画像処理高橋君](https://atcoder.jp/contests/abc039/tasks/abc039_d)                                     | 全探索                                  |
 | abc075               | [D - Axis-Parallel Rectangle](https://atcoder.jp/contests/abc075/tasks/abc075_d)                            | 全探索                                  |
+
+## References
+
+- [AtCoder Tags](https://atcoder-tags.herokuapp.com/)
+- [AtCoder Problems](https://kenkoooo.com/atcoder/)
+- [Atcoder Testcases](https://www.dropbox.com/sh/nx3tnilzqz7df8a/AAAYlTq2tiEHl5hsESw6-yfLa?dl=0)
