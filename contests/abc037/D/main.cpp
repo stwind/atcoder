@@ -53,9 +53,8 @@ int main() {
     dp[y][x] = 1;
     for (auto [dy, dx] : dirs) {
       int yy = y + dy, xx = x + dx;
-      if (0 <= yy && yy < H && 0 <= xx && xx < W && A[yy][xx] < A[y][x]) {
+      if (0 <= yy && yy < H && 0 <= xx && xx < W && A[yy][xx] < A[y][x])
         dp[y][x] = add(dp[y][x], dfs(yy, xx));
-      }
     }
     return dp[y][x];
   };
