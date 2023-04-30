@@ -305,6 +305,7 @@ Playing [AtCoder](https://atcoder.jp/).
 | abc039               | [D - 画像処理高橋君](https://atcoder.jp/contests/abc039/tasks/abc039_d)                                     | 全探索                                  |
 | abc075               | [D - Axis-Parallel Rectangle](https://atcoder.jp/contests/abc075/tasks/abc075_d)                            | 全探索                                  |
 | abc004               | [D - マーブル](https://atcoder.jp/contests/abc004/tasks/abc004_4)                                         | 全探索                                  |
+| abc008               | [D - 金塊ゲーム](https://atcoder.jp/contests/abc008/tasks/abc008_4)                                       | DP                                      |
 
 ## References
 
