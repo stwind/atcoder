@@ -306,6 +306,7 @@ Playing [AtCoder](https://atcoder.jp/).
 | abc075               | [D - Axis-Parallel Rectangle](https://atcoder.jp/contests/abc075/tasks/abc075_d)                            | 全探索                                  |
 | abc004               | [D - マーブル](https://atcoder.jp/contests/abc004/tasks/abc004_4)                                         | 全探索                                  |
 | abc008               | [D - 金塊ゲーム](https://atcoder.jp/contests/abc008/tasks/abc008_4)                                       | DP                                      |
+| abc015               | [D - 高橋くんの苦悩](https://atcoder.jp/contests/abc015/tasks/abc015_4)                                     | DP                                      |
 
 ## References
 
