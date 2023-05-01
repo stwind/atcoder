@@ -52,9 +52,9 @@ int main() {
       if (j != i && k >= A[j]) dp[j + 1][k] = dp[j + 1][k] || dp[j][k - A[j]];
     }
 
-    bool ok = false;
-    REP(k, max(0, K - A[i]), K) if (dp[N][k]) ok = true;
-    return ok;
+    REP(k, max(0, K - A[i]), K)
+      if (dp[N][k]) return true;
+    return false;
   };
 
   VI I(N); REP(i, 0, N) I[i] = i;
