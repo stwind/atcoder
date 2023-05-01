@@ -308,6 +308,7 @@ Playing [AtCoder](https://atcoder.jp/).
 | abc008               | [D - 金塊ゲーム](https://atcoder.jp/contests/abc008/tasks/abc008_4)                                       | DP                                      |
 | abc015               | [D - 高橋くんの苦悩](https://atcoder.jp/contests/abc015/tasks/abc015_4)                                     | DP                                      |
 | abc037               | [D - 経路](https://atcoder.jp/contests/abc037/tasks/abc037_d)                                               | DP                                      |
+| abc056               | [D - No Need](https://atcoder.jp/contests/abc056/tasks/arc070_b)                                            | DP, 二分探索                            |
 
 ## References
 
