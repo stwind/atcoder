@@ -50,9 +50,7 @@ int main() {
   int H = N * 3;
   vector<VVI> dp(N + 1, VVI(N + 1, VI(H + 1)));
 
-  REP(i, 0, N) REP(j, 1, min(i + 1, N) + 1) REP(k, 0, H + 1) {
-    if (j * w0 + k > K) continue;
-
+  REP(i, 0, N) REP(j, 1, min(i + 1, N) + 1) REP(k, 0, H + 1) if (j * w0 + k <= K) {
     dp[i + 1][j][k] = dp[i][j][k];
     if (k >= W[i]) chmax(dp[i + 1][j][k], dp[i][j - 1][k - W[i]] + V[i]);
   }
