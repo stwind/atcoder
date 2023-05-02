@@ -310,7 +310,7 @@ Playing [AtCoder](https://atcoder.jp/).
 | abc037               | [D - 経路](https://atcoder.jp/contests/abc037/tasks/abc037_d)                                               | DP                                      |
 | abc056               | [D - No Need](https://atcoder.jp/contests/abc056/tasks/arc070_b)                                            | DP, 二分探索                            |
 | abc060               | [D - Simple Knapsack](https://atcoder.jp/contests/abc060/tasks/arc073_b)                                    | DP                                      |
-| abc007               | [D - 禁止された数字](https://atcoder.jp/contests/abc007/tasks/abc007_4)                                     | DP                                      |
+| abc007               | [D - 禁止された数字](https://atcoder.jp/contests/abc007/tasks/abc007_4)                                     | 桁 DP                                   |
 
 ## References
 
