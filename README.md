@@ -314,6 +314,7 @@ Playing [AtCoder](https://atcoder.jp/).
 | abc029               | [D - 1](https://atcoder.jp/contests/abc029/tasks/abc029_d)                                                  | 桁 DP                                   |
 | abc036               | [D - 塗り絵](https://atcoder.jp/contests/abc036/tasks/abc036_d)                                             | 木 DP                                   |
 | abc041               | [D - 徒競走](https://atcoder.jp/contests/abc041/tasks/abc041_d)                                             | DP                                      |
+| abc009               | [D - 漸化式](https://atcoder.jp/contests/abc009/tasks/abc009_4)                                             | 行列累乗                                |
 
 ## References
 
