@@ -315,6 +315,7 @@ Playing [AtCoder](https://atcoder.jp/).
 | abc036               | [D - 塗り絵](https://atcoder.jp/contests/abc036/tasks/abc036_d)                                             | 木 DP                                   |
 | abc041               | [D - 徒競走](https://atcoder.jp/contests/abc041/tasks/abc041_d)                                             | DP                                      |
 | abc009               | [D - 漸化式](https://atcoder.jp/contests/abc009/tasks/abc009_4)                                             | 行列累乗                                |
+| abc011               | [D - 大ジャンプ](https://atcoder.jp/contests/abc011/tasks/abc011_4)                                     | 確率 DP                                 |
 
 ## References
 
