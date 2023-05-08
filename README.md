@@ -317,6 +317,7 @@ Playing [AtCoder](https://atcoder.jp/).
 | abc009               | [D - 漸化式](https://atcoder.jp/contests/abc009/tasks/abc009_4)                                             | 行列累乗                                |
 | abc011               | [D - 大ジャンプ](https://atcoder.jp/contests/abc011/tasks/abc011_4)                                     | 確率 DP                                 |
 | abc024               | [D - 動的計画法](https://atcoder.jp/contests/abc024/tasks/abc024_d)                                         | 数学                                    |
+| abc028               | [D - 乱数生成](https://atcoder.jp/contests/abc028/tasks/abc028_d)                                           | 数学                                    |
 
 ## References
 
