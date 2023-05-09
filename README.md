@@ -319,6 +319,7 @@ Playing [AtCoder](https://atcoder.jp/).
 | abc024               | [D - 動的計画法](https://atcoder.jp/contests/abc024/tasks/abc024_d)                                         | 数学                                    |
 | abc028               | [D - 乱数生成](https://atcoder.jp/contests/abc028/tasks/abc028_d)                                           | 数学                                    |
 | abc057               | [D - Maximum Average Sets](https://atcoder.jp/contests/abc057/tasks/abc057_d)                               | 数学                                    |
+| abc026               | [D - 高橋君ボール 1 号](https://atcoder.jp/contests/abc026/tasks/abc026_d)                                | 二分探索                                |
 
 ## References
 
