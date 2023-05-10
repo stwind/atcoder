@@ -321,6 +321,7 @@ Playing [AtCoder](https://atcoder.jp/).
 | abc057               | [D - Maximum Average Sets](https://atcoder.jp/contests/abc057/tasks/abc057_d)                               | 数学                                    |
 | abc026               | [D - 高橋君ボール 1 号](https://atcoder.jp/contests/abc026/tasks/abc026_d)                                | 二分探索                                |
 | abc034               | [D - 食塩水](https://atcoder.jp/contests/abc034/tasks/abc034_d)                                             | 二分探索                                |
+| abc040               | [D - 道路の老朽化対策について](https://atcoder.jp/contests/abc040/tasks/abc040_d)                           | Union Find                              |
 
 ## References
 
