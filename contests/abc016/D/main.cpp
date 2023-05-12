@@ -2,14 +2,23 @@
 using namespace std;
 
 // clang-format off
+#define PARENS ()
+#define EXPAND(...) EXPAND4(EXPAND4(EXPAND4(EXPAND4(__VA_ARGS__))))
+#define EXPAND4(...) EXPAND3(EXPAND3(EXPAND3(EXPAND3(__VA_ARGS__))))
+#define EXPAND3(...) EXPAND2(EXPAND2(EXPAND2(EXPAND2(__VA_ARGS__))))
+#define EXPAND2(...) EXPAND1(EXPAND1(EXPAND1(EXPAND1(__VA_ARGS__))))
+#define EXPAND1(...) __VA_ARGS__
+#define FOR_EACH(macro, ...) __VA_OPT__(EXPAND(FOR_EACH_HELPER(macro, __VA_ARGS__)))
+#define FOR_EACH_HELPER(macro, a1, ...) macro(a1) __VA_OPT__(FOR_EACH_AGAIN PARENS (macro, __VA_ARGS__))
+#define FOR_EACH_AGAIN() FOR_EACH_HELPER
 #define REP(i, x, y) for(int i = x; i < y; i++)
 #define REPR(i, x, y) for(int i = x; i >= y; i--)
 #define IOS ios_base::sync_with_stdio(false); cin.tie(0);
 #define all(s) s.begin(), s.end()
 #define rall(s) s.rbegin(), s.rend()
-#define MOD 998244353
-#define INF (1 << 30)
-#define DEBUG(x) cout << #x << ": " << x << endl;
+#define MOD 1000000007
+#define DBG(x) cout << #x << ": " << x << " ";
+#define DEBUG(...) FOR_EACH(DBG, __VA_ARGS__) cout << endl;
 #define DEBUGV(a) cout << #a << ": "; for(auto it = a.begin() ; it != a.end(); it++) { cout << *it << " "; } cout << endl;
 #define CEIL(a, b) ((a) + (b) - 1) / (b)
 #define IN(x, a, b) (a <= x && x < b)
@@ -28,25 +37,13 @@ using VVLL = vector<VLL>;
 using PII = pair<int, int>;
 using PLL = pair<LL, LL>;
 
-const double EPS = 1e-8;
-
 struct Point {
   double x, y;
+  explicit Point() {}
+  explicit Point(double x, double y) :x(x), y(y) {}
 
-  double dist(Point r) const {
-    double dx = x - r.x, dy = y - r.y;
-    return sqrt(dx * dx + dy * dy);
-  }
-
-  Point dir_to(Point p) const {
-    double dx = p.x - x, dy = p.y - y;
-    double r = hypot(dx, dy);
-    return Point{ dx / r, dy / r };
-  }
-
-  Point lerp(Point p, double t = .5) const {
-    return Point{ x * (1 - t) + p.x * t, y * (1 - t) + p.y * t };
-  }
+  Point operator+(const Point& p) { return Point(x + p.x, y + p.y); }
+  Point operator-(const Point& p) { return Point(x - p.x, y - p.y); }
 
   friend ostream& operator<<(ostream& os, const Point& p) { return os << "(" << p.x << "," << p.y << ")"; }
   friend istream& operator>>(istream& is, Point& p) { is >> p.x >> p.y; return is; }
@@ -55,44 +52,27 @@ struct Point {
 int main() {
   IOS;
 
+  Point A, B; cin >> A >> B;
   int N; cin >> N;
   vector<Point> P(N);
   REP(i, 0, N) cin >> P[i];
 
-  auto cross_points = [&](Point p1, Point p2, double R) -> vector<Point> {
-    vector<Point> res;
-    Point m = p1.lerp(p2);
-    double h = p1.dist(m);
-    if (h > R - EPS) return res;
-
-    double d = sqrt(R * R - h * h);
-    Point dir = p1.dir_to(p2);
-    res.push_back(Point{ m.x - d * dir.y, m.y + d * dir.x });
-    res.push_back(Point{ m.x + d * dir.y, m.y - d * dir.x });
-    return res;
+  auto cross = [](Point& a, Point& b, Point& c) -> double {
+    Point p = b - a, q = c - a;
+    return p.x * q.y - p.y * q.x;
   };
 
-  auto check = [&](double R) -> bool {
-    REP(i, 0, N) REP(j, 0, N) if (i != j) {
-      for (auto p : cross_points(P[i], P[j], R)) {
-        bool good = true;
-        REP(k, 0, N) if (p.dist(P[k]) > R + EPS) {
-          good = false;
-          break;
-        }
-        if (good) return true;
-      }
-    }
-    return false;
+  auto intersect = [&](Point& a, Point& b, Point& c, Point& d) -> bool {
+    double o1 = cross(a, b, c), o2 = cross(a, b, d);
+    double o3 = cross(c, d, a), o4 = cross(c, d, b);
+    return o1 * o2 < 0 && o3 * o4 < 0;
   };
 
-  double l = 0, r = 2000, m;
-  while (abs(l - r) > EPS) {
-    m = (l + r) / 2;
-    if (check(m)) r = m;
-    else l = m;
-  }
-  cout << fixed << setprecision(10) << (l + r) / 2 << endl;
+  int x = 0;
+  REP(i, 0, N) if (intersect(A, B, P[i], P[(i + 1) % N]))
+    x++;
+
+  cout << x / 2 + 1 << endl;
 
   return 0;
 }
