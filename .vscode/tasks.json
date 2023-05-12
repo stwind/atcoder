@@ -6,6 +6,7 @@
       "label": "g++ build active file",
       "command": "/opt/homebrew/bin/gcc-12",
       "args": [
+        "-fdiagnostics-color=always",
         "-std=gnu++23",
         "-g",
         "-Wall",

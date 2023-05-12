@@ -324,6 +324,7 @@ Playing [AtCoder](https://atcoder.jp/).
 | abc040               | [D - 道路の老朽化対策について](https://atcoder.jp/contests/abc040/tasks/abc040_d)                           | Union Find                              |
 | abc013               | [D - 阿弥陀](https://atcoder.jp/contests/abc013/tasks/abc013_4)                                             | Doubling                                |
 | abc016               | [D - 一刀両断](https://atcoder.jp/contests/abc016/tasks/abc016_4)                                           | 幾何                                    |
+| abc022               | [D - Big Bang](https://atcoder.jp/contests/abc022/tasks/abc022_d)                                           | 幾何                                    |
 
 ## References
 
