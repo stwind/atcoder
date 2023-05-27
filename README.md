@@ -328,6 +328,7 @@ Playing [AtCoder](https://atcoder.jp/).
 | abc027               | [D - ロボット](https://atcoder.jp/contests/abc027/tasks/abc027_d)                                         | Misc                                    |
 | abc062               | [D - 3N Numbers](https://atcoder.jp/contests/abc062/tasks/arc074_b)                                         | Heap                                    |
 | abc064               | [D - Insertion](https://atcoder.jp/contests/abc064/tasks/abc064_d)                                          | Misc                                    |
+| abc030               | [D - へんてこ辞書](https://atcoder.jp/contests/abc030/tasks/abc030_d)                                       | Misc                                    |
 
 ## References
 
