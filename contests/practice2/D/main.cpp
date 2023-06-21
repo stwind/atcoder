@@ -131,7 +131,7 @@ int main() {
     }
   }
 
-  REP(i, 0, N) cout << S[i] << endl;;
+  REP(i, 0, N) cout << S[i] << endl;
 
   return 0;
 }
