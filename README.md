@@ -330,6 +330,7 @@ Playing [AtCoder](https://atcoder.jp/).
 | abc064               | [D - Insertion](https://atcoder.jp/contests/abc064/tasks/abc064_d)                                          | Misc                                    |
 | abc030               | [D - へんてこ辞書](https://atcoder.jp/contests/abc030/tasks/abc030_d)                                       | Misc                                    |
 | practice2            | [D - Maxflow](https://atcoder.jp/contests/practice2/tasks/practice2_d)                                      | Max Flow                                |
+| abc010               | [D - 浮気予防](https://atcoder.jp/contests/abc010/tasks/abc010_4)                                           | Max Flow                                |
 
 ## References
 
