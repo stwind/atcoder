@@ -4,7 +4,7 @@
     {
       "type": "shell",
       "label": "g++ build active file",
-      "command": "/opt/homebrew/bin/gcc-12",
+      "command": "/opt/homebrew/bin/gcc-13",
       "args": [
         "-fdiagnostics-color=always",
         "-std=gnu++23",
