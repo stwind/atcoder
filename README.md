@@ -333,6 +333,7 @@ Playing [AtCoder](https://atcoder.jp/).
 | abc010               | [D - 浮気予防](https://atcoder.jp/contests/abc010/tasks/abc010_4)                                           | Max Flow                                |
 | sumitrust2019        | [B - Tax Rate](https://atcoder.jp/contests/sumitrust2019/tasks/sumitb2019_b)                                | Misc                                    |
 | m-solutions2020      | [B - Magic 2](https://atcoder.jp/contests/m-solutions2020/tasks/m_solutions2020_b)                          | 全探索                                  |
+| abc105               | [B - Cakes and Donuts](https://atcoder.jp/contests/abc105/tasks/abc105_b)                                   | 全探索                                  |
 
 ## References
 
