@@ -331,6 +331,7 @@ Playing [AtCoder](https://atcoder.jp/).
 | abc030               | [D - へんてこ辞書](https://atcoder.jp/contests/abc030/tasks/abc030_d)                                       | Misc                                    |
 | practice2            | [D - Maxflow](https://atcoder.jp/contests/practice2/tasks/practice2_d)                                      | Max Flow                                |
 | abc010               | [D - 浮気予防](https://atcoder.jp/contests/abc010/tasks/abc010_4)                                           | Max Flow                                |
+| sumitrust2019        | [B - Tax Rate](https://atcoder.jp/contests/sumitrust2019/tasks/sumitb2019_b)                                | Misc                                    |
 
 ## References
 
