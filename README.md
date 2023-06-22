@@ -336,6 +336,7 @@ Playing [AtCoder](https://atcoder.jp/).
 | abc105               | [B - Cakes and Donuts](https://atcoder.jp/contests/abc105/tasks/abc105_b)                                   | 全探索                                  |
 | abc157               | [C - Guess The Number](https://atcoder.jp/contests/abc157/tasks/abc157_c)                                   | 全探索                                  |
 | abc106               | [B - 105](https://atcoder.jp/contests/abc106/tasks/abc106_b)                                                | 全探索                                  |
+| abc136               | [B - Uneven Numbers](https://atcoder.jp/contests/abc136/tasks/abc136_b)                                     | 全探索                                  |
 
 ## References
 
