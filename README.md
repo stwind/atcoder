@@ -334,6 +334,7 @@ Playing [AtCoder](https://atcoder.jp/).
 | sumitrust2019        | [B - Tax Rate](https://atcoder.jp/contests/sumitrust2019/tasks/sumitb2019_b)                                | Misc                                    |
 | m-solutions2020      | [B - Magic 2](https://atcoder.jp/contests/m-solutions2020/tasks/m_solutions2020_b)                          | 全探索                                  |
 | abc105               | [B - Cakes and Donuts](https://atcoder.jp/contests/abc105/tasks/abc105_b)                                   | 全探索                                  |
+| abc157               | [C - Guess The Number](https://atcoder.jp/contests/abc157/tasks/abc157_c)                                   | 全探索                                  |
 
 ## References
 
