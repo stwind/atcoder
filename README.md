@@ -340,6 +340,7 @@ Playing [AtCoder](https://atcoder.jp/).
 | abc068               | [B - Break Number](https://atcoder.jp/contests/abc068/tasks/abc068_b)                                       | 全探索                                  |
 | abc133               | [B - Good Distance](https://atcoder.jp/contests/abc133/tasks/abc133_b)                                      | 全探索                                  |
 | abc112               | [C - Pyramid](https://atcoder.jp/contests/abc112/tasks/abc112_c)                                            | 全探索                                  |
+| abc057               | [C - Digits in Multiplication](https://atcoder.jp/contests/abc057/tasks/abc057_c)                           | 全探索                                  |
 
 ## References
 
