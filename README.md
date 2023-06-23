@@ -342,6 +342,7 @@ Playing [AtCoder](https://atcoder.jp/).
 | abc112               | [C - Pyramid](https://atcoder.jp/contests/abc112/tasks/abc112_c)                                            | 全探索                                  |
 | abc057               | [C - Digits in Multiplication](https://atcoder.jp/contests/abc057/tasks/abc057_c)                           | 全探索                                  |
 | sumitrust2019        | [C - 100 to 105](https://atcoder.jp/contests/sumitrust2019/tasks/sumitb2019_c)                              | 全探索                                  |
+| abc089               | [C - March](https://atcoder.jp/contests/abc089/tasks/abc089_c)                                              | 全探索                                  |
 
 ## References
 
