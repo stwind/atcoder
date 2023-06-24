@@ -344,6 +344,7 @@ Playing [AtCoder](https://atcoder.jp/).
 | sumitrust2019        | [C - 100 to 105](https://atcoder.jp/contests/sumitrust2019/tasks/sumitb2019_c)                              | 全探索                                  |
 | abc089               | [C - March](https://atcoder.jp/contests/abc089/tasks/abc089_c)                                              | 全探索                                  |
 | abc167               | [C - Skill Up](https://atcoder.jp/contests/abc167/tasks/abc167_c)                                           | bit 全探索                              |
+| abc054               | [C - One-stroke Path](https://atcoder.jp/contests/abc054/tasks/abc054_c)                                    | DFS                                     |
 
 ## References
 
