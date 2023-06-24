@@ -346,6 +346,7 @@ Playing [AtCoder](https://atcoder.jp/).
 | abc167               | [C - Skill Up](https://atcoder.jp/contests/abc167/tasks/abc167_c)                                           | bit 全探索                              |
 | abc054               | [C - One-stroke Path](https://atcoder.jp/contests/abc054/tasks/abc054_c)                                    | DFS                                     |
 | abc165               | [C - Many Requirements](https://atcoder.jp/contests/abc165/tasks/abc165_c)                                  | DFS                                     |
+| cpsco2019-s1         | [C - Coins](https://atcoder.jp/contests/cpsco2019-s1/tasks/cpsco2019_s1_c)                                  | DFS                                     |
 
 ## References
 
