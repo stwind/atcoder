@@ -347,6 +347,7 @@ Playing [AtCoder](https://atcoder.jp/).
 | abc054               | [C - One-stroke Path](https://atcoder.jp/contests/abc054/tasks/abc054_c)                                    | DFS                                     |
 | abc165               | [C - Many Requirements](https://atcoder.jp/contests/abc165/tasks/abc165_c)                                  | DFS                                     |
 | cpsco2019-s1         | [C - Coins](https://atcoder.jp/contests/cpsco2019-s1/tasks/cpsco2019_s1_c)                                  | DFS                                     |
+| panasonic2020        | [D - String Equivalence](https://atcoder.jp/contests/panasonic2020/tasks/panasonic2020_d)                   | DFS                                     |
 
 ## References
 
