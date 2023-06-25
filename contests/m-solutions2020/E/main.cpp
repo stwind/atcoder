@@ -59,12 +59,13 @@ int main() {
 
   VLL res(N + 1, LONG_MAX);
   for (int s = 0; s < n;s++) {
-    int k = __builtin_popcount(s);
     for (int t = s; t >= 0; t--) {
       t &= s;
       LL sum = 0;
       REP(i, 0, N) if ((s >> i & 1) == 0)
         sum += min(XS[t][i], YS[s - t][i]) * P[i];
+
+      int k = __builtin_popcount(s);
       chmin(res[k], sum);
     }
   }
