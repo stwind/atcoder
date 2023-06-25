@@ -348,6 +348,7 @@ Playing [AtCoder](https://atcoder.jp/).
 | abc165               | [C - Many Requirements](https://atcoder.jp/contests/abc165/tasks/abc165_c)                                  | DFS                                     |
 | cpsco2019-s1         | [C - Coins](https://atcoder.jp/contests/cpsco2019-s1/tasks/cpsco2019_s1_c)                                  | DFS                                     |
 | panasonic2020        | [D - String Equivalence](https://atcoder.jp/contests/panasonic2020/tasks/panasonic2020_d)                   | DFS                                     |
+| m-solutions2020      | [E - M's Solution](https://atcoder.jp/contests/m-solutions2020/tasks/m_solutions2020_e)                     | bit 全探索                              |
 
 ## References
 
