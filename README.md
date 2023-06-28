@@ -92,7 +92,7 @@ Playing [AtCoder](https://atcoder.jp/).
 | agc005               | [B - Minimum Sum](https://atcoder.jp/contests/agc005/tasks/agc005_b)                                        | 主客転倒, monotonic stack, Segment Tree |
 | abc157               | [E - Simple String Queries](https://atcoder.jp/contests/abc157/tasks/abc157_e)                              | Segment Tree                            |
 | abc217               | [D - Cutting Woods](https://atcoder.jp/contests/abc217/tasks/abc217_d)                                      | Segment Tree, 座標圧縮                  |
-| arc008               | [D - タコヤキオイシクナール](https://atcoder.jp/contests/arc008/tasks/arc008_4)                             | Segment Tree, 座標圧縮                  |
+| arc008               | [D - タコヤキオイシクナール](https://atcoder.jp/contests/arc008/tasks/arc008_4)                             | Segment Tree, 座標圧縮, 半環            |
 | abc241               | [D - Sequence Query](https://atcoder.jp/contests/abc241/tasks/abc241_d)                                     | Segment Tree, 座標圧縮                  |
 | abc231               | [C - Counting 2](https://atcoder.jp/contests/abc231/tasks/abc231_c)                                         | 二分探索                                |
 | abc228               | [D - Linear Probing](https://atcoder.jp/contests/abc228/tasks/abc228_d)                                     | 二分探索                                |
@@ -314,7 +314,7 @@ Playing [AtCoder](https://atcoder.jp/).
 | abc029               | [D - 1](https://atcoder.jp/contests/abc029/tasks/abc029_d)                                                  | 桁 DP                                   |
 | abc036               | [D - 塗り絵](https://atcoder.jp/contests/abc036/tasks/abc036_d)                                             | 木 DP                                   |
 | abc041               | [D - 徒競走](https://atcoder.jp/contests/abc041/tasks/abc041_d)                                             | DP                                      |
-| abc009               | [D - 漸化式](https://atcoder.jp/contests/abc009/tasks/abc009_4)                                             | 行列累乗                                |
+| abc009               | [D - 漸化式](https://atcoder.jp/contests/abc009/tasks/abc009_4)                                             | 行列累乗, 半環                          |
 | abc011               | [D - 大ジャンプ](https://atcoder.jp/contests/abc011/tasks/abc011_4)                                     | 確率 DP                                 |
 | abc024               | [D - 動的計画法](https://atcoder.jp/contests/abc024/tasks/abc024_d)                                         | 数学                                    |
 | abc028               | [D - 乱数生成](https://atcoder.jp/contests/abc028/tasks/abc028_d)                                           | 数学                                    |
@@ -350,6 +350,7 @@ Playing [AtCoder](https://atcoder.jp/).
 | panasonic2020        | [D - String Equivalence](https://atcoder.jp/contests/panasonic2020/tasks/panasonic2020_d)                   | DFS                                     |
 | m-solutions2020      | [E - M's Solution](https://atcoder.jp/contests/m-solutions2020/tasks/m_solutions2020_e)                     | bit 全探索                              |
 | wupc2019             | [F - RPG](https://atcoder.jp/contests/wupc2019/tasks/wupc2019_f)                                            | Max Flow                                |
+| ddcc2019-final       | [D - DISCO!](https://atcoder.jp/contests/ddcc2019-final/tasks/ddcc2019_final_d)                             | Segment Tree, 半環                      |
 
 ## References
 
