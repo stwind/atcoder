@@ -55,7 +55,7 @@ Mat eye() {
   return m;
 }
 
-Mat matmul(Mat a, Mat b) {
+Mat matmul(Mat& a, Mat& b) {
   Mat out(36);
   REP(i, 0, 6) REP(j, 0, 6) REP(k, 0, 6)
     out[i * 6 + j] += b[i * 6 + k] * a[k * 6 + j];
@@ -70,16 +70,17 @@ int main() {
   VI L(Q), R(Q);
   REP(i, 0, Q) cin >> L[i] >> R[i], L[i]--;
 
-  unordered_map<char, int> C;
-  C['D'] = 0, C['I'] = 1, C['S'] = 2, C['C'] = 3, C['O'] = 4;
   int N = S.length();
   int M = ceil_pow2(N);
 
   vector<Mat> d(M * 2, eye());
   REP(i, 0, N) {
     Mat m = eye();
-    int k = C[S[i]];
-    m[(k + 1) * 6 + k] = 1;
+    if (S[i] == 'D') m[1 * 6 + 0] = 1;
+    if (S[i] == 'I') m[2 * 6 + 1] = 1;
+    if (S[i] == 'S') m[3 * 6 + 2] = 1;
+    if (S[i] == 'C') m[4 * 6 + 3] = 1;
+    if (S[i] == 'O') m[5 * 6 + 4] = 1;
     d[i + M] = m;
   }
 
