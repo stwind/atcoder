@@ -352,6 +352,7 @@ Playing [AtCoder](https://atcoder.jp/).
 | wupc2019                       | [F - RPG](https://atcoder.jp/contests/wupc2019/tasks/wupc2019_f)                                               | Max Flow                                |
 | ddcc2019-final                 | [D - DISCO!](https://atcoder.jp/contests/ddcc2019-final/tasks/ddcc2019_final_d)                                | Segment Tree, 半環                      |
 | code-thanks-festival-2017-open | [H - Union Sets](https://atcoder.jp/contests/code-thanks-festival-2017-open/tasks/code_thanks_festival_2017_h) | 並列二分探索                            |
+| tokiomarine2020                | [E - O(rand)](https://atcoder.jp/contests/tokiomarine2020/tasks/tokiomarine2020_e)                             | 包除原理                                |
 
 ## References
 
