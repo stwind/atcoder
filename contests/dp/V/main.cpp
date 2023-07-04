@@ -1,5 +1,3 @@
-// https://ikatakos.com/pot/programming_algorithm/contest_history/atcoder/2020/0613_tokiomarine2020#e_-_o_rand
-
 #include <bits/stdc++.h>
 using namespace std;
 
