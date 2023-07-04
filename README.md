@@ -360,3 +360,7 @@ Playing [AtCoder](https://atcoder.jp/).
 - [AtCoder Tags](https://atcoder-tags.herokuapp.com/)
 - [AtCoder Problems](https://kenkoooo.com/atcoder/)
 - [Atcoder Testcases](https://www.dropbox.com/sh/nx3tnilzqz7df8a/AAAYlTq2tiEHl5hsESw6-yfLa?dl=0)
+- [AtCoder Problems の難易度推定について - pepsin-amylase のブログ](https://pepsin-amylase.hatenablog.com/entry/atcoder-problems-difficulty)
+- [wacchoz/kyopro: AtCoder の問題の推定難易度](https://github.com/wacchoz/kyopro)
+  - [AtCoder Problems の難易度推定について - pepsin-amylase のブログ](https://pepsin-amylase.hatenablog.com/entry/atcoder-problems-difficulty)
+  - [AtCoder の問題の難易度推定（簡易版） - Qiita](https://qiita.com/trineutron/items/4256c4f8f5eb02025fed)
