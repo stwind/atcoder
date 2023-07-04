@@ -57,25 +57,28 @@ int main() {
     };
 
   VLL res(N, 1);
-  function<void(int, int)> dfs2 = [&](int u, int p) {
-    for (auto v : G[u])
+  function<void(int, int, int a)> dfs2 = [&](int u, int p, int a) {
+    res[u] = a % M;
+    for (auto v : G[u]) if (v != p)
       res[u] = res[u] * (dp[v] + 1) % M;
 
     int n = G[u].size();
     VLL L(n), R(n);
-    REP(i, 0, n) L[i] = R[i] = dp[G[u][i]] + 1;
+    REP(i, 0, n)
+      L[i] = R[i] = G[u][i] == p ? a : (dp[G[u][i]] + 1);
+
     REP(i, 1, n) L[i] = L[i] * L[i - 1] % M;
     REPR(i, n - 2, 0) R[i] = R[i] * R[i + 1] % M;
 
     REP(i, 0, n) if (G[u][i] != p) {
-      dp[u] = i > 0 ? L[i - 1] : 1;
-      if (i < n - 1) dp[u] = dp[u] * R[i + 1] % M;
-      dfs2(G[u][i], u);
+      int a = i > 0 ? L[i - 1] : 1;
+      if (i < n - 1) a = a * R[i + 1] % M;
+      dfs2(G[u][i], u, a + 1);
     }
     };
 
   dfs1(0, -1);
-  dfs2(0, -1);
+  dfs2(0, -1, 1);
 
   REP(i, 0, N) cout << res[i] << endl;
 
