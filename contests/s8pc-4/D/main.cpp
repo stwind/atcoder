@@ -2,86 +2,74 @@
 using namespace std;
 
 // clang-format off
-#define forn(i, x, y) for(int i = x; i < y; i++)
-#define IOS ios_base::sync_with_stdio(false); cin.tie(0); cout.tie(NULL)
+#define PARENS ()
+#define EXPAND(...) EXPAND4(EXPAND4(EXPAND4(EXPAND4(__VA_ARGS__))))
+#define EXPAND4(...) EXPAND3(EXPAND3(EXPAND3(EXPAND3(__VA_ARGS__))))
+#define EXPAND3(...) EXPAND2(EXPAND2(EXPAND2(EXPAND2(__VA_ARGS__))))
+#define EXPAND2(...) EXPAND1(EXPAND1(EXPAND1(EXPAND1(__VA_ARGS__))))
+#define EXPAND1(...) __VA_ARGS__
+#define FOR_EACH(macro, ...) __VA_OPT__(EXPAND(FOR_EACH_HELPER(macro, __VA_ARGS__)))
+#define FOR_EACH_HELPER(macro, a1, ...) macro(a1) __VA_OPT__(FOR_EACH_AGAIN PARENS (macro, __VA_ARGS__))
+#define FOR_EACH_AGAIN() FOR_EACH_HELPER
+#define REP(i, x, y) for(int i = x; i < y; i++)
+#define REPR(i, x, y) for(int i = x; i >= y; i--)
+#define IOS ios_base::sync_with_stdio(false); cin.tie(0);
 #define all(s) s.begin(), s.end()
 #define rall(s) s.rbegin(), s.rend()
 #define MOD 1000000007
-#define INF (1 << 30)
-#define DEBUG(x) cout << #x << ": " << x << endl;
-#define DEBUGV(a) for(auto it = a.begin() ; it != a.end(); it++) { cout << *it << " "; } cout << endl;
-#define CEIL(a, b) (a + b - 1) / b
+#define DBG(x) cout << #x << ": " << x << " ";
+#define DEBUG(...) FOR_EACH(DBG, __VA_ARGS__) cout << endl;
+#define DEBUGV(a) cout << #a << ": "; for(auto it = a.begin() ; it != a.end(); it++) { cout << *it << " "; } cout << endl;
+#define CEIL(a, b) ((a) + (b) - 1) / (b)
+#define IN(x, a, b) (a <= x && x < b)
 template<class T> inline bool chmax(T& a, T b) { if (a < b) { a = b; return 1; } return 0; }
 template<class T> inline bool chmin(T& a, T b) { if (a > b) { a = b; return 1; } return 0; }
-template<typename T> void add(T &a, T b) { a += b; if (a >= MOD) a -= MOD; }
-template<typename T> void sub(T &a, T b) { a -= b; if (a < 0) a += MOD; }
+template <typename T> T sub(T a, T b) { return (a + MOD - b) % MOD; }
+template <typename T> T add(T a, T b) { return (a + b) % MOD; }
+template <typename T> T mul(T a, T b) { return 1ULL * a * b % MOD; }
 // clang-format on
 
 using LL = long long;
 using VI = vector<int>;
 using VVI = vector<VI>;
 using VLL = vector<LL>;
+using VVLL = vector<VLL>;
 using PII = pair<int, int>;
+using PLL = pair<LL, LL>;
 
-int main()
-{
-    IOS;
-    int N;
-    cin >> N;
-    VVI adj(N);
-    int a, b;
-    forn(i, 0, N - 1)
-    {
-        cin >> a >> b;
-        adj[--a].push_back(--b);
-        adj[b].push_back(a);
-    }
+int main() {
+  IOS;
 
-    vector<double> dp(N);
-    function<void(int, int)> dfs = [&](int u, int p) {
-        double res = 0.0;
-        int n = 0;
-        for (auto v : adj[u])
-        {
-            if (v == p)
-                continue;
-            dfs(v, u);
-            res += dp[v];
-            n += 1;
-        }
-        dp[u] = n > 0 ? res / n + 1.0 : 0.0;
+  int N; cin >> N;
+  VVI G(N);
+  REP(i, 0, N - 1) {
+    int a, b; cin >> a >> b; a--, b--;
+    G[a].push_back(b);
+    G[b].push_back(a);
+  }
+
+  vector<double> dp(N);
+  function<double(int, int)> dfs1 = [&](int u, int p) {
+    for (auto v : G[u]) if (v != p)
+      dp[u] += dfs1(v, u) + 1;
+    return dp[u] / fmax(G[u].size() - 1, 1);
     };
 
-    vector<double> res(N);
-    function<void(int, int, double)> dfs2 = [&](int u, int p, double d_par) {
-        double ret = 0.0;
-        int n = adj[u].size();
-        for (auto v : adj[u])
-        {
-            if (v == p)
-                ret += d_par + 1.0;
-            else
-                ret += dp[v] + 1.0;
-        }
+  vector<double> res(N);
+  function<void(int, int, double)> dfs2 = [&](int u, int p, double a) {
+    double n = G[u].size();
+    double tot = dp[u] + a;
+    res[u] = tot / n;
 
-        res[u] = ret / n;
-
-        for (auto v : adj[u])
-        {
-            if (v == p)
-                continue;
-
-            dfs2(v, u, (ret - dp[v] - 1.0) / max(1, n - 1));
-        }
+    for (auto v : G[u]) if (v != p) {
+      double x = dp[v] / fmax(G[v].size() - 1, 1) + 1;
+      dfs2(v, u, (tot - x) / fmax(n - 1, 1) + 1);
+    }
     };
 
-    dfs(0, -1);
-    dfs2(0, -1, 0.0);
+  dfs1(0, -1);
+  dfs2(0, -1, 0);
+  REP(i, 0, N) cout << fixed << setprecision(8) << res[i] << endl;
 
-    forn(i, 0, N)
-    {
-        cout << fixed << setprecision(15) << res[i] << endl;
-    }
-
-    return 0;
+  return 0;
 }

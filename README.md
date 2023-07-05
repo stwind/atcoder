@@ -355,6 +355,7 @@ Playing [AtCoder](https://atcoder.jp/).
 | tokiomarine2020                | [E - O(rand)](https://atcoder.jp/contests/tokiomarine2020/tasks/tokiomarine2020_e)                             | 包除原理                                |
 | dp                             | [V - Subtree](https://atcoder.jp/contests/dp/tasks/dp_v)                                                       | 全方位木 DP                             |
 | njpc2017                       | [E - 限界集落](https://atcoder.jp/contests/njpc2017/tasks/njpc2017_e)                                          | 全方位木 DP                             |
+| s8pc-4                         | [D - Driving on a Tree](https://atcoder.jp/contests/s8pc-4/tasks/s8pc_4_d)                                     | 全方位木 DP                             |
 
 ## References
 
