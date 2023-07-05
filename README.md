@@ -354,6 +354,7 @@ Playing [AtCoder](https://atcoder.jp/).
 | code-thanks-festival-2017-open | [H - Union Sets](https://atcoder.jp/contests/code-thanks-festival-2017-open/tasks/code_thanks_festival_2017_h) | 並列二分探索                            |
 | tokiomarine2020                | [E - O(rand)](https://atcoder.jp/contests/tokiomarine2020/tasks/tokiomarine2020_e)                             | 包除原理                                |
 | dp                             | [V - Subtree](https://atcoder.jp/contests/dp/tasks/dp_v)                                                       | 全方位木 DP                             |
+| njpc2017                       | [[E - 限界集落](https://atcoder.jp/contests/njpc2017/tasks/njpc2017_e)                                         | 全方位木 DP                             |
 
 ## References
 
