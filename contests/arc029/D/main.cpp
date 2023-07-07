@@ -52,7 +52,7 @@ int main() {
   sort(rall(T));
 
   VI C(N, 1);
-  VVLL dp(N, VLL(max(N, M) + 1, 1LL << 60));
+  VVLL dp(N, VLL(N + 1, 1LL << 60));
   REPR(u, N - 1, 0) {
     dp[u][0] = 0;
     dp[u][1] = S[u];
@@ -64,7 +64,7 @@ int main() {
   }
 
   LL sum = accumulate(all(S), 0LL), res = sum, t = 0;
-  REP(i, 0, M) {
+  REP(i, 0, min(N, M)) {
     t += T[i];
     chmax(res, sum - dp[0][i + 1] + t);
   }
