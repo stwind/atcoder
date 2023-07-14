@@ -361,6 +361,7 @@ Playing [AtCoder](https://atcoder.jp/).
 | discovery2016-final            | [C - 特別講演「括弧列と塗り分け」](https://atcoder.jp/contests/discovery2016-final/tasks/discovery_2016_final_c) | 2 乗の木 DP                             |
 | arc101                         | [E - Ribbons on Tree](https://atcoder.jp/contests/arc101/tasks/arc101_c)                                         | 2 乗の木 DP, 包除原理                   |
 | arc085                         | [E - MUL](https://atcoder.jp/contests/arc085/tasks/arc085_c)                                                     | Max Flow                                |
+| tenka1-2015-quala              | [C - 天下一美術館](https://atcoder.jp/contests/tenka1-2015-quala/tasks/tenka1_2015_qualA_c)                      | Max Flow                                |
 
 ## References
 
