@@ -360,6 +360,7 @@ Playing [AtCoder](https://atcoder.jp/).
 | aising2019                     | [E - Attack to a Tree](https://atcoder.jp/contests/aising2019/tasks/aising2019_e)                                | 2 乗の木 DP                             |
 | discovery2016-final            | [C - 特別講演「括弧列と塗り分け」](https://atcoder.jp/contests/discovery2016-final/tasks/discovery_2016_final_c) | 2 乗の木 DP                             |
 | arc101                         | [E - Ribbons on Tree](https://atcoder.jp/contests/arc101/tasks/arc101_c)                                         | 2 乗の木 DP, 包除原理                   |
+| arc085                         | [E - MUL](https://atcoder.jp/contests/arc085/tasks/arc085_c)                                                     | Max Flow                                |
 
 ## References
 
