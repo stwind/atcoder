@@ -71,13 +71,12 @@ struct Dinic {
       };
 
     const T INF = numeric_limits<T>::max();
-    T flow = 0;
-    while (true) {
+    T flow = 0, f;
+    while ((f = dfs(s, INF))) {
       fill(all(used), false);
-      T f = dfs(s, INF);
-      if (f == 0) return flow;
       flow += f;
     }
+    return flow;
   }
 };
 
