@@ -57,14 +57,12 @@ struct Dinic {
     function<T(int, T)> dfs = [&](int u, T cur) {
       if (u == t) return cur;
       used[u] = true;
-      for (auto& e : G[u]) {
-        if (!used[e.v] && e.cap > 0) {
-          T f = dfs(e.v, min(cur, e.cap));
-          if (f > 0) {
-            e.cap -= f;
-            G[e.v][e.rev].cap += f;
-            return f;
-          }
+      for (auto& e : G[u]) if (!used[e.v] && e.cap > 0) {
+        T f = dfs(e.v, min(cur, e.cap));
+        if (f > 0) {
+          e.cap -= f;
+          G[e.v][e.rev].cap += f;
+          return f;
         }
       }
       return static_cast<T>(0);
