@@ -366,6 +366,7 @@ Playing [AtCoder](https://atcoder.jp/).
 | abc011                         | [C - 123 引き算](https://atcoder.jp/contests/abc011/tasks/abc011_3)                                              | DP                                      |
 | abc021                         | [C - 正直者の高橋くん](https://atcoder.jp/contests/abc021/tasks/abc021_c)                                        | DFS                                     |
 | abc040                         | [C - 柱柱柱柱柱](https://atcoder.jp/contests/abc040/tasks/abc040_c)                                              | DP                                      |
+| abc044                         | [C - 高橋君とカード](https://atcoder.jp/contests/abc044/tasks/arc060_a)                                        | DP                                      |
 
 ## References
 
