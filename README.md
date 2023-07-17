@@ -369,6 +369,7 @@ Playing [AtCoder](https://atcoder.jp/).
 | abc044                         | [C - 高橋君とカード](https://atcoder.jp/contests/abc044/tasks/arc060_a)                                        | DP                                      |
 | abc087                         | [C - Candies](https://atcoder.jp/contests/abc087/tasks/arc090_a)                                                 | DP                                      |
 | abc099                         | [C - Strange Bank](https://atcoder.jp/contests/abc099/tasks/abc099_c)                                            | DP                                      |
+| abc122                         | [D - We Like AGC](https://atcoder.jp/contests/abc122/tasks/abc122_d)                                             | DP                                      |
 
 ## References
 
