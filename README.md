@@ -370,6 +370,7 @@ Playing [AtCoder](https://atcoder.jp/).
 | abc087                         | [C - Candies](https://atcoder.jp/contests/abc087/tasks/arc090_a)                                                 | DP                                      |
 | abc099                         | [C - Strange Bank](https://atcoder.jp/contests/abc099/tasks/abc099_c)                                            | DP                                      |
 | abc122                         | [D - We Like AGC](https://atcoder.jp/contests/abc122/tasks/abc122_d)                                             | DP                                      |
+| abc129                         | [C - Typical Stairs](https://atcoder.jp/contests/abc129/tasks/abc129_c)                                          | DP                                      |
 
 ## References
 
