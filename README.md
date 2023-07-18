@@ -372,6 +372,7 @@ Playing [AtCoder](https://atcoder.jp/).
 | abc122                         | [D - We Like AGC](https://atcoder.jp/contests/abc122/tasks/abc122_d)                                             | DP                                      |
 | abc129                         | [C - Typical Stairs](https://atcoder.jp/contests/abc129/tasks/abc129_c)                                          | DP                                      |
 | abc135                         | [D - Digits Parade](https://atcoder.jp/contests/abc135/tasks/abc135_d)                                           | DP                                      |
+| abc141                         | [E - Who Says a Pun?](https://atcoder.jp/contests/abc141/tasks/abc141_e)                                         | DP                                      |
 
 ## References
 
