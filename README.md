@@ -373,6 +373,7 @@ Playing [AtCoder](https://atcoder.jp/).
 | abc129                         | [C - Typical Stairs](https://atcoder.jp/contests/abc129/tasks/abc129_c)                                          | DP                                      |
 | abc135                         | [D - Digits Parade](https://atcoder.jp/contests/abc135/tasks/abc135_d)                                           | DP                                      |
 | abc141                         | [E - Who Says a Pun?](https://atcoder.jp/contests/abc141/tasks/abc141_e)                                         | DP                                      |
+| abc142                         | [E - Get Everything](https://atcoder.jp/contests/abc142/tasks/abc142_e)                                          | DP                                      |
 
 ## References
 
