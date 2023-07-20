@@ -375,6 +375,7 @@ Playing [AtCoder](https://atcoder.jp/).
 | abc141                         | [E - Who Says a Pun?](https://atcoder.jp/contests/abc141/tasks/abc141_e)                                         | DP                                      |
 | abc142                         | [E - Get Everything](https://atcoder.jp/contests/abc142/tasks/abc142_e)                                          | DP                                      |
 | abc145                         | [E - All-you-can-eat](https://atcoder.jp/contests/abc145/tasks/abc145_e)                                         | DP                                      |
+| abc153                         | [E - Crested Ibis vs Monster](https://atcoder.jp/contests/abc153/tasks/abc153_e)                                 | DP                                      |
 
 ## References
 

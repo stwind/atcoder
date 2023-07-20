@@ -2,17 +2,31 @@
 using namespace std;
 
 // clang-format off
-#define forn(i, x, y) for(int i = x; i < y; i++)
-#define IOS ios_base::sync_with_stdio(false); cin.tie(0); cout.tie(NULL)
+#define PARENS ()
+#define EXPAND(...) EXPAND4(EXPAND4(EXPAND4(EXPAND4(__VA_ARGS__))))
+#define EXPAND4(...) EXPAND3(EXPAND3(EXPAND3(EXPAND3(__VA_ARGS__))))
+#define EXPAND3(...) EXPAND2(EXPAND2(EXPAND2(EXPAND2(__VA_ARGS__))))
+#define EXPAND2(...) EXPAND1(EXPAND1(EXPAND1(EXPAND1(__VA_ARGS__))))
+#define EXPAND1(...) __VA_ARGS__
+#define FOR_EACH(macro, ...) __VA_OPT__(EXPAND(FOR_EACH_HELPER(macro, __VA_ARGS__)))
+#define FOR_EACH_HELPER(macro, a1, ...) macro(a1) __VA_OPT__(FOR_EACH_AGAIN PARENS (macro, __VA_ARGS__))
+#define FOR_EACH_AGAIN() FOR_EACH_HELPER
+#define REP(i, x, y) for(int i = x; i < y; i++)
+#define REPR(i, x, y) for(int i = x; i >= y; i--)
+#define IOS ios_base::sync_with_stdio(false); cin.tie(0);
 #define all(s) s.begin(), s.end()
+#define rall(s) s.rbegin(), s.rend()
 #define MOD 1000000007
-#define DEBUG(x) cout << #x << ": " << x << endl;
-#define DEBUGV(a) for(auto it = a.begin() ; it != a.end(); it++) { cout << *it << " "; } cout << endl;
-#define CEIL(a, b) (a + b - 1) / b
+#define DBG(x) cout << #x << ": " << x << " ";
+#define DEBUG(...) FOR_EACH(DBG, __VA_ARGS__) cout << endl;
+#define DEBUGV(a) cout << #a << ": "; for(auto it = a.begin() ; it != a.end(); it++) { cout << *it << " "; } cout << endl;
+#define CEIL(a, b) ((a) + (b) - 1) / (b)
+#define IN(x, a, b) (a <= x && x < b)
 template<class T> inline bool chmax(T& a, T b) { if (a < b) { a = b; return 1; } return 0; }
 template<class T> inline bool chmin(T& a, T b) { if (a > b) { a = b; return 1; } return 0; }
-template<typename T> void add(T &a, T b) { a += b; if (a >= MOD) a -= MOD; }
-template<typename T> void sub(T &a, T b) { a -= b; if (a < 0) a -= MOD; }
+template <typename T> T sub(T a, T b) { return (a + MOD - b) % MOD; }
+template <typename T> T add(T a, T b) { return (a + b) % MOD; }
+template <typename T> T mul(T a, T b) { return 1ULL * a * b % MOD; }
 // clang-format on
 
 using LL = long long;
@@ -21,34 +35,26 @@ using VVI = vector<VI>;
 using VLL = vector<LL>;
 using VVLL = vector<VLL>;
 using PII = pair<int, int>;
+using PLL = pair<LL, LL>;
 
-int H, N;
-VI A, B;
+int main() {
+  IOS;
 
-int main()
-{
-    IOS;
-    cin >> H >> N;
-    A.resize(N);
-    B.resize(N);
-    forn(i, 0, N) cin >> A[i] >> B[i];
+  int H, N; cin >> H >> N;
+  VI A(N), B(N);
+  REP(i, 0, N) cin >> A[i] >> B[i];
 
-    int inf = 100000000;
-    VVI dp(N + 1, VI(H + 1, inf));
-    dp[0][0] = 0;
+  int ma = *max_element(all(A));
+  const int INF = 1000000000;
+  VI dp(H + ma, INF);
+  dp[0] = 0;
+  REP(h, 0, H) REP(i, 0, N) {
+    chmin(dp[h + A[i]], dp[h] + B[i]);
+  }
 
-    forn(i, 0, N) forn(j, 0, H + 1)
-    {
-        // O(NH)
-        dp[i + 1][j] = dp[i][j];
-        chmin(dp[i + 1][j], dp[i + 1][max(0, j - A[i])] + B[i]);
+  int res = INF;
+  REP(h, H, H + ma) chmin(res, dp[h]);
+  cout << res << endl;
 
-        // O(NH^2)
-        // for (int k = 0; k <= CEIL(j, A[i]); k++)
-        //     chmin(dp[i + 1][j], dp[i][max(0, j - k * A[i])] + k * B[i]);
-    }
-
-    cout << dp[N][H] << endl;
-
-    return 0;
+  return 0;
 }
