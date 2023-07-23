@@ -381,6 +381,7 @@ Playing [AtCoder](https://atcoder.jp/).
 | abc184                         | [D - increment of coins](https://atcoder.jp/contests/abc184/tasks/abc184_d)                                      | DP                                      |
 | abc188                         | [F - +1-1x2](https://atcoder.jp/contests/abc188/tasks/abc188_f)                                                  | DP                                      |
 | abc195                         | [E - Lucky 7 Battle](https://atcoder.jp/contests/abc195/tasks/abc195_e)                                          | DP                                      |
+| abc201                         | [D - Game in Momotetsu World](https://atcoder.jp/contests/abc201/tasks/abc201_d)                                 | minimax                                 |
 
 ## References
 
