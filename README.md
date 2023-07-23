@@ -380,6 +380,7 @@ Playing [AtCoder](https://atcoder.jp/).
 | abc175                         | [E - Picking Goods](https://atcoder.jp/contests/abc175/tasks/abc175_e)                                           | DP                                      |
 | abc184                         | [D - increment of coins](https://atcoder.jp/contests/abc184/tasks/abc184_d)                                      | DP                                      |
 | abc188                         | [F - +1-1x2](https://atcoder.jp/contests/abc188/tasks/abc188_f)                                                  | DP                                      |
+| abc195                         | [E - Lucky 7 Battle](https://atcoder.jp/contests/abc195/tasks/abc195_e)                                          | DP                                      |
 
 ## References
 
