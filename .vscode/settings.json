@@ -55,6 +55,7 @@
     "typeindex": "cpp",
     "utility": "cpp",
     "stacktrace": "cpp",
-    "limits": "cpp"
+    "limits": "cpp",
+    "format": "cpp"
   }
 }
