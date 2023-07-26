@@ -382,8 +382,9 @@ Playing [AtCoder](https://atcoder.jp/).
 | abc188                         | [F - +1-1x2](https://atcoder.jp/contests/abc188/tasks/abc188_f)                                                  | DP                                      |
 | abc195                         | [E - Lucky 7 Battle](https://atcoder.jp/contests/abc195/tasks/abc195_e)                                          | DP                                      |
 | abc201                         | [D - Game in Momotetsu World](https://atcoder.jp/contests/abc201/tasks/abc201_d)                                 | minimax                                 |
-| abc210                         | [D - National Railway](https://atcoder.jp/contests/abc210/tasks/abc210_d)                                        | dp                                      |
-| arc002                         | [C - コマンド入力](https://atcoder.jp/contests/arc002/tasks/arc002_3)                                          | dp                                      |
+| abc210                         | [D - National Railway](https://atcoder.jp/contests/abc210/tasks/abc210_d)                                        | DP                                      |
+| arc002                         | [C - コマンド入力](https://atcoder.jp/contests/arc002/tasks/arc002_3)                                          | DP                                      |
+| arc042                         | [C - おやつ](https://atcoder.jp/contests/arc042/tasks/arc042_c)                                                  | DP                                      |
 
 ## References
 
