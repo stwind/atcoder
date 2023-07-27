@@ -385,6 +385,7 @@ Playing [AtCoder](https://atcoder.jp/).
 | abc210                         | [D - National Railway](https://atcoder.jp/contests/abc210/tasks/abc210_d)                                        | DP                                      |
 | arc002                         | [C - コマンド入力](https://atcoder.jp/contests/arc002/tasks/arc002_3)                                          | DP                                      |
 | arc042                         | [C - おやつ](https://atcoder.jp/contests/arc042/tasks/arc042_c)                                                  | DP                                      |
+| agc044                         | [A - Pay to Win](https://atcoder.jp/contests/agc044/tasks/agc044_a)                                              | DP                                      |
 
 ## References
 
