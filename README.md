@@ -386,6 +386,7 @@ Playing [AtCoder](https://atcoder.jp/).
 | arc002                         | [C - コマンド入力](https://atcoder.jp/contests/arc002/tasks/arc002_3)                                          | DP                                      |
 | arc042                         | [C - おやつ](https://atcoder.jp/contests/arc042/tasks/arc042_c)                                                  | DP                                      |
 | agc044                         | [A - Pay to Win](https://atcoder.jp/contests/agc044/tasks/agc044_a)                                              | DP                                      |
+| past201912-open                | [I - 部品調達](https://atcoder.jp/contests/past201912-open/tasks/past201912_i)                                   | DP                                      |
 
 ## References
 

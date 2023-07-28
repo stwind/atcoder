@@ -57,5 +57,6 @@
     "stacktrace": "cpp",
     "limits": "cpp",
     "format": "cpp"
-  }
+  },
+  "C_Cpp.default.compilerPath": "/opt/homebrew/bin/gcc-13"
 }
