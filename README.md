@@ -388,6 +388,7 @@ Playing [AtCoder](https://atcoder.jp/).
 | agc044                         | [A - Pay to Win](https://atcoder.jp/contests/agc044/tasks/agc044_a)                                              | DP                                      |
 | past201912-open                | [I - 部品調達](https://atcoder.jp/contests/past201912-open/tasks/past201912_i)                                   | DP                                      |
 | past202004-open                | [H - 1-9 Grid](https://atcoder.jp/contests/past202004-open/tasks/past202004_h)                                   | DP                                      |
+| past202005-open                | [H - ハードル走](https://atcoder.jp/contests/past202005-open/tasks/past202005_h)                               | DP                                      |
 
 ## References
 
