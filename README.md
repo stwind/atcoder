@@ -390,6 +390,7 @@ Playing [AtCoder](https://atcoder.jp/).
 | past202004-open                | [H - 1-9 Grid](https://atcoder.jp/contests/past202004-open/tasks/past202004_h)                                   | DP                                      |
 | past202005-open                | [H - ハードル走](https://atcoder.jp/contests/past202005-open/tasks/past202005_h)                               | DP                                      |
 | abc037                         | [C - 総和](https://atcoder.jp/contests/abc037/tasks/abc037_c)                                                    | 累積和                                  |
+| abc089                         | [D - Practical Skill Test](https://atcoder.jp/contests/abc089/tasks/abc089_d)                                    | 累積和                                  |
 
 ## References
 
