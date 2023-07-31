@@ -391,6 +391,7 @@ Playing [AtCoder](https://atcoder.jp/).
 | past202005-open                | [H - ハードル走](https://atcoder.jp/contests/past202005-open/tasks/past202005_h)                               | DP                                      |
 | abc037                         | [C - 総和](https://atcoder.jp/contests/abc037/tasks/abc037_c)                                                    | 累積和                                  |
 | abc089                         | [D - Practical Skill Test](https://atcoder.jp/contests/abc089/tasks/abc089_d)                                    | 累積和                                  |
+| abc095                         | [D - Static Sushi](https://atcoder.jp/contests/abc095/tasks/arc096_b)                                            | 累積和                                  |
 
 ## References
 
