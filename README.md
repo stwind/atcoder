@@ -395,6 +395,7 @@ Playing [AtCoder](https://atcoder.jp/).
 | abc098                         | [C - Attention](https://atcoder.jp/contests/abc098/tasks/arc098_a)                                               | 累積和                                  |
 | abc104                         | [D - We Love ABC](https://atcoder.jp/contests/abc104/tasks/abc104_d)                                             | 累積和                                  |
 | abc124                         | [D - Handstand](https://atcoder.jp/contests/abc124/tasks/abc124_d)                                               | 累積和, しゃくとり法                    |
+| abc129                         | [D - Lamp](https://atcoder.jp/contests/abc129/tasks/abc129_d)                                                    | 累積和                                  |
 
 ## References
 
