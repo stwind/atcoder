@@ -396,8 +396,9 @@ Playing [AtCoder](https://atcoder.jp/).
 | abc104                         | [D - We Love ABC](https://atcoder.jp/contests/abc104/tasks/abc104_d)                                             | 累積和                                  |
 | abc124                         | [D - Handstand](https://atcoder.jp/contests/abc124/tasks/abc124_d)                                               | 累積和, しゃくとり法                    |
 | abc129                         | [D - Lamp](https://atcoder.jp/contests/abc129/tasks/abc129_d)                                                    | 累積和                                  |
-| abc149                         | [E - Handshake](https://atcoder.jp/contests/abc149/tasks/abc149_e)                                               | 累積和                                  |
+| abc149                         | [E - Handshake](https://atcoder.jp/contests/abc149/tasks/abc149_e)                                               | 累積和, 二分探索                        |
 | abc162                         | [D - RGB Triplets](https://atcoder.jp/contests/abc162/tasks/abc162_d)                                            | 累積和                                  |
+| abc172                         | [C - Tsundoku](https://atcoder.jp/contests/abc172/tasks/abc172_c)                                                | 累積和, 二分探索, しゃくとり法          |
 
 ## References
 
