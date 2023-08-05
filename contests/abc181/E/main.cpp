@@ -2,68 +2,71 @@
 using namespace std;
 
 // clang-format off
-#define forn(i, x, y) for(int i = x; i < y; i++)
-#define IOS ios_base::sync_with_stdio(false); cin.tie(0); cout.tie(NULL)
-#define all(v) v.begin(), v.end()
+#define PARENS ()
+#define EXPAND(...) EXPAND4(EXPAND4(EXPAND4(EXPAND4(__VA_ARGS__))))
+#define EXPAND4(...) EXPAND3(EXPAND3(EXPAND3(EXPAND3(__VA_ARGS__))))
+#define EXPAND3(...) EXPAND2(EXPAND2(EXPAND2(EXPAND2(__VA_ARGS__))))
+#define EXPAND2(...) EXPAND1(EXPAND1(EXPAND1(EXPAND1(__VA_ARGS__))))
+#define EXPAND1(...) __VA_ARGS__
+#define FOR_EACH(macro, ...) __VA_OPT__(EXPAND(FOR_EACH_HELPER(macro, __VA_ARGS__)))
+#define FOR_EACH_HELPER(macro, a1, ...) macro(a1) __VA_OPT__(FOR_EACH_AGAIN PARENS (macro, __VA_ARGS__))
+#define FOR_EACH_AGAIN() FOR_EACH_HELPER
+#define REP(i, x, y) for(int i = x; i < y; i++)
+#define REPR(i, x, y) for(int i = x; i >= y; i--)
+#define IOS ios_base::sync_with_stdio(false); cin.tie(0);
+#define all(s) s.begin(), s.end()
+#define rall(s) s.rbegin(), s.rend()
+#define MOD 1000000007
+#define DBG(x) cout << #x << ": " << x << " ";
+#define DEBUG(...) FOR_EACH(DBG, __VA_ARGS__) cout << endl;
+#define DEBUGV(a) cout << #a << ": "; for(auto it = a.begin() ; it != a.end(); it++) { cout << *it << " "; } cout << endl;
+#define CEIL(a, b) ((a) + (b) - 1) / (b)
+#define IN(x, a, b) (a <= x && x < b)
+template<class T> inline bool chmax(T& a, T b) { if (a < b) { a = b; return 1; } return 0; }
+template<class T> inline bool chmin(T& a, T b) { if (a > b) { a = b; return 1; } return 0; }
+template <typename T> T sub(T a, T b) { return (a + MOD - b) % MOD; }
+template <typename T> T add(T a, T b) { return (a + b) % MOD; }
+template <typename T> T mul(T a, T b) { return 1ULL * a * b % MOD; }
 // clang-format on
 
 using LL = long long;
 using VI = vector<int>;
+using VVI = vector<VI>;
 using VLL = vector<LL>;
+using VVLL = vector<VLL>;
+using PII = pair<int, int>;
+using PLL = pair<LL, LL>;
 
-int main()
-{
-    IOS;
+int main() {
+  IOS;
 
-    int N, M;
-    cin >> N >> M;
-    vector<int> H(N), W(M);
-    forn(i, 0, N) cin >> H[i];
-    forn(i, 0, M) cin >> W[i];
+  int N, M; cin >> N >> M;
+  VLL H(N), W(M);
+  REP(i, 0, N) cin >> H[i];
+  REP(i, 0, M) cin >> W[i];
+  sort(all(H));
+  sort(all(W));
 
-    sort(all(H));
+  VVLL A(2, VLL(N / 2 + 1));
+  A[0][0] = H[0];
+  REP(i, 1, N) A[i % 2][i / 2] = H[i] - H[i - 1];
 
-    vector<int> left(N, 0), right(N, 0);
-    forn(i, 2, N)
-    {
-        left[i] = left[i - 1];
-        if (i % 2 == 0)
-            left[i] += abs(H[i - 2] - H[i - 1]);
-    }
-    for (int i = N - 3; i >= 0; i--)
-    {
-        right[i] = right[i + 1];
-        if (i % 2 == 0)
-            right[i] += abs(H[i + 2] - H[i + 1]);
-    }
-    vector<int> suf(N, 0);
-    forn(i, 0, N)
-    {
-        suf[i] = left[i] + right[i];
-        if (i % 2 == 1)
-            suf[i] += abs(H[i - 1] - H[i + 1]);
-    }
+  VVLL B(2, VLL(N / 2 + 2));
+  REP(i, 0, N / 2 + 1) REP(j, 0, 2) B[j][i + 1] += B[j][i] + A[j][i];
 
-    int res = INT_MAX;
-    forn(i, 0, M)
-    {
-        int l = -1, r = N, m;
-        while (r - l > 1)
-        {
-            m = (l + r) / 2;
-            if (H[m] < W[i])
-                l = m;
-            else
-                r = m;
-        }
+  auto count = [&](int i, int j) {
+    LL res = abs(H[i] - W[j]);
+    if (i % 2 == 0) res += B[1][i / 2] + B[0][N / 2 + 1] - B[0][i / 2 + 1];
+    else res += H[i + 1] - H[i - 1] + B[1][(i - 1) / 2] + B[0][N / 2 + 1] - B[0][(i + 1) / 2 + 1];
+    return res;
+    };
 
-        if (r < N)
-            res = min(res, abs(W[i] - H[r]) + suf[r]);
-        if (r > 0)
-            res = min(res, abs(W[i] - H[r - 1]) + suf[r - 1]);
-    }
+  LL res = 1LL << 50;
+  for (int i = 0, j = 0; i < N; i++) {
+    while (j < M - 1 && count(i, j) >= count(i, j + 1)) j++;
+    chmin(res, count(i, j));
+  }
+  cout << res << endl;
 
-    cout << res << endl;
-
-    return 0;
+  return 0;
 }
