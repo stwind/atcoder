@@ -401,6 +401,7 @@ Playing [AtCoder](https://atcoder.jp/).
 | abc172                         | [C - Tsundoku](https://atcoder.jp/contests/abc172/tasks/abc172_c)                                                | 累積和, 二分探索, しゃくとり法          |
 | abc177                         | [C - Sum of product of pairs](https://atcoder.jp/contests/abc177/tasks/abc177_c)                                 | 累積和                                  |
 | abc181                         | [E - Transformable Teacher](https://atcoder.jp/contests/abc181/tasks/abc181_e)                                   | 累積和, しゃくとり法                    |
+| abc182                         | [D - Wandering](https://atcoder.jp/contests/abc182/tasks/abc182_d)                                               | 累積和                                  |
 
 ## References
 
