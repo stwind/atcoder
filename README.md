@@ -403,6 +403,7 @@ Playing [AtCoder](https://atcoder.jp/).
 | abc181                         | [E - Transformable Teacher](https://atcoder.jp/contests/abc181/tasks/abc181_e)                                   | 累積和, しゃくとり法                    |
 | abc182                         | [D - Wandering](https://atcoder.jp/contests/abc182/tasks/abc182_d)                                               | 累積和                                  |
 | arc025                         | [B - チョコレート](https://atcoder.jp/contests/arc025/tasks/arc025_2)                                            | 累積和                                  |
+| arc104                         | [B - DNA Sequence](https://atcoder.jp/contests/arc104/tasks/arc104_b)                                            | 累積和                                  |
 
 ## References
 
