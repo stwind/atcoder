@@ -37,21 +37,6 @@ using VVLL = vector<VLL>;
 using PII = pair<int, int>;
 using PLL = pair<LL, LL>;
 
-template <typename T>
-VI coord_compress(vector<T>& X) {
-  vector<T> vals = X;
-  sort(all(vals));
-
-  vals.erase(unique(all(vals)), vals.end());
-
-  int n = X.size();
-  VI I(n);
-  REP(i, 0, n)
-    I[i] = lower_bound(all(vals), X[i]) - vals.begin();
-
-  return I;
-}
-
 int main() {
   IOS;
 
