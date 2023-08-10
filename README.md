@@ -410,6 +410,7 @@ Playing [AtCoder](https://atcoder.jp/).
 | abc141                         | [C - Attack Survival](https://atcoder.jp/contests/abc141/tasks/abc141_c)                                         | いもす法                                |
 | abc183                         | [D - Water Heater](https://atcoder.jp/contests/abc183/tasks/abc183_d)                                            | いもす法                                |
 | abc188                         | [D - Snuke Prime](https://atcoder.jp/contests/abc188/tasks/abc188_d)                                             | いもす法                                |
+| abc210                         | [C - Colorful Candies](https://atcoder.jp/contests/abc210/tasks/abc210_c)                                        | Sliding Window                          |
 
 ## References
 
