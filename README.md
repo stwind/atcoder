@@ -411,7 +411,8 @@ Playing [AtCoder](https://atcoder.jp/).
 | abc183                         | [D - Water Heater](https://atcoder.jp/contests/abc183/tasks/abc183_d)                                            | いもす法                                |
 | abc188                         | [D - Snuke Prime](https://atcoder.jp/contests/abc188/tasks/abc188_d)                                             | いもす法                                |
 | abc210                         | [C - Colorful Candies](https://atcoder.jp/contests/abc210/tasks/abc210_c)                                        | Sliding Window                          |
-| abc126                         | [[E - 1 or 2](https://atcoder.jp/contests/abc126/tasks/abc126_e)                                                 | Union Find                              |
+| abc126                         | [E - 1 or 2](https://atcoder.jp/contests/abc126/tasks/abc126_e)                                                  | Union Find                              |
+| abc189                         | [C - Mandarin Orange](https://atcoder.jp/contests/abc189/tasks/abc189_c)                                         | Misc                                    |
 
 ## References
 
