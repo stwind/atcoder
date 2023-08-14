@@ -416,6 +416,7 @@ Playing [AtCoder](https://atcoder.jp/).
 | abc214                         | [D - Sum of Maximum Weights](https://atcoder.jp/contests/abc214/tasks/abc214_d)                                  | Union Find                              |
 | arc111                         | [B - Reversible Cards](https://atcoder.jp/contests/arc111/tasks/arc111_b)                                        | Union Find                              |
 | atc001                         | [A - 深さ優先探索](https://atcoder.jp/contests/atc001/tasks/dfs_a)                                               | DFS                                     |
+| abc025                         | [C - 双子と ○× ゲーム](https://atcoder.jp/contests/abc025/tasks/abc025_c)                                      | DFS                                     |
 
 ## References
 
