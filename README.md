@@ -420,6 +420,7 @@ Playing [AtCoder](https://atcoder.jp/).
 | abc126                         | [D - Even Relation](https://atcoder.jp/contests/abc126/tasks/abc126_d)                                           | DFS                                     |
 | abc146                         | [D - Coloring Edges on Tree](https://atcoder.jp/contests/abc146/tasks/abc146_d)                                  | DFS                                     |
 | abc148                         | [F - Playing Tag on Tree](https://atcoder.jp/contests/abc148/tasks/abc148_f)                                     | DFS                                     |
+| abc198                         | [E - Unique Color](https://atcoder.jp/contests/abc198/tasks/abc198_e)                                            | DFS                                     |
 
 ## References
 
