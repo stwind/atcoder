@@ -419,6 +419,7 @@ Playing [AtCoder](https://atcoder.jp/).
 | abc070                         | [D - Transit Tree Path](https://atcoder.jp/contests/abc070/tasks/abc070_d)                                       | DFS                                     |
 | abc126                         | [D - Even Relation](https://atcoder.jp/contests/abc126/tasks/abc126_d)                                           | DFS                                     |
 | abc146                         | [D - Coloring Edges on Tree](https://atcoder.jp/contests/abc146/tasks/abc146_d)                                  | DFS                                     |
+| abc148                         | [F - Playing Tag on Tree](https://atcoder.jp/contests/abc148/tasks/abc148_f)                                     | DFS                                     |
 
 ## References
 
