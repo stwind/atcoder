@@ -422,6 +422,7 @@ Playing [AtCoder](https://atcoder.jp/).
 | abc148                         | [F - Playing Tag on Tree](https://atcoder.jp/contests/abc148/tasks/abc148_f)                                     | DFS                                     |
 | abc198                         | [E - Unique Color](https://atcoder.jp/contests/abc198/tasks/abc198_e)                                            | DFS                                     |
 | arc022                         | [C - ロミオとジュリエット](https://atcoder.jp/contests/arc022/tasks/arc022_3)                                  | DFS                                     |
+| arc030                         | [B - ツリーグラフ](https://atcoder.jp/contests/arc030/tasks/arc030_2)                                          | DFS                                     |
 
 ## References
 
