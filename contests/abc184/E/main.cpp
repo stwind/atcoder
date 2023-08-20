@@ -61,7 +61,6 @@ int main() {
   queue<PII> q({ {sy,sx} });
   while (!q.empty()) {
     auto [y, x] = q.front(); q.pop();
-    // DEBUG(y, x);
     REP(i, 0, 4) {
       int yy = y + dy[i], xx = x + dx[i];
       if (IN(yy, 0, H) && IN(xx, 0, W) && A[yy][xx] != '#') {
