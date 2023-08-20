@@ -40,53 +40,20 @@ using PLL = pair<LL, LL>;
 int main() {
   IOS;
 
-  int H, W;cin >> H >> W;
-  vector<string> A(H);
-  REP(i, 0, H) cin >> A[i];
+  int A, B, C; cin >> A >> B >> C;
 
-  int sy = -1, sx = -1, gy = -1, gx = -1;
-  vector<vector<PII>> S(26);
-  REP(i, 0, H) REP(j, 0, W) {
-    if (A[i][j] == 'S') sy = i, sx = j;
-    if (A[i][j] == 'G') gy = i, gx = j;
-    int k = A[i][j] - 'a';
-    if (IN(k, 0, 26)) S[k].push_back({ i,j });
-  }
+  double dp[101][101][101] = { 0 };
+  function<double(int, int, int)> dfs = [&](int a, int b, int c) {
+    if (a == 100 || b == 100 || c == 100) return 0.;
+    if (dp[a][b][c] > 0) return dp[a][b][c];
 
-  bitset<26> T;
+    dp[a][b][c] += a * (dfs(a + 1, b, c) + 1.);
+    dp[a][b][c] += b * (dfs(a, b + 1, c) + 1.);
+    dp[a][b][c] += c * (dfs(a, b, c + 1) + 1.);
+    return dp[a][b][c] /= (a + b + c);
+    };
 
-  VI dx = { -1,0,1,0 }, dy = { 0,-1,0,1 };
-  VVI D(H, VI(W, INT_MAX));
-  D[sy][sx] = 0;
-  queue<PII> q({ {sy,sx} });
-  while (!q.empty()) {
-    auto [y, x] = q.front(); q.pop();
-    // DEBUG(y, x);
-    REP(i, 0, 4) {
-      int yy = y + dy[i], xx = x + dx[i];
-      if (IN(yy, 0, H) && IN(xx, 0, W) && A[yy][xx] != '#') {
-        int d = D[y][x] + 1;
-        if (d >= D[yy][xx]) continue;
-
-        D[yy][xx] = d;
-        q.push({ yy,xx });
-      }
-    }
-
-    int k = A[y][x] - 'a';
-    if (IN(k, 0, 26) && T[k] == 0) {
-      T.set(k);
-      for (auto [yy, xx] : S[k]) {
-        int d = D[y][x] + 1;
-        if (d >= D[yy][xx]) continue;
-
-        D[yy][xx] = d;
-        q.push({ yy,xx });
-      }
-    }
-  }
-
-  cout << (D[gy][gx] < INT_MAX ? D[gy][gx] : -1) << endl;
+  cout << fixed << setprecision(10) << dfs(A, B, C) << endl;
 
   return 0;
 }
