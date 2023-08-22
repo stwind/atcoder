@@ -428,6 +428,7 @@ Playing [AtCoder](https://atcoder.jp/).
 | abc168                         | [D - .. (Double Dots)](https://atcoder.jp/contests/abc168/tasks/abc168_d)                                        | BFS                                     |
 | abc184                         | [E - Third Avenue](https://atcoder.jp/contests/abc184/tasks/abc184_e)                                            | BFS                                     |
 | abc185                         | [E - Sequence Matching](https://atcoder.jp/contests/abc185/tasks/abc185_e)                                       | DP                                      |
+| abc187                         | [E - Through Path](https://atcoder.jp/contests/abc187/tasks/abc187_e)                                            | DFS, いもす法                           |
 
 ## References
 
