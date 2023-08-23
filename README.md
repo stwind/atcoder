@@ -430,6 +430,7 @@ Playing [AtCoder](https://atcoder.jp/).
 | abc185                         | [E - Sequence Matching](https://atcoder.jp/contests/abc185/tasks/abc185_e)                                       | DP                                      |
 | abc187                         | [E - Through Path](https://atcoder.jp/contests/abc187/tasks/abc187_e)                                            | DFS, いもす法                           |
 | abc213                         | [E - Stronger Takahashi](https://atcoder.jp/contests/abc213/tasks/abc213_e)                                      | BFS                                     |
+| arc011                         | [C - ダブレット](https://atcoder.jp/contests/arc011/tasks/arc011_3)                                          | BFS                                     |
 
 ## References
 
