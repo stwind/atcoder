@@ -56,7 +56,9 @@
     "utility": "cpp",
     "stacktrace": "cpp",
     "limits": "cpp",
-    "format": "cpp"
+    "format": "cpp",
+    "queue": "cpp",
+    "stack": "cpp"
   },
   "C_Cpp.default.compilerPath": "/opt/homebrew/bin/gcc-13"
 }
