@@ -2,20 +2,31 @@
 using namespace std;
 
 // clang-format off
-#define forn(i, x, y) for(int i = x; i < y; i++)
-#define IOS ios_base::sync_with_stdio(false); cin.tie(0); cout.tie(NULL)
+#define PARENS ()
+#define EXPAND(...) EXPAND4(EXPAND4(EXPAND4(EXPAND4(__VA_ARGS__))))
+#define EXPAND4(...) EXPAND3(EXPAND3(EXPAND3(EXPAND3(__VA_ARGS__))))
+#define EXPAND3(...) EXPAND2(EXPAND2(EXPAND2(EXPAND2(__VA_ARGS__))))
+#define EXPAND2(...) EXPAND1(EXPAND1(EXPAND1(EXPAND1(__VA_ARGS__))))
+#define EXPAND1(...) __VA_ARGS__
+#define FOR_EACH(macro, ...) __VA_OPT__(EXPAND(FOR_EACH_HELPER(macro, __VA_ARGS__)))
+#define FOR_EACH_HELPER(macro, a1, ...) macro(a1) __VA_OPT__(FOR_EACH_AGAIN PARENS (macro, __VA_ARGS__))
+#define FOR_EACH_AGAIN() FOR_EACH_HELPER
+#define REP(i, x, y) for(int i = x; i < y; i++)
+#define REPR(i, x, y) for(int i = x; i >= y; i--)
+#define IOS ios_base::sync_with_stdio(false); cin.tie(0);
 #define all(s) s.begin(), s.end()
 #define rall(s) s.rbegin(), s.rend()
 #define MOD 1000000007
-#define INF (1 << 30)
-#define DEBUG(x) cout << #x << ": " << x << endl;
-#define DEBUGV(a) for(auto it = a.begin() ; it != a.end(); it++) { cout << *it << " "; } cout << endl;
+#define DBG(x) cout << #x << ": " << x << " ";
+#define DEBUG(...) FOR_EACH(DBG, __VA_ARGS__) cout << endl;
+#define DEBUGV(a) cout << #a << ": "; for(auto it = a.begin() ; it != a.end(); it++) { cout << *it << " "; } cout << endl;
 #define CEIL(a, b) ((a) + (b) - 1) / (b)
-#define IN(a, b, x) (a <= x && x < b)
+#define IN(x, a, b) (a <= x && x < b)
 template<class T> inline bool chmax(T& a, T b) { if (a < b) { a = b; return 1; } return 0; }
 template<class T> inline bool chmin(T& a, T b) { if (a > b) { a = b; return 1; } return 0; }
-template<typename T> void add(T &a, T b) { a += b; if (a >= MOD) a -= MOD; }
-template<typename T> void sub(T &a, T b) { a -= b; if (a < 0) a += MOD; }
+template <typename T> T sub(T a, T b) { return (a + MOD - b) % MOD; }
+template <typename T> T add(T a, T b) { return (a + b) % MOD; }
+template <typename T> T mul(T a, T b) { return 1ULL * a * b % MOD; }
 // clang-format on
 
 using LL = long long;
@@ -28,73 +39,51 @@ using PLL = pair<LL, LL>;
 
 int main() {
   IOS;
-  int N, M;
-  cin >> N >> M;
-  vector<string> C(N);
-  forn(i, 0, N) cin >> C[i];
 
-  int sx, sy, gx, gy;
-  forn(i, 0, N) forn(j, 0, M) {
-    if (C[i][j] == 's')
-      sx = j, sy = i;
-    if (C[i][j] == 'g')
-      gx = j, gy = i;
+  int N, M;cin >> N >> M;
+  vector<string> C(N);
+  REP(i, 0, N) cin >> C[i];
+
+  int sx = -1, sy = -1, gx = -1, gy = -1;
+  REP(i, 0, N) REP(j, 0, M) {
+    if (C[i][j] == 's') sy = i, sx = j;
+    if (C[i][j] == 'g') gy = i, gx = j;
   }
 
-  double po[N * M];
-  po[0] = 1;
-  forn(i, 1, N * M + 1) po[i] = po[i - 1] * 0.99;
-  int dx[] = {0, 1, 0, -1}, dy[] = {1, 0, -1, 0};
+  VI dx = { -1,0,1,0 }, dy = { 0,-1,0,1 };
 
-  auto check = [&](double m) -> bool {
-    priority_queue<VI, VVI, greater<VI>> que;
-    que.push({0, sy, sx});
-    VVI d(N, VI(M, INF));
-    d[sy][sx] = 0;
-    while (que.size()) {
-      VI v = que.top();
-      que.pop();
-      int y = v[1], x = v[2];
-      if (x == gx && y == gy)
-        break;
-      if (v[0] > d[y][x])
-        continue;
-      forn(i, 0, 4) {
-        int nx = x + dx[i], ny = y + dy[i];
-        if (nx < 0 || nx == M || ny < 0 || ny == N || C[ny][nx] == '#')
-          continue;
-        if (d[ny][nx] <= d[y][x] + 1)
-          continue;
+  using T = tuple<double, int, int>;
+  priority_queue<T, vector<T>, less<T>> q;
+  q.push({ 10,gy,gx });
+  vector<vector<double>> D(N, vector<double>(M, -1));
+  D[gy][gx] = 10;
 
-        if (C[ny][nx] == 'g') {
-          d[ny][nx] = d[y][x] + 1;
-          que.push({d[ny][nx], ny, nx});
-        } else {
-          double val = (C[ny][nx] - '0') * po[v[0] + 1];
-          if (val >= m) {
-            d[ny][nx] = d[y][x] + 1;
-            que.push({d[ny][nx], ny, nx});
-          }
+  while (!q.empty()) {
+    auto [d, y, x] = q.top(); q.pop();
+    if (D[y][x] > d) continue;
+
+    d *= .99;
+
+    REP(i, 0, 4) {
+      int yy = y + dy[i], xx = x + dx[i];
+      if (IN(yy, 0, N) && IN(xx, 0, M) && C[yy][xx] != '#') {
+        if (C[yy][xx] == 's') {
+          cout << fixed << setprecision(12) << d << endl;
+          return 0;
+        }
+
+        double dd = C[yy][xx] - '0';
+        chmin(dd, d);
+
+        if (D[yy][xx] < dd) {
+          D[yy][xx] = dd;
+          q.push({ dd,yy,xx });
         }
       }
     }
-    return d[gy][gx] < INF;
-  };
-  if (!check(-1)) {
-    cout << -1 << endl;
-    return 0;
   }
 
-  double lb = 0, hi = 9;
-  forn(i, 0, 40) {
-    double mid = (lb + hi) / 2;
-    if (check(mid))
-      lb = mid;
-    else
-      hi = mid;
-  }
-
-  cout << fixed << setprecision(10) << hi << endl;
+  cout << -1 << endl;
 
   return 0;
 }
