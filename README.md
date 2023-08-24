@@ -435,6 +435,7 @@ Playing [AtCoder](https://atcoder.jp/).
 | arc109                         | [A - Hands](https://atcoder.jp/contests/arc109/tasks/arc109_a)                                                   | BFS                                     |
 | agc033                         | [A - Darker and Darker](https://atcoder.jp/contests/agc033/tasks/agc033_a)                                       | BFS                                     |
 | agc043                         | [A - Range Flip Find Route](https://atcoder.jp/contests/agc043/tasks/agc043_a)                                   | DP                                      |
+| past202005-open                | [G - グリッド金移動](https://atcoder.jp/contests/past202005-open/tasks/past202005_g)                         | BFS                                     |
 
 ## References
 
