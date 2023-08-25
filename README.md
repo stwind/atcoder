@@ -437,6 +437,7 @@ Playing [AtCoder](https://atcoder.jp/).
 | agc043                         | [A - Range Flip Find Route](https://atcoder.jp/contests/agc043/tasks/agc043_a)                                   | DP                                      |
 | past202005-open                | [G - グリッド金移動](https://atcoder.jp/contests/past202005-open/tasks/past202005_g)                         | BFS                                     |
 | abc191                         | [E - Come Back Quickly](https://atcoder.jp/contests/abc191/tasks/abc191_e)                                       | Dijkstra                                |
+| abc192                         | [E - Train](https://atcoder.jp/contests/abc192/tasks/abc192_e)                                                   | Dijkstra                                |
 
 ## References
 

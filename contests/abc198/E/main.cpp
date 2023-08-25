@@ -40,38 +40,28 @@ using PLL = pair<LL, LL>;
 int main() {
   IOS;
 
-  int N, M, X, Y; cin >> N >> M >> X >> Y, X--, Y--;
-  VI A(M), B(M); VLL T(M), K(M);
-  vector<vector<PII>> G(N);
-  REP(i, 0, M) {
-    cin >> A[i] >> B[i] >> T[i] >> K[i];
-    A[i]--, B[i]--;
-    G[A[i]].emplace_back(B[i], i);
-    G[B[i]].emplace_back(A[i], i);
+  int N; cin >> N;
+  VI C(N);
+  REP(i, 0, N) cin >> C[i];
+  VVI G(N);
+  REP(i, 0, N - 1) {
+    int a, b; cin >> a >> b; a--, b--;
+    G[a].push_back(b);
+    G[b].push_back(a);
   }
 
-  const LL INF = LONG_MAX;
-  VLL D(N, INF);
-  VI S(N);
-  D[X] = 0;
+  unordered_map<int, int> S;
+  VI K(N, 1);
+  function<void(int, int)> dfs = [&](int u, int p) {
+    if (S[C[u]] > 0) K[u] = 0;
+    S[C[u]]++;
+    for (auto v : G[u]) if (v != p)
+      dfs(v, u);
+    S[C[u]]--;
+    };
 
-  using PIL = pair<LL, int>;
-  priority_queue<PIL, vector<PIL>, greater<PIL>> q;
-  q.push({ 0,X });
-
-  while (!q.empty()) {
-    auto [d, u] = q.top(); q.pop();
-
-    if (S[u]) continue;
-    S[u] = 1;
-
-    for (auto [v, i] : G[u]) {
-      LL d1 = CEIL(d, K[i]) * K[i] + T[i];
-      if (D[v] > d1) q.push({ D[v] = d1,v });
-    }
-  }
-
-  cout << (D[Y] < INF ? D[Y] : -1) << endl;
+  dfs(0, -1);
+  REP(i, 0, N) if (K[i]) cout << i + 1 << endl;
 
   return 0;
 }
