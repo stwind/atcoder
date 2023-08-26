@@ -109,7 +109,7 @@ Playing [AtCoder](https://atcoder.jp/).
 | abc284                         | [E - Count Simple Paths](https://atcoder.jp/contests/abc284/tasks/abc284_e)                                      | DFS                                     |
 | abc240                         | [E - Ranges on Tree](https://atcoder.jp/contests/abc240/tasks/abc240_e)                                          | DFS                                     |
 | abc239                         | [E - Subtree K-th Max](https://atcoder.jp/contests/abc239/tasks/abc239_e)                                        | DFS                                     |
-| abc014                         | [D - 閉路](https://atcoder.jp/contests/abc014/tasks/abc014_4)                                                    | DFS, Segment Tree, LCA                  |
+| abc014                         | [D - 閉路](https://atcoder.jp/contests/abc014/tasks/abc014_4)                                                    | Euler Tour, Segment Tree, LCA           |
 | abc284                         | [C - Count Connected Components](https://atcoder.jp/contests/abc284/tasks/abc284_c)                              | BFS                                     |
 | abc282                         | [D - Make Bipartite 2](https://atcoder.jp/contests/abc282/tasks/abc282_d)                                        | BFS                                     |
 | abc270                         | [C - Simple path](https://atcoder.jp/contests/abc270/tasks/abc270_c)                                             | BFS                                     |
@@ -439,6 +439,7 @@ Playing [AtCoder](https://atcoder.jp/).
 | abc191                         | [E - Come Back Quickly](https://atcoder.jp/contests/abc191/tasks/abc191_e)                                       | Dijkstra                                |
 | abc192                         | [E - Train](https://atcoder.jp/contests/abc192/tasks/abc192_e)                                                   | Dijkstra                                |
 | past201912-open                | [J - 地ならし](https://atcoder.jp/contests/past201912-open/tasks/past201912_j)                                   | Dijkstra                                |
+| past201912-open                | [K - 巨大企業](https://atcoder.jp/contests/past201912-open/tasks/past201912_k)                                   | Euler Tour                              |
 
 ## References
 
