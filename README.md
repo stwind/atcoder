@@ -438,6 +438,7 @@ Playing [AtCoder](https://atcoder.jp/).
 | past202005-open                | [G - グリッド金移動](https://atcoder.jp/contests/past202005-open/tasks/past202005_g)                         | BFS                                     |
 | abc191                         | [E - Come Back Quickly](https://atcoder.jp/contests/abc191/tasks/abc191_e)                                       | Dijkstra                                |
 | abc192                         | [E - Train](https://atcoder.jp/contests/abc192/tasks/abc192_e)                                                   | Dijkstra                                |
+| past201912-open                | [J - 地ならし](https://atcoder.jp/contests/past201912-open/tasks/past201912_j)                                   | Dijkstra                                |
 
 ## References
 
