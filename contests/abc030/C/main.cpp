@@ -2,20 +2,31 @@
 using namespace std;
 
 // clang-format off
-#define forn(i, x, y) for(int i = x; i < y; i++)
-#define IOS ios_base::sync_with_stdio(false); cin.tie(0); cout.tie(NULL)
+#define PARENS ()
+#define EXPAND(...) EXPAND4(EXPAND4(EXPAND4(EXPAND4(__VA_ARGS__))))
+#define EXPAND4(...) EXPAND3(EXPAND3(EXPAND3(EXPAND3(__VA_ARGS__))))
+#define EXPAND3(...) EXPAND2(EXPAND2(EXPAND2(EXPAND2(__VA_ARGS__))))
+#define EXPAND2(...) EXPAND1(EXPAND1(EXPAND1(EXPAND1(__VA_ARGS__))))
+#define EXPAND1(...) __VA_ARGS__
+#define FOR_EACH(macro, ...) __VA_OPT__(EXPAND(FOR_EACH_HELPER(macro, __VA_ARGS__)))
+#define FOR_EACH_HELPER(macro, a1, ...) macro(a1) __VA_OPT__(FOR_EACH_AGAIN PARENS (macro, __VA_ARGS__))
+#define FOR_EACH_AGAIN() FOR_EACH_HELPER
+#define REP(i, x, y) for(int i = x; i < y; i++)
+#define REPR(i, x, y) for(int i = x; i >= y; i--)
+#define IOS ios_base::sync_with_stdio(false); cin.tie(0);
 #define all(s) s.begin(), s.end()
 #define rall(s) s.rbegin(), s.rend()
 #define MOD 1000000007
-#define INF (1 << 30)
-#define DEBUG(x) cout << #x << ": " << x << endl;
-#define DEBUGV(a) for(auto it = a.begin() ; it != a.end(); it++) { cout << *it << " "; } cout << endl;
+#define DBG(x) cout << #x << ": " << x << " ";
+#define DEBUG(...) FOR_EACH(DBG, __VA_ARGS__) cout << endl;
+#define DEBUGV(a) cout << #a << ": "; for(auto it = a.begin() ; it != a.end(); it++) { cout << *it << " "; } cout << endl;
 #define CEIL(a, b) ((a) + (b) - 1) / (b)
 #define IN(x, a, b) (a <= x && x < b)
 template<class T> inline bool chmax(T& a, T b) { if (a < b) { a = b; return 1; } return 0; }
 template<class T> inline bool chmin(T& a, T b) { if (a > b) { a = b; return 1; } return 0; }
-template<typename T> void add(T &a, T b) { a += b; if (a >= MOD) a -= MOD; }
-template<typename T> void sub(T &a, T b) { a -= b; if (a < 0) a += MOD; }
+template <typename T> T sub(T a, T b) { return (a + MOD - b) % MOD; }
+template <typename T> T add(T a, T b) { return (a + b) % MOD; }
+template <typename T> T mul(T a, T b) { return 1ULL * a * b % MOD; }
 // clang-format on
 
 using LL = long long;
@@ -26,40 +37,25 @@ using VVLL = vector<VLL>;
 using PII = pair<int, int>;
 using PLL = pair<LL, LL>;
 
+
 int main() {
   IOS;
-  LL N, M, X, Y;
-  cin >> N >> M >> X >> Y;
-  VLL A(N), B(M);
-  forn(i, 0, N) cin >> A[i];
-  forn(i, 0, M) cin >> B[i];
 
-  auto lge = [&](VLL &arr, LL x) -> int {
-    int lo = -1, hi = arr.size(), mid;
-    while (hi - lo > 1) {
-      mid = (lo + hi) / 2;
-      if (arr[mid] < x)
-        lo = mid;
-      else
-        hi = mid;
-    }
-    return hi;
-  };
+  int N, M; cin >> N >> M;
+  int X, Y; cin >> X >> Y;
+  VI A(N), B(M);
+  REP(i, 0, N) cin >> A[i];
+  REP(i, 0, M) cin >> B[i];
 
-  LL cur = 0;
-  int tot = 0;
-  while (true) {
-    int idx = lge(A, cur);
-    if (!IN(idx, 0, N))
-      break;
-    cur = A[idx] + X;
-    idx = lge(B, cur);
-    if (!IN(idx, 0, M))
-      break;
-    cur = B[idx] + Y;
-    tot++;
+  int turn = 0;
+  for (int t = 0, i = 0; (turn % 2 ? M : N) - i > 0;) {
+    turn++;
+    if (turn % 2)
+      i = lower_bound(all(B), t = A[i] + X) - B.begin();
+    else
+      i = lower_bound(all(A), t = B[i] + Y) - A.begin();
   }
-  cout << tot << endl;
+  cout << turn / 2 << endl;
 
   return 0;
 }
