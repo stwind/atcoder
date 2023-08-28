@@ -442,6 +442,7 @@ Playing [AtCoder](https://atcoder.jp/).
 | past201912-open                | [K - 巨大企業](https://atcoder.jp/contests/past201912-open/tasks/past201912_k)                                   | Euler Tour                              |
 | abc163                         | [F - path pass i](https://atcoder.jp/contests/abc163/tasks/abc163_f)                                             | DFS                                     |
 | abc030                         | [C - 飛行機乗り](https://atcoder.jp/contests/abc030/tasks/abc030_c)                                              | 二分探索                                |
+| abc119                         | [D - Lazy Faith](https://atcoder.jp/contests/abc119/tasks/abc119_d)                                              | 二分探索                                |
 
 ## References
 
