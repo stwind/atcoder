@@ -444,6 +444,7 @@ Playing [AtCoder](https://atcoder.jp/).
 | abc030                         | [C - 飛行機乗り](https://atcoder.jp/contests/abc030/tasks/abc030_c)                                              | 二分探索                                |
 | abc119                         | [D - Lazy Faith](https://atcoder.jp/contests/abc119/tasks/abc119_d)                                              | 二分探索                                |
 | abc128                         | [E - Roadwork](https://atcoder.jp/contests/abc128/tasks/abc128_e)                                                | Misc                                    |
+| abc143                         | [D - Triangles](https://atcoder.jp/contests/abc143/tasks/abc143_d)                                               | 二分探索                                |
 
 ## References
 
