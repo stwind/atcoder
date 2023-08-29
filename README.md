@@ -445,6 +445,7 @@ Playing [AtCoder](https://atcoder.jp/).
 | abc119                         | [D - Lazy Faith](https://atcoder.jp/contests/abc119/tasks/abc119_d)                                              | 二分探索                                |
 | abc128                         | [E - Roadwork](https://atcoder.jp/contests/abc128/tasks/abc128_e)                                                | Misc                                    |
 | abc143                         | [D - Triangles](https://atcoder.jp/contests/abc143/tasks/abc143_d)                                               | 二分探索                                |
+| abc144                         | [E - Gluttony](https://atcoder.jp/contests/abc144/tasks/abc144_e)                                                | 二分探索                                |
 
 ## References
 
