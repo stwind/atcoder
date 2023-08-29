@@ -443,6 +443,7 @@ Playing [AtCoder](https://atcoder.jp/).
 | abc163                         | [F - path pass i](https://atcoder.jp/contests/abc163/tasks/abc163_f)                                             | DFS                                     |
 | abc030                         | [C - 飛行機乗り](https://atcoder.jp/contests/abc030/tasks/abc030_c)                                              | 二分探索                                |
 | abc119                         | [D - Lazy Faith](https://atcoder.jp/contests/abc119/tasks/abc119_d)                                              | 二分探索                                |
+| abc128                         | [E - Roadwork](https://atcoder.jp/contests/abc128/tasks/abc128_e)                                                | Misc                                    |
 
 ## References
 
