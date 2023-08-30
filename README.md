@@ -446,6 +446,7 @@ Playing [AtCoder](https://atcoder.jp/).
 | abc128                         | [E - Roadwork](https://atcoder.jp/contests/abc128/tasks/abc128_e)                                                | Misc                                    |
 | abc143                         | [D - Triangles](https://atcoder.jp/contests/abc143/tasks/abc143_d)                                               | 二分探索                                |
 | abc144                         | [E - Gluttony](https://atcoder.jp/contests/abc144/tasks/abc144_e)                                                | 二分探索                                |
+| abc146                         | [C - Buy an Integer](https://atcoder.jp/contests/abc146/tasks/abc146_c)                                          | 二分探索                                |
 
 ## References
 
