@@ -448,6 +448,7 @@ Playing [AtCoder](https://atcoder.jp/).
 | abc144                         | [E - Gluttony](https://atcoder.jp/contests/abc144/tasks/abc144_e)                                                | 二分探索                                |
 | abc146                         | [C - Buy an Integer](https://atcoder.jp/contests/abc146/tasks/abc146_c)                                          | 二分探索                                |
 | abc174                         | [E - Logs](https://atcoder.jp/contests/abc174/tasks/abc174_e)                                                    | 二分探索                                |
+| abc192                         | [D - Base n](https://atcoder.jp/contests/abc192/tasks/abc192_d)                                                  | 二分探索                                |
 
 ## References
 
