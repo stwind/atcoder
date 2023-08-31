@@ -450,6 +450,7 @@ Playing [AtCoder](https://atcoder.jp/).
 | abc174                         | [E - Logs](https://atcoder.jp/contests/abc174/tasks/abc174_e)                                                    | 二分探索                                |
 | abc192                         | [D - Base n](https://atcoder.jp/contests/abc192/tasks/abc192_d)                                                  | 二分探索                                |
 | abc205                         | [D - Kth Excluded](https://atcoder.jp/contests/abc205/tasks/abc205_d)                                            | 二分探索                                |
+| abc212                         | [C - Min Difference](https://atcoder.jp/contests/abc212/tasks/abc212_c)                                          | 二分探索                                |
 
 ## References
 
