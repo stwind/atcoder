@@ -53,7 +53,7 @@ int main() {
   LL x4 = X * 4, ysq = Y * Y, y2 = Y * 2;
   LL x4my2 = x4 - y2;
 
-  LL k1 = (x4my2 < 0) ? (x4my2 < -ysq ? -1 : 0) : (x4my2 / ysq) + 1;
+  LL k1 = (x4my2 < 0) ? (x4my2 < -ysq ? -1 : 0) : CEIL(x4my2, ysq);
   LL k2 = (x4 + y2) / ysq;
 
   if (k1 > k2) {
