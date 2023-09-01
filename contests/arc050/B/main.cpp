@@ -44,12 +44,11 @@ int main() {
   LL x, y; cin >> x >> y;
 
   function<bool(LL)> check = [&](LL k) {
-    if (k > min(R, B)) return false;
     LL a = (R - k) / (x - 1), b = (B - k) / (y - 1);
     return a + b >= k;
     };
 
-  LL l = 0, r = R + B, m;
+  LL l = 0, r = min(R, B) + 1, m;
   while (r - l > 1) {
     m = (l + r) / 2;
     (check(m) ? l : r) = m;
