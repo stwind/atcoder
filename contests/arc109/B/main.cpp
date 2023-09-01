@@ -43,7 +43,7 @@ int main() {
   LL N; cin >> N;
 
   function<bool(LL)> check = [&](LL k) {
-    return k * (k + 1) / 2 <= N + 1;
+    return k <= ((N + 1) * 2) / (k + 1);
     };
 
   LL l = 0, r = 2e9, m;
