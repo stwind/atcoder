@@ -454,6 +454,7 @@ Playing [AtCoder](https://atcoder.jp/).
 | arc004                         | [C - 平均値太郎の憂鬱 ( The melancholy of Taro Heikinchi )](https://atcoder.jp/contests/arc004/tasks/arc004_3)   | 数学                                    |
 | arc037                         | [C - 億マス計算](https://atcoder.jp/contests/arc037/tasks/arc037_c)                                              | 二分探索                                |
 | arc050                         | [B - 花束](https://atcoder.jp/contests/arc050/tasks/arc050_b)                                                    | 二分探索                                |
+| arc109                         | [B - log](https://atcoder.jp/contests/arc109/tasks/arc109_b)                                                     | 二分探索                                |
 
 ## References
 
