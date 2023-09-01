@@ -453,6 +453,7 @@ Playing [AtCoder](https://atcoder.jp/).
 | abc212                         | [C - Min Difference](https://atcoder.jp/contests/abc212/tasks/abc212_c)                                          | 二分探索                                |
 | arc004                         | [C - 平均値太郎の憂鬱 ( The melancholy of Taro Heikinchi )](https://atcoder.jp/contests/arc004/tasks/arc004_3)   | 数学                                    |
 | arc037                         | [C - 億マス計算](https://atcoder.jp/contests/arc037/tasks/arc037_c)                                              | 二分探索                                |
+| arc050                         | [B - 花束](https://atcoder.jp/contests/arc050/tasks/arc050_b)                                                    | 二分探索                                |
 
 ## References
 
