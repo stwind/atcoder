@@ -40,36 +40,28 @@ using PLL = pair<LL, LL>;
 int main() {
   IOS;
 
-  LL X, Y; char c;
-  cin >> X >> c >> Y;
+  LL N, K; cin >> N >> K;
+  VLL A(N), B(N);
+  REP(i, 0, N) cin >> A[i];
+  REP(i, 0, N) cin >> B[i];
+  sort(all(A));
+  sort(all(B));
 
-  LL g = gcd(X, Y);
-  X /= g, Y /= g;
+  function<LL(LL)> check = [&](LL x) {
+    LL res = 0;
+    for (int i = 0, j = N; i < N; i++) {
+      while (j > 0 && x <= A[i] * B[j - 1]) j--;
+      res += j;
+    }
+    return res < K;
+    };
 
-  LL x4 = X * 4, ysq = Y * Y, y2 = Y * 2;
-  LL x4my2 = x4 - y2;
-
-  LL k1 = (x4my2 < 0) ? (x4my2 < -ysq ? -1 : 0) : CEIL(x4my2, ysq);
-  LL k2 = (x4 + y2) / ysq;
-
-  if (k1 > k2) {
-    cout << "Impossible" << endl;
-    return 0;
+  LL l = 0, r = A[N - 1] * B[N - 1] + 1, m;
+  while (r - l > 1) {
+    m = (l + r) / 2;
+    (check(m) ? l : r) = m;
   }
-
-  bool good = false;
-  for (LL k = k1;k <= k2;k++) {
-    if ((k * Y) % 2) continue;
-
-    LL N = k * Y / 2;
-    LL M = (N * (N + 1) - X * k);
-    if (M % 2) continue;
-    M /= 2;
-    if (M <= 0 || M > N) continue;
-    cout << N << " " << M << endl;
-    good = true;
-  }
-  if (!good) cout << "Impossible" << endl;
+  cout << l << endl;
 
   return 0;
 }
