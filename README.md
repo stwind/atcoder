@@ -459,6 +459,7 @@ Playing [AtCoder](https://atcoder.jp/).
 | abc173                         | [C - H and V](https://atcoder.jp/contests/abc173/tasks/abc173_c)                                                 | bit 全探索                              |
 | abc190                         | [C - Bowls and Dishes](https://atcoder.jp/contests/abc190/tasks/abc190_c)                                        | bit 全探索                              |
 | past201912-open                | [G - 組分け](https://atcoder.jp/contests/past201912-open/tasks/past201912_g)                                     | bit 全探索                              |
+| arc107                         | [B - Quadruple](https://atcoder.jp/contests/arc107/tasks/arc107_b)                                               | Misc                                    |
 
 ## References
 
