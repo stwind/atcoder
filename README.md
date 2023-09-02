@@ -455,7 +455,7 @@ Playing [AtCoder](https://atcoder.jp/).
 | arc037                         | [C - 億マス計算](https://atcoder.jp/contests/arc037/tasks/arc037_c)                                              | 二分探索                                |
 | arc050                         | [B - 花束](https://atcoder.jp/contests/arc050/tasks/arc050_b)                                                    | 二分探索                                |
 | arc109                         | [B - log](https://atcoder.jp/contests/arc109/tasks/arc109_b)                                                     | 二分探索                                |
-| past202005-open                | [J - 回転寿司](https://atcoder.jp/contests/past202005-open/tasks/past202005_j)                                   | 二分探索                                |
+| abc080                         | [C - Shopping Street](https://atcoder.jp/contests/abc080/tasks/abc080_c)                                         | bit 全探索                              |
 
 ## References
 
