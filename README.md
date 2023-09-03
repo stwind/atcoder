@@ -462,6 +462,7 @@ Playing [AtCoder](https://atcoder.jp/).
 | arc107                         | [B - Quadruple](https://atcoder.jp/contests/arc107/tasks/arc107_b)                                               | Misc                                    |
 | abc016                         | [C - 友達の友達](https://atcoder.jp/contests/abc016/tasks/abc016_3)                                              | Floyd-Warshall                          |
 | abc143                         | [E - Travel by Car](https://atcoder.jp/contests/abc143/tasks/abc143_e)                                           | Floyd-Warshall                          |
+| arc001                         | [B - リモコン](https://atcoder.jp/contests/arc001/tasks/arc001_2)                                                | BFS                                     |
 
 ## References
 
