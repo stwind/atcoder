@@ -460,6 +460,7 @@ Playing [AtCoder](https://atcoder.jp/).
 | abc190                         | [C - Bowls and Dishes](https://atcoder.jp/contests/abc190/tasks/abc190_c)                                        | bit 全探索                              |
 | past201912-open                | [G - 組分け](https://atcoder.jp/contests/past201912-open/tasks/past201912_g)                                     | bit 全探索                              |
 | arc107                         | [B - Quadruple](https://atcoder.jp/contests/arc107/tasks/arc107_b)                                               | Misc                                    |
+| abc016                         | [C - 友達の友達](https://atcoder.jp/contests/abc016/tasks/abc016_3)                                              | Floyd-Warshall                          |
 
 ## References
 
