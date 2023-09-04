@@ -463,6 +463,7 @@ Playing [AtCoder](https://atcoder.jp/).
 | abc016                         | [C - 友達の友達](https://atcoder.jp/contests/abc016/tasks/abc016_3)                                              | Floyd-Warshall                          |
 | abc143                         | [E - Travel by Car](https://atcoder.jp/contests/abc143/tasks/abc143_e)                                           | Floyd-Warshall                          |
 | arc001                         | [B - リモコン](https://atcoder.jp/contests/arc001/tasks/arc001_2)                                                | BFS                                     |
+| abc123                         | [D - Cake 123](https://atcoder.jp/contests/abc123/tasks/abc123_d)                                                | Heap                                    |
 
 ## References
 
