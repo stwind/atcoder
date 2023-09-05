@@ -466,6 +466,7 @@ Playing [AtCoder](https://atcoder.jp/).
 | abc123                         | [D - Cake 123](https://atcoder.jp/contests/abc123/tasks/abc123_d)                                                | Heap                                    |
 | abc137                         | [D - Summer Vacation](https://atcoder.jp/contests/abc137/tasks/abc137_d)                                         | Heap                                    |
 | abc141                         | [D - Powerful Discount Tickets](https://atcoder.jp/contests/abc141/tasks/abc141_d)                               | Heap                                    |
+| past202004-open                | [F - タスクの消化](https://atcoder.jp/contests/past202004-open/tasks/past202004_f)                               | Heap                                    |
 
 ## References
 
