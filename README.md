@@ -469,6 +469,7 @@ Playing [AtCoder](https://atcoder.jp/).
 | past202004-open                | [F - タスクの消化](https://atcoder.jp/contests/past202004-open/tasks/past202004_f)                               | Heap                                    |
 | past202004-open                | [L - 辞書順最小](https://atcoder.jp/contests/past202004-open/tasks/past202004_l)                                 | Heap                                    |
 | abc052                         | [C - Factors of Factorial](https://atcoder.jp/contests/abc052/tasks/arc067_a)                                    | 素因数分解                              |
+| abc114                         | [D - 756](https://atcoder.jp/contests/abc114/tasks/abc114_d)                                                     | 素因数分解                              |
 
 ## References
 
