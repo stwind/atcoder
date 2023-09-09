@@ -477,6 +477,7 @@ Playing [AtCoder](https://atcoder.jp/).
 | abc177                         | [E - Coprime](https://atcoder.jp/contests/abc177/tasks/abc177_e)                                                 | 素因数分解                              |
 | arc034                         | [C - 約数かつ倍数](https://atcoder.jp/contests/arc034/tasks/arc034_3)                                            | 素因数分解                              |
 | arc026                         | [B - 完全数](https://atcoder.jp/contests/arc026/tasks/arc026_2)                                                  | 約数列挙                                |
+| abc190                         | [D - Staircase Sequences](https://atcoder.jp/contests/abc190/tasks/abc190_d)                                     | 約数列挙                                |
 
 ## References
 
