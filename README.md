@@ -476,6 +476,7 @@ Playing [AtCoder](https://atcoder.jp/).
 | abc172                         | [D - Sum of Divisors](https://atcoder.jp/contests/abc172/tasks/abc172_d)                                         | 素因数分解                              |
 | abc177                         | [E - Coprime](https://atcoder.jp/contests/abc177/tasks/abc177_e)                                                 | 素因数分解                              |
 | arc034                         | [C - 約数かつ倍数](https://atcoder.jp/contests/arc034/tasks/arc034_3)                                            | 素因数分解                              |
+| arc026                         | [B - 完全数](https://atcoder.jp/contests/arc026/tasks/arc026_2)                                                  | 約数列挙                                |
 
 ## References
 
