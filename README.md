@@ -482,6 +482,7 @@ Playing [AtCoder](https://atcoder.jp/).
 | abc132                         | [D - Blue and Red Balls](https://atcoder.jp/contests/abc132/tasks/abc132_d)                                      | 組み合わせ                              |
 | abc151                         | [E - Max-Min Sums](https://atcoder.jp/contests/abc151/tasks/abc151_e)                                            | 組み合わせ                              |
 | abc171                         | [F - Strivore](https://atcoder.jp/contests/abc171/tasks/abc171_f)                                                | 組み合わせ                              |
+| abc178                         | [D - Redistribution](https://atcoder.jp/contests/abc178/tasks/abc178_d)                                          | 組み合わせ                              |
 
 ## References
 
