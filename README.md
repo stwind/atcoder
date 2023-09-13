@@ -484,6 +484,7 @@ Playing [AtCoder](https://atcoder.jp/).
 | abc171                         | [F - Strivore](https://atcoder.jp/contests/abc171/tasks/abc171_f)                                                | 組み合わせ                              |
 | abc178                         | [D - Redistribution](https://atcoder.jp/contests/abc178/tasks/abc178_d)                                          | 組み合わせ                              |
 | arc023                         | [C - タコヤ木](https://atcoder.jp/contests/arc023/tasks/arc023_3)                                                | 組み合わせ                              |
+| arc039                         | [B - 高橋幼稚園](https://atcoder.jp/contests/arc039/tasks/arc039_b)                                              | 組み合わせ                              |
 
 ## References
 
