@@ -486,6 +486,7 @@ Playing [AtCoder](https://atcoder.jp/).
 | arc023                         | [C - タコヤ木](https://atcoder.jp/contests/arc023/tasks/arc023_3)                                                | 組み合わせ                              |
 | arc039                         | [B - 高橋幼稚園](https://atcoder.jp/contests/arc039/tasks/arc039_b)                                              | 組み合わせ                              |
 | abc174                         | [F - Range Set Query](https://atcoder.jp/contests/abc174/tasks/abc174_f)                                         | Binary Indexed Tree                     |
+| abc194                         | [E - Mex Min](https://atcoder.jp/contests/abc194/tasks/abc194_e)                                                 | しゃくとり法                            |
 
 ## References
 
