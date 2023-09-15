@@ -487,6 +487,7 @@ Playing [AtCoder](https://atcoder.jp/).
 | arc039                         | [B - 高橋幼稚園](https://atcoder.jp/contests/arc039/tasks/arc039_b)                                              | 組み合わせ                              |
 | abc174                         | [F - Range Set Query](https://atcoder.jp/contests/abc174/tasks/abc174_f)                                         | Binary Indexed Tree                     |
 | abc194                         | [E - Mex Min](https://atcoder.jp/contests/abc194/tasks/abc194_e)                                                 | しゃくとり法                            |
+| arc045                         | [B - ドキドキデート大作戦高橋君](https://atcoder.jp/contests/arc045/tasks/arc045_b)                        | 累積和, いもす法                        |
 
 ## References
 
