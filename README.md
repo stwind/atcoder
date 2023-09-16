@@ -488,6 +488,7 @@ Playing [AtCoder](https://atcoder.jp/).
 | abc174                         | [F - Range Set Query](https://atcoder.jp/contests/abc174/tasks/abc174_f)                                         | Binary Indexed Tree                     |
 | abc194                         | [E - Mex Min](https://atcoder.jp/contests/abc194/tasks/abc194_e)                                                 | しゃくとり法                            |
 | arc045                         | [B - ドキドキデート大作戦高橋君](https://atcoder.jp/contests/arc045/tasks/arc045_b)                        | 累積和, いもす法                        |
+| arc043                         | [B - 難易度](https://atcoder.jp/contests/arc043/tasks/arc043_b)                                                  | 累積和, 二分探索                        |
 
 ## References
 
