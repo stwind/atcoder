@@ -490,6 +490,7 @@ Playing [AtCoder](https://atcoder.jp/).
 | arc045                         | [B - ドキドキデート大作戦高橋君](https://atcoder.jp/contests/arc045/tasks/arc045_b)                        | 累積和, いもす法                        |
 | arc043                         | [B - 難易度](https://atcoder.jp/contests/arc043/tasks/arc043_b)                                                  | 累積和, 二分探索                        |
 | chokudai_S001                  | [K - 辞書順で何番目？](https://atcoder.jp/contests/chokudai_S001/tasks/chokudai_S001_k)                        | Binary Indexed Tree                     |
+| abc170                         | [E - Smart Infants](https://atcoder.jp/contests/abc170/tasks/abc170_e)                                           | Multiset                                |
 
 ## References
 
