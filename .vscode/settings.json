@@ -58,7 +58,9 @@
     "limits": "cpp",
     "format": "cpp",
     "queue": "cpp",
-    "stack": "cpp"
+    "stack": "cpp",
+    "__node_handle": "cpp",
+    "any": "cpp"
   },
   "C_Cpp.default.compilerPath": "/opt/homebrew/bin/gcc-13"
 }
