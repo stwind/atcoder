@@ -492,6 +492,7 @@ Playing [AtCoder](https://atcoder.jp/).
 | chokudai_S001                  | [K - 辞書順で何番目？](https://atcoder.jp/contests/chokudai_S001/tasks/chokudai_S001_k)                        | Binary Indexed Tree                     |
 | abc170                         | [E - Smart Infants](https://atcoder.jp/contests/abc170/tasks/abc170_e)                                           | Multiset                                |
 | abc177                         | [F - I hate Shortest Path Problem](https://atcoder.jp/contests/abc177/tasks/abc177_f)                            | Multiset                                |
+| colopl2018-qual                | [C - すぬけそだて――ごはん――](https://atcoder.jp/contests/colopl2018-qual/tasks/colopl2018_qual_c)            | bit 全探索                              |
 
 ## References
 
