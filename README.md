@@ -493,6 +493,7 @@ Playing [AtCoder](https://atcoder.jp/).
 | abc170                         | [E - Smart Infants](https://atcoder.jp/contests/abc170/tasks/abc170_e)                                           | Multiset                                |
 | abc177                         | [F - I hate Shortest Path Problem](https://atcoder.jp/contests/abc177/tasks/abc177_f)                            | Multiset                                |
 | colopl2018-qual                | [C - すぬけそだて――ごはん――](https://atcoder.jp/contests/colopl2018-qual/tasks/colopl2018_qual_c)            | bit 全探索                              |
+| dwacon6th-prelims              | [B - Fusing Slimes](https://atcoder.jp/contests/dwacon6th-prelims/tasks/dwacon6th_prelims_b)                     | 累積和, 逆元                            |
 
 ## References
 
