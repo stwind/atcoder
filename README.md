@@ -496,6 +496,7 @@ Playing [AtCoder](https://atcoder.jp/).
 | dwacon6th-prelims              | [B - Fusing Slimes](https://atcoder.jp/contests/dwacon6th-prelims/tasks/dwacon6th_prelims_b)                     | 累積和, 逆元                            |
 | abc150                         | [E - Change a Little Bit](https://atcoder.jp/contests/abc150/tasks/abc150_e)                                     | 組み合わせ                              |
 | abc149                         | [F - Surrounded Nodes](https://atcoder.jp/contests/abc149/tasks/abc149_f)                                        | 全方位木 DP, 逆元                       |
+| dwacon6th-prelims              | [C - Cookie Distribution](https://atcoder.jp/contests/dwacon6th-prelims/tasks/dwacon6th_prelims_c)               | DP, 組み合わせ                          |
 
 ## References
 
