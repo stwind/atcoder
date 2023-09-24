@@ -499,6 +499,7 @@ Playing [AtCoder](https://atcoder.jp/).
 | dwacon6th-prelims              | [C - Cookie Distribution](https://atcoder.jp/contests/dwacon6th-prelims/tasks/dwacon6th_prelims_c)               | DP, 組み合わせ                          |
 | dp                             | [A - Frog 1](https://atcoder.jp/contests/dp/tasks/dp_a)                                                          | DP                                      |
 | dp                             | [B - Frog 2](https://atcoder.jp/contests/dp/tasks/dp_b)                                                          | DP                                      |
+| dp                             | [C - Vacation](https://atcoder.jp/contests/dp/tasks/dp_c)                                                        | DP                                      |
 
 ## References
 
