@@ -503,6 +503,7 @@ Playing [AtCoder](https://atcoder.jp/).
 | dp                             | [D - Knapsack 1](https://atcoder.jp/contests/dp/tasks/dp_d)                                                      | DP                                      |
 | dp                             | [E - Knapsack 2](https://atcoder.jp/contests/dp/tasks/dp_e)                                                      | DP                                      |
 | dp                             | [F - LCS](https://atcoder.jp/contests/dp/tasks/dp_f)                                                             | DP                                      |
+| dp                             | [G - Longest Path](https://atcoder.jp/contests/dp/tasks/dp_g)                                                    | DP                                      |
 
 ## References
 
