@@ -498,6 +498,7 @@ Playing [AtCoder](https://atcoder.jp/).
 | abc149                         | [F - Surrounded Nodes](https://atcoder.jp/contests/abc149/tasks/abc149_f)                                        | 全方位木 DP, 逆元                       |
 | dwacon6th-prelims              | [C - Cookie Distribution](https://atcoder.jp/contests/dwacon6th-prelims/tasks/dwacon6th_prelims_c)               | DP, 組み合わせ                          |
 | dp                             | [A - Frog 1](https://atcoder.jp/contests/dp/tasks/dp_a)                                                          | DP                                      |
+| dp                             | [B - Frog 2](https://atcoder.jp/contests/dp/tasks/dp_b)                                                          | DP                                      |
 
 ## References
 
