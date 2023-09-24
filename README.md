@@ -500,6 +500,7 @@ Playing [AtCoder](https://atcoder.jp/).
 | dp                             | [A - Frog 1](https://atcoder.jp/contests/dp/tasks/dp_a)                                                          | DP                                      |
 | dp                             | [B - Frog 2](https://atcoder.jp/contests/dp/tasks/dp_b)                                                          | DP                                      |
 | dp                             | [C - Vacation](https://atcoder.jp/contests/dp/tasks/dp_c)                                                        | DP                                      |
+| dp                             | [D - Knapsack 1](https://atcoder.jp/contests/dp/tasks/dp_d)                                                      | DP                                      |
 
 ## References
 
