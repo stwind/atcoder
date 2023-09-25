@@ -50,7 +50,8 @@ int main() {
 
   REP(i, 0, N) REP(j, 0, i + 2) {
     dp[i + 1][j] = dp[i][j] * (1 - P[i]);
-    if (j > 0) dp[i + 1][j] += dp[i][j - 1] * P[i];
+    if (j > 0)
+      dp[i + 1][j] += dp[i][j - 1] * P[i];
   }
 
   double res = 0;
