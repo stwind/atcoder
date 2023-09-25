@@ -505,6 +505,7 @@ Playing [AtCoder](https://atcoder.jp/).
 | dp                             | [F - LCS](https://atcoder.jp/contests/dp/tasks/dp_f)                                                             | DP                                      |
 | dp                             | [G - Longest Path](https://atcoder.jp/contests/dp/tasks/dp_g)                                                    | DP                                      |
 | dp                             | [H - Grid 1](https://atcoder.jp/contests/dp/tasks/dp_h)                                                          | DP                                      |
+| dp                             | [I - Coins](https://atcoder.jp/contests/dp/tasks/dp_i)                                                           | DP                                      |
 
 ## References
 
