@@ -506,6 +506,7 @@ Playing [AtCoder](https://atcoder.jp/).
 | dp                             | [G - Longest Path](https://atcoder.jp/contests/dp/tasks/dp_g)                                                    | DP                                      |
 | dp                             | [H - Grid 1](https://atcoder.jp/contests/dp/tasks/dp_h)                                                          | DP                                      |
 | dp                             | [I - Coins](https://atcoder.jp/contests/dp/tasks/dp_i)                                                           | DP                                      |
+| abc280                         | [E - Critical Hit](https://atcoder.jp/contests/abc280/tasks/abc280_e)                                            | DP                                      |
 
 ## References
 
