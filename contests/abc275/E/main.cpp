@@ -16,7 +16,7 @@ using namespace std;
 #define IOS ios_base::sync_with_stdio(false); cin.tie(0);
 #define all(s) s.begin(), s.end()
 #define rall(s) s.rbegin(), s.rend()
-#define MOD 1000000007
+#define MOD 998244353
 #define DBG(x) cout << #x << ": " << x << " ";
 #define DEBUG(...) FOR_EACH(DBG, __VA_ARGS__) cout << endl;
 #define DEBUGV(a) cout << #a << ": "; for(auto it = a.begin() ; it != a.end(); it++) { cout << *it << " "; } cout << endl;
@@ -37,30 +37,37 @@ using VVLL = vector<VLL>;
 using PII = pair<int, int>;
 using PLL = pair<LL, LL>;
 
+LL minv(LL a, LL m = MOD) {
+  LL b = m, u = 1, v = 0;
+  while (b) {
+    LL t = a / b;
+    swap(a -= t * b, b);
+    swap(u -= t * v, v);
+  }
+  return (u % m + m) % m;
+}
+
 int main() {
   IOS;
 
-  int N; cin >> N;
-  VI C(4);
-  REP(i, 0, N) {
-    int a; cin >> a;
-    C[a]++;
+  int N, M, K; cin >> N >> M >> K;
+
+  LL MI = minv(M);
+
+  VVLL dp(K + 1, VLL(N + 1));
+  dp[0][0] = 1;
+
+  REP(i, 0, K) REP(j, 0, N) {
+    REP(k, 1, M + 1) {
+      int l = j + k;
+      if (l > N) l = 2 * N - l;
+      dp[i + 1][l] = add(dp[i + 1][l], mul(dp[i][j], MI));
+    }
   }
 
-  using VD = vector<double>;
-  using VVD = vector<VD>;
-  using VVVD = vector<VVD>;
-  VVVD dp(N + 2, VVD(N + 2, VD(N + 2)));
-  REP(c, 0, N + 1) REP(b, 0, N + 1) REP(a, 0, N + 1) {
-    double s = a + b + c;
-    if (s == 0) continue;
-
-    dp[a][b][c] = 1. * N / s;
-    if (a) dp[a][b][c] += dp[a - 1][b][c] * a / s;
-    if (b) dp[a][b][c] += dp[a + 1][b - 1][c] * b / s;
-    if (c) dp[a][b][c] += dp[a][b + 1][c - 1] * c / s;
-  }
-  cout << fixed << setprecision(12) << dp[C[1]][C[2]][C[3]] << endl;
+  LL res = 0;
+  REP(i, 1, K + 1) res = add(res, dp[i][N]);
+  cout << res << endl;
 
   return 0;
 }

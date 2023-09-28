@@ -508,6 +508,7 @@ Playing [AtCoder](https://atcoder.jp/).
 | dp                             | [I - Coins](https://atcoder.jp/contests/dp/tasks/dp_i)                                                           | DP                                      |
 | abc280                         | [E - Critical Hit](https://atcoder.jp/contests/abc280/tasks/abc280_e)                                            | DP                                      |
 | dp                             | [J - Sushi](https://atcoder.jp/contests/dp/tasks/dp_j)                                                           | DP                                      |
+| abc275                         | [E - Sugoroku 4](https://atcoder.jp/contests/abc275/tasks/abc275_e)                                              | DP                                      |
 
 ## References
 
