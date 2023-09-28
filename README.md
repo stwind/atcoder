@@ -507,6 +507,7 @@ Playing [AtCoder](https://atcoder.jp/).
 | dp                             | [H - Grid 1](https://atcoder.jp/contests/dp/tasks/dp_h)                                                          | DP                                      |
 | dp                             | [I - Coins](https://atcoder.jp/contests/dp/tasks/dp_i)                                                           | DP                                      |
 | abc280                         | [E - Critical Hit](https://atcoder.jp/contests/abc280/tasks/abc280_e)                                            | DP                                      |
+| dp                             | [J - Sushi](https://atcoder.jp/contests/dp/tasks/dp_j)                                                           | DP                                      |
 
 ## References
 
