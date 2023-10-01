@@ -513,6 +513,7 @@ Playing [AtCoder](https://atcoder.jp/).
 | tdpc                           | [J - ボール](https://atcoder.jp/contests/tdpc/tasks/tdpc_ball)                                                 | DP                                      |
 | past201912-open                | [O - 持久戦](https://atcoder.jp/contests/past201912-open/tasks/past201912_o)                                     | DP                                      |
 | past201912-open                | [A - 2 倍チェック](https://atcoder.jp/contests/past201912-open/tasks/past201912_a)                               | Misc                                    |
+| past201912-open                | [M - おまかせ](https://atcoder.jp/contests/past201912-open/tasks/past201912_m)                                   | 二分探索                                |
 
 ## References
 
