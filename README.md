@@ -514,6 +514,7 @@ Playing [AtCoder](https://atcoder.jp/).
 | past201912-open                | [O - 持久戦](https://atcoder.jp/contests/past201912-open/tasks/past201912_o)                                     | DP                                      |
 | past201912-open                | [A - 2 倍チェック](https://atcoder.jp/contests/past201912-open/tasks/past201912_a)                               | Misc                                    |
 | past201912-open                | [M - おまかせ](https://atcoder.jp/contests/past201912-open/tasks/past201912_m)                                   | 二分探索                                |
+| abc144                         | [F - Fork in the Road](https://atcoder.jp/contests/abc144/tasks/abc144_f)                                        | DP                                      |
 
 ## References
 
