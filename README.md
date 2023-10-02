@@ -516,6 +516,7 @@ Playing [AtCoder](https://atcoder.jp/).
 | past201912-open                | [M - おまかせ](https://atcoder.jp/contests/past201912-open/tasks/past201912_m)                                   | 二分探索                                |
 | abc144                         | [F - Fork in the Road](https://atcoder.jp/contests/abc144/tasks/abc144_f)                                        | DP                                      |
 | dp                             | [K - Stones](https://atcoder.jp/contests/dp/tasks/dp_k)                                                          | DP                                      |
+| dp                             | [M - Candies](https://atcoder.jp/contests/dp/tasks/dp_m)                                                         | DP                                      |
 
 ## References
 

@@ -2,60 +2,54 @@
 using namespace std;
 
 // clang-format off
-#define forn(i, x, y) for(int i = x; i < y; i++)
-#define IOS ios_base::sync_with_stdio(false); cin.tie(0); cout.tie(NULL)
-#define printVector(a) for(auto it = a.begin() ; it != a.end(); it++) {cout << *it << endl;}
+#define PARENS ()
+#define EXPAND(...) EXPAND4(EXPAND4(EXPAND4(EXPAND4(__VA_ARGS__))))
+#define EXPAND4(...) EXPAND3(EXPAND3(EXPAND3(EXPAND3(__VA_ARGS__))))
+#define EXPAND3(...) EXPAND2(EXPAND2(EXPAND2(EXPAND2(__VA_ARGS__))))
+#define EXPAND2(...) EXPAND1(EXPAND1(EXPAND1(EXPAND1(__VA_ARGS__))))
+#define EXPAND1(...) __VA_ARGS__
+#define FOR_EACH(macro, ...) __VA_OPT__(EXPAND(FOR_EACH_HELPER(macro, __VA_ARGS__)))
+#define FOR_EACH_HELPER(macro, a1, ...) macro(a1) __VA_OPT__(FOR_EACH_AGAIN PARENS (macro, __VA_ARGS__))
+#define FOR_EACH_AGAIN() FOR_EACH_HELPER
+#define REP(i, x, y) for(int i = x; i < y; i++)
+#define REPR(i, x, y) for(int i = x; i >= y; i--)
+#define IOS ios_base::sync_with_stdio(false); cin.tie(0);
+#define all(s) s.begin(), s.end()
+#define rall(s) s.rbegin(), s.rend()
+#define MOD 1000000007
+#define DBG(x) cout << #x << ": " << x << " ";
+#define DEBUG(...) FOR_EACH(DBG, __VA_ARGS__) cout << endl;
+#define DEBUGV(a) cout << #a << ": "; for(auto it = a.begin() ; it != a.end(); it++) { cout << *it << " "; } cout << endl;
+#define CEIL(a, b) ((a) + (b) - 1) / (b)
+#define IN(x, a, b) (a <= x && x < b)
+template<class T> inline bool chmax(T& a, T b) { if (a < b) { a = b; return 1; } return 0; }
+template<class T> inline bool chmin(T& a, T b) { if (a > b) { a = b; return 1; } return 0; }
+template <typename T> T sub(T a, T b) { return (a + MOD - b) % MOD; }
+template <typename T> T add(T a, T b) { return (a + b) % MOD; }
+template <typename T> T mul(T a, T b) { return 1ULL * a * b % MOD; }
 // clang-format on
 
 using LL = long long;
 using VI = vector<int>;
+using VVI = vector<VI>;
 using VLL = vector<LL>;
 using VVLL = vector<VLL>;
+using PII = pair<int, int>;
+using PLL = pair<LL, LL>;
 
-const LL MOD = 1000000007;
-
-// LL rec(VI &A, int k, int start)
-// {
-//   if (k == 0)
-//     return 1;
-//   if (start == int(A.size()))
-//     return 0;
-
-//   LL res = 0;
-//   for (int i = 0; i <= A[start]; i++)
-//   {
-//     A[start] -= i;
-//     res += rec(A, k - i, start + 1);
-//     res %= MOD;
-//     A[start] += i;
-//   }
-
-//   return res;
-// }
-
-int main()
-{
+int main() {
   IOS;
-  int N, K;
-  cin >> N >> K;
-  VI A(N);
-  forn(i, 0, N) cin >> A[i];
 
-  // cout << rec(A, K, 0) << endl;
+  int N, K; cin >> N >> K;
+  VI A(N); REP(i, 0, N) cin >> A[i];
 
-  VVLL dp(N + 1, VLL(K + 1, 0));
-  dp[0][0] = 1;
-  for (int i = 1; i <= N; i++)
-  {
-    dp[i][0] = 1;
-    for (int j = 1; j <= K; j++)
-    {
-      dp[i][j] = (dp[i - 1][j] + dp[i][j - 1]) % MOD;
-      if (j - A[i - 1] - 1 >= 0)
-        dp[i][j] = (dp[i][j] + MOD - dp[i - 1][j - A[i - 1] - 1]) % MOD;
-    }
+  VVLL dp(N + 1, VLL(K + 2));
+  dp[0][1] = 1;
+  REP(i, 0, N) REP(j, 0, K + 1) {
+    dp[i + 1][j + 1] = add(dp[i + 1][j], sub(dp[i][j + 1], dp[i][max(0, j - A[i])]));
   }
-  cout << dp[N][K] << endl;
+
+  cout << dp[N][K + 1] << endl;
 
   return 0;
 }
