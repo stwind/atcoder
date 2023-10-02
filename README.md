@@ -517,6 +517,7 @@ Playing [AtCoder](https://atcoder.jp/).
 | abc144                         | [F - Fork in the Road](https://atcoder.jp/contests/abc144/tasks/abc144_f)                                        | DP                                      |
 | dp                             | [K - Stones](https://atcoder.jp/contests/dp/tasks/dp_k)                                                          | DP                                      |
 | dp                             | [M - Candies](https://atcoder.jp/contests/dp/tasks/dp_m)                                                         | DP                                      |
+| dp                             | [P - Independent Set](https://atcoder.jp/contests/dp/tasks/dp_p)                                                 | DP                                      |
 
 ## References
 
