@@ -520,6 +520,7 @@ Playing [AtCoder](https://atcoder.jp/).
 | dp                             | [P - Independent Set](https://atcoder.jp/contests/dp/tasks/dp_p)                                                 | DP                                      |
 | dp                             | [Q - Flowers](https://atcoder.jp/contests/dp/tasks/dp_q)                                                         | DP, Segment Tree                        |
 | dp                             | [R - Walk](https://atcoder.jp/contests/dp/tasks/dp_r)                                                            | DP                                      |
+| dp                             | [S - Digit Sum](https://atcoder.jp/contests/dp/tasks/dp_s)                                                       | 桁 DP                                   |
 
 ## References
 
