@@ -519,6 +519,7 @@ Playing [AtCoder](https://atcoder.jp/).
 | dp                             | [M - Candies](https://atcoder.jp/contests/dp/tasks/dp_m)                                                         | DP                                      |
 | dp                             | [P - Independent Set](https://atcoder.jp/contests/dp/tasks/dp_p)                                                 | DP                                      |
 | dp                             | [Q - Flowers](https://atcoder.jp/contests/dp/tasks/dp_q)                                                         | DP, Segment Tree                        |
+| dp                             | [R - Walk](https://atcoder.jp/contests/dp/tasks/dp_r)                                                            | DP                                      |
 
 ## References
 
