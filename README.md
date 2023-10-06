@@ -524,6 +524,7 @@ Playing [AtCoder](https://atcoder.jp/).
 | dp                             | [T - Permutation](https://atcoder.jp/contests/dp/tasks/dp_t)                                                     | DP                                      |
 | dp                             | [W - Intervals](https://atcoder.jp/contests/dp/tasks/dp_w)                                                       | DP, Lazy Segment Tree                   |
 | dp                             | [X - Tower](https://atcoder.jp/contests/dp/tasks/dp_x)                                                           | DP                                      |
+| dp                             | [Y - Grid 2](https://atcoder.jp/contests/dp/tasks/dp_y)                                                          | DP, 包除原理                            |
 
 ## References
 
