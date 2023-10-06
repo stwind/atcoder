@@ -2,52 +2,60 @@
 using namespace std;
 
 // clang-format off
-#define forn(i, x, y) for(int i = x; i < y; i++)
-#define IOS ios_base::sync_with_stdio(false); cin.tie(0); cout.tie(NULL)
+#define PARENS ()
+#define EXPAND(...) EXPAND4(EXPAND4(EXPAND4(EXPAND4(__VA_ARGS__))))
+#define EXPAND4(...) EXPAND3(EXPAND3(EXPAND3(EXPAND3(__VA_ARGS__))))
+#define EXPAND3(...) EXPAND2(EXPAND2(EXPAND2(EXPAND2(__VA_ARGS__))))
+#define EXPAND2(...) EXPAND1(EXPAND1(EXPAND1(EXPAND1(__VA_ARGS__))))
+#define EXPAND1(...) __VA_ARGS__
+#define FOR_EACH(macro, ...) __VA_OPT__(EXPAND(FOR_EACH_HELPER(macro, __VA_ARGS__)))
+#define FOR_EACH_HELPER(macro, a1, ...) macro(a1) __VA_OPT__(FOR_EACH_AGAIN PARENS (macro, __VA_ARGS__))
+#define FOR_EACH_AGAIN() FOR_EACH_HELPER
+#define REP(i, x, y) for(int i = x; i < y; i++)
+#define REPR(i, x, y) for(int i = x; i >= y; i--)
+#define IOS ios_base::sync_with_stdio(false); cin.tie(0);
+#define all(s) s.begin(), s.end()
+#define rall(s) s.rbegin(), s.rend()
+#define MOD 1000000007
+#define DBG(x) cout << #x << ": " << x << " ";
+#define DEBUG(...) FOR_EACH(DBG, __VA_ARGS__) cout << endl;
+#define DEBUGV(a) cout << #a << ": "; for(auto it = a.begin() ; it != a.end(); it++) { cout << *it << " "; } cout << endl;
+#define CEIL(a, b) ((a) + (b) - 1) / (b)
+#define IN(x, a, b) (a <= x && x < b)
 template<class T> inline bool chmax(T& a, T b) { if (a < b) { a = b; return 1; } return 0; }
-#define all(s) (s).begin(),(s).end()
+template<class T> inline bool chmin(T& a, T b) { if (a > b) { a = b; return 1; } return 0; }
+template <typename T> T sub(T a, T b) { return (a + MOD - b) % MOD; }
+template <typename T> T add(T a, T b) { return (a + b) % MOD; }
+template <typename T> T mul(T a, T b) { return 1ULL * a * b % MOD; }
 // clang-format on
 
 using LL = long long;
 using VI = vector<int>;
+using VVI = vector<VI>;
 using VLL = vector<LL>;
 using VVLL = vector<VLL>;
+using PII = pair<int, int>;
+using PLL = pair<LL, LL>;
 
-struct value
-{
-    int w, s, v;
-};
+int main() {
+  IOS;
 
-int main()
-{
-    IOS;
-    int N;
-    cin >> N;
+  int N; cin >> N;
+  VI W(N), S(N); VLL V(N);
+  REP(i, 0, N) cin >> W[i] >> S[i] >> V[i];
 
-    vector<value> X;
-    int w, s, v;
-    forn(i, 0, N)
-    {
-        cin >> w >> s >> v;
-        X.push_back({w, s, v});
-    }
+  VI I(N); REP(i, 0, N) I[i] = i;
+  sort(all(I), [&](int a, int b) { return S[a] + W[a] < S[b] + W[b]; });
 
-    sort(all(X), [](value a, value b) {
-        return a.w + a.s < b.w + b.s;
-    });
+  int mw = S[I[N - 1]] + W[I[N - 1]];
+  VVLL dp(N + 1, VLL(mw + 1));
 
-    int maxW = 20000;
+  REP(i, 0, N) REP(j, 1, S[I[i]] + W[I[i]] + 1) {
+    dp[i + 1][j] = dp[i][j];
+    if (j >= W[I[i]]) chmax(dp[i + 1][j], dp[i][j - W[I[i]]] + V[I[i]]);
+  }
 
-    VLL dp(maxW + 1, 0);
-    forn(i, 0, N)
-    {
-        for (int j = X[i].s; j >= 0; j--)
-        {
-            chmax(dp[j + X[i].w], X[i].v + dp[j]);
-        }
-    }
+  cout << *max_element(all(dp[N])) << endl;
 
-    cout << *max_element(all(dp)) << endl;
-
-    return 0;
+  return 0;
 }

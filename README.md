@@ -523,6 +523,7 @@ Playing [AtCoder](https://atcoder.jp/).
 | dp                             | [S - Digit Sum](https://atcoder.jp/contests/dp/tasks/dp_s)                                                       | 桁 DP                                   |
 | dp                             | [T - Permutation](https://atcoder.jp/contests/dp/tasks/dp_t)                                                     | DP                                      |
 | dp                             | [W - Intervals](https://atcoder.jp/contests/dp/tasks/dp_w)                                                       | DP, Lazy Segment Tree                   |
+| dp                             | [X - Tower](https://atcoder.jp/contests/dp/tasks/dp_x)                                                           | DP                                      |
 
 ## References
 
