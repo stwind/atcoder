@@ -525,6 +525,7 @@ Playing [AtCoder](https://atcoder.jp/).
 | dp                             | [W - Intervals](https://atcoder.jp/contests/dp/tasks/dp_w)                                                       | DP, Lazy Segment Tree                   |
 | dp                             | [X - Tower](https://atcoder.jp/contests/dp/tasks/dp_x)                                                           | DP                                      |
 | dp                             | [Y - Grid 2](https://atcoder.jp/contests/dp/tasks/dp_y)                                                          | DP, 包除原理                            |
+| dp                             | [Z - Frog 3](https://atcoder.jp/contests/dp/tasks/dp_z)                                                          | DP, Convex Hull Trick                   |
 
 ## References
 
