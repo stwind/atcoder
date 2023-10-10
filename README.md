@@ -527,6 +527,7 @@ Playing [AtCoder](https://atcoder.jp/).
 | dp                             | [Y - Grid 2](https://atcoder.jp/contests/dp/tasks/dp_y)                                                              | DP, 包除原理                            |
 | dp                             | [Z - Frog 3](https://atcoder.jp/contests/dp/tasks/dp_z)                                                              | DP, Convex Hull Trick                   |
 | colopl2018-final-open          | [C - スペースエクスプローラー高橋君](https://atcoder.jp/contests/colopl2018-final-open/tasks/colopl2018_final_c) | Convex Hull Trick                       |
+| abc098                         | [B - Cut and Count](https://atcoder.jp/contests/abc098/tasks/abc098_b)                                               | Misc                                    |
 
 ## References
 
