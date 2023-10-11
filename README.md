@@ -528,6 +528,7 @@ Playing [AtCoder](https://atcoder.jp/).
 | dp                             | [Z - Frog 3](https://atcoder.jp/contests/dp/tasks/dp_z)                                                              | DP, Convex Hull Trick                   |
 | colopl2018-final-open          | [C - スペースエクスプローラー高橋君](https://atcoder.jp/contests/colopl2018-final-open/tasks/colopl2018_final_c) | Convex Hull Trick                       |
 | abc098                         | [B - Cut and Count](https://atcoder.jp/contests/abc098/tasks/abc098_b)                                               | Misc                                    |
+| typical90                      | [017 - Crossing Segments（★7）](https://atcoder.jp/contests/typical90/tasks/typical90_q)                             | Binary Indexed Tree                     |
 
 ## References
 
