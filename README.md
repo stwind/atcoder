@@ -530,6 +530,7 @@ Playing [AtCoder](https://atcoder.jp/).
 | abc098                         | [B - Cut and Count](https://atcoder.jp/contests/abc098/tasks/abc098_b)                                               | Misc                                    |
 | typical90                      | [017 - Crossing Segments（★7）](https://atcoder.jp/contests/typical90/tasks/typical90_q)                             | Binary Indexed Tree                     |
 | abc209                         | [F - Deforestation](https://atcoder.jp/contests/abc209/tasks/abc209_f)                                               | DP                                      |
+| abc160                         | [F - Distributing Integers](https://atcoder.jp/contests/abc160/tasks/abc160_f)                                       | 全方位木 DP                             |
 
 ## References
 
